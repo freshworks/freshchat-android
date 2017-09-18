@@ -1,0 +1,206 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Freshchat.SelectedTheme" parent="@style/Theme.Freshchat.Light.DarkActionBar" />
+
+    <!--<style name="Theme.Freshchat" parent="@style/Theme.AppCompat"></style>-->
+
+    <style name="Theme.Freshchat.Light" parent="@style/Theme.AppCompat.Light">
+        <!-- Action Icons -->
+        <item name="freshchatPlayIcon">@drawable/freshchat_ic_play</item>
+        <item name="freshchatStopIcon">@drawable/freshchat_ic_stop</item>
+        <item name="freshchatSendIcon">@drawable/freshchat_ic_send</item>
+        <item name="freshchatCancelIcon">@drawable/freshchat_ic_cancel</item>
+        <item name="freshchatAttachIcon">@drawable/freshchat_ic_attach</item>
+        <item name="freshchatRecordIcon">@drawable/freshchat_ic_record</item>
+        <item name="freshchatActionSelectableItemBackground">?attr/selectableItemBackground</item>
+
+        <!-- ActionBar Menu Icons -->
+        <item name="freshchatSearchIcon">@drawable/freshchat_ic_action_search_light</item>
+        <item name="freshchatSpeakerIcon">@null</item>
+        <item name="freshchatEarpieceIcon">@null</item>
+
+        <!-- Misc Icons-->
+        <item name="freshchatAvatarIcon">@null</item>
+        <item name="freshchatContactUsIcon">@drawable/freshchat_ic_action_contact_us</item>
+
+        <!-- Chat Bubbles -->
+        <item name="freshchatChatBubbleLeft">@drawable/freshchat_chat_bubble_left</item>
+        <item name="freshchatChatBubbleRight">@drawable/freshchat_chat_bubble_right</item>
+
+        <!-- Misc Drawables -->
+        <item name="freshchatVoiceVisualizer">@drawable/freshchat_voice_visualizer_drawable</item>
+        <item name="freshchatVoiceMessageSeekbar">@drawable/freshchat_voice_message_seekbar</item>
+        <item name="freshchatVoiceMessageSeekbarThumb">@drawable/freshchat_voice_message_seekbar_thumb</item>
+
+        <!-- Message Widget Styles -->
+        <item name="freshchatMessageListStyle">@style/Widget.Freshchat.MessageList</item>
+        <item name="freshchatMessageListItemStyle">@style/Widget.Freshchat.MessageListItem</item>
+        <item name="freshchatMessageReplyViewStyle">@style/Widget.Freshchat.MessageReplyView</item>
+        <item name="freshchatMessageDeepLinkStyle">@style/Widget.Freshchat.MessageDeepLinkButton</item>
+        <item name="freshchatMessageReplyEditTextViewStyle">@style/Widget.Freshchat.MessageReplyEditText</item>
+        <item name="freshchatConversationBannerMessageStyle">@style/Widget.Freshchat.ConversationBannerMessage</item>
+        <item name="freshchatProgressBarStyle">@style/Widget.Freshchat.ProgressBar</item>
+
+        <!-- Message Text Styles -->
+        <item name="freshchatAgentNameTextAppearance">@style/TextAppearance.Freshchat.AgentName</item>
+        <item name="freshchatUserMessageTextAppearance">@style/TextAppearance.Freshchat.UserMessage</item>
+        <item name="freshchatAgentMessageTextAppearance">@style/TextAppearance.Freshchat.AgentMessage</item>
+        <item name="freshchatUserMessageTimeTextAppearance">@style/TextAppearance.Freshchat.UserMessageTime</item>
+        <item name="freshchatAgentMessageTimeTextAppearance">@style/TextAppearance.Freshchat.AgentMessageTime</item>
+        <item name="freshchatVoiceMessageDurationTextAppearance">@style/TextAppearance.Freshchat.VoiceMessageDuration</item>
+
+        <!-- Chat Resolution Confirmation Prompt Styles -->
+        <item name="freshchatChatResolutionPositiveButtonStyle">@style/Widget.Freshchat.ChatResolutionPositiveButton</item>
+        <item name="freshchatChatResolutionNegativeButtonStyle">@style/Widget.Freshchat.ChatResolutionNegativeButton</item>
+        <item name="freshchatChatResolutionConfirmationPromptTextStyle">@style/Widget.Freshchat.ChatResolutionConfirmationPromptText</item>
+        <item name="freshchatChatResolutionConfirmationPromptViewStyle">@style/Widget.Freshchat.ChatResolutionConfirmationPromptView</item>
+
+        <!-- Customer Survey Dialog Styles -->
+        <item name="freshchatCustomerSurveyDialog">@style/Widget.Freshchat.CustomerSurveyDialog.Light</item>
+        <item name="freshchatCustomerSurveyQuestionStyle">@style/Widget.Freshchat.CustomerSurveyQuestionStyle</item>
+        <item name="freshchatCustomerSurveyRatingBarStyle">@style/Widget.Freshchat.CustomerSurveyRatingBar</item>
+        <item name="freshchatCustomerSurveyCommentsEditTextStyle">@style/Widget.Freshchat.CustomerSurveyCommentsEditText</item>
+
+        <!--Alert Dialog Customization-->
+        <item name="freshchatAlertDialog">@style/Widget.Freshchat.Dialog.Alert.Light</item>
+
+        <!-- Channel Widget Styles -->
+        <item name="freshchatChannelListStyle">@style/Widget.Freshchat.ChannelList</item>
+        <item name="freshchatChannelListItemStyle">@style/Widget.Freshchat.ChannelListItem</item>
+        <item name="freshchatChannelAltIconStyle">@style/Widget.Freshchat.ChannelAltIcon</item>
+
+        <!-- Channel Text Styles -->
+        <item name="freshchatChannelNameTextAppearance">@style/TextAppearance.Freshchat.ChannelName</item>
+        <item name="freshchatChannelDescriptionTextAppearance">@style/TextAppearance.Freshchat.ChannelDescription</item>
+        <item name="freshchatChannelLastUpdatedTextAppearance">@style/TextAppearance.Freshchat.ChannelLastUpdated</item>
+        <item name="freshchatChannelUnreadCountTextAppearance">@style/TextAppearance.Freshchat.ChannelUnreadCount</item>
+        <item name="freshchatChannelListEmptyWarningTextAppearance">@style/TextAppearance.Freshchat.ChannelListEmptyText</item>
+
+        <!-- FAQ Category Widget Styles -->
+        <item name="freshchatCategoryListStyle">@style/Widget.Freshchat.CategoryList</item>
+        <item name="freshchatCategoryListItemStyle">@style/Widget.Freshchat.CategoryListItem</item>
+        <item name="freshchatCategoryAltIconStyle">@style/Widget.Freshchat.CategoryAltIcon</item>
+
+        <!-- FAQ Category Text Styles -->
+        <item name="freshchatCategoryNameTextAppearance">@style/TextAppearance.Freshchat.CategoryName</item>
+        <item name="freshchatCategoryDescriptionTextAppearance">@style/TextAppearance.Freshchat.CategoryDescription</item>
+        <item name="freshchatFAQListEmptyWarningTextAppearance">@style/TextAppearance.Freshchat.FAQListEmptyText</item>
+
+        <!-- FAQ/Article List Widget Styles -->
+        <item name="freshchatArticleListStyle">@style/Widget.Freshchat.ArticleList</item>
+        <item name="freshchatArticleListItemStyle">@style/Widget.Freshchat.ArticleListItem</item>
+
+        <!-- FAQ/Article List Text Styles -->
+        <item name="freshchatArticleTitleTextAppearance">@style/TextAppearance.Freshchat.ArticleTitle</item>
+
+        <!-- FAQ/Article Detail Widget Styles -->
+        <item name="freshchatArticleUpvoteStyle">@style/Widget.Freshchat.ArticleUpvoteButton</item>
+        <item name="freshchatArticleDownvoteStyle">@style/Widget.Freshchat.ArticleDownvoteButton</item>
+        <item name="freshchatArticleVotingPromptTextStyle">@style/Widget.Freshchat.ArticleVotingPromptText</item>
+        <item name="freshchatArticleVotingPromptBackground">?android:attr/windowBackground</item>
+
+        <!-- Misc Styles -->
+        <item name="freshchatContactUsTextAppearance">@style/TextAppearance.Freshchat.ContactUs</item>
+    </style>
+
+    <style name="Theme.Freshchat.Light.DarkActionBar" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- Action Icons -->
+        <item name="freshchatPlayIcon">@drawable/freshchat_ic_play</item>
+        <item name="freshchatStopIcon">@drawable/freshchat_ic_stop</item>
+        <item name="freshchatSendIcon">@drawable/freshchat_ic_send</item>
+        <item name="freshchatCancelIcon">@drawable/freshchat_ic_cancel</item>
+        <item name="freshchatAttachIcon">@drawable/freshchat_ic_attach</item>
+        <item name="freshchatRecordIcon">@drawable/freshchat_ic_record</item>
+        <item name="freshchatActionSelectableItemBackground">?attr/selectableItemBackground</item>
+
+        <!-- Menu Icons -->
+        <item name="freshchatSearchIcon">@drawable/freshchat_ic_action_search_dark</item>
+        <item name="freshchatSpeakerIcon">@null</item>
+        <item name="freshchatEarpieceIcon">@null</item>
+
+        <!-- Misc Icons-->
+        <item name="freshchatAvatarIcon">@null</item>
+        <item name="freshchatContactUsIcon">@drawable/freshchat_ic_action_contact_us</item>
+
+        <!-- Chat Bubbles -->
+        <item name="freshchatChatBubbleLeft">@drawable/freshchat_chat_bubble_left</item>
+        <item name="freshchatChatBubbleRight">@drawable/freshchat_chat_bubble_right</item>
+
+        <!-- Misc Drawables -->
+        <item name="freshchatVoiceVisualizer">@drawable/freshchat_voice_visualizer_drawable</item>
+        <item name="freshchatVoiceMessageSeekbar">@drawable/freshchat_voice_message_seekbar</item>
+        <item name="freshchatVoiceMessageSeekbarThumb">@drawable/freshchat_voice_message_seekbar_thumb</item>
+
+        <!-- Message Widget Styles -->
+        <item name="freshchatMessageListStyle">@style/Widget.Freshchat.MessageList</item>
+        <item name="freshchatMessageListItemStyle">@style/Widget.Freshchat.MessageListItem</item>
+        <item name="freshchatMessageReplyViewStyle">@style/Widget.Freshchat.MessageReplyView</item>
+        <item name="freshchatMessageDeepLinkStyle">@style/Widget.Freshchat.MessageDeepLinkButton</item>
+        <item name="freshchatMessageReplyEditTextViewStyle">@style/Widget.Freshchat.MessageReplyEditText</item>
+        <item name="freshchatConversationBannerMessageStyle">@style/Widget.Freshchat.ConversationBannerMessage</item>
+        <item name="freshchatProgressBarStyle">@style/Widget.Freshchat.ProgressBar</item>
+
+        <!-- Message Text Styles -->
+        <item name="freshchatAgentNameTextAppearance">@style/TextAppearance.Freshchat.AgentName</item>
+        <item name="freshchatUserMessageTextAppearance">@style/TextAppearance.Freshchat.UserMessage</item>
+        <item name="freshchatAgentMessageTextAppearance">@style/TextAppearance.Freshchat.AgentMessage</item>
+        <item name="freshchatUserMessageTimeTextAppearance">@style/TextAppearance.Freshchat.UserMessageTime</item>
+        <item name="freshchatAgentMessageTimeTextAppearance">@style/TextAppearance.Freshchat.AgentMessageTime</item>
+        <item name="freshchatVoiceMessageDurationTextAppearance">@style/TextAppearance.Freshchat.VoiceMessageDuration</item>
+
+        <!-- Chat Resolution Confirmation Prompt Styles -->
+        <item name="freshchatChatResolutionPositiveButtonStyle">@style/Widget.Freshchat.ChatResolutionPositiveButton</item>
+        <item name="freshchatChatResolutionNegativeButtonStyle">@style/Widget.Freshchat.ChatResolutionNegativeButton</item>
+        <item name="freshchatChatResolutionConfirmationPromptTextStyle">@style/Widget.Freshchat.ChatResolutionConfirmationPromptText</item>
+        <item name="freshchatChatResolutionConfirmationPromptViewStyle">@style/Widget.Freshchat.ChatResolutionConfirmationPromptView</item>
+
+        <!-- Customer Survey Dialog Styles -->
+        <item name="freshchatCustomerSurveyDialog">@style/Widget.Freshchat.CustomerSurveyDialog.Light</item>
+        <item name="freshchatCustomerSurveyQuestionStyle">@style/Widget.Freshchat.CustomerSurveyQuestionStyle</item>
+        <item name="freshchatCustomerSurveyRatingBarStyle">@style/Widget.Freshchat.CustomerSurveyRatingBar</item>
+        <item name="freshchatCustomerSurveyCommentsEditTextStyle">@style/Widget.Freshchat.CustomerSurveyCommentsEditText</item>
+
+        <!--Alert Dialog Customization-->
+        <item name="freshchatAlertDialog">@style/Widget.Freshchat.Dialog.Alert.Light</item>
+
+        <!-- Channel Widget Styles -->
+        <item name="freshchatChannelListStyle">@style/Widget.Freshchat.ChannelList</item>
+        <item name="freshchatChannelListItemStyle">@style/Widget.Freshchat.ChannelListItem</item>
+        <item name="freshchatChannelAltIconStyle">@style/Widget.Freshchat.ChannelAltIcon</item>
+
+        <!-- Channel Text Styles -->
+        <item name="freshchatChannelNameTextAppearance">@style/TextAppearance.Freshchat.ChannelName</item>
+        <item name="freshchatChannelDescriptionTextAppearance">@style/TextAppearance.Freshchat.ChannelDescription</item>
+        <item name="freshchatChannelLastUpdatedTextAppearance">@style/TextAppearance.Freshchat.ChannelLastUpdated</item>
+        <item name="freshchatChannelUnreadCountTextAppearance">@style/TextAppearance.Freshchat.ChannelUnreadCount</item>
+        <item name="freshchatChannelListEmptyWarningTextAppearance">@style/TextAppearance.Freshchat.ChannelListEmptyText</item>
+
+        <!-- FAQ Category Widget Styles -->
+        <item name="freshchatCategoryListStyle">@style/Widget.Freshchat.CategoryList</item>
+        <item name="freshchatCategoryListItemStyle">@style/Widget.Freshchat.CategoryListItem</item>
+        <item name="freshchatCategoryAltIconStyle">@style/Widget.Freshchat.CategoryAltIcon</item>
+
+        <!-- FAQ Category Text Styles -->
+        <item name="freshchatCategoryNameTextAppearance">@style/TextAppearance.Freshchat.CategoryName</item>
+        <item name="freshchatCategoryDescriptionTextAppearance">@style/TextAppearance.Freshchat.CategoryDescription</item>
+        <item name="freshchatFAQListEmptyWarningTextAppearance">@style/TextAppearance.Freshchat.FAQListEmptyText</item>
+
+        <!-- FAQ/Article List Widget Styles -->
+        <item name="freshchatArticleListStyle">@style/Widget.Freshchat.ArticleList</item>
+        <item name="freshchatArticleListItemStyle">@style/Widget.Freshchat.ArticleListItem</item>
+
+        <!-- FAQ/Article List Text Styles -->
+        <item name="freshchatArticleTitleTextAppearance">@style/TextAppearance.Freshchat.ArticleTitle</item>
+
+        <!-- FAQ/Article Detail Widget Styles -->
+        <item name="freshchatArticleUpvoteStyle">@style/Widget.Freshchat.ArticleUpvoteButton</item>
+        <item name="freshchatArticleDownvoteStyle">@style/Widget.Freshchat.ArticleDownvoteButton</item>
+        <item name="freshchatArticleVotingPromptTextStyle">@style/Widget.Freshchat.ArticleVotingPromptText</item>
+        <item name="freshchatArticleVotingPromptBackground">?android:attr/windowBackground</item>
+
+        <!-- Misc Styles -->
+        <item name="freshchatContactUsTextAppearance">@style/TextAppearance.Freshchat.ContactUs</item>
+    </style>
+
+</resources>
