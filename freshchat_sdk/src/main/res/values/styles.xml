@@ -32,8 +32,10 @@
         <item name="android:background">@color/freshchat_message_list_item_bg</item>
     </style>
 
-    <style name="Widget.Freshchat.MessageDeepLinkButton" parent="Widget.AppCompat.Button">
-        <item name="android:textAppearance">@style/TextAppearance.Freshchat.MessageDeepLink</item>
+    <style name="Widget.Freshchat.MessageButton" parent="Widget.AppCompat.Button">
+        <item name="android:textAppearance">@style/TextAppearance.Freshchat.Medium</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:text">@string/freshchat_chat_deeplink</item>
@@ -41,10 +43,10 @@
         <item name="android:maxLines">1</item>
         <item name="android:layout_marginTop">4dp</item>
         <item name="android:layout_marginBottom">4dp</item>
-        <item name="android:layout_marginLeft">20dp</item>
-        <item name="android:layout_marginRight">20dp</item>
-        <item name="android:padding">16dp</item>
-        <item name="android:minHeight">48dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:minHeight">40dp</item>
         <item name="android:minWidth">100dp</item>
     </style>
 
@@ -71,40 +73,47 @@
         <item name="android:minHeight">@dimen/freshchat_message_reply_frame_min_height</item>
     </style>
 
-    <style name="TextAppearance.Freshchat.AgentName" parent="TextAppearance.Freshchat.Small">
+    <style name="Widget.Freshchat.TeamMemberName">
+        <item name="android:textAppearance">@style/TextAppearance.Freshchat.Small</item>
         <item name="android:textColor">@color/freshchat_text_color</item>
         <item name="android:textSize">11sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:ellipsize">end</item>
         <item name="android:maxLines">1</item>
+        <item name="android:lines">1</item>
+        <item name="android:text">@string/freshchat_default_agent_name</item>
     </style>
 
-    <style name="TextAppearance.Freshchat.UserMessage" parent="TextAppearance.Freshchat.Medium">
-        <item name="android:textColor">@android:color/black</item>
+    <!-- This style doesn't support anything except text appearance attributes -->
+    <style name="Widget.Freshchat.UserMessage">
+        <item name="android:textAppearance">@style/TextAppearance.Freshchat.Medium</item>
+        <item name="android:textColor">@color/freshchat_black</item>
         <item name="android:textSize">16sp</item>
     </style>
 
-    <style name="TextAppearance.Freshchat.AgentMessage" parent="TextAppearance.Freshchat.Medium">
-        <item name="android:textColor">@android:color/black</item>
+    <!-- This style doesn't support anything except text appearance attributes -->
+    <style name="Widget.Freshchat.TeamMemberMessage">
+        <item name="android:textAppearance">@style/TextAppearance.Freshchat.Medium</item>
+        <item name="android:textColor">@color/freshchat_black</item>
         <item name="android:textSize">16sp</item>
     </style>
 
-    <style name="TextAppearance.Freshchat.UserMessageTime" parent="TextAppearance.Freshchat.Small">
+    <!-- This style doesn't support anything except text appearance attributes -->
+    <style name="Widget.Freshchat.UserMessageTime">
+        <item name="android:textAppearance">@style/TextAppearance.Freshchat.Small</item>
         <item name="android:textColor">@color/freshchat_text_color</item>
         <item name="android:textSize">11sp</item>
     </style>
 
-    <style name="TextAppearance.Freshchat.AgentMessageTime" parent="TextAppearance.Freshchat.Small">
+    <!-- This style doesn't support anything except text appearance attributes -->
+    <style name="Widget.Freshchat.TeamMemberMessageTime">
+        <item name="android:textAppearance">@style/TextAppearance.Freshchat.Small</item>
         <item name="android:textColor">@color/freshchat_text_color</item>
         <item name="android:textSize">11sp</item>
     </style>
 
-    <style name="TextAppearance.Freshchat.MessageDeepLink" parent="TextAppearance.Freshchat.Medium">
-        <item name="android:textColor">@android:color/black</item>
-        <item name="android:textSize">18sp</item>
-    </style>
-
-    <style name="TextAppearance.Freshchat.VoiceMessageDuration" parent="TextAppearance.Freshchat.Small">
+    <style name="Widget.Freshchat.VoiceMessageDuration">
+        <item name="android:textAppearance">@style/TextAppearance.Freshchat.Small</item>
         <item name="android:textColor">@color/freshchat_text_color</item>
     </style>
 
@@ -118,7 +127,7 @@
 
     <!-- Chat Resolution Widget Styles -->
 
-    <style name="Widget.Freshchat.ChatResolutionConfirmationPromptView">
+    <style name="Widget.Freshchat.ChatResolutionPromptView">
         <item name="android:background">?android:attr/windowBackground</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -126,7 +135,7 @@
         <item name="android:orientation">vertical</item>
     </style>
 
-    <style name="Widget.Freshchat.ChatResolutionConfirmationPromptText">
+    <style name="Widget.Freshchat.ChatResolutionPromptText">
         <item name="android:ellipsize">end</item>
         <item name="android:gravity">center</item>
         <item name="android:maxLines">2</item>
@@ -277,6 +286,10 @@
         <item name="android:paddingBottom">1dp</item>
         <item name="android:paddingLeft">4dp</item>
         <item name="android:paddingRight">8dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.Freshchat.Medium</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="Widget.Freshchat.ChannelDescription">
@@ -286,28 +299,24 @@
         <item name="android:paddingBottom">4dp</item>
         <item name="android:paddingLeft">4dp</item>
         <item name="android:paddingRight">8dp</item>
-    </style>
-
-    <style name="TextAppearance.Freshchat.ChannelName" parent="TextAppearance.Freshchat.Medium">
-        <item name="android:textColor">@android:color/black</item>
-        <item name="android:textSize">16sp</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="TextAppearance.Freshchat.ChannelDescription" parent="TextAppearance.Freshchat.Medium">
+        <item name="android:textAppearance">@style/TextAppearance.Freshchat.Medium</item>
         <item name="android:textSize">16sp</item>
     </style>
 
-    <style name="TextAppearance.Freshchat.ChannelLastUpdated" parent="TextAppearance.Freshchat.Small">
+    <style name="Widget.Freshchat.ChannelLastUpdatedAt">
+        <item name="android:textAppearance">@style/TextAppearance.Freshchat.Small</item>
         <item name="android:textSize">12sp</item>
     </style>
 
-    <style name="TextAppearance.Freshchat.ChannelUnreadCount" parent="TextAppearance.Freshchat.Medium">
+    <style name="Widget.Freshchat.ChannelUnreadCount">
+        <item name="android:textAppearance">@style/TextAppearance.Freshchat.Medium</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textSize">12sp</item>
     </style>
 
-    <style name="TextAppearance.Freshchat.ChannelListEmptyText" parent="TextAppearance.Freshchat.Medium"></style>
+    <style name="Widget.Freshchat.ChannelListEmptyText">
+        <item name="android:textAppearance">@style/TextAppearance.Freshchat.Medium</item>
+    </style>
 
     <style name="Widget.Freshchat.ProgressBar" parent="Widget.AppCompat.ProgressBar">
         <!--Progress bar drawable-->
@@ -317,18 +326,18 @@
 
     <!-- FAQ Category Styling & Customizations -->
 
-    <style name="Widget.Freshchat.CategoryList">
+    <style name="Widget.Freshchat.FAQCategoryList">
         <item name="android:background">@null</item>
         <item name="android:scrollbars">vertical</item>
         <item name="android:padding">8dp</item>
     </style>
 
-    <style name="Widget.Freshchat.CategoryListItem">
+    <style name="Widget.Freshchat.FAQCategoryListItem">
         <item name="android:background">@drawable/freshchat_faq_category_listitem_bg</item>
         <item name="android:layout_margin">8dp</item>
     </style>
 
-    <style name="Widget.Freshchat.CategoryAltIcon">
+    <style name="Widget.Freshchat.FAQCategoryAltIcon">
         <item name="android:textColor">@android:color/white</item>
         <item name="android:gravity">center</item>
         <item name="android:background">@drawable/freshchat_category_alt_text_bg</item>
@@ -338,37 +347,44 @@
         <item name="android:layout_height">@dimen/freshchat_category_icon_alt_view_size</item>
     </style>
 
-    <style name="TextAppearance.Freshchat.CategoryName" parent="TextAppearance.Freshchat.Medium">
+    <style name="Widget.Freshchat.FAQCategoryName">
+        <item name="android:textAppearance">@style/TextAppearance.Freshchat.Medium</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="TextAppearance.Freshchat.CategoryDescription" parent="TextAppearance.Freshchat"></style>
+    <style name="Widget.Freshchat.FAQCategoryDescription">
+        <item name="android:textAppearance">@style/TextAppearance.Freshchat</item>
+    </style>
 
-    <style name="TextAppearance.Freshchat.FAQListEmptyText" parent="TextAppearance.Freshchat.Medium"></style>
-
+    <style name="Widget.Freshchat.FAQListEmptyText">
+        <item name="android:textAppearance">@style/TextAppearance.Freshchat.Medium</item>
+    </style>
 
 
     <!-- FAQ List Styling & Customizations -->
 
-    <style name="Widget.Freshchat.ArticleList">
+    <style name="Widget.Freshchat.FAQList">
         <item name="android:divider">@color/freshchat_article_list_divider</item>
         <item name="android:dividerHeight">1dp</item>
         <item name="android:minHeight">?android:attr/listPreferredItemHeight</item>
-        <item name="android:padding">8dp</item>
     </style>
 
-    <style name="Widget.Freshchat.ArticleListItem">
+    <style name="Widget.Freshchat.FAQListItem">
         <item name="android:background">?attr/selectableItemBackground</item>
-    </style>
-
-    <style name="TextAppearance.Freshchat.ArticleTitle" parent="TextAppearance.Freshchat.Medium">
+        <item name="android:textAppearance">@style/TextAppearance.Freshchat.Medium</item>
         <item name="android:textSize">16sp</item>
     </style>
 
     <!-- FAQ Styling & Customizations -->
 
-    <style name="Widget.Freshchat.ArticleVotingPromptText">
+    <style name="Widget.Freshchat.FAQVotingPromptView">
+        <item name="android:background">@color/freshchat_voting_view_bg</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="Widget.Freshchat.FAQVotingPromptText">
         <item name="android:ellipsize">end</item>
         <item name="android:gravity">center</item>
         <item name="android:maxLines">2</item>
@@ -378,7 +394,7 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="Widget.Freshchat.ArticleUpvoteButton" parent="Widget.AppCompat.Button">
+    <style name="Widget.Freshchat.FAQUpvoteButton" parent="Widget.AppCompat.Button">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
@@ -388,7 +404,7 @@
         <item name="android:text">@string/freshchat_faq_upvote</item>
     </style>
 
-    <style name="Widget.Freshchat.ArticleDownvoteButton" parent="Widget.AppCompat.Button">
+    <style name="Widget.Freshchat.FAQDownvoteButton" parent="Widget.AppCompat.Button">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
@@ -400,10 +416,10 @@
 
 
     <!-- Common -->
-
-    <style name="TextAppearance.Freshchat.ContactUs" parent="TextAppearance.Freshchat.Medium">
+    <style name="Widget.Freshchat.ContactUs">
+        <item name="android:textAppearance">@style/TextAppearance.Freshchat.Medium</item>
         <item name="android:textSize">18sp</item>
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@color/freshchat_white</item>
     </style>
 
 </resources>

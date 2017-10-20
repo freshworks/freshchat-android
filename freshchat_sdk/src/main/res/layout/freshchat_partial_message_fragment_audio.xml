@@ -31,12 +31,12 @@
 
     <TextView
         android:id="@+id/freshchat_message_duration"
+        style="?attr/freshchatVoiceMessageDurationTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:layout_marginRight="4dp"
         tools:text="@string/tools_label_duration"
-        android:textAppearance="?attr/freshchatVoiceMessageDurationTextAppearance"
         android:visibility="gone" />
 </RelativeLayout>

@@ -5,7 +5,7 @@
     <color name="freshchat_message_list_item_bg">@null</color>
 
     <!-- Message reply view background color -->
-    <color name="freshchat_message_reply_view_bg">@android:color/white</color>
+    <color name="freshchat_message_reply_view_bg">@color/freshchat_white</color>
 
     <!-- Message reply edit text view text color -->
     <color name="freshchat_message_reply_text">#252525</color>
@@ -20,10 +20,7 @@
     <color name="freshchat_notification_accent_color">@android:color/transparent</color>
 
     <!-- Background color for voting view in FAQ Detail -->
-    <color name="freshchat_voting_view_bg">?android:attr/windowBackground</color>
-
-    <!-- Fallback background color for the faq voting view in FAQ detail page, if freshchat_voting_view_bg was set to transparent -->
-    <color name="freshchat_voting_view_bg_fallback">@color/freshchat_background_grey</color>
+    <color name="freshchat_voting_view_bg">@color/freshchat_background_light</color>
 
     <!-- Divider colors -->
     <!-- Divider between each item in the article list -->
@@ -40,15 +37,14 @@
     <color name="freshchat_chat_resolution_prompt_divider">#BBB</color>
 
     <!-- Misc Colors -->
-    <color name="freshchat_background_grey">#696969</color>
-    <color name="freshchat_background_color">#EFEFEF</color>
+    <color name="freshchat_white">#ffffffff</color>
+    <color name="freshchat_black">#ff000000</color>
+    <color name="freshchat_background_light">#F6F8FA</color>
     <color name="freshchat_text_color">#707070</color>
-    <color name="freshchat_theme_color">#505050</color>
-    <color name="freshchat_message_read">#F0F0F0</color>
     <color name="freshchat_channel_alt_text_bg">#3F51B5</color>
     <color name="freshchat_category_alt_text_bg">#2196F3</color>
-    <color name="freshchat_category_normal">@android:color/white</color>
-    <color name="freshchat_category_selected">#662196F3</color>
+    <color name="freshchat_category_normal">@color/freshchat_white</color>
+    <color name="freshchat_category_selected">#D8D8D8</color>
 
     <color name="freshchat_seekbar_bg_start">#000000</color>
     <color name="freshchat_seekbar_bg_center">#000000</color>

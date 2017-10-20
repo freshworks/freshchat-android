@@ -5,7 +5,7 @@
 
     <ListView
         android:id="@+id/list"
-        style="?attr/freshchatArticleListStyle"
+        style="?attr/freshchatFAQListStyle"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/freshchat_contact_us_group" />

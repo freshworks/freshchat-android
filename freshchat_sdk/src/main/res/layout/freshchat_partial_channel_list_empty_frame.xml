@@ -5,4 +5,4 @@
     android:padding="16dp"
     android:gravity="center"
     android:text="@string/freshchat_channel_list_empty"
-    android:textAppearance="?attr/freshchatChannelListEmptyWarningTextAppearance" />
+    android:textAppearance="?attr/freshchatChannelListEmptyTextStyle" />

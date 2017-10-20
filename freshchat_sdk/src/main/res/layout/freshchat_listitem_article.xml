@@ -11,5 +11,4 @@
     android:paddingTop="10dp"
     android:singleLine="false"
     android:text="Medium Text"
-    android:textAppearance="?attr/freshchatArticleTitleTextAppearance"
-    style="?attr/freshchatArticleListItemStyle"/>
+    style="?attr/freshchatFAQListItemStyle"/>

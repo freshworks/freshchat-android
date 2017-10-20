@@ -6,12 +6,12 @@
 
     <TextView
         android:id="@+id/freshchat_contact_us_btn"
+        style="?attr/freshchatContactUsTextStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/freshchat_contact_us_btn_bg"
         android:gravity="center"
         android:padding="10dp"
-        android:text="@string/freshchat_contact_us"
-        android:textAppearance="?attr/freshchatContactUsTextAppearance" />
+        android:text="@string/freshchat_contact_us" />
 
 </LinearLayout>

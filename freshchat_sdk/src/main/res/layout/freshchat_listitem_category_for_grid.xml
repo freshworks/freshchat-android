@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="8dp"
-    style="?attr/freshchatCategoryListItemStyle">
+    style="?attr/freshchatFAQCategoryListItemStyle">
 
     <ImageView
         android:id="@+id/freshchat_category_icon"
@@ -17,16 +17,16 @@
 
     <TextView
         android:id="@+id/freshchat_category_icon_alt_text"
-        style="?attr/freshchatCategoryAltIconStyle"
+        style="?attr/freshchatFAQCategoryAltIconStyle"
         android:layout_gravity="center_horizontal"
         android:visibility="gone" />
 
     <TextView
         android:id="@+id/freshchat_category_name"
+        style="?attr/freshchatFAQCategoryNameTextStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:padding="4dp"
-        android:textAppearance="?attr/freshchatCategoryNameTextAppearance"
         tools:text="Category Name" />
 </LinearLayout>

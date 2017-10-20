@@ -17,7 +17,7 @@
 
     <EditText
         android:id="@+id/freshchat_conv_detail_reply_text"
-        style="?attr/freshchatMessageReplyEditTextViewStyle"
+        style="?attr/freshchatMessageReplyInputViewStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/freshchat_conv_detail_attach_image" />
