@@ -33,9 +33,9 @@
 
 # Proguard for Calligraphy
 # Keep calligraphy classes when calligraphy is included as a dependency
--keep class uk.co.chrishenx.calligraphy.** { *; }
+-keep class uk.co.chrisjenx.calligraphy.** { *; }
 # Ignore warning from proguard for calligraphy classes, when calligraphy is not included
--dontwarn uk.co.chrishenx.calligraphy.**
+-dontwarn uk.co.chrisjenx.calligraphy.**
 
 # Proguard config for AppCompat
 # Ref : https://code.google.com/p/android/issues/detail?id=78293
@@ -47,3 +47,5 @@
     public <init>(android.content.Context);
 }
 
+# Proguard for Picasso
+-dontwarn com.squareup.okhttp.**
