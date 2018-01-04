@@ -30,7 +30,8 @@
     <dimen name="freshchat_message_reply_frame_min_height">48dp</dimen>
     <dimen name="freshchat_message_item_padding">4dp</dimen>
     <dimen name="freshchat_message_item_margin">4dp</dimen>
-    <dimen name="freshchat_message_item_min_width">80dp</dimen>
+    <dimen name="freshchat_message_item_min_width">100dp</dimen>
+    <dimen name="freshchat_message_button_min_width">100dp</dimen>
 
     <!-- Channel Icon Dimens -->
     <dimen name="freshchat_channel_icon_size">48dp</dimen>
@@ -40,7 +41,7 @@
     <!-- FAQ Category Icon Dimens -->
     <dimen name="freshchat_category_icon_size">72dp</dimen>
     <dimen name="freshchat_category_icon_padding">16dp</dimen>
-    <dimen name="freshchat_category_icon_alt_view_size">48dp</dimen>
+    <dimen name="freshchat_category_icon_alt_view_size">40dp</dimen>
 
     <!-- FAQ Article UI Dimens -->
     <dimen name="freshchat_voting_view_divider_height">1dp</dimen>

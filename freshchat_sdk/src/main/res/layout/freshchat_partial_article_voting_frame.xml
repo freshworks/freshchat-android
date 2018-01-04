@@ -26,11 +26,11 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/freshchat_upvote"
-            style="?attr/freshchatFAQUpvoteButtonStyle" />
-
-        <Button
             android:id="@+id/freshchat_downvote"
             style="?attr/freshchatFAQDownvoteButtonStyle" />
+
+        <Button
+            android:id="@+id/freshchat_upvote"
+            style="?attr/freshchatFAQUpvoteButtonStyle" />
     </LinearLayout>
 </LinearLayout>

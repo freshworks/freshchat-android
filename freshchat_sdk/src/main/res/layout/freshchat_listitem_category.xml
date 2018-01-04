@@ -23,10 +23,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/freshchat_category_icon_size"
+        android:layout_marginStart="@dimen/freshchat_category_icon_size"
         android:maxLines="1"
         android:paddingBottom="8dp"
         android:paddingLeft="8dp"
+        android:paddingStart="8dp"
         android:paddingRight="8dp"
+        android:paddingEnd="8dp"
         android:paddingTop="12dp"
         tools:text="Category Name" />
 
@@ -35,11 +38,15 @@
         style="?attr/freshchatFAQCategoryDescriptionTextStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/freshchat_category_name"
+        android:layout_marginLeft="@dimen/freshchat_category_icon_size"
+        android:layout_marginStart="@dimen/freshchat_category_icon_size"
         android:layout_below="@+id/freshchat_category_name"
         android:ellipsize="end"
         android:maxLines="2"
         android:paddingBottom="8dp"
         android:paddingLeft="8dp"
-        android:paddingRight="8dp" />
+        android:paddingStart="8dp"
+        android:paddingRight="8dp"
+        android:paddingEnd="8dp"
+        tools:text="Category Desc"/>
 </RelativeLayout>

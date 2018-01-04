@@ -32,8 +32,8 @@
             android:layout_height="wrap_content"
             android:layout_alignBaseline="@+id/freshchat_channel_name"
             android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
             android:layout_alignTop="@+id/freshchat_channel_name"
-            android:layout_marginRight="0dp"
             android:gravity="center"
             android:visibility="gone"
             tools:text="12:45 PM"
@@ -45,6 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_toLeftOf="@+id/freshchat_channel_last_updated"
+            android:layout_toStartOf="@+id/freshchat_channel_last_updated"
             tools:text="Channel Name Super Long Text" />
 
         <TextView
@@ -54,13 +55,17 @@
             android:layout_height="wrap_content"
             android:layout_alignBaseline="@+id/freshchat_channel_desc"
             android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
             android:layout_alignTop="@+id/freshchat_channel_desc"
             android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
             android:background="@drawable/freshchat_channel_unread_count_bg"
             android:gravity="center"
             android:paddingBottom="3dp"
             android:paddingLeft="8dp"
+            android:paddingStart="8dp"
             android:paddingRight="8dp"
+            android:paddingEnd="8dp"
             android:paddingTop="3dp"
             android:visibility="gone"
             tools:text="5"
@@ -72,8 +77,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/freshchat_channel_name"
+            android:layout_alignStart="@+id/freshchat_channel_name"
             android:layout_below="@+id/freshchat_channel_name"
             android:layout_toLeftOf="@+id/freshchat_channel_unread_count"
+            android:layout_toStartOf="@+id/freshchat_channel_unread_count"
             tools:text="This is description of a message channel" />
     </RelativeLayout>
 

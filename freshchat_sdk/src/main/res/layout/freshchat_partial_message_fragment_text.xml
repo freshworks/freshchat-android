@@ -5,5 +5,10 @@
     android:layout_height="wrap_content"
     android:paddingBottom="2dp"
     android:paddingLeft="4dp"
+    android:paddingStart="4dp"
     android:paddingRight="4dp"
-    android:paddingTop="2dp" />
+    android:paddingEnd="4dp"
+    android:paddingTop="2dp"
+    android:textDirection="firstStrong"
+    android:textAlignment="viewStart"
+    android:gravity="start"/>
