@@ -99,6 +99,8 @@
 	<string name="freshchat_placeholder_minutes">{{minutes}}</string>
 
 	<!--Strings for notifications-->
+	<string name="freshchat_conversation_notification_channel_name">Conversation messages</string>
+	<string name="freshchat_campaign_notification_channel_name">Campaign messages</string>
 	<string name="freshchat_support_message_notification_title">{{app_name}}</string>
 	<string name="freshchat_promotional_message_notification_title">{{app_name}}</string>
 	<string name="freshchat_placeholder_app_name">{{app_name}}</string>
