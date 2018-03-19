@@ -22,6 +22,10 @@
 -dontwarn com.google.firebase.messaging.RemoteMessage
 -keep class com.google.firebase.messaging.RemoteMessage
 
+# Rules to allow building with less than Oreo as target
+-dontwarn android.app.NotificationChannel
+-dontwarn android.app.NotificationManager
+
 # Proguard config for GSON
 # Ref : https://google-gson.googlecode.com/svn/trunk/examples/android-proguard-example/proguard.cfg
 # Gson uses generic type information stored in a class file when working with fields. Proguard
