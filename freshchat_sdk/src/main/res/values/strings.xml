@@ -83,6 +83,7 @@
 	<string name="freshchat_menu_item_toggle_speaker">Toggle speakerphone</string>
 
 	<!-- Strings for Customer Satisfaction related UI Elements -->
+	<string name="freshchat_chat_resolution_survey_question"></string>
 	<string name="freshchat_chat_resolution_confirmation_prompt">Did we address your concerns?</string>
 	<string name="freshchat_chat_resolution_confirmation_prompt_positive">@string/freshchat_yes</string>
 	<string name="freshchat_chat_resolution_confirmation_prompt_negative">@string/freshchat_no</string>
