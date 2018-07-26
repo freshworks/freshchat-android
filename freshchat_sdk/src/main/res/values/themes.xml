@@ -23,7 +23,7 @@
         <item name="freshchatEarpieceIcon">@null</item>
 
         <!-- Misc Icons-->
-        <item name="freshchatTeamMemberAvatarIcon">@id/freshchat_display_app_icon</item>
+        <item name="freshchatTeamMemberAvatarIcon">@null</item>
         <item name="freshchatContactUsIcon">@drawable/freshchat_ic_action_contact_us</item>
 
         <!-- Chat Bubbles -->
@@ -45,6 +45,7 @@
         <item name="freshchatProgressBarStyle">@style/Widget.Freshchat.ProgressBar</item>
 
         <!-- Message Text Styles -->
+        <item name="freshchatTeamMemberAvatarStyle">@style/Widget.Freshchat.TeamMemberAvatarView</item>
         <item name="freshchatTeamMemberNameTextStyle">@style/Widget.Freshchat.TeamMemberName</item>
         <item name="freshchatUserMessageTextStyle">@style/Widget.Freshchat.UserMessage</item>
         <item name="freshchatTeamMemberMessageTextStyle">@style/Widget.Freshchat.TeamMemberMessage</item>
@@ -122,7 +123,7 @@
         <item name="freshchatEarpieceIcon">@null</item>
 
         <!-- Misc Icons-->
-        <item name="freshchatTeamMemberAvatarIcon">@id/freshchat_display_app_icon</item>
+        <item name="freshchatTeamMemberAvatarIcon">@null</item>
         <item name="freshchatContactUsIcon">@drawable/freshchat_ic_action_contact_us</item>
 
         <!-- Chat Bubbles -->
@@ -144,6 +145,7 @@
         <item name="freshchatProgressBarStyle">@style/Widget.Freshchat.ProgressBar</item>
 
         <!-- Message Text Styles -->
+        <item name="freshchatTeamMemberAvatarStyle">@style/Widget.Freshchat.TeamMemberAvatarView</item>
         <item name="freshchatTeamMemberNameTextStyle">@style/Widget.Freshchat.TeamMemberName</item>
         <item name="freshchatUserMessageTextStyle">@style/Widget.Freshchat.UserMessage</item>
         <item name="freshchatTeamMemberMessageTextStyle">@style/Widget.Freshchat.TeamMemberMessage</item>

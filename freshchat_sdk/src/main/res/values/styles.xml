@@ -95,6 +95,15 @@
         <item name="android:textAlignment">viewStart</item>
     </style>
 
+    <style name="Widget.Freshchat.TeamMemberAvatarView">
+        <item name="android:layout_height">@dimen/freshchat_message_avatar_icon_size</item>
+        <item name="android:layout_width">@dimen/freshchat_message_avatar_icon_size</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">4dp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+    </style>
+
     <!-- This style doesn't support anything except text appearance attributes -->
     <style name="Widget.Freshchat.UserMessage">
         <item name="android:textAppearance">@style/TextAppearance.Freshchat.Medium</item>
@@ -479,6 +488,12 @@
         <item name="android:textSize">18sp</item>
         <item name="android:textColor">@color/freshchat_white</item>
         <item name="android:textDirection">firstStrong</item>
+        <item name="android:background">@drawable/freshchat_contact_us_btn_bg</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:text">@string/freshchat_contact_us</item>
     </style>
 
 </resources>

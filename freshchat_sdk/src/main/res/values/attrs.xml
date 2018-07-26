@@ -74,6 +74,7 @@
     <!-- Style for the each of the items in the message list -->
     <attr name="freshchatMessageListItemStyle" format="reference" />
     <attr name="freshchatMessageButtonStyle" format="reference" />
+    <attr name="freshchatTeamMemberAvatarStyle" format="reference" />
     <attr name="freshchatTeamMemberNameTextStyle" format="reference" />
     <attr name="freshchatUserMessageTextStyle" format="reference" />
     <attr name="freshchatTeamMemberMessageTextStyle" format="reference" />

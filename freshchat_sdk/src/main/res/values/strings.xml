@@ -119,4 +119,9 @@
 	<!-- File Provider Authority Name of the form your_app_package_name.provider Eg: com.example.myapp.provider -->
 	<string name="freshchat_file_provider_authority" translatable="false"></string>
 
+	<!-- Allow customization of date formatter used for displaying date and time for messages -->
+	<string name="freshchat_chat_message_time_today">"hh:mm a"</string>
+	<string name="freshchat_chat_message_time_this_year_short">"MMM dd"</string>
+	<string name="freshchat_chat_message_time_this_year_long">"MMM dd',' hh:mm a"</string>
+	<string name="freshchat_chat_message_time_other_year">"MMM YYYY"</string>
 </resources>
