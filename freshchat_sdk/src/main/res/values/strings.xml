@@ -123,5 +123,5 @@
 	<string name="freshchat_chat_message_time_today">"hh:mm a"</string>
 	<string name="freshchat_chat_message_time_this_year_short">"MMM dd"</string>
 	<string name="freshchat_chat_message_time_this_year_long">"MMM dd',' hh:mm a"</string>
-	<string name="freshchat_chat_message_time_other_year">"MMM YYYY"</string>
+	<string name="freshchat_chat_message_time_other_year">"MMM yyyy"</string>
 </resources>

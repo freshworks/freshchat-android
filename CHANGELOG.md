@@ -1,3 +1,8 @@
+## 1.5.1 (2018-08-29)
+
+### Bug Fixes
+* Fix date format for messages sent in previous years
+
 ## 1.5.0 (2018-07-26)
 
 ### Enhancements
