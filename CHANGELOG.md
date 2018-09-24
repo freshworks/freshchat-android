@@ -1,3 +1,13 @@
+## 1.5.2 (2018-09-21)
+
+### Enhancements
+* Support for using alternate image loader libraries - via [Freshchat.setImageLoader()](https://support.freshchat.com/support/solutions/articles/229319-freshchat-android-sdk-integration-steps#custom-image-loader) - SDK defaults to including Picasso 2.5.2
+* In Android N+, support for auto retry messages on chat screen based on connectivity changes 
+
+### Bug Fixes
+* Fix crash while transforming downloaded image into circular shape
+* Maintain order of the messages when retrying failed messages
+
 ## 1.5.1 (2018-08-29)
 
 ### Bug Fixes

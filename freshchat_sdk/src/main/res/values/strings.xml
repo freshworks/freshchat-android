@@ -37,6 +37,7 @@
 	<string name="freshchat_content_description_upload_status">Message upload Status</string>
 
 	<!-- Error messages -->
+	<string name="freshchat_error_send_message_when_no_internet">Oops, no internet connection! Message will be sent when you reconnect.</string>
 	<string name="freshchat_error_message_not_connected_to_internet">No internet connection!</string>
 	<string name="freshchat_error_message_faq_section_not_enabled">Uh-uh! FAQ section is unavailable</string>
 	<string name="freshchat_error_message_inbox_section_not_enabled">Uh-uh! Chat section is unavailable. </string>
