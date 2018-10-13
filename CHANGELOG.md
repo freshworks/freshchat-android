@@ -1,3 +1,11 @@
+## 1.5.3 (2018-10-12)
+
+### Enhancements
+* Allow reuse of deeplink scheme from message in FAQs
+
+### Bug Fixes
+* Add proguard rules to detect presence of Picasso
+
 ## 1.5.2 (2018-09-21)
 
 ### Enhancements

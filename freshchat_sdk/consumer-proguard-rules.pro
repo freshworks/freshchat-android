@@ -53,3 +53,9 @@
 
 # Proguard for Picasso
 -dontwarn com.squareup.okhttp.**
+
+# Keep Picasso class to verify the version of picasso used.
+-keepnames class com.squareup.picasso.Picasso
+-keepclassmembers class com.squareup.picasso.Picasso {
+    public com.squareup.picasso.Picasso with(android.content.Context);
+}
