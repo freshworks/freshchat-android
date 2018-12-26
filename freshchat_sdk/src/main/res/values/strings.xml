@@ -45,6 +45,7 @@
 	<string name="freshchat_error_message_init_not_completed">Freshchat SDK not initialized. Please invoke Freshchat.init() first and invoke {{method_name}} again!</string>
 	<string name="freshchat_error_message_init_not_completed_method_name_placeholder">{{method_name}}</string>
 	<string name="freshchat_error_message_failed_to_launch_support_section">Oops! Failed to launch</string>
+	<string name="freshchat_error_message_token_failed">Oops! Something went wrong. Please relaunch the screen.</string>
 
 	<!-- Permission prompts and rationale -->
 	<string name="freshchat_chat_camera_permissions_granted">Permission to access camera granted</string>

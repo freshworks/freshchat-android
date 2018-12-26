@@ -1,3 +1,15 @@
+## 2.0.0 (2018-12-26)
+
+### Enhancements
+* Ability to intercept all external links
+* Securely identify and restore users using Id Tokens (JWT)
+* Ability to intercept Freshchat notification
+* Ability to listen to Freshchat events like message sent, message received, etc.
+
+### Breaking Change
+* Freshchat.handleGcmMessage API has been removed.
+* Change in method signature for Freshchat.handleFcmMessage API, now requires context as a param.
+
 ## 1.5.3 (2018-10-12)
 
 ### Enhancements
