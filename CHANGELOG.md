@@ -1,3 +1,8 @@
+## 2.1.0 (2018-12-28)
+
+### Enhancements
+* Ability to mask sensitive data present in user message
+
 ## 2.0.0 (2018-12-26)
 
 ### Enhancements
