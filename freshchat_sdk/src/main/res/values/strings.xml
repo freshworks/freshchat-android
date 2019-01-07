@@ -126,4 +126,7 @@
 	<string name="freshchat_chat_message_time_this_year_short">"MMM dd"</string>
 	<string name="freshchat_chat_message_time_this_year_long">"MMM dd',' hh:mm a"</string>
 	<string name="freshchat_chat_message_time_other_year">"MMM yyyy"</string>
+
+	<!--Strings for Business hour offline response-->
+	<string name="freshchat_all_members_away_message">We are away now</string>
 </resources>

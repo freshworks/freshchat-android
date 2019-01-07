@@ -1,3 +1,14 @@
+## 2.2.0 (2018-1-7)
+
+### Enhancements
+* Ability to configure custom response expectations and away message for channels
+
+### Bug Fixes
+* Show loading when image is being loaded in Picture preview screen
+
+### Breaking Change
+* If you have modified strings.xml to hide response expectation messages, it will continue to work in all cases except when away. You can set `responseExpectationEnabled` flag in FreshchatConfig as `false` to completely hide response expectations.
+
 ## 2.1.0 (2018-12-28)
 
 ### Enhancements
