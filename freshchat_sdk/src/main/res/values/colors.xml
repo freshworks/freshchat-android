@@ -72,4 +72,7 @@
 
     <color name="freshchat_contact_us_btn_bg_normal">#2196F3</color>
     <color name="freshchat_contact_us_btn_bg_pressed">#1976D2</color>
+
+    <color name="freshchat_message_unknown_bg_stoke">#26091E42</color>
+    <color name="freshchat_message_unknown_bg_solid">#B0FFFFFF</color>
 </resources>

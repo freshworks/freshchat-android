@@ -73,6 +73,8 @@
 	<string name="freshchat_error_no_matching_faq_categories_found">No matching FAQ categories found !</string>
 	<string name="freshchat_error_no_matching_faqs_found">No matching FAQs found !</string>
 
+	<string name="freshchat_unknown_message_fragment">Unable to show message. Please contact support.</string>
+
 	<!-- Activity Title -->
 	<string name="freshchat_activity_title_category_list">FAQs</string>
 	<string name="freshchat_activity_title_article_list">FAQs</string>

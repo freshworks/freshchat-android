@@ -1,3 +1,11 @@
+## 2.3.0 (2018-2-4)
+
+### Enhancements
+* Graceful handling of unsupported messages
+
+### Bug Fixes
+* Trigger message received event only when a new message is received
+
 ## 2.2.0 (2018-1-7)
 
 ### Enhancements

@@ -81,6 +81,9 @@
     <attr name="freshchatUserMessageTimeTextStyle" format="reference" />
     <attr name="freshchatTeamMemberMessageTimeTextStyle" format="reference" />
     <attr name="freshchatVoiceMessageDurationTextStyle" format="reference" />
+    <attr name="freshchatUnsupportedTeamMemberMessageTextStyle" format="reference" />
+    <attr name="freshchatUnsupportedUserMessageTextStyle" format="reference" />
+    <attr name="freshchatUnsupportedMessageIconStyle" format="reference" />
 
     <!-- Style for the message reply view -->
     <attr name="freshchatMessageReplyViewStyle" format="reference" />

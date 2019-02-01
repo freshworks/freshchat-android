@@ -52,6 +52,9 @@
         <item name="freshchatUserMessageTimeTextStyle">@style/Widget.Freshchat.UserMessageTime</item>
         <item name="freshchatTeamMemberMessageTimeTextStyle">@style/Widget.Freshchat.TeamMemberMessageTime</item>
         <item name="freshchatVoiceMessageDurationTextStyle">@style/Widget.Freshchat.VoiceMessageDuration</item>
+        <item name="freshchatUnsupportedTeamMemberMessageTextStyle">@style/Widget.Freshchat.UnsupportedTeamMemberMessageText</item>
+        <item name="freshchatUnsupportedUserMessageTextStyle">@style/Widget.Freshchat.UnsupportedUserMessageText</item>
+        <item name="freshchatUnsupportedMessageIconStyle">@style/Widget.Freshchat.UnsupportedMessageIcon</item>
 
         <!-- Chat Resolution Confirmation Prompt Styles -->
         <item name="freshchatChatResolutionPositiveButtonStyle">@style/Widget.Freshchat.ChatResolutionPositiveButton</item>
@@ -152,6 +155,9 @@
         <item name="freshchatUserMessageTimeTextStyle">@style/Widget.Freshchat.UserMessageTime</item>
         <item name="freshchatTeamMemberMessageTimeTextStyle">@style/Widget.Freshchat.TeamMemberMessageTime</item>
         <item name="freshchatVoiceMessageDurationTextStyle">@style/Widget.Freshchat.VoiceMessageDuration</item>
+        <item name="freshchatUnsupportedTeamMemberMessageTextStyle">@style/Widget.Freshchat.UnsupportedTeamMemberMessageText</item>
+        <item name="freshchatUnsupportedUserMessageTextStyle">@style/Widget.Freshchat.UnsupportedUserMessageText</item>
+        <item name="freshchatUnsupportedMessageIconStyle">@style/Widget.Freshchat.UnsupportedMessageIcon</item>
 
         <!-- Chat Resolution Confirmation Prompt Styles -->
         <item name="freshchatChatResolutionPositiveButtonStyle">@style/Widget.Freshchat.ChatResolutionPositiveButton</item>
