@@ -1,3 +1,8 @@
+## 2.4.0 (2018-2-15)
+
+### Enhancements
+* Broadcast screen transition event from all Freshchat screens
+
 ## 2.3.0 (2018-2-4)
 
 ### Enhancements
