@@ -1,9 +1,14 @@
-## 2.4.0 (2018-2-15)
+## 2.4.1 (2019-3-7)
+
+### Enhancements
+* Improvements in logic to load new messages for conversations
+
+## 2.4.0 (2019-2-15)
 
 ### Enhancements
 * Broadcast screen transition event from all Freshchat screens
 
-## 2.3.0 (2018-2-4)
+## 2.3.0 (2019-2-4)
 
 ### Enhancements
 * Graceful handling of unsupported messages
@@ -11,7 +16,7 @@
 ### Bug Fixes
 * Trigger message received event only when a new message is received
 
-## 2.2.0 (2018-1-7)
+## 2.2.0 (2019-1-7)
 
 ### Enhancements
 * Ability to configure custom response expectations and away message for channels
