@@ -1,3 +1,8 @@
+## 2.5.0 (2019-5-10)
+
+### Bug Fix
+* Open SDK screens in same task irrespective of the context passed
+
 ## 2.4.1 (2019-3-7)
 
 ### Enhancements

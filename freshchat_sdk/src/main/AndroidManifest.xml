@@ -22,48 +22,40 @@
 
         <activity
             android:name="com.freshchat.consumer.sdk.activity.ChannelListActivity"
-            android:taskAffinity="com.freshchat.consumer.sdk"
             android:theme="@style/Theme.Freshchat.SelectedTheme" />
 
         <activity
             android:name="com.freshchat.consumer.sdk.activity.ConversationDetailActivity"
-            android:taskAffinity="com.freshchat.consumer.sdk"
             android:configChanges="orientation|screenSize"
             android:theme="@style/Theme.Freshchat.SelectedTheme"
             android:windowSoftInputMode="stateHidden" />
 
         <activity
             android:name="com.freshchat.consumer.sdk.activity.DeeplinkInterstitialActivity"
-            android:taskAffinity="com.freshchat.consumer.sdk"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Freshchat.SelectedTheme" />
 
         <activity
             android:name="com.freshchat.consumer.sdk.activity.PictureAttachmentActivity"
-            android:taskAffinity="com.freshchat.consumer.sdk"
             android:configChanges="orientation|screenSize"
             android:windowSoftInputMode="adjustResize"
             android:theme="@style/Theme.Freshchat.SelectedTheme" />
 
         <activity
             android:name="com.freshchat.consumer.sdk.activity.CategoryListActivity"
-            android:taskAffinity="com.freshchat.consumer.sdk"
             android:theme="@style/Theme.Freshchat.SelectedTheme" />
 
         <activity
             android:name="com.freshchat.consumer.sdk.activity.ArticleListActivity"
-            android:taskAffinity="com.freshchat.consumer.sdk"
             android:windowSoftInputMode="adjustResize"
             android:theme="@style/Theme.Freshchat.SelectedTheme" />
 
         <activity
             android:name="com.freshchat.consumer.sdk.activity.ArticleDetailActivity"
-            android:taskAffinity="com.freshchat.consumer.sdk"
             android:theme="@style/Theme.Freshchat.SelectedTheme" />
 
         <activity
             android:name="com.freshchat.consumer.sdk.activity.InterstitialActivity"
-            android:taskAffinity="com.freshchat.consumer.sdk"
             android:configChanges="orientation|screenSize"
             android:theme="@style/Theme.AppCompat" />
 
