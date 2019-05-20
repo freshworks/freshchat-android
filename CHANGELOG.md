@@ -1,3 +1,8 @@
+## 2.5.1 (2019-5-20)
+
+### Bug Fix
+* Removed unused log
+
 ## 2.5.0 (2019-5-10)
 
 ### Bug Fix
