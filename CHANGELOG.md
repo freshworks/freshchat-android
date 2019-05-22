@@ -1,3 +1,9 @@
+## 2.5.2 (2019-5-22)
+
+### Bug Fix
+* Stopped message list from auto scrolling to bottom
+* Improvements in JWT timer timeout logic
+
 ## 2.5.1 (2019-5-20)
 
 ### Bug Fix
