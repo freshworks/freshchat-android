@@ -1,3 +1,8 @@
+## 2.6.0 (2019-5-30)
+
+### Enhancement
+* Support to set importance of Freshchat Notification Channels using FreshchatNotificationConfig.setImportance API.
+
 ## 2.5.2 (2019-5-22)
 
 ### Bug Fix
