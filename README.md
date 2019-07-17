@@ -17,7 +17,7 @@ allprojects {
 App Module gradle file **(app/build.gradle)** 
 ```
 dependencies {
-    compile 'com.github.freshdesk:freshchat-android:{latestVersion}'
+    implementation 'com.github.freshdesk:freshchat-android:{latestVersion}'
 }
 ```
 
