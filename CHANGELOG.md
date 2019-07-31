@@ -1,3 +1,9 @@
+## 2.6.1 (2019-5-31)
+
+### Enhancement
+* Once the article is updated, users will again see the voting option.
+* Also users will be able to message you from the downvoted article screen, even if they leave and come back again.
+
 ## 2.6.0 (2019-5-30)
 
 ### Enhancement
