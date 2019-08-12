@@ -1,3 +1,12 @@
+## 2.7.0 (2019-8-13)
+
+### Enhancement
+* Added more Freshchat SDK events
+* Broadcast SDK properties along with events
+
+### Breaking Change
+* In order to support rich events, we have added Freshchat.getEventFromBundle() API and removed FreshchatEvent.fromAction(action) API.
+
 ## 2.6.1 (2019-5-31)
 
 ### Enhancement
