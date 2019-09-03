@@ -1,3 +1,8 @@
+## 2.7.1 (2019-9-3)
+
+### Bug Fix
+* Fix JSONException in FAQs flow (introduced in 2.7.0 version).
+
 ## 2.7.0 (2019-8-13)
 
 ### Enhancement
