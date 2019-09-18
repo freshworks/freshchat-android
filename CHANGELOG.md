@@ -1,3 +1,8 @@
+##2.8.0 (2019-9-18)
+
+### Enhancement
+* Support for locale change at run time
+
 ## 2.7.1 (2019-9-3)
 
 ### Bug Fix
