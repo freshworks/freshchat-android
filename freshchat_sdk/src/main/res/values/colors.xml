@@ -75,4 +75,7 @@
 
     <color name="freshchat_message_unknown_bg_stoke">#26091E42</color>
     <color name="freshchat_message_unknown_bg_solid">#B0FFFFFF</color>
+
+    <!--Quick replies-->
+    <color name="freshchat_quick_reply_chip_bg">#1976D2</color>
 </resources>

@@ -4,7 +4,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:visibility="gone"
-    tools:visibility="visible">
+    tools:visibility="visible"
+    android:elevation="@dimen/freshchat_message_composer_elevation">
 
     <View
         android:id="@+id/freshchat_chat_resolution_prompt_divider"

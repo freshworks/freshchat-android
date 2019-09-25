@@ -79,7 +79,19 @@
         <item name="android:background">@color/freshchat_message_reply_view_bg</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:elevation">5dp</item>
         <item name="android:minHeight">@dimen/freshchat_message_reply_frame_min_height</item>
+    </style>
+
+    <style name="Widget.Freshchat.QuickReplyText">
+        <item name="android:background">@drawable/freshchat_message_chip_bg</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:minEms">4</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/freshchat_white</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
     </style>
 
     <style name="Widget.Freshchat.TeamMemberName">

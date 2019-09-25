@@ -39,6 +39,8 @@
         <item name="freshchatMessageListStyle">@style/Widget.Freshchat.MessageList</item>
         <item name="freshchatMessageListItemStyle">@style/Widget.Freshchat.MessageListItem</item>
         <item name="freshchatMessageReplyViewStyle">@style/Widget.Freshchat.MessageReplyView</item>
+        <item name="freshchatQuickReplyTextStyle">@style/Widget.Freshchat.QuickReplyText</item>
+        <item name="freshchatQuickReplyViewBgColor">@color/freshchat_white</item>
         <item name="freshchatMessageButtonStyle">@style/Widget.Freshchat.MessageButton</item>
         <item name="freshchatMessageReplyInputViewStyle">@style/Widget.Freshchat.MessageReplyEditText</item>
         <item name="freshchatConversationBannerMessageStyle">@style/Widget.Freshchat.ConversationBannerMessage</item>
@@ -142,6 +144,8 @@
         <item name="freshchatMessageListStyle">@style/Widget.Freshchat.MessageList</item>
         <item name="freshchatMessageListItemStyle">@style/Widget.Freshchat.MessageListItem</item>
         <item name="freshchatMessageReplyViewStyle">@style/Widget.Freshchat.MessageReplyView</item>
+        <item name="freshchatQuickReplyTextStyle">@style/Widget.Freshchat.QuickReplyText</item>
+        <item name="freshchatQuickReplyViewBgColor">@color/freshchat_white</item>
         <item name="freshchatMessageButtonStyle">@style/Widget.Freshchat.MessageButton</item>
         <item name="freshchatMessageReplyInputViewStyle">@style/Widget.Freshchat.MessageReplyEditText</item>
         <item name="freshchatConversationBannerMessageStyle">@style/Widget.Freshchat.ConversationBannerMessage</item>

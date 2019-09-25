@@ -1,3 +1,8 @@
+##2.9.0 (2019-9-25)
+
+### Enhancement
+* Support for showing proactive reply suggestions
+
 ##2.8.0 (2019-9-18)
 
 ### Enhancement

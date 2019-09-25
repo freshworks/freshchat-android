@@ -87,6 +87,8 @@
 
     <!-- Style for the message reply view -->
     <attr name="freshchatMessageReplyViewStyle" format="reference" />
+    <attr name="freshchatQuickReplyTextStyle" format="reference" />
+    <attr name="freshchatQuickReplyViewBgColor" format="reference" />
     <attr name="freshchatMessageReplyInputViewStyle" format="reference" />
 
     <!-- Chat Resolution Confirmation Prompt Styles -->
@@ -103,5 +105,29 @@
 
     <!-- Misc - Conversation Detail Screen -->
     <attr name="freshchatConversationBannerMessageStyle" format="reference" />
+
+    <declare-styleable name="freshchatFlowLayout">
+        <attr name="freshchatFlFlow" format="boolean"/>
+        <attr name="freshchatFlChildSpacing" format="enum|dimension">
+            <enum name="auto" value="-65536"/>
+        </attr>
+        <attr name="freshchatFlMinChildSpacing" format="dimension"/>
+        <attr name="freshchatFlChildSpacingForLastRow" format="enum|dimension">
+            <enum name="auto" value="-65536"/>
+            <enum name="align" value="-65537"/>
+        </attr>
+        <attr name="freshchatFlRowSpacing" format="enum|dimension">
+            <enum name="auto" value="-65536"/>
+        </attr>
+        <attr name="freshchatFlRtl" format="boolean"/>
+        <attr name="freshchatFlMaxRows" format="integer"/>
+        <attr name="freshchatFlRowVerticalGravity" format="enum">
+            <enum name="auto" value="-65536"/>
+            <enum name="top" value="0x30"/>
+            <enum name="center" value="0x10"/>
+            <enum name="bottom" value="0x50"/>
+        </attr>
+        <attr name="android:gravity"/>
+    </declare-styleable>
 
 </resources>
