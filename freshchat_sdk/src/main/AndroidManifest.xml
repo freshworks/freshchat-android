@@ -16,8 +16,6 @@
     <!-- Can be removed/negated if voice messaging is disabled -->
     <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />  -->
 
-    <uses-sdk android:minSdkVersion="16" />
-
     <application>
 
         <activity

@@ -1,3 +1,14 @@
+##3.0.0(2019-11-12)
+
+### Enhancement
+* Ability to search through FAQs filtered by tags
+* Increased CSAT message view maximum height to 4 lines
+* Ability to handle channels deeplinks
+
+### Build Changes
+* Upgraded target version to 28
+* Updated android gradle plugin to 3.2.1 and Gradle to 4.7
+
 ##2.9.0 (2019-9-25)
 
 ### Enhancement
