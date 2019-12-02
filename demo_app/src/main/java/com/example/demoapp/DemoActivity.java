@@ -2,12 +2,14 @@ package com.example.demoapp;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
 import com.freshchat.consumer.sdk.Freshchat;
 import com.freshchat.consumer.sdk.FreshchatConfig;
 import com.freshchat.consumer.sdk.FreshchatUser;
+import com.freshchat.consumer.sdk.exception.MethodNotAllowedException;
 
 public class DemoActivity extends AppCompatActivity {
 
@@ -26,7 +28,11 @@ public class DemoActivity extends AppCompatActivity {
         //Update user information
         FreshchatUser user = Freshchat.getInstance(getApplicationContext()).getUser();
         user.setFirstName("John").setLastName("Doe").setEmail("john@john.doe").setPhone("001", "2542542544");
-        Freshchat.getInstance(getApplicationContext()).setUser(user);
+        try {
+            Freshchat.getInstance(getApplicationContext()).setUser(user);
+        } catch (MethodNotAllowedException e) {
+            Log.e("FreshchatError", e.toString());
+        }
 
         btnShowFAQs = (Button) findViewById(R.id.btnShowFAQs);
         btnShowConversations = (Button) findViewById(R.id.btnShowConversations);
