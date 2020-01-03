@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/unity_dark_blue</color>
+    <color name="colorPrimaryDark">@color/unity_darker_blue</color>
+    <color name="colorAccent">@color/unity_dark_blue</color>
+
+    <color name="unity_dark_blue">#386fb7</color>
+    <color name="unity_darker_blue">#225699</color>
+
+    <color name="hotline_white">#FFFFFF</color>
+    <color name="hotline_white_grey">#EEEEEE</color>
+    <color name="hotline_white_grey_medium">#e1e1e1</color>
+</resources>
