@@ -13,6 +13,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.demoapp.R;
 import com.example.demoapp.Utils;
@@ -28,7 +29,6 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 public class ChannelsFragment extends Fragment implements View.OnClickListener {
-    private TextView unreadCountTextView;
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, final ViewGroup viewGroup, Bundle savedInstanceState) {
@@ -41,7 +41,6 @@ public class ChannelsFragment extends Fragment implements View.OnClickListener {
         Button btnShowUnreadCount = rootView.findViewById(R.id.btn_unread_count);
         Button btnShowUnreadCountForConversation = rootView.findViewById(R.id.btn_unread_count_for_conversation);
         Button btnSendMessage = rootView.findViewById(R.id.btn_send_message);
-        unreadCountTextView = rootView.findViewById(R.id.unread_count);
 
         btnShowConversation.setOnClickListener(this);
         btnConversationOption.setOnClickListener(this);
@@ -54,7 +53,7 @@ public class ChannelsFragment extends Fragment implements View.OnClickListener {
     @Override
     public void onClick(View view) {
 
-        Context context = view.getContext();
+        final Context context = view.getContext();
 
         switch (view.getId()) {
 
@@ -68,8 +67,7 @@ public class ChannelsFragment extends Fragment implements View.OnClickListener {
                 Freshchat.getInstance(context).getUnreadCountAsync(new UnreadCountCallback() {
                     @Override
                     public void onResult(FreshchatCallbackStatus freshchatCallbackStatus, int unreadCount) {
-                        unreadCountTextView.setVisibility(View.VISIBLE);
-                        unreadCountTextView.setText("Total unread message count : " + unreadCount);
+                        Toast.makeText(context, "Unread Count -" + String.valueOf(unreadCount), Toast.LENGTH_LONG).show();
                     }
                 });
 
@@ -218,8 +216,7 @@ public class ChannelsFragment extends Fragment implements View.OnClickListener {
                 Freshchat.getInstance(context).getUnreadCountAsync(new UnreadCountCallback() {
                     @Override
                     public void onResult(FreshchatCallbackStatus freshchatCallbackStatus, int unreadCount) {
-                        unreadCountTextView.setVisibility(View.VISIBLE);
-                        unreadCountTextView.setText("Total unread message count : " + unreadCount);
+                        Toast.makeText(context, "Unread Count -" + String.valueOf(unreadCount), Toast.LENGTH_LONG).show();
                     }
                 }, conversationTagList);
 

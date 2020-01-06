@@ -34,8 +34,8 @@ public class DemoApp extends Application {
 
     private void registerBroadcastReceiver() {
         IntentFilter intentFilterUnreadMessagCount = new IntentFilter(Freshchat.FRESHCHAT_UNREAD_MESSAGE_COUNT_CHANGED);
-        IntentFilter intentFilterRestorID = new IntentFilter(Freshchat.FRESHCHAT_USER_RESTORE_ID_GENERATED);
-        getLocalBroadcastManager().registerReceiver(restoreIdReceiver, intentFilterRestorID);
+        IntentFilter intentFilterRestoreID = new IntentFilter(Freshchat.FRESHCHAT_USER_RESTORE_ID_GENERATED);
+        getLocalBroadcastManager().registerReceiver(restoreIdReceiver, intentFilterRestoreID);
         getLocalBroadcastManager().registerReceiver(unreadCountChangeReceiver, intentFilterUnreadMessagCount);
     }
 
@@ -75,12 +75,6 @@ public class DemoApp extends Application {
     private void initialiseFreshchat() {
 
         FreshchatConfig freshchatConfig = new FreshchatConfig("7558e847-515b-4688-9d64-638496e0f7c3", "ef99705a-4a49-4274-afef-9622bd404e0e");
-
-        try {
-            Freshchat.getInstance(getApplicationContext()).identifyUser("test@123.com", null);
-        } catch (MethodNotAllowedException e) {
-            e.printStackTrace();
-        }
 
         getFreshchatInstance(getApplicationContext()).init(freshchatConfig);
 

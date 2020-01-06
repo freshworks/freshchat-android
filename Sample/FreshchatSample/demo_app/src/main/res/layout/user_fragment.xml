@@ -60,7 +60,6 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:textStyle="bold"
-        android:visibility="gone"
-        android:text="Unread Count: 20"/>
+        android:visibility="gone" />
 
 </RelativeLayout>
