@@ -73,15 +73,8 @@ public class DemoApp extends Application {
     };
 
     private void initialiseFreshchat() {
-
         FreshchatConfig freshchatConfig = new FreshchatConfig("APP_ID", "APP_KEY");
         getFreshchatInstance(getApplicationContext()).init(freshchatConfig);
-
-        Uri soundUri = Uri.parse("android.resource://" + getApplicationContext().getPackageName() + "/" + R.raw.musical003);
-        FreshchatNotificationConfig notificationConfig = new FreshchatNotificationConfig()
-                .setNotificationSoundEnabled(true)
-                .setNotificationSound(soundUri)
-                .setNotificationInterceptionEnabled(true);
     }
 
     private Freshchat getFreshchatInstance(Context context) {

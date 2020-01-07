@@ -55,6 +55,7 @@ public class UsersFragment extends Fragment implements View.OnClickListener {
                 break;
             case R.id.restore_user:
                 showUserRestoreDialog(view.getContext());
+                break;
             case R.id.reset_user:
                 Freshchat.resetUser(view.getContext());
                 break;
@@ -168,37 +169,36 @@ public class UsersFragment extends Fragment implements View.OnClickListener {
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(context);
         dialogBuilder.setTitle("Enter Key Value");
         LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
-        LinearLayout.LayoutParams layoutParams2 = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
         final LinearLayout layout = new LinearLayout(context);
         layout.setOrientation(LinearLayout.VERTICAL);
         layout.setLayoutParams(layoutParams);
 
-        final EditText input1 = new EditText(context);
-        input1.setPadding(16, 16, 16, 16);
-        input1.setHint("Key");
-        input1.setInputType(InputType.TYPE_CLASS_TEXT);
-        input1.setBackgroundTintList(ColorStateList.
+        final EditText inputPropertiesKey = new EditText(context);
+        inputPropertiesKey.setPadding(16, 16, 16, 16);
+        inputPropertiesKey.setHint("Key");
+        inputPropertiesKey.setInputType(InputType.TYPE_CLASS_TEXT);
+        inputPropertiesKey.setBackgroundTintList(ColorStateList.
                 valueOf(getResources().getColor(R.color.unity_dark_blue)));
 
-        layout.addView(input1);
+        layout.addView(inputPropertiesKey);
 
-        final EditText input2 = new EditText(context);
-        input2.setPadding(16, 16, 16, 16);
-        input2.setHint("Value");
-        input2.setInputType(InputType.TYPE_CLASS_TEXT);
-        input2.setBackgroundTintList(ColorStateList.
+        final EditText inputPropertiesValue = new EditText(context);
+        inputPropertiesValue.setPadding(16, 16, 16, 16);
+        inputPropertiesValue.setHint("Value");
+        inputPropertiesValue.setInputType(InputType.TYPE_CLASS_TEXT);
+        inputPropertiesValue.setBackgroundTintList(ColorStateList.
                 valueOf(getResources().getColor(R.color.unity_dark_blue)));
-        layout.addView(input2);
+        layout.addView(inputPropertiesValue);
 
         dialogBuilder.setView(layout);
 
         dialogBuilder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int whichButton) {
-                String values1 = input1.getText().toString();
-                String values2 = input2.getText().toString();
+                String key = inputPropertiesKey.getText().toString();
+                String value = inputPropertiesValue.getText().toString();
 
                 Map<String, String> map = new HashMap<>();
-                map.put(values1, values2);
+                map.put(key, value);
 
                 try {
                     Freshchat.getInstance(context).setUserProperties(map);
