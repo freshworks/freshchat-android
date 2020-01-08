@@ -65,9 +65,9 @@ public class DemoApp extends Application {
     BroadcastReceiver restoreIdReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
+            // TODO: Save this restoreId to app's backend for restoring across platforms and session
             String restoreId = Freshchat.getInstance(getApplicationContext()).getUser().getRestoreId();
-            Log.i("RestoreID", restoreId);
-            Toast.makeText(getApplicationContext(), "Restore ID  :" + restoreId, Toast.LENGTH_LONG).show();
+            Toast.makeText(context, "Restore id: " + restoreId, Toast.LENGTH_SHORT).show();
         }
 
     };
