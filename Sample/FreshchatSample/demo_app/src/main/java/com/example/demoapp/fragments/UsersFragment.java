@@ -16,7 +16,6 @@ import android.widget.Toast;
 
 import com.example.demoapp.R;
 import com.freshchat.consumer.sdk.Freshchat;
-import com.freshchat.consumer.sdk.FreshchatConfig;
 import com.freshchat.consumer.sdk.FreshchatUser;
 
 import java.util.HashMap;
@@ -256,7 +255,6 @@ public class UsersFragment extends Fragment implements View.OnClickListener {
 
         dialogBuilder.setPositiveButton("Identify/Restore", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int whichButton) {
-
                 try {
                     String externalId = extIdText.getText().toString(); // TODO: You app's external id
                     String restoreId = restoreIdText.getText().toString(); // TODO: Get restore id from app's backend
@@ -267,7 +265,9 @@ public class UsersFragment extends Fragment implements View.OnClickListener {
                     }
                 } catch (Exception e) {
                     Toast.makeText(getContext(), e.toString(), Toast.LENGTH_SHORT).show();
-                } }
+                }
+
+            }
         });
 
         dialogBuilder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
@@ -276,11 +276,14 @@ public class UsersFragment extends Fragment implements View.OnClickListener {
             }
         });
 
+
+
         String existingExternalId = getFreshchatInstance(context).getUser().getExternalId();
         String existingRestoreId = getFreshchatInstance(context).getUser().getRestoreId();
 
         extIdText.setText(existingExternalId);
         restoreIdText.setText(existingRestoreId);
+
 
         dialogBuilder.show();
     }
