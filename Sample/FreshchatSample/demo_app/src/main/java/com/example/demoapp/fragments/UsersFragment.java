@@ -162,6 +162,7 @@ public class UsersFragment extends Fragment implements View.OnClickListener {
                 // Canceled
             }
         });
+
         dialogBuilder.show();
     }
 
@@ -255,14 +256,18 @@ public class UsersFragment extends Fragment implements View.OnClickListener {
 
         dialogBuilder.setPositiveButton("Identify/Restore", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int whichButton) {
-                String externalId = extIdText.getText().toString();
-                String restoreId = restoreIdText.getText().toString();
+
                 try {
-                    getFreshchatInstance(context).identifyUser(externalId, restoreId);
+                    String externalId = extIdText.getText().toString(); // TODO: You app's external id
+                    String restoreId = restoreIdText.getText().toString(); // TODO: Get restore id from app's backend
+                    if (restoreId == null || restoreId.length() == 0) {
+                        getFreshchatInstance(context).identifyUser(externalId, null);
+                    } else {
+                        getFreshchatInstance(context).identifyUser(externalId, restoreId);
+                    }
                 } catch (Exception e) {
                     Toast.makeText(getContext(), e.toString(), Toast.LENGTH_SHORT).show();
-                }
-            }
+                } }
         });
 
         dialogBuilder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
@@ -270,6 +275,13 @@ public class UsersFragment extends Fragment implements View.OnClickListener {
                 // Canceled
             }
         });
+
+        String existingExternalId = getFreshchatInstance(context).getUser().getExternalId();
+        String existingRestoreId = getFreshchatInstance(context).getUser().getRestoreId();
+
+        extIdText.setText(existingExternalId);
+        restoreIdText.setText(existingRestoreId);
+
         dialogBuilder.show();
     }
 
