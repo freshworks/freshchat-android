@@ -23,6 +23,6 @@
 
     <color name="channel_icon">#1C225B</color>
 
-    <color name="list_item_color">#DB091E42</color>
+    <color name="fc_text_color">#DB091E42</color>
 
 </resources>
