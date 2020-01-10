@@ -16,7 +16,6 @@ import android.widget.Toast;
 
 import com.example.demoapp.R;
 import com.freshchat.consumer.sdk.Freshchat;
-import com.freshchat.consumer.sdk.FreshchatConfig;
 import com.freshchat.consumer.sdk.FreshchatUser;
 
 import java.util.HashMap;
