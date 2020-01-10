@@ -18,6 +18,7 @@ import com.freshchat.consumer.sdk.FreshchatNotificationConfig;
 import com.freshchat.consumer.sdk.UnreadCountCallback;
 import com.freshchat.consumer.sdk.exception.MethodNotAllowedException;
 
+import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
@@ -73,8 +74,19 @@ public class DemoApp extends Application {
     };
 
     private void initialiseFreshchat() {
+
         FreshchatConfig freshchatConfig = new FreshchatConfig("APP_ID", "APP_KEY");
         getFreshchatInstance(getApplicationContext()).init(freshchatConfig);
+
+        Uri soundUri = Uri.parse("android.resource://" + getApplicationContext().getPackageName() + "/" + R.raw.musical003);
+
+        FreshchatNotificationConfig notificationConfig = new FreshchatNotificationConfig()
+                .setNotificationSoundEnabled(true)
+                .setNotificationSound(soundUri)
+                .setNotificationInterceptionEnabled(true)
+                .setImportance(NotificationManagerCompat.IMPORTANCE_MAX);
+
+        getFreshchatInstance(getApplicationContext()).setNotificationConfig(notificationConfig);
     }
 
     private Freshchat getFreshchatInstance(Context context) {
