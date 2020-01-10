@@ -17,18 +17,13 @@
     <string name="freshchat_faq_list_empty">Pardon! Il ny a pas de FAQ disponible</string>
     <string name="freshchat_faq_vote_successful">Merci pour vos commentaires!</string>
     <string name="freshchat_faq_voting_prompt">Cette FAQ vous a-t-elle été utile?</string>
-    <string name="freshchat_faq_upvote">@string/freshchat_yes</string>
-    <string name="freshchat_faq_downvote">@string/freshchat_no</string>
     <string name="freshchat_faq_video_loading">Chargement de la vidéo ..</string>
     <string name="freshchat_faq_search_query_hint">Rechercher FAQ</string>
     <string name="freshchat_faq_failed_to_load">Cette FAQ nes\' plus disponible</string>
     <string name="freshchat_faq_rich_media_content_cannot_be_displayed">Connectez-vous à Internet pour afficher le contenu multimédia enrichi</string>
 
-    <string name="freshchat_yes">Yes</string>
-    <string name="freshchat_no">No</string>
-
-    <!-- Hint for Input Fields -->
-
+    <string name="freshchat_yes">Oui</string>
+    <string name="freshchat_no">Non</string>
 
     <!-- Content descriptions for accessibility -->
     <string name="freshchat_content_description_send_message">Envoyer le message</string>
@@ -42,8 +37,6 @@
     <string name="freshchat_error_message_faq_section_not_enabled">Uh-uh! La section FAQ nest pas disponible</string>
     <string name="freshchat_error_message_inbox_section_not_enabled">Uh-uh! La section de discussion n\'est pas disponible.</string>
     <string name="freshchat_error_message_account_not_active">Cette section n\'est plus disponible</string>
-    <string name="freshchat_error_message_init_not_completed">SDK Freshchat non initialisé. Veuillez d\'abord appeler Freshchat.init () et appeler {{method_name}} ecore!</string>
-    <string name="freshchat_error_message_init_not_completed_method_name_placeholder">{{method_name}}</string>
     <string name="freshchat_error_message_failed_to_launch_support_section">Oups! Échec du lancement</string>
     <string name="freshchat_error_message_token_failed">Oups! Quelque chose a mal tourné. Veuillez relancer l\'écran.</string>
 
@@ -58,8 +51,7 @@
     <string name="freshchat_chat_voice_messaging_audio_recording_permission_rationale">L\'autorisation d\'enregistrement audio est requise pour capturer et envoyer des messages vocaux</string>
     <string name="freshchat_chat_voice_messaging_write_storage_permission_rationale">Une autorisation d\'écriture sur le stockage externe est requise pour capturer et envoyer des messages vocaux</string>
 
-    <string name="freshchat_voice_message_preview">[Voix ({{duration}})]</string>
-    <string name="freshchat_voice_message_preview_duration_tag">{{duration}}</string>
+
     <string name="freshchat_speaker_phone_on">L\'audio jouera à travers votre oreillette</string>
     <string name="freshchat_speaker_phone_off">"Audio will play through your phone's speaker"</string>
     <string name="freshchat_voice_message_too_short">"L'audio sera diffusé via le haut-parleur de votre téléphone"</string>
@@ -89,46 +81,29 @@
     <!-- Strings for Customer Satisfaction related UI Elements -->
     <string name="freshchat_chat_resolution_survey_question"></string>
     <string name="freshchat_chat_resolution_confirmation_prompt">Avons-nous répondu à vos préoccupations?</string>
-    <string name="freshchat_chat_resolution_confirmation_prompt_positive">@string/freshchat_yes</string>
-    <string name="freshchat_chat_resolution_confirmation_prompt_negative">@string/freshchat_no</string>
     <string name="freshchat_chat_resolution_suggestions_prompt">Comment pourrions-nous mieux vous aider?</string>
     <string name="freshchat_chat_resolution_user_comments_hint">Dites-nous</string>
     <string name="freshchat_chat_rating_submit">Envoyer</string>
 
     <!--Strings for Typically Replies in-->
     <string name="freshchat_typically_replies_within_a_minute">Répond habituellement en moins d\'une minute</string>
-    <string name="freshchat_typically_replies_within_x_minutes">Répond généralement dans les {{minutes}} minutes</string>
     <string name="freshchat_typically_replies_within_an_hour">Répond habituellement sous une heure</string>
     <string name="freshchat_typically_replies_within_2_hours">Répond habituellement sous 2 heures</string>
     <string name="freshchat_typically_replies_within_few_hours">Répond généralement en quelques heures</string>
     <string name="freshchat_currently_replying_in_a_minute">En train de répondre dans une minute</string>
-    <string name="freshchat_currently_replying_in_x_minutes">Répond actuellement en {{minutes}} minutes</string>
     <string name="freshchat_currently_replying_in_an_hour">En train de répondre dans une heure</string>
     <string name="freshchat_currently_replying_in_2_hours">Répond actuellement en 2 heures</string>
     <string name="freshchat_currently_replying_in_few_hours">Répond actuellement en quelques heures</string>
-    <string name="freshchat_placeholder_minutes">{{minutes}}</string>
 
     <!--Strings for notifications-->
     <string name="freshchat_conversation_notification_channel_name">Messages de conversation</string>
     <string name="freshchat_campaign_notification_channel_name">Messages de campagne</string>
-    <string name="freshchat_support_message_notification_title">{{app_name}}</string>
-    <string name="freshchat_promotional_message_notification_title">{{app_name}}</string>
-    <string name="freshchat_placeholder_app_name">{{app_name}}</string>
 
     <!--Strings for Auto start prompt displayed to users on xiaomi devices -->
     <string name="freshchat_xiaomi_auto_start_prompt_message">Veuillez activer le démarrage automatique pour recevoir des notifications lorsque l\'application est en arrière-plan</string>
-    <string name="freshchat_xiaomi_auto_start_prompt_positive">@android:string/ok</string>
-    <string name="freshchat_xiaomi_auto_start_prompt_negative">@android:string/cancel</string>
 
     <!-- File Provider Authority Name of the form your_app_package_name.provider Eg: com.example.myapp.provider -->
-    <string name="freshchat_file_provider_authority" translatable="false"></string>
-
     <!-- Allow customization of date formatter used for displaying date and time for messages -->
-    <string name="freshchat_chat_message_time_today">"hh:mm a"</string>
-    <string name="freshchat_chat_message_time_this_year_short">"MMM dd"</string>
-    <string name="freshchat_chat_message_time_this_year_long">"MMM dd',' hh:mm a"</string>
-    <string name="freshchat_chat_message_time_other_year">"MMM yyyy"</string>
-
     <!--Strings for Business hour offline response-->
     <string name="freshchat_all_members_away_message">Nous sommes loin maintenant</string>
 </resources>
