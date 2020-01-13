@@ -33,14 +33,10 @@ public class UsersFragment extends Fragment implements View.OnClickListener {
 
         final View rootView = inflater.inflate(R.layout.user_fragment, viewGroup, false);
         Button btnUpdateUser = rootView.findViewById(R.id.update_user);
-        Button btnIdentifyUser = rootView.findViewById(R.id.reset_user);
         Button btnUpdateUserProps = rootView.findViewById(R.id.update_user_props);
-        Button btnRestoreUser = rootView.findViewById(R.id.restore_user);
 
         btnUpdateUser.setOnClickListener(this);
-        btnIdentifyUser.setOnClickListener(this);
         btnUpdateUserProps.setOnClickListener(this);
-        btnRestoreUser.setOnClickListener(this);
 
         return rootView;
     }
@@ -51,12 +47,6 @@ public class UsersFragment extends Fragment implements View.OnClickListener {
         switch (view.getId()) {
             case R.id.update_user:
                 showUserInfoInputDialog(view.getContext());
-                break;
-            case R.id.restore_user:
-                showUserRestoreDialog(view.getContext());
-                break;
-            case R.id.reset_user:
-                Freshchat.resetUser(view.getContext());
                 break;
             case R.id.update_user_props:
                 showUserPropertiesInputDialog(view.getContext());
@@ -223,70 +213,5 @@ public class UsersFragment extends Fragment implements View.OnClickListener {
         }
         return freshchat;
     }
-
-
-    private void showUserRestoreDialog(final Context context) {
-        final FreshchatUser freshchatUser = getFreshchatInstance(context).getUser();
-        AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(context);
-        dialogBuilder.setTitle("Ext Id & Restore Id");
-        LinearLayout layout = new LinearLayout(context);
-        layout.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT));
-        layout.setOrientation(LinearLayout.VERTICAL);
-
-        final EditText extIdText = new EditText(context);
-        extIdText.setPadding(16, 16, 16, 16);
-        extIdText.setHint("External Id");
-        extIdText.setBackgroundTintList(ColorStateList.
-                valueOf(getResources().getColor(R.color.colorPrimary)));
-        extIdText.setText(freshchatUser.getExternalId());
-        extIdText.setInputType(InputType.TYPE_CLASS_TEXT);
-        layout.addView(extIdText);
-
-        final EditText restoreIdText = new EditText(context);
-        restoreIdText.setPadding(16, 16, 16, 16);
-        restoreIdText.setHint("Restore Id");
-        restoreIdText.setBackgroundTintList(ColorStateList.
-                valueOf(getResources().getColor(R.color.colorPrimary)));
-        restoreIdText.setText(freshchatUser.getRestoreId());
-        restoreIdText.setInputType(InputType.TYPE_CLASS_TEXT);
-        layout.addView(restoreIdText);
-
-        dialogBuilder.setView(layout);
-
-        dialogBuilder.setPositiveButton("Identify/Restore", new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int whichButton) {
-                try {
-                    String externalId = extIdText.getText().toString(); // TODO: You app's external id
-                    String restoreId = restoreIdText.getText().toString(); // TODO: Get restore id from app's backend
-                    if (restoreId == null || restoreId.length() == 0) {
-                        getFreshchatInstance(context).identifyUser(externalId, null);
-                    } else {
-                        getFreshchatInstance(context).identifyUser(externalId, restoreId);
-                    }
-                } catch (Exception e) {
-                    Toast.makeText(getContext(), e.toString(), Toast.LENGTH_SHORT).show();
-                }
-
-            }
-        });
-
-        dialogBuilder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int whichButton) {
-                // Canceled
-            }
-        });
-
-
-
-        String existingExternalId = getFreshchatInstance(context).getUser().getExternalId();
-        String existingRestoreId = getFreshchatInstance(context).getUser().getRestoreId();
-
-        extIdText.setText(existingExternalId);
-        restoreIdText.setText(existingRestoreId);
-
-
-        dialogBuilder.show();
-    }
-
 
 }

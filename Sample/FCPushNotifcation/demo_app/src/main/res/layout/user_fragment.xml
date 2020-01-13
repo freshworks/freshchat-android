@@ -12,15 +12,6 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/reset_user"
-            android:layout_marginBottom="24dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/freshchat_white"
-            android:background="@color/colorPrimary"
-            android:text="@string/reset_user"/>
-
-        <Button
             android:id="@+id/update_user"
             android:layout_marginBottom="24dp"
             android:layout_width="match_parent"
@@ -37,17 +28,6 @@
             android:textColor="@color/freshchat_white"
             android:background="@color/colorPrimary"
             android:text="@string/update_user_properties"/>
-
-
-
-        <Button
-            android:id="@+id/restore_user"
-            android:layout_marginBottom="24dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/freshchat_white"
-            android:background="@color/colorPrimary"
-            android:text="@string/restore_user"/>
 
 
     </LinearLayout>
