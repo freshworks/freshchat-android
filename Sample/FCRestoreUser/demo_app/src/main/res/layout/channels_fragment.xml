@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_show_all_channels"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/freshchat_white"
+            android:background="@color/colorPrimary"
+            android:text="@string/show_all_channels"/>
+
+        <Button
+            android:id="@+id/btn_show_filtered_channels"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/freshchat_white"
+            android:background="@color/colorPrimary"
+            android:text="@string/conversation_options"/>
+
+        <Button
+            android:id="@+id/btn_unread_count"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/freshchat_white"
+            android:background="@color/colorPrimary"
+            android:text="@string/show_total_unread_count"/>
+
+        <Button
+            android:id="@+id/btn_unread_count_for_conversation"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/freshchat_white"
+            android:background="@color/colorPrimary"
+            android:text="@string/unread_count_for_conversation"/>
+
+        <Button
+            android:id="@+id/btn_send_message"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/freshchat_white"
+            android:background="@color/colorPrimary"
+            android:text="@string/send_message_api"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
