@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">DemoApp</string>
-    <string name="title_activity_freshchat_demo">FreshchatDemo</string>
-    <string name="restore_user">RESTORE USER</string>
-    <string name="show_conversation">Show Conversation</string>
-    <string name="reset_user">RESET USER</string>
-    <string name="update_user">UPDATE USER</string>
-</resources>
