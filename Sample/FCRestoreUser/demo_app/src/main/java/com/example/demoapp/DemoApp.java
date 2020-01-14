@@ -33,10 +33,8 @@ public class DemoApp extends Application {
     }
 
     private void registerBroadcastReceiver() {
-        IntentFilter intentFilterUnreadMessagCount = new IntentFilter(Freshchat.FRESHCHAT_UNREAD_MESSAGE_COUNT_CHANGED);
         IntentFilter intentFilterRestoreID = new IntentFilter(Freshchat.FRESHCHAT_USER_RESTORE_ID_GENERATED);
         getLocalBroadcastManager().registerReceiver(restoreIdReceiver, intentFilterRestoreID);
-        getLocalBroadcastManager().registerReceiver(unreadCountChangeReceiver, intentFilterUnreadMessagCount);
     }
 
     public LocalBroadcastManager getLocalBroadcastManager() {
@@ -46,21 +44,8 @@ public class DemoApp extends Application {
     @Override
     public void onTerminate() {
         super.onTerminate();
-        getLocalBroadcastManager().unregisterReceiver(unreadCountChangeReceiver);
         getLocalBroadcastManager().unregisterReceiver(restoreIdReceiver);
     }
-
-    BroadcastReceiver unreadCountChangeReceiver = new BroadcastReceiver() {
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            Freshchat.getInstance(getApplicationContext()).getUnreadCountAsync(new UnreadCountCallback() {
-                @Override
-                public void onResult(FreshchatCallbackStatus freshchatCallbackStatus, int unreadCount) {
-                    Toast.makeText(getApplicationContext(), "Unread message Count - " + unreadCount, Toast.LENGTH_LONG).show();
-                }
-            });
-        }
-    };
 
     BroadcastReceiver restoreIdReceiver = new BroadcastReceiver() {
         @Override
