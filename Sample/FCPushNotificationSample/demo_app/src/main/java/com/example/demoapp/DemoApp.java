@@ -53,7 +53,6 @@ public class DemoApp extends Application {
         FreshchatNotificationConfig notificationConfig = new FreshchatNotificationConfig()
                 .setNotificationSoundEnabled(true)
                 .setNotificationSound(soundUri)
-                .setNotificationInterceptionEnabled(true)
                 .setImportance(NotificationManagerCompat.IMPORTANCE_MAX);
 
         getFreshchatInstance(getApplicationContext()).setNotificationConfig(notificationConfig);
