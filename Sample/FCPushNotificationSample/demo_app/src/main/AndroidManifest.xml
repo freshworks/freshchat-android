@@ -11,25 +11,13 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".activity.HomeActivity"
-            android:label="@string/title_activity_freshchat_demo"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:label="@string/title_activity_freshchat_demo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <provider
-            android:name="androidx.core.content.FileProvider"
-            android:authorities="com.example.demoapp.provider"
-            android:exported="false"
-            android:grantUriPermissions="true">
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/freshchat_file_provider_paths" />
-        </provider>
-
 
         <service android:name="com.example.demoapp.FreshchatMesssagingService">
             <intent-filter>

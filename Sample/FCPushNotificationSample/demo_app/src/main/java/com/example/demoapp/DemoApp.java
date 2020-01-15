@@ -30,48 +30,8 @@ public class DemoApp extends Application {
     public void onCreate() {
         super.onCreate();
         initialiseFreshchat();
-        registerBroadcastReceiver();
-    }
+     }
 
-    private void registerBroadcastReceiver() {
-        IntentFilter intentFilterUnreadMessagCount = new IntentFilter(Freshchat.FRESHCHAT_UNREAD_MESSAGE_COUNT_CHANGED);
-        IntentFilter intentFilterRestoreID = new IntentFilter(Freshchat.FRESHCHAT_USER_RESTORE_ID_GENERATED);
-        getLocalBroadcastManager().registerReceiver(restoreIdReceiver, intentFilterRestoreID);
-        getLocalBroadcastManager().registerReceiver(unreadCountChangeReceiver, intentFilterUnreadMessagCount);
-    }
-
-    public LocalBroadcastManager getLocalBroadcastManager() {
-        return LocalBroadcastManager.getInstance(getApplicationContext());
-    }
-
-    @Override
-    public void onTerminate() {
-        super.onTerminate();
-        getLocalBroadcastManager().unregisterReceiver(unreadCountChangeReceiver);
-        getLocalBroadcastManager().unregisterReceiver(restoreIdReceiver);
-    }
-
-    BroadcastReceiver unreadCountChangeReceiver = new BroadcastReceiver() {
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            Freshchat.getInstance(getApplicationContext()).getUnreadCountAsync(new UnreadCountCallback() {
-                @Override
-                public void onResult(FreshchatCallbackStatus freshchatCallbackStatus, int unreadCount) {
-                    Toast.makeText(getApplicationContext(), "Unread message Count - " + unreadCount, Toast.LENGTH_LONG).show();
-                }
-            });
-        }
-    };
-
-    BroadcastReceiver restoreIdReceiver = new BroadcastReceiver() {
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            // TODO: Save this restoreId to app's backend for restoring across platforms and session
-            String restoreId = Freshchat.getInstance(getApplicationContext()).getUser().getRestoreId();
-            Toast.makeText(context, "Restore id: " + restoreId, Toast.LENGTH_SHORT).show();
-        }
-
-    };
 
     private void initialiseFreshchat() {
 
