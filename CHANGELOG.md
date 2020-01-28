@@ -1,7 +1,7 @@
 ##3.1.0(2020-23-01)
 
 ### Feature
-* Add user events from your app to Freshchat Timeline to give your agents context on user's journey and problems
+* Add user events from your app to Freshchat timeline to give your agents context on user's journey
 
 ##3.0.0(2019-11-12)
 
