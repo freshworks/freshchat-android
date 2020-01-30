@@ -1,3 +1,8 @@
+##3.2.0(2020-30-01)
+
+### Enhancement
+* Introducing changes in MUV calculation to take care of cases where customer's SDK implementation is not optimised. This would bring down the unique visitors count.
+
 ##3.1.0(2020-23-01)
 
 ### Feature
