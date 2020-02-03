@@ -1,3 +1,9 @@
+##3.2.1(2020-03-02)
+
+### Bug Fix
+* Fixed locale resetting issue on orientation change
+* Fixed a redirection issue in FAQs search
+
 ##3.2.0(2020-30-01)
 
 ### Enhancement
