@@ -1,15 +1,20 @@
-##3.2.1(2020-03-02)
+##3.2.2(2020-03-04)
+
+### Bug Fix
+* Fixed display order of articles
+
+##3.2.1(2020-02-03)
 
 ### Bug Fix
 * Fixed locale resetting issue on orientation change
 * Fixed a redirection issue in FAQs search
 
-##3.2.0(2020-30-01)
+##3.2.0(2020-01-30)
 
 ### Enhancement
 * Introducing changes in MUV calculation to take care of cases where customer's SDK implementation is not optimised. This would bring down the unique visitors count.
 
-##3.1.0(2020-23-01)
+##3.1.0(2020-01-23)
 
 ### Feature
 * Add user events from your app to Freshchat timeline to give your agents context on user's journey
