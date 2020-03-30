@@ -73,6 +73,13 @@
             </intent-filter>
         </receiver>
 
+        <provider
+            android:name=".provider.FreshchatInitProvider"
+            android:authorities="${applicationId}.freshchat.initprovider"
+            android:enabled="true"
+            android:exported="false"
+            android:multiprocess="true" />
+
     </application>
 
 </manifest>
