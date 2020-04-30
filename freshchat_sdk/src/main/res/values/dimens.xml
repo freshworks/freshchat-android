@@ -54,4 +54,7 @@
     <dimen name="freshchat_quick_reply_view_row_padding">8dp</dimen>
     <dimen name="freshchat_quick_reply_view_column_padding">8dp</dimen>
 
+    <!--Drop Down Messages-->
+    <dimen name="freshchat_drop_down_item_height">48dp</dimen>
+
 </resources>

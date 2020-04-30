@@ -16,6 +16,7 @@
         <item name="freshchatAttachIcon">@drawable/freshchat_ic_attach</item>
         <item name="freshchatRecordIcon">@drawable/freshchat_ic_record</item>
         <item name="freshchatActionSelectableItemBackground">?attr/selectableItemBackground</item>
+        <item name="freshchatDropDownIcon">@drawable/freshchat_ic_drop_down_btn</item>
 
         <!-- ActionBar Menu Icons -->
         <item name="freshchatSearchIcon">@drawable/freshchat_ic_action_search_light</item>
@@ -105,6 +106,10 @@
         <item name="freshchatFAQVotingPromptTextStyle">@style/Widget.Freshchat.FAQVotingPromptText</item>
         <item name="freshchatFAQVotingPromptViewStyle">@style/Widget.Freshchat.FAQVotingPromptView</item>
 
+        <!--Drop Down Styles -->
+        <item name="freshchatDropDownHintTextStyle">@style/Widget.Freshchat.DropDownHintText</item>
+        <item name="freshchatDropDownItemTextStyle">@style/Widget.Freshchat.DropDownItemText</item>
+
         <!-- Misc Styles -->
         <item name="freshchatContactUsTextStyle">@style/Widget.Freshchat.ContactUs</item>
     </style>
@@ -121,6 +126,7 @@
         <item name="freshchatAttachIcon">@drawable/freshchat_ic_attach</item>
         <item name="freshchatRecordIcon">@drawable/freshchat_ic_record</item>
         <item name="freshchatActionSelectableItemBackground">?attr/selectableItemBackground</item>
+        <item name="freshchatDropDownIcon">@drawable/freshchat_ic_drop_down_btn</item>
 
         <!-- Menu Icons -->
         <item name="freshchatSearchIcon">@drawable/freshchat_ic_action_search_dark</item>
@@ -209,6 +215,10 @@
         <item name="freshchatFAQDownvoteButtonStyle">@style/Widget.Freshchat.FAQDownvoteButton</item>
         <item name="freshchatFAQVotingPromptTextStyle">@style/Widget.Freshchat.FAQVotingPromptText</item>
         <item name="freshchatFAQVotingPromptViewStyle">@style/Widget.Freshchat.FAQVotingPromptView</item>
+        
+        <!--Drop Down Styles -->
+        <item name="freshchatDropDownHintTextStyle">@style/Widget.Freshchat.DropDownHintText</item>
+        <item name="freshchatDropDownItemTextStyle">@style/Widget.Freshchat.DropDownItemText</item>
 
         <!-- Misc Styles -->
         <item name="freshchatContactUsTextStyle">@style/Widget.Freshchat.ContactUs</item>

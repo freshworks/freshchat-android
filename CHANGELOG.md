@@ -1,3 +1,8 @@
+##3.4.0(2020-04-30)
+
+### Enhancement
+* Support for dropdown options message
+
 ##3.3.0(2020-03-30)
 
 ### Enhancement

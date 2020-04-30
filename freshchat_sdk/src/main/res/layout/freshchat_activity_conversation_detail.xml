@@ -69,7 +69,6 @@
             android:id="@+id/freshchat_conv_detail_divider"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:elevation="@dimen/freshchat_message_composer_elevation"
             android:layout_above="@+id/freshchat_conv_detail_text_reply_layout"
             android:layout_alignWithParentIfMissing="true"
             android:background="@color/freshchat_message_list_reply_view_divider" />
@@ -103,10 +102,30 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
+            android:layout_above="@+id/freshchat_drop_down_input_frame"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
+            android:visibility="gone" />
+
+
+        <include
+            layout="@layout/freshchat_drop_down_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone" />
+
+        <include
+            layout="@layout/freshchat_drop_down_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
             android:visibility="gone" />
 
     </RelativeLayout>

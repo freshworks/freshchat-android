@@ -78,4 +78,11 @@
 
     <!--Quick replies-->
     <color name="freshchat_quick_reply_chip_bg">#1976D2</color>
+
+    <!--Drop Down-->
+    <color name="freshchat_drop_down_hint_text_color">#3A4B67</color>
+    <color name="freshchat_drop_down_border_color">#45A4EC</color>
+
+    <color name="freshchat_bottom_sheet_bg_color">#55606060</color>
+
 </resources>

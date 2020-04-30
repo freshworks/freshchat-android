@@ -511,6 +511,40 @@
         <item name="android:textDirection">firstStrong</item>
     </style>
 
+    <!--Drop Down Styles-->
+    <style name="Widget.Freshchat.DropDownHintText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:text">@string/freshchat_drop_down_hint_text</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:drawableEnd">?attr/freshchatDropDownIcon</item>
+        <item name="android:drawableRight">?attr/freshchatDropDownIcon</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:textColor">@color/freshchat_drop_down_hint_text_color</item>
+        <item name="android:textDirection">firstStrong</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="Widget.Freshchat.DropDownItemText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/freshchat_drop_down_item_height</item>
+        <item name="android:background">?attr/freshchatActionSelectableItemBackground</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:minLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingStart">18dp</item>
+        <item name="android:paddingEnd">15dp</item>
+        <item name="android:textColor">@color/freshchat_black</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textDirection">firstStrong</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
     <!-- Common -->
     <style name="Widget.Freshchat.ContactUs">
         <item name="android:textAppearance">@style/TextAppearance.Freshchat.Medium</item>

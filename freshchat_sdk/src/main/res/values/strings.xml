@@ -131,4 +131,7 @@
 
 	<!--Strings for Business hour offline response-->
 	<string name="freshchat_all_members_away_message">We are away now</string>
+
+	<!--Strings for Drop down messages-->
+	<string name="freshchat_drop_down_hint_text">Click here to select</string>
 </resources>
