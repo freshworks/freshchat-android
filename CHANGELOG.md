@@ -1,35 +1,40 @@
-##3.4.0(2020-04-30)
+## 3.5.0(2020-05-07)
+
+### Enhancement
+* Support for messages with Carousel options
+
+## 3.4.0(2020-04-30)
 
 ### Enhancement
 * Support for dropdown options message
 
-##3.3.0(2020-03-30)
+## 3.3.0(2020-03-30)
 
 ### Enhancement
 * Optimised SDK initialisation when app is in background
 
-##3.2.2(2020-03-04)
+## 3.2.2(2020-03-04)
 
 ### Bug Fix
 * Fixed display order of articles
 
-##3.2.1(2020-02-03)
+## 3.2.1(2020-02-03)
 
 ### Bug Fix
 * Fixed locale resetting issue on orientation change
 * Fixed a redirection issue in FAQs search
 
-##3.2.0(2020-01-30)
+## 3.2.0(2020-01-30)
 
 ### Enhancement
 * Introducing changes in MUV calculation to take care of cases where customer's SDK implementation is not optimised. This would bring down the unique visitors count.
 
-##3.1.0(2020-01-23)
+## 3.1.0(2020-01-23)
 
 ### Feature
 * Add user events from your app to Freshchat timeline to give your agents context on user's journey
 
-##3.0.0(2019-11-12)
+## 3.0.0(2019-11-12)
 
 ### Enhancement
 * Ability to search through FAQs filtered by tags
@@ -40,12 +45,12 @@
 * Upgraded target version to 28
 * Updated android gradle plugin to 3.2.1 and Gradle to 4.7
 
-##2.9.0 (2019-9-25)
+## 2.9.0 (2019-9-25)
 
 ### Enhancement
 * Support for showing proactive reply suggestions
 
-##2.8.0 (2019-9-18)
+## 2.8.0 (2019-9-18)
 
 ### Enhancement
 * Support for locale change at run time

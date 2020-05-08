@@ -31,6 +31,10 @@
         <item name="freshchatChatBubbleLeft">@drawable/freshchat_chat_bubble_left</item>
         <item name="freshchatChatBubbleRight">@drawable/freshchat_chat_bubble_right</item>
 
+        <!-- Images -->
+        <item name="freshchatCarouselCardPlaceholderImage">@drawable/freshchat_carousel_card_placeholder_image</item>
+        <item name="freshchatCarouselCardErrorImage">@drawable/freshchat_carousel_card_error_image</item>
+
         <!-- Misc Drawables -->
         <item name="freshchatVoiceVisualizer">@drawable/freshchat_voice_visualizer_drawable</item>
         <item name="freshchatVoiceMessageSeekbar">@drawable/freshchat_voice_message_seekbar</item>
@@ -110,6 +114,12 @@
         <item name="freshchatDropDownHintTextStyle">@style/Widget.Freshchat.DropDownHintText</item>
         <item name="freshchatDropDownItemTextStyle">@style/Widget.Freshchat.DropDownItemText</item>
 
+        <!-- Carousel Card -->
+        <item name="freshchatCarouselCardTitleTextStyle">@style/Widget.Freshchat.CarouselCardTitle</item>
+        <item name="freshchatCarouselCardDescTextStyle">@style/Widget.Freshchat.CarouselCardDescription</item>
+        <item name="freshchatCarouselCardButtonStyle">@style/Widget.Freshchat.CarouselCardButton</item>
+        <item name="freshchatCarouselCardSelectedTextStyle">@style/Widget.Freshchat.CarouselCardSelectedText</item>
+
         <!-- Misc Styles -->
         <item name="freshchatContactUsTextStyle">@style/Widget.Freshchat.ContactUs</item>
     </style>
@@ -140,6 +150,10 @@
         <!-- Chat Bubbles -->
         <item name="freshchatChatBubbleLeft">@drawable/freshchat_chat_bubble_left</item>
         <item name="freshchatChatBubbleRight">@drawable/freshchat_chat_bubble_right</item>
+
+        <!-- Images -->
+        <item name="freshchatCarouselCardPlaceholderImage">@drawable/freshchat_carousel_card_placeholder_image</item>
+        <item name="freshchatCarouselCardErrorImage">@drawable/freshchat_carousel_card_error_image</item>
 
         <!-- Misc Drawables -->
         <item name="freshchatVoiceVisualizer">@drawable/freshchat_voice_visualizer_drawable</item>
@@ -219,6 +233,12 @@
         <!--Drop Down Styles -->
         <item name="freshchatDropDownHintTextStyle">@style/Widget.Freshchat.DropDownHintText</item>
         <item name="freshchatDropDownItemTextStyle">@style/Widget.Freshchat.DropDownItemText</item>
+
+        <!-- Carousel Card -->
+        <item name="freshchatCarouselCardTitleTextStyle">@style/Widget.Freshchat.CarouselCardTitle</item>
+        <item name="freshchatCarouselCardDescTextStyle">@style/Widget.Freshchat.CarouselCardDescription</item>
+        <item name="freshchatCarouselCardButtonStyle">@style/Widget.Freshchat.CarouselCardButton</item>
+        <item name="freshchatCarouselCardSelectedTextStyle">@style/Widget.Freshchat.CarouselCardSelectedText</item>
 
         <!-- Misc Styles -->
         <item name="freshchatContactUsTextStyle">@style/Widget.Freshchat.ContactUs</item>

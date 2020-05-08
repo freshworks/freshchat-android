@@ -134,4 +134,12 @@
 
 	<!--Strings for Drop down messages-->
 	<string name="freshchat_drop_down_hint_text">Click here to select</string>
+
+	<!--Strings for Carousel -->
+	<string name="freshchat_carousel_default_preview_text">Choose an option</string>
+
+	<!--Strings for Carousel Card default-->
+	<string name="freshchat_carousel_card_default_callback_btn_text">Select</string>
+	<string name="freshchat_carousel_card_default_view_btn_text">View</string>
+	<string name="freshchat_carousel_card_selected_text">Selected</string>
 </resources>

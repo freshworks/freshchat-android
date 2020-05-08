@@ -57,4 +57,10 @@
     <!--Drop Down Messages-->
     <dimen name="freshchat_drop_down_item_height">48dp</dimen>
 
+    <!-- Carousel -->
+    <dimen name="freshchat_carousel_min_height">390dp</dimen>
+
+    <!-- Carousel card -->
+    <dimen name="freshchat_carousel_card_default_dimension">212dp</dimen>
+
 </resources>

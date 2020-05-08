@@ -559,4 +559,69 @@
         <item name="android:text">@string/freshchat_contact_us</item>
     </style>
 
+    <!-- Carousel Card - Start -->
+    <style name="Widget.Freshchat.CarouselCardHeroImage">
+        <item name="android:layout_width">@dimen/freshchat_carousel_card_default_dimension</item>
+        <item name="android:layout_height">@dimen/freshchat_carousel_card_default_dimension</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="Widget.Freshchat.CarouselCardTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textColor">@color/freshchat_carousel_card_title_text</item>
+        <item name="android:textDirection">firstStrong</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.Freshchat.CarouselCardDescription">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textColor">@color/freshchat_carousel_card_description_text</item>
+        <item name="android:textDirection">firstStrong</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Widget.Freshchat.CarouselCardButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">left|start|center_vertical</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textDirection">firstStrong</item>
+        <item name="android:textColor">@color/freshchat_carousel_card_btn_text</item>
+    </style>
+
+    <style name="Widget.Freshchat.CarouselCardSelectedText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textDirection">firstStrong</item>
+        <item name="android:textColor">@color/freshchat_carousel_card_selected_text</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <!-- Carousel Card - End -->
+
 </resources>

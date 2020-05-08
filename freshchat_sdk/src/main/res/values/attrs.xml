@@ -23,6 +23,10 @@
     <attr name="freshchatChatBubbleLeft" format="reference" />
     <attr name="freshchatChatBubbleRight" format="reference" />
 
+    <!-- Images -->
+    <attr name="freshchatCarouselCardPlaceholderImage" format="reference" />
+    <attr name="freshchatCarouselCardErrorImage" format="reference" />
+
     <!-- Misc -->
     <attr name="freshchatAlertDialog" format="reference" />
     <attr name="freshchatProgressBarStyle" format="reference" />
@@ -136,5 +140,11 @@
 
     <!--Drop Down List -->
     <attr name="freshchatDropDownItemTextStyle" format="reference" />
+
+    <!-- Carousel Card -->
+    <attr name="freshchatCarouselCardTitleTextStyle" format="reference" />
+    <attr name="freshchatCarouselCardDescTextStyle" format="reference" />
+    <attr name="freshchatCarouselCardButtonStyle" format="reference" />
+    <attr name="freshchatCarouselCardSelectedTextStyle" format="reference" />
 
 </resources>
