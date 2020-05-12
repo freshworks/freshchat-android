@@ -1,3 +1,8 @@
+## 3.5.1(2020-05-12)
+
+### Bug Fix
+* Fix to display agent message in Carousel message
+
 ## 3.5.0(2020-05-07)
 
 ### Enhancement
