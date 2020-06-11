@@ -14,20 +14,18 @@
 
     <!-- Message Styling & Customizations -->
 
+    <!-- This style is applied to a RecyclerView from version 3.6.0 -->
     <style name="Widget.Freshchat.MessageList">
         <item name="android:background">@drawable/freshchat_message_list_bg</item>
-        <item name="android:divider">@color/freshchat_message_list_divider</item>
-        <item name="android:dividerHeight">@dimen/freshchat_message_lisitem_divider_height</item>
-        <item name="android:stackFromBottom">true</item>
+        <item name="stackFromEnd">true</item>
         <item name="android:clipToPadding">false</item>
-        <item name="android:transcriptMode">alwaysScroll</item>
         <item name="android:paddingLeft">4dp</item>
         <item name="android:paddingStart">4dp</item>
         <item name="android:paddingRight">4dp</item>
         <item name="android:paddingEnd">4dp</item>
         <item name="android:paddingTop">8dp</item>
         <item name="android:paddingBottom">8dp</item>
-        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:scrollbars">vertical</item>
         <item name="android:scrollbarStyle">outsideInset</item>
     </style>
 
@@ -138,8 +136,8 @@
         <item name="android:textSize">16sp</item>
     </style>
 
-    <style name="Widget.Freshchat.UnsupportedTeamMemberMessageText" parent="Widget.Freshchat.UnsupportedMessageText"/>
-    <style name="Widget.Freshchat.UnsupportedUserMessageText" parent="Widget.Freshchat.UnsupportedMessageText"/>
+    <style name="Widget.Freshchat.UnsupportedTeamMemberMessageText" parent="Widget.Freshchat.UnsupportedMessageText" />
+    <style name="Widget.Freshchat.UnsupportedUserMessageText" parent="Widget.Freshchat.UnsupportedMessageText" />
 
     <style name="Widget.Freshchat.UnsupportedMessageIcon">
         <item name="android:layout_width">16dp</item>
@@ -448,8 +446,8 @@
         <item name="android:textSize">@dimen/freshchat_list_empty_text_size</item>
     </style>
 
-    <style name="Widget.Freshchat.ChannelListEmptyText" parent="Widget.Freshchat.ListEmptyText"/>
-    <style name="Widget.Freshchat.FAQListEmptyText" parent="Widget.Freshchat.ListEmptyText"/>
+    <style name="Widget.Freshchat.ChannelListEmptyText" parent="Widget.Freshchat.ListEmptyText" />
+    <style name="Widget.Freshchat.FAQListEmptyText" parent="Widget.Freshchat.ListEmptyText" />
 
     <!-- FAQ List Styling & Customizations -->
 
@@ -546,20 +544,6 @@
         <item name="android:textAlignment">viewStart</item>
     </style>
 
-    <!-- Common -->
-    <style name="Widget.Freshchat.ContactUs">
-        <item name="android:textAppearance">@style/TextAppearance.Freshchat.Medium</item>
-        <item name="android:textSize">18sp</item>
-        <item name="android:textColor">@color/freshchat_white</item>
-        <item name="android:textDirection">firstStrong</item>
-        <item name="android:background">@drawable/freshchat_contact_us_btn_bg</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:gravity">center</item>
-        <item name="android:padding">10dp</item>
-        <item name="android:text">@string/freshchat_contact_us</item>
-    </style>
-
     <!-- Carousel Card - Start -->
     <style name="Widget.Freshchat.CarouselCardHeroImage">
         <item name="android:layout_width">@dimen/freshchat_carousel_card_default_dimension</item>
@@ -624,5 +608,360 @@
         <item name="android:textSize">12sp</item>
     </style>
     <!-- Carousel Card - End -->
+
+
+    <!-- Calendar styles - Start -->
+    <style name="Widget.Freshchat.CalendarSolidButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">100dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/freshchat_calendar_solid_button_text_color</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:backgroundTint">@color/freshchat_calendar_find_slot_bg</item>
+        <item name="android:textDirection">firstStrong</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarBorderlessButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/freshchat_calendar_minor_text_color</item>
+        <item name="android:textDirection">firstStrong</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarFindASlot" parent="Widget.Freshchat.CalendarSolidButton">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/freshchat_calendar_find_slot_text</item>
+        <item name="android:minWidth">200dp</item>
+        <item name="android:text">@string/freshchat_calendar_find_slot</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarNotInterested" parent="Widget.Freshchat.CalendarBorderlessButton">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/freshchat_calendar_not_interested_text</item>
+        <item name="android:text">@string/freshchat_calendar_not_interested</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarTitleIcon">
+        <item name="android:layout_width">54dp</item>
+        <item name="android:layout_height">58dp</item>
+        <item name="android:padding">@dimen/freshchat_calendar_title_bar_icon_padding</item>
+        <item name="srcCompat">?attr/freshchatCalendarIcon</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarCancelInviteIcon">
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">46dp</item>
+        <item name="android:padding">@dimen/freshchat_calendar_title_bar_icon_padding</item>
+        <item name="srcCompat">?attr/freshchatCalendarCancelIcon</item>
+        <item name="android:background">?attr/freshchatActionSelectableItemBackground</item>
+
+    </style>
+
+    <style name="Widget.Freshchat.CalendarTitleText">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">@string/freshchat_calendar_title</item>
+        <item name="android:textColor">@color/freshchat_calendar_title</item>
+        <item name="android:textSize">@dimen/freshchat_calendar_title_text_size</item>
+        <item name="android:textDirection">firstStrong</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarDurationText">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/freshchat_calendar_duration</item>
+        <item name="android:textSize">@dimen/freshchat_calendar_duration_text_size</item>
+        <item name="android:textDirection">firstStrong</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarEmailRequestDesc">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/freshchat_calendar_email_request_desc</item>
+        <item name="android:text">@string/freshchat_calendar_email_request_desc</item>
+        <item name="android:textDirection">firstStrong</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarEnterEmail">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColorHint">@color/freshchat_calendar_email_hint</item>
+        <item name="android:hint">@string/freshchat_calendar_email_hint</item>
+        <item name="android:textColor">@color/freshchat_calendar_email_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textDirection">firstStrong</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarEmailNext" parent="Widget.Freshchat.CalendarSolidButton">
+        <item name="android:backgroundTint">@color/freshchat_calendar_email_next_button_bg</item>
+        <item name="android:text">@string/freshchat_calendar_next</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textColor">@color/freshchat_calendar_email_next_button_text</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarTimeSlotsRecyclerView">
+        <item name="android:clipToPadding">false</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:scrollbarStyle">outsideInset</item>
+    </style>
+
+
+    <style name="Widget.Freshchat.CalendarOutlineButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">120dp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/freshchat_calendar_button_outline_text</item>
+        <item name="android:background">@drawable/freshchat_calendar_email_secondary_button_bg
+        </item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:foreground">?attr/freshchatActionSelectableItemBackground</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarDayHeader">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/freshchat_calendar_day_header_bg</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingStart">@dimen/freshchat_calendar_timeslot_list_padding</item>
+        <item name="android:paddingLeft">@dimen/freshchat_calendar_timeslot_list_padding</item>
+        <item name="android:paddingRight">@dimen/freshchat_calendar_timeslot_list_padding</item>
+        <item name="android:paddingEnd">@dimen/freshchat_calendar_timeslot_list_padding</item>
+        <item name="android:textSize">@dimen/freshchat_calendar_day_header_text_size</item>
+        <item name="android:textColor">@color/freshchat_calendar_day_header_text</item>
+        <!--locale is used here to handle text alignment issue in sticky header-->
+        <item name="android:textDirection">locale</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarPartOfDayHeader">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/freshchat_calendar_part_of_day_header_text_size</item>
+        <item name="android:textColor">@color/freshchat_calendar_part_of_day_header</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textDirection">firstStrong</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarTimeSlotView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:background">@drawable/freshchat_calendar_timeslot_item_selector</item>
+        <item name="android:textSize">@dimen/freshchat_calendar_timeslot_text_size</item>
+        <item name="android:textColor">@color/freshchat_calendar_timeslot_item_text_selector</item>
+        <item name="android:textDirection">firstStrong</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarStateText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textSize">@dimen/freshchat_calendar_state_text_size</item>
+        <item name="android:textColor">@color/freshchat_calendar_state_text</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textDirection">firstStrong</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarNoTimeSlotsFound" parent="Widget.Freshchat.CalendarStateText">
+        <item name="android:text">@string/freshchat_calendar_no_timeslots_found</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarSomethingWentWrong" parent="Widget.Freshchat.CalendarStateText">
+        <item name="android:drawableTop">@drawable/freshchat_ic_calendar_error</item>
+        <item name="android:drawablePadding">24dp</item>
+        <item name="android:text">@string/freshchat_calendar_error_encountered</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarConfirmationText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/freshchat_calendar_confirm_timeslot_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textDirection">firstStrong</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarConfirmationDesc" parent="Widget.Freshchat.CalendarConfirmationText">
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:text">@string/freshchat_calendar_meeting_with_our_team</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarConfirmationMeetingDate" parent="Widget.Freshchat.CalendarConfirmationText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarConfirmationTimeSlot" parent="Widget.Freshchat.CalendarConfirmationText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarAvatarView">
+        <item name="civ_border_width">2dp</item>
+        <item name="civ_border_color">#FAFAFA</item>
+        <item name="android:layout_height">@dimen/freshchat_calendar_confirmation_avatar_size</item>
+        <item name="android:layout_width">@dimen/freshchat_calendar_confirmation_avatar_size</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarConfirmationAgentAvatarView" parent="Widget.Freshchat.CalendarAvatarView">
+        <item name="android:src">@drawable/freshchat_ic_calendar_agent_avatar</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarConfirmationUserAvatarView" parent="Widget.Freshchat.CalendarAvatarView">
+        <item name="android:src">@drawable/freshchat_ic_calendar_customer_avatar</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarEventCardAvatarView" parent="Widget.Freshchat.CalendarAvatarView">
+        <item name="android:layout_height">@dimen/freshchat_calendar_event_card_avatar_size</item>
+        <item name="android:layout_width">@dimen/freshchat_calendar_event_card_avatar_size</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarEventCardUserAvatarView" parent="Widget.Freshchat.CalendarEventCardAvatarView">
+        <item name="android:src">@drawable/freshchat_ic_calendar_customer_avatar</item>
+    </style>
+
+
+    <style name="Widget.Freshchat.CalendarEventCardAgentAvatarView" parent="Widget.Freshchat.CalendarEventCardAvatarView">
+        <item name="android:src">@drawable/freshchat_ic_calendar_agent_avatar</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarTimeslotConfirm" parent="Widget.Freshchat.CalendarSolidButton">
+        <item name="android:minWidth">130dp</item>
+        <item name="android:textColor">@color/freshchat_calendar_confirm_slot</item>
+        <item name="android:text">@string/freshchat_calendar_confirm</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarChangeSlot" parent="Widget.Freshchat.CalendarBorderlessButton">
+        <item name="android:text">@string/freshchat_calendar_change_slot</item>
+        <item name="android:textColor">@color/freshchat_calendar_change_slot</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarEventCardText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/freshchat_calendar_event_card_text</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textDirection">firstStrong</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarEventCardConfirmationStatus" parent="Widget.Freshchat.CalendarEventCardText">
+        <item name="android:drawablePadding">6dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarEventCardMeetingDuration" parent="Widget.Freshchat.CalendarEventCardText">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarEventCardMeetingDesc" parent="Widget.Freshchat.CalendarEventCardText">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarEventCardMeetingTimeSlot" parent="Widget.Freshchat.CalendarEventCardText">
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarEventCardMeetingDate" parent="Widget.Freshchat.CalendarEventCardText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarMeetingBannerContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/freshchat_calendar_meeting_banner_color</item>
+        <item name="android:foreground">?attr/freshchatActionSelectableItemBackground</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:elevation">@dimen/freshchat_calendar_banner_elevation</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarMeetingBannerIndicator">
+        <item name="android:layout_width">14dp</item>
+        <item name="android:layout_height">14dp</item>
+        <item name="android:tint">@color/freshchat_white</item>
+        <item name="srcCompat">?attr/freshchatCalendarBannerMeetingIcon</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarMeetingBannerDateText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/freshchat_white</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textDirection">firstStrong</item>
+    </style>
+
+    <style name="Widget.Freshchat.CalendarMeetingBannerButtonText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/freshchat_white</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textDirection">firstStrong</item>
+    </style>
+
+    <!-- Calendar styles - End -->
+
+    <!-- Common -->
+    <style name="Widget.Freshchat.ContactUs">
+        <item name="android:textAppearance">@style/TextAppearance.Freshchat.Medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/freshchat_white</item>
+        <item name="android:textDirection">firstStrong</item>
+        <item name="android:background">@drawable/freshchat_contact_us_btn_bg</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:text">@string/freshchat_contact_us</item>
+
+    </style>
+
+
 
 </resources>

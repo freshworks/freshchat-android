@@ -9,6 +9,13 @@
     <attr name="freshchatAttachIcon" format="reference" />
     <attr name="freshchatRecordIcon" format="reference" />
     <attr name="freshchatDropDownIcon" format="reference" />
+    <attr name="freshchatCalendarIcon" format="reference" />
+    <attr name="freshchatCalendarCancelIcon" format="reference" />
+    <attr name="freshchatCalendarCancelInviteIcon" format="reference" />
+    <attr name="freshchatCalendarEventScheduledIcon" format="reference" />
+    <attr name="freshchatCalendarEventFailedIcon" format="reference" />
+    <attr name="freshchatCalendarEventPendingIcon" format="reference" />
+    <attr name="freshchatCalendarBannerMeetingIcon" format="reference" />
 
     <!-- Menu Icons -->
     <attr name="freshchatSearchIcon" format="reference" />
@@ -146,5 +153,43 @@
     <attr name="freshchatCarouselCardDescTextStyle" format="reference" />
     <attr name="freshchatCarouselCardButtonStyle" format="reference" />
     <attr name="freshchatCarouselCardSelectedTextStyle" format="reference" />
+
+    <!-- Calendar -->
+    <attr name="freshchatCalendarFindASlotButtonStyle" format="reference" />
+    <attr name="freshchatCalendarNotInterestedButtonStyle" format="reference" />
+
+    <attr name="freshchatCalendarPopupTitleTextStyle" format="reference" />
+    <attr name="freshchatCalendarPopupDurationTextStyle" format="reference" />
+
+    <attr name="freshchatCalendarEmailRequestDescTextStyle" format="reference" />
+    <attr name="freshchatCalendarEnterEmailEditTextStyle" format="reference" />
+    <attr name="freshchatCalendarEmailNextButtonStyle" format="reference" />
+
+    <attr name="freshchatCalendarTimeSlotsListStyle" format="reference" />
+    <attr name="freshchatCalendarDayHeaderTextStyle" format="reference" />
+    <attr name="freshchatCalendarPartOfTheDayHeaderTextStyle" format="reference" />
+    <attr name="freshchatCalendarTimeSlotItemTextStyle" format="reference" />
+    <attr name="freshchatCalendarOutlineButtonStyle" format="reference" />
+    <attr name="freshchatCalendarSomethingWentWrongTextStyle" format="reference" />
+    <attr name="freshchatCalendarNoTimeSlotsFoundTextStyle" format="reference" />
+
+    <attr name="freshchatCalendarConfirmationAgentAvatarStyle" format="reference" />
+    <attr name="freshchatCalendarConfirmationUserAvatarStyle" format="reference" />
+    <attr name="freshchatCalendarConfirmationMeetingDescTextStyle" format="reference" />
+    <attr name="freshchatCalendarConfirmationMeetingTimeSlotTextStyle" format="reference" />
+    <attr name="freshchatCalendarConfirmationMeetingDateTextStyle" format="reference" />
+    <attr name="freshchatCalendarTimeSlotConfirmButtonStyle" format="reference" />
+    <attr name="freshchatCalendarChangeSlotButtonStyle" format="reference" />
+
+    <attr name="freshchatCalendarEventCardConfirmationStatusTextStyle" format="reference" />
+    <attr name="freshchatCalendarEventCardMeetingDurationTextStyle" format="reference" />
+    <attr name="freshchatCalendarEventCardAgentAvatarStyle" format="reference" />
+    <attr name="freshchatCalendarEventCardUserAvatarStyle" format="reference" />
+    <attr name="freshchatCalendarEventCardMeetingDescTextStyle" format="reference" />
+    <attr name="freshchatCalendarEventCardMeetingTimeSlotTextStyle" format="reference" />
+    <attr name="freshchatCalendarEventCardMeetingDateTextStyle" format="reference" />
+
+    <attr name="freshchatCalendarBannerMeetingDateTextStyle" format="reference" />
+    <attr name="freshchatCalendarBannerMeetingViewTextStyle" format="reference" />
 
 </resources>

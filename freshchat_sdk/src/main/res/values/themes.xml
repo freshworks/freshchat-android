@@ -17,6 +17,14 @@
         <item name="freshchatRecordIcon">@drawable/freshchat_ic_record</item>
         <item name="freshchatActionSelectableItemBackground">?attr/selectableItemBackground</item>
         <item name="freshchatDropDownIcon">@drawable/freshchat_ic_drop_down_btn</item>
+        <item name="freshchatCalendarIcon">@drawable/freshchat_ic_calendar</item>
+        <item name="freshchatCalendarCancelIcon">@drawable/freshchat_ic_calendar_close</item>
+        <item name="freshchatCalendarCancelInviteIcon">@drawable/freshchat_ic_calendar_cancel_invite</item>
+        <item name="freshchatCalendarEventScheduledIcon">@drawable/freshchat_ic_calendar_scheduled</item>
+        <item name="freshchatCalendarEventFailedIcon">@drawable/freshchat_ic_calendar_cancel_invite</item>
+        <item name="freshchatCalendarEventPendingIcon">@drawable/freshchat_ic_calendar_awaiting_confirmation</item>
+        <item name="freshchatCalendarBannerMeetingIcon">@drawable/freshchat_ic_calendar_scheduled</item>
+
 
         <!-- ActionBar Menu Icons -->
         <item name="freshchatSearchIcon">@drawable/freshchat_ic_action_search_light</item>
@@ -120,6 +128,44 @@
         <item name="freshchatCarouselCardButtonStyle">@style/Widget.Freshchat.CarouselCardButton</item>
         <item name="freshchatCarouselCardSelectedTextStyle">@style/Widget.Freshchat.CarouselCardSelectedText</item>
 
+        <!-- Calendar -->
+        <item name="freshchatCalendarFindASlotButtonStyle">@style/Widget.Freshchat.CalendarFindASlot</item>
+        <item name="freshchatCalendarNotInterestedButtonStyle">@style/Widget.Freshchat.CalendarNotInterested</item>
+
+        <item name="freshchatCalendarPopupTitleTextStyle">@style/Widget.Freshchat.CalendarTitleText</item>
+        <item name="freshchatCalendarPopupDurationTextStyle">@style/Widget.Freshchat.CalendarDurationText</item>
+
+        <item name="freshchatCalendarEmailRequestDescTextStyle">@style/Widget.Freshchat.CalendarEmailRequestDesc</item>
+        <item name="freshchatCalendarEnterEmailEditTextStyle">@style/Widget.Freshchat.CalendarEnterEmail</item>
+        <item name="freshchatCalendarEmailNextButtonStyle">@style/Widget.Freshchat.CalendarEmailNext</item>
+
+        <item name="freshchatCalendarTimeSlotsListStyle">@style/Widget.Freshchat.CalendarTimeSlotsRecyclerView</item>
+        <item name="freshchatCalendarDayHeaderTextStyle">@style/Widget.Freshchat.CalendarDayHeader</item>
+        <item name="freshchatCalendarPartOfTheDayHeaderTextStyle">@style/Widget.Freshchat.CalendarPartOfDayHeader</item>
+        <item name="freshchatCalendarTimeSlotItemTextStyle">@style/Widget.Freshchat.CalendarTimeSlotView</item>
+        <item name="freshchatCalendarOutlineButtonStyle">@style/Widget.Freshchat.CalendarOutlineButton</item>
+        <item name="freshchatCalendarSomethingWentWrongTextStyle">@style/Widget.Freshchat.CalendarSomethingWentWrong</item>
+        <item name="freshchatCalendarNoTimeSlotsFoundTextStyle">@style/Widget.Freshchat.CalendarNoTimeSlotsFound</item>
+
+        <item name="freshchatCalendarConfirmationAgentAvatarStyle">@style/Widget.Freshchat.CalendarConfirmationAgentAvatarView</item>
+        <item name="freshchatCalendarConfirmationUserAvatarStyle">@style/Widget.Freshchat.CalendarConfirmationUserAvatarView</item>
+        <item name="freshchatCalendarConfirmationMeetingDescTextStyle">@style/Widget.Freshchat.CalendarConfirmationDesc</item>
+        <item name="freshchatCalendarConfirmationMeetingTimeSlotTextStyle">@style/Widget.Freshchat.CalendarConfirmationTimeSlot</item>
+        <item name="freshchatCalendarConfirmationMeetingDateTextStyle">@style/Widget.Freshchat.CalendarConfirmationMeetingDate</item>
+        <item name="freshchatCalendarTimeSlotConfirmButtonStyle">@style/Widget.Freshchat.CalendarTimeslotConfirm</item>
+        <item name="freshchatCalendarChangeSlotButtonStyle">@style/Widget.Freshchat.CalendarChangeSlot</item>
+
+        <item name="freshchatCalendarEventCardConfirmationStatusTextStyle">@style/Widget.Freshchat.CalendarEventCardConfirmationStatus</item>
+        <item name="freshchatCalendarEventCardMeetingDurationTextStyle">@style/Widget.Freshchat.CalendarEventCardMeetingDuration</item>
+        <item name="freshchatCalendarEventCardAgentAvatarStyle">@style/Widget.Freshchat.CalendarEventCardAgentAvatarView</item>
+        <item name="freshchatCalendarEventCardUserAvatarStyle">@style/Widget.Freshchat.CalendarEventCardUserAvatarView</item>
+        <item name="freshchatCalendarEventCardMeetingDescTextStyle">@style/Widget.Freshchat.CalendarEventCardMeetingDesc</item>
+        <item name="freshchatCalendarEventCardMeetingTimeSlotTextStyle">@style/Widget.Freshchat.CalendarEventCardMeetingTimeSlot</item>
+        <item name="freshchatCalendarEventCardMeetingDateTextStyle">@style/Widget.Freshchat.CalendarEventCardMeetingDate</item>
+
+        <item name="freshchatCalendarBannerMeetingDateTextStyle">@style/Widget.Freshchat.CalendarMeetingBannerDateText</item>
+        <item name="freshchatCalendarBannerMeetingViewTextStyle">@style/Widget.Freshchat.CalendarMeetingBannerButtonText</item>
+
         <!-- Misc Styles -->
         <item name="freshchatContactUsTextStyle">@style/Widget.Freshchat.ContactUs</item>
     </style>
@@ -137,6 +183,13 @@
         <item name="freshchatRecordIcon">@drawable/freshchat_ic_record</item>
         <item name="freshchatActionSelectableItemBackground">?attr/selectableItemBackground</item>
         <item name="freshchatDropDownIcon">@drawable/freshchat_ic_drop_down_btn</item>
+        <item name="freshchatCalendarIcon">@drawable/freshchat_ic_calendar</item>
+        <item name="freshchatCalendarCancelIcon">@drawable/freshchat_ic_calendar_close</item>
+        <item name="freshchatCalendarCancelInviteIcon">@drawable/freshchat_ic_calendar_cancel_invite</item>
+        <item name="freshchatCalendarEventScheduledIcon">@drawable/freshchat_ic_calendar_scheduled</item>
+        <item name="freshchatCalendarEventFailedIcon">@drawable/freshchat_ic_calendar_cancel_invite</item>
+        <item name="freshchatCalendarEventPendingIcon">@drawable/freshchat_ic_calendar_awaiting_confirmation</item>
+        <item name="freshchatCalendarBannerMeetingIcon">@drawable/freshchat_ic_calendar_scheduled</item>
 
         <!-- Menu Icons -->
         <item name="freshchatSearchIcon">@drawable/freshchat_ic_action_search_dark</item>
@@ -239,6 +292,44 @@
         <item name="freshchatCarouselCardDescTextStyle">@style/Widget.Freshchat.CarouselCardDescription</item>
         <item name="freshchatCarouselCardButtonStyle">@style/Widget.Freshchat.CarouselCardButton</item>
         <item name="freshchatCarouselCardSelectedTextStyle">@style/Widget.Freshchat.CarouselCardSelectedText</item>
+
+        <!-- Calendar -->
+        <item name="freshchatCalendarFindASlotButtonStyle">@style/Widget.Freshchat.CalendarFindASlot</item>
+        <item name="freshchatCalendarNotInterestedButtonStyle">@style/Widget.Freshchat.CalendarNotInterested</item>
+
+        <item name="freshchatCalendarPopupTitleTextStyle">@style/Widget.Freshchat.CalendarTitleText</item>
+        <item name="freshchatCalendarPopupDurationTextStyle">@style/Widget.Freshchat.CalendarDurationText</item>
+
+        <item name="freshchatCalendarEmailRequestDescTextStyle">@style/Widget.Freshchat.CalendarEmailRequestDesc</item>
+        <item name="freshchatCalendarEnterEmailEditTextStyle">@style/Widget.Freshchat.CalendarEnterEmail</item>
+        <item name="freshchatCalendarEmailNextButtonStyle">@style/Widget.Freshchat.CalendarEmailNext</item>
+
+        <item name="freshchatCalendarTimeSlotsListStyle">@style/Widget.Freshchat.CalendarTimeSlotsRecyclerView</item>
+        <item name="freshchatCalendarDayHeaderTextStyle">@style/Widget.Freshchat.CalendarDayHeader</item>
+        <item name="freshchatCalendarPartOfTheDayHeaderTextStyle">@style/Widget.Freshchat.CalendarPartOfDayHeader</item>
+        <item name="freshchatCalendarTimeSlotItemTextStyle">@style/Widget.Freshchat.CalendarTimeSlotView</item>
+        <item name="freshchatCalendarOutlineButtonStyle">@style/Widget.Freshchat.CalendarOutlineButton</item>
+        <item name="freshchatCalendarSomethingWentWrongTextStyle">@style/Widget.Freshchat.CalendarSomethingWentWrong</item>
+        <item name="freshchatCalendarNoTimeSlotsFoundTextStyle">@style/Widget.Freshchat.CalendarNoTimeSlotsFound</item>
+
+        <item name="freshchatCalendarConfirmationAgentAvatarStyle">@style/Widget.Freshchat.CalendarConfirmationAgentAvatarView</item>
+        <item name="freshchatCalendarConfirmationUserAvatarStyle">@style/Widget.Freshchat.CalendarConfirmationUserAvatarView</item>
+        <item name="freshchatCalendarConfirmationMeetingDescTextStyle">@style/Widget.Freshchat.CalendarConfirmationDesc</item>
+        <item name="freshchatCalendarConfirmationMeetingTimeSlotTextStyle">@style/Widget.Freshchat.CalendarConfirmationTimeSlot</item>
+        <item name="freshchatCalendarConfirmationMeetingDateTextStyle">@style/Widget.Freshchat.CalendarConfirmationMeetingDate</item>
+        <item name="freshchatCalendarTimeSlotConfirmButtonStyle">@style/Widget.Freshchat.CalendarTimeslotConfirm</item>
+        <item name="freshchatCalendarChangeSlotButtonStyle">@style/Widget.Freshchat.CalendarChangeSlot</item>
+
+        <item name="freshchatCalendarEventCardConfirmationStatusTextStyle">@style/Widget.Freshchat.CalendarEventCardConfirmationStatus</item>
+        <item name="freshchatCalendarEventCardMeetingDurationTextStyle">@style/Widget.Freshchat.CalendarEventCardMeetingDuration</item>
+        <item name="freshchatCalendarEventCardAgentAvatarStyle">@style/Widget.Freshchat.CalendarEventCardAgentAvatarView</item>
+        <item name="freshchatCalendarEventCardUserAvatarStyle">@style/Widget.Freshchat.CalendarEventCardUserAvatarView</item>
+        <item name="freshchatCalendarEventCardMeetingDescTextStyle">@style/Widget.Freshchat.CalendarEventCardMeetingDesc</item>
+        <item name="freshchatCalendarEventCardMeetingTimeSlotTextStyle">@style/Widget.Freshchat.CalendarEventCardMeetingTimeSlot</item>
+        <item name="freshchatCalendarEventCardMeetingDateTextStyle">@style/Widget.Freshchat.CalendarEventCardMeetingDate</item>
+
+        <item name="freshchatCalendarBannerMeetingDateTextStyle">@style/Widget.Freshchat.CalendarMeetingBannerDateText</item>
+        <item name="freshchatCalendarBannerMeetingViewTextStyle">@style/Widget.Freshchat.CalendarMeetingBannerButtonText</item>
 
         <!-- Misc Styles -->
         <item name="freshchatContactUsTextStyle">@style/Widget.Freshchat.ContactUs</item>

@@ -33,10 +33,18 @@
             android:id="@+id/freshchat_message_container"
             android:layout_below="@+id/freshchat_conversation_banner_message_text">
 
-            <ListView
+            <include
+                android:id="@+id/freshchat_conversation_meeting_banner"
+                layout="@layout/freshchat_calendar_meeting_banner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <android.support.v7.widget.RecyclerView
                 android:id="@+id/freshchat_conv_detail_list"
                 style="?attr/freshchatMessageListStyle"
                 android:layout_width="match_parent"
+                app:layoutManager="android.support.v7.widget.LinearLayoutManager"
                 android:layout_height="0dp"
                 android:layout_weight="1" />
 

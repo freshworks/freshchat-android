@@ -6,5 +6,7 @@
     <integer name="freshchat_custsat_question_max_lines">4</integer>
     <integer name="freshchat_drop_down_max_display_items_portrait">5</integer>
     <integer name="freshchat_drop_down_max_display_items_landscape">3</integer>
+    <integer name="freshchat_calendar_timeslot_items_portrait">2</integer>
+    <integer name="freshchat_calendar_timeslot_items_landscape">4</integer>
 
 </resources>

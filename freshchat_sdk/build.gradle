@@ -27,8 +27,8 @@ android {
 
     defaultConfig {
         minSdkVersion 16
-        versionCode 350
-        versionName "3.5.0"
+        versionCode 360
+        versionName "3.6.0"
         targetSdkVersion 28
         consumerProguardFiles 'consumer-proguard-rules.pro'
         buildConfigField "long", 'BUILT_AT', System.currentTimeMillis() + 'L'
@@ -47,6 +47,7 @@ ext {
     gsonVersion             = '2.8.0'
     picassoVersion          = '2.5.2'
     supportLibraryVersion   = '28.0.0'
+    circleImageViewVersion  = '3.1.0'
 }
 
 dependencies {
@@ -55,5 +56,7 @@ dependencies {
     implementation "com.squareup.picasso:picasso:$picassoVersion"
     implementation "com.android.support:appcompat-v7:$supportLibraryVersion"
     implementation "com.android.support:recyclerview-v7:$supportLibraryVersion"
+    implementation "com.android.support:design:$supportLibraryVersion"
     implementation "com.android.support:cardview-v7:$supportLibraryVersion"
+    implementation "de.hdodenhof:circleimageview:$circleImageViewVersion"
 }

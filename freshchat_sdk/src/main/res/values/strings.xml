@@ -4,7 +4,9 @@
 
 	<string name="freshchat_default_agent_name">Support</string>
 
-	<string name="freshchat_chat_deeplink">View</string>
+	<string name="freshchat_view_text">View</string>
+
+	<string name="freshchat_chat_deeplink">@string/freshchat_view_text</string>
 	<string name="freshchat_chat_deeplink_faq">View FAQ</string>
 	<string name="freshchat_chat_message_composer_hint">Type a message</string>
 	<string name="freshchat_chat_capture_from_camera">Take a picture</string>
@@ -128,6 +130,8 @@
 	<string name="freshchat_chat_message_time_this_year_short">"MMM dd"</string>
 	<string name="freshchat_chat_message_time_this_year_long">"MMM dd',' hh:mm a"</string>
 	<string name="freshchat_chat_message_time_other_year">"MMM yyyy"</string>
+	<string name="freshchat_chat_calendar_date_format">"EEEE',' dd MMM yyyy"</string>
+	<string name="freshchat_chat_calendar_timeslot_format">"hh:mm a"</string>
 
 	<!--Strings for Business hour offline response-->
 	<string name="freshchat_all_members_away_message">We are away now</string>
@@ -140,6 +144,40 @@
 
 	<!--Strings for Carousel Card default-->
 	<string name="freshchat_carousel_card_default_callback_btn_text">Select</string>
-	<string name="freshchat_carousel_card_default_view_btn_text">View</string>
+	<string name="freshchat_carousel_card_default_view_btn_text">@string/freshchat_view_text</string>
 	<string name="freshchat_carousel_card_selected_text">Selected</string>
+
+	<!-- Strings used for Calendar integration -->
+	<string name="freshchat_calendar_find_slot">Find a slot</string>
+	<string name="freshchat_calendar_not_interested">Not interested</string>
+	<string name="freshchat_calendar_cancel_invite_message">Cancelled the invite</string>
+	<string name="freshchat_calendar_title">Schedule a meeting</string>
+	<string name="freshchat_calendar_duration">{{duration}} mins</string>
+	<string name="freshchat_calendar_duration_place_holder">{{duration}}</string>
+	<string name="freshchat_calendar_email_request_desc">Kindly provide us your email address to schedule a meeting with our team</string>
+	<string name="freshchat_calendar_email_hint">Enter your email address</string>
+	<string name="freshchat_calendar_next">Next</string>
+	<string name="freshchat_calendar_cancel_booking_prompt_message">Are you sure you want to cancel this booking?</string>
+	<string name="freshchat_calendar_cancel_booking_prompt_continue">Continue</string>
+	<string name="freshchat_calendar_cancel_booking_prompt_cancel">Cancel Booking</string>
+	<string name="freshchat_calendar_show_more_time_slots">Show more</string>
+	<string name="freshchat_calendar_no_timeslots_found">No slots available</string>
+	<string name="freshchat_calendar_error_encountered">An error was encountered</string>
+	<string name="freshchat_calendar_timeslots_retry">Retry</string>
+	<string name="freshchat_calendar_cancel_invite">Cancel</string>
+	<string name="freshchat_calendar_today">Today</string>
+	<string name="freshchat_calendar_tomorrow">Tomorrow</string>
+	<string name="freshchat_calendar_part_of_day_morning">Morning</string>
+	<string name="freshchat_calendar_part_of_day_afternoon">Afternoon</string>
+	<string name="freshchat_calendar_part_of_day_evening">Evening</string>
+	<string name="freshchat_calendar_part_of_day_night">Night</string>
+	<string name="freshchat_calendar_confirm">Confirm</string>
+	<string name="freshchat_calendar_change_slot">Change Slot</string>
+	<string name="freshchat_calendar_meeting_with_our_team">Meeting with our team</string>
+	<string name="freshchat_calendar_meeting_state_scheduled">Scheduled</string>
+	<string name="freshchat_calendar_meeting_state_failed">Failed</string>
+	<string name="freshchat_calendar_meeting_state_pending">Awaiting Confirmation</string>
+	<string name="freshchat_calendar_invite_awaiting_confirmation">Awaiting time slot confirmation</string>
+	<string name="freshchat_calendar_meeting_banner_view_btn">@string/freshchat_view_text</string>
+
 </resources>

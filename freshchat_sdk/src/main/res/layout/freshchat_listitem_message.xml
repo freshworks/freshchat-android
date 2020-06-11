@@ -41,41 +41,23 @@
             android:orientation="vertical">
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/freshchat_message_time"
+        <include
+            layout="@layout/freshchat_message_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/freshchat_message_fragment_wrapper"
             android:layout_alignStart="@+id/freshchat_message_fragment_wrapper"
-            android:layout_below="@+id/freshchat_message_fragment_wrapper"
-            android:ellipsize="end"
-            android:maxLines="1"
-            android:paddingBottom="0dp"
-            android:paddingLeft="4dp"
-            android:paddingStart="4dp"
-            android:paddingRight="4dp"
-            android:paddingEnd="4dp"
-            android:paddingTop="0dp"
-            android:textDirection="firstStrong"
-            android:textAlignment="viewStart"
-            android:gravity="start"
-            tools:text="@string/tools_label_duration" />
+            android:layout_below="@+id/freshchat_message_fragment_wrapper" />
 
-        <ImageView
-            android:id="@+id/freshchat_message_upload_status"
+        <include
+            layout="@layout/freshchat_message_upload_status"
             android:layout_width="@dimen/freshchat_message_upload_status_icon_size"
             android:layout_height="@dimen/freshchat_message_upload_status_icon_size"
+            android:layout_alignTop="@id/freshchat_message_time"
             android:layout_alignBottom="@id/freshchat_message_time"
             android:layout_alignParentBottom="true"
-            android:layout_alignTop="@id/freshchat_message_time"
-            android:layout_toRightOf="@id/freshchat_message_time"
             android:layout_toEndOf="@+id/freshchat_message_time"
-            android:contentDescription="@string/freshchat_content_description_upload_status"
-            android:paddingLeft="@dimen/freshchat_message_upload_status_icon_padding"
-            android:paddingStart="@dimen/freshchat_message_upload_status_icon_padding"
-            android:paddingRight="@dimen/freshchat_message_upload_status_icon_padding"
-            android:paddingEnd="@dimen/freshchat_message_upload_status_icon_padding"
-            android:src="@drawable/freshchat_ic_message_status_pending"
+            android:layout_toRightOf="@id/freshchat_message_time"
             android:visibility="gone" />
 
     </RelativeLayout>

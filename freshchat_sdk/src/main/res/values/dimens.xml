@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <dimen name="freshchat_action_bar_elevation">4dp</dimen>
+
+    <dimen name="freshchat_calendar_banner_elevation">@dimen/freshchat_action_bar_elevation</dimen>
+
     <!-- Notification Icon Size -->
     <dimen name="freshchat_notification_large_icon_size">40dp</dimen>
 
@@ -33,6 +37,9 @@
     <dimen name="freshchat_message_item_min_width">100dp</dimen>
     <dimen name="freshchat_message_button_min_width">100dp</dimen>
     <dimen name="freshchat_message_composer_elevation">5dp</dimen>
+    
+    <dimen name="freshchat_status_bar_height">24dp</dimen>
+    <dimen name="freshchat_action_bar_height">48dp</dimen>
 
     <!-- Channel Icon Dimens -->
     <dimen name="freshchat_channel_icon_size">48dp</dimen>
@@ -62,5 +69,22 @@
 
     <!-- Carousel card -->
     <dimen name="freshchat_carousel_card_default_dimension">212dp</dimen>
+
+    <!-- Calendar -->
+    <dimen name="freshchat_calendar_title_bar_icon_padding">16dp</dimen>
+    <dimen name="freshchat_calendar_title_bar_divider_height">1dp</dimen>
+    <dimen name="freshchat_calendar_title_text_size">18sp</dimen>
+    <dimen name="freshchat_calendar_duration_text_size">14sp</dimen>
+    <dimen name="freshchat_calendar_cancel_invite_icon_padding">5dp</dimen>
+    <dimen name="freshchat_calendar_day_header_text_size">15sp</dimen>
+    <dimen name="freshchat_calendar_part_of_day_header_text_size">15sp</dimen>
+    <dimen name="freshchat_calendar_timeslot_text_size">13sp</dimen>
+    <dimen name="freshchat_calendar_timeslot_list_padding">16dp</dimen>
+    <dimen name="freshchat_calendar_limited_timeslot_height">430dp</dimen>
+    <dimen name="freshchat_calendar_confirmation_avatar_size">100dp</dimen>
+    <dimen name="freshchat_calendar_event_card_avatar_size">45dp</dimen>
+    <dimen name="freshchat_calendar_event_card_min_width">250dp</dimen>
+    <dimen name="freshchat_calendar_timeslots_list_item_spacing">16dp</dimen>
+    <dimen name="freshchat_calendar_state_text_size">17dp</dimen>
 
 </resources>

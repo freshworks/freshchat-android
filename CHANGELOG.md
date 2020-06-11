@@ -1,3 +1,12 @@
+## 3.6.0(2020-06-12)
+
+### Enhancement
+* Support to book meetings
+
+### Bug Fix
+* Show agent first name alone instead of full name
+* Fixed image resize issue
+
 ## 3.5.1(2020-05-12)
 
 ### Bug Fix
