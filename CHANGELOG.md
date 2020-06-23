@@ -1,3 +1,8 @@
+## 3.6.1(2020-06-23)
+
+### Bug Fix
+* Fix to load messages quicker
+
 ## 3.6.0(2020-06-12)
 
 ### Enhancement
