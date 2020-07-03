@@ -1,3 +1,8 @@
+## 3.6.2(2020-07-3)
+
+### Enhancement
+* Performance improvements in messages rendering time
+
 ## 3.6.1(2020-06-23)
 
 ### Bug Fix
