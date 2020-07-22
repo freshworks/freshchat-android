@@ -1,3 +1,11 @@
+## 3.6.3(2020-07-22)
+
+### Enhancement
+* Performance improvements in restoring a user
+
+### Bug Fix
+* Remove cache file from external storage 
+
 ## 3.6.2(2020-07-3)
 
 ### Enhancement
