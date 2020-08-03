@@ -1,3 +1,8 @@
+## 3.6.4(2020-08-03)
+
+### Bug Fix
+* Fix to honor showContactUsOnFaqNotHelpful config
+
 ## 3.6.3(2020-07-22)
 
 ### Enhancement
