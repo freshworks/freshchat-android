@@ -1,3 +1,9 @@
+## 3.6.5(2020-09-08)
+
+### Bug Fix
+* Removed search icon when FAQ search is open
+* Added "Still looking for help? Talk to us" string for FAQ downvote.
+
 ## 3.6.4(2020-08-03)
 
 ### Bug Fix

@@ -68,6 +68,7 @@
 	<string name="freshchat_voice_message_too_long">Reached voice message max duration limit, please release to send the message, otherwise message will get discarded soon</string>
 
 	<string name="freshchat_contact_us">Message Us</string>
+	<string name="freshchat_faq_not_helpful_contact_us">Still looking for help? Talk to us</string>
 	<string name="freshchat_message_sending_failed">Message not sent. We\'ll try again</string>
 	<string name="freshchat_message_content_copied_to_clipboard">Message copied</string>
 	<string name="freshchat_chat_unknown_content_type">Message content not supported on this version. Please update the app</string>
