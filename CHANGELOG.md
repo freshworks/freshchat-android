@@ -1,3 +1,8 @@
+## 3.6.6(2020-09-22)
+
+### Bug Fix
+* Allowed "-" in user property key
+
 ## 3.6.5(2020-09-08)
 
 ### Bug Fix
