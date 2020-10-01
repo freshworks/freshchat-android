@@ -1,3 +1,8 @@
+## 3.6.7(2020-10-1)
+
+### Enhancement
+* Alert to notify when domain is invalid
+
 ## 3.6.6(2020-09-22)
 
 ### Bug Fix
