@@ -8,4 +8,5 @@
     <bool name="freshchat_document_provider_enabled">true</bool>
 
     <item format="float" type="dimen" name="freshchat_quick_reply_view_max_height_percentage">35.0</item>
+    <item format="float" type="dimen" name="freshchat_message_view_line_spacing_multiplier">1.0</item>
 </resources>

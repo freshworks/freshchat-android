@@ -1,3 +1,7 @@
+## 3.6.8(2020-10-15)
+### Enhancement
+* Support for custom line spacing of messages in chat screen
+
 ## 3.6.7(2020-10-1)
 
 ### Enhancement
