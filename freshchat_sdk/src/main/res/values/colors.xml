@@ -132,5 +132,9 @@
     <color name="freshchat_calendar_event_card_text">@color/freshchat_calendar_primary_text_color</color>
     <color name="freshchat_calendar_event_card_bg">@android:color/transparent</color>
     <color name="freshchat_calendar_meeting_banner_color">#243756</color>
+    
+    <!-- Live Translation-->
+    <color name="freshchat_original_message_bar">#8A091E42</color>
+    <color name="freshchat_translation_toggle_button_bg">#D7D8DA</color>
 
 </resources>

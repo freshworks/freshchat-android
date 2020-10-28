@@ -37,6 +37,8 @@
 	<string name="freshchat_content_description_attach_picture">Attach a picture</string>
 	<string name="freshchat_content_description_send_voice_message">Record a voice message</string>
 	<string name="freshchat_content_description_upload_status">Message upload Status</string>
+	<string name="freshchat_content_description_show_original_content">Show Original</string>
+	<string name="freshchat_content_description_hide_original_content">Hide Original</string>
 
 	<!-- Error messages -->
 	<string name="freshchat_error_send_message_when_no_internet">Oops, no internet connection! Message will be sent when you reconnect.</string>
@@ -72,6 +74,7 @@
 	<string name="freshchat_message_sending_failed">Message not sent. We\'ll try again</string>
 	<string name="freshchat_message_content_copied_to_clipboard">Message copied</string>
 	<string name="freshchat_chat_unknown_content_type">Message content not supported on this version. Please update the app</string>
+	<string name="freshchat_original_message_title">Original</string>
 
 	<string name="freshchat_error_no_matching_faq_categories_found">No matching FAQ categories found !</string>
 	<string name="freshchat_error_no_matching_faqs_found">No matching FAQs found !</string>

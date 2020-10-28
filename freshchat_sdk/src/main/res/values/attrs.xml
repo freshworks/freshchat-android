@@ -192,4 +192,8 @@
     <attr name="freshchatCalendarBannerMeetingDateTextStyle" format="reference" />
     <attr name="freshchatCalendarBannerMeetingViewTextStyle" format="reference" />
 
+    <!-- Live Translate-->
+    <attr name="freshchatTranslationToggleIconStyle" format="reference" />
+    <attr name="freshchatOriginalMessageTitleTextStyle" format="reference" />
+
 </resources>

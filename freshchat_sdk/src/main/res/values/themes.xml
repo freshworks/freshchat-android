@@ -166,6 +166,10 @@
         <item name="freshchatCalendarBannerMeetingDateTextStyle">@style/Widget.Freshchat.CalendarMeetingBannerDateText</item>
         <item name="freshchatCalendarBannerMeetingViewTextStyle">@style/Widget.Freshchat.CalendarMeetingBannerButtonText</item>
 
+        <!-- Live Translate -->
+        <item name="freshchatTranslationToggleIconStyle">@style/Widget.Freshchat.TranslationToggleBtnStyle</item>
+        <item name="freshchatOriginalMessageTitleTextStyle">@style/Widget.Freshchat.OriginalMessageTitleText</item>
+
         <!-- Misc Styles -->
         <item name="freshchatContactUsTextStyle">@style/Widget.Freshchat.ContactUs</item>
     </style>
@@ -330,6 +334,10 @@
 
         <item name="freshchatCalendarBannerMeetingDateTextStyle">@style/Widget.Freshchat.CalendarMeetingBannerDateText</item>
         <item name="freshchatCalendarBannerMeetingViewTextStyle">@style/Widget.Freshchat.CalendarMeetingBannerButtonText</item>
+
+        <!-- Live Translate -->
+        <item name="freshchatTranslationToggleIconStyle">@style/Widget.Freshchat.TranslationToggleBtnStyle</item>
+        <item name="freshchatOriginalMessageTitleTextStyle">@style/Widget.Freshchat.OriginalMessageTitleText</item>
 
         <!-- Misc Styles -->
         <item name="freshchatContactUsTextStyle">@style/Widget.Freshchat.ContactUs</item>

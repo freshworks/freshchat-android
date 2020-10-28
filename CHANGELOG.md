@@ -1,3 +1,7 @@
+## 4.0.0(2020-10-29)
+### Enhancement
+* Support for live translation of messages
+
 ## 3.6.8(2020-10-15)
 ### Enhancement
 * Support for custom line spacing of messages in chat screen

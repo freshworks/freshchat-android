@@ -89,4 +89,6 @@
 
     <dimen name="freshchat_message_view_line_spacing_extra">0sp</dimen>
 
+    <!-- Live Translate -->
+    <dimen name="freshchat_translation_toggle_btn_dimension">25dp</dimen>
 </resources>

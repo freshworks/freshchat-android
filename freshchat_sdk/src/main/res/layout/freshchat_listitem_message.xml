@@ -24,41 +24,81 @@
         android:paddingTop="4dp"
         tools:text="@string/freshchat_default_agent_name" />
 
-    <RelativeLayout
-        android:id="@+id/freshchat_message_content_wrapper"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/freshchat_message_user_name"
-        android:layout_toRightOf="@+id/freshchat_message_avatar"
         android:layout_toEndOf="@+id/freshchat_message_avatar"
-        android:background="?attr/freshchatChatBubbleLeft">
+        android:layout_toRightOf="@+id/freshchat_message_avatar"
+        android:orientation="horizontal">
 
-        <LinearLayout
-            android:id="@+id/freshchat_message_fragment_wrapper"
-            android:layout_width="wrap_content"
+        <RelativeLayout
+            android:id="@+id/freshchat_message_content_wrapper"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:minWidth="@dimen/freshchat_message_item_min_width"
-            android:orientation="vertical">
-        </LinearLayout>
+            android:layout_weight="1"
+            android:background="?attr/freshchatChatBubbleLeft">
 
-        <include
-            layout="@layout/freshchat_message_time"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/freshchat_message_fragment_wrapper"
-            android:layout_alignStart="@+id/freshchat_message_fragment_wrapper"
-            android:layout_below="@+id/freshchat_message_fragment_wrapper" />
+            <include layout="@layout/freshchat_message_fragment_wrapper" />
 
-        <include
-            layout="@layout/freshchat_message_upload_status"
-            android:layout_width="@dimen/freshchat_message_upload_status_icon_size"
-            android:layout_height="@dimen/freshchat_message_upload_status_icon_size"
-            android:layout_alignTop="@id/freshchat_message_time"
-            android:layout_alignBottom="@id/freshchat_message_time"
-            android:layout_alignParentBottom="true"
-            android:layout_toEndOf="@+id/freshchat_message_time"
-            android:layout_toRightOf="@id/freshchat_message_time"
-            android:visibility="gone" />
+            <LinearLayout
+                android:id="@+id/freshchat_original_message_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/freshchat_message_fragment_wrapper"
+                android:layout_alignStart="@+id/freshchat_message_fragment_wrapper"
+                android:layout_alignLeft="@+id/freshchat_message_fragment_wrapper"
+                android:minWidth="@dimen/freshchat_message_item_min_width"
+                android:orientation="horizontal"
+                android:paddingLeft="4dp"
+                android:paddingStart="4dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:visibility="gone">
 
-    </RelativeLayout>
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/freshchat_original_message_bar" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="4dp"
+                    android:paddingStart="4dp">
+
+                    <TextView
+                        android:text="@string/freshchat_original_message_title"
+                        style="?attr/freshchatOriginalMessageTitleTextStyle" />
+
+                    <include layout="@layout/freshchat_message_fragment_wrapper" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <include
+                layout="@layout/freshchat_message_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/freshchat_original_message_container"
+                android:layout_alignStart="@+id/freshchat_message_fragment_wrapper"
+                android:layout_alignLeft="@+id/freshchat_message_fragment_wrapper" />
+
+            <include
+                layout="@layout/freshchat_message_upload_status"
+                android:layout_width="@dimen/freshchat_message_upload_status_icon_size"
+                android:layout_height="@dimen/freshchat_message_upload_status_icon_size"
+                android:layout_alignTop="@id/freshchat_message_time"
+                android:layout_alignBottom="@id/freshchat_message_time"
+                android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@+id/freshchat_message_time"
+                android:layout_toRightOf="@id/freshchat_message_time"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/freshchat_show_original_content_btn"
+            style="?attr/freshchatTranslationToggleIconStyle" />
+    </LinearLayout>
 </RelativeLayout>
