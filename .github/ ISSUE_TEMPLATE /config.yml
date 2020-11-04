@@ -1,9 +1,9 @@
 blank_issues_enabled: false
 
 contact_links:
-  - name: Is this issue reproducible in demo app?
-    url: https://argoproj.github.io/argo/
-    about: Much help about the implementation details can be found in demo apps
+  - name: Is this issue reproducible in sample app?
+    url: https://github.com/freshworks/freshchat-android/tree/master/Sample
+    about: Much help about the implementation details can be found in our sample apps
   - name: Reach out to our support team
     email: support@freshchat.com
     about: This is an alternative way to get support for your issues
