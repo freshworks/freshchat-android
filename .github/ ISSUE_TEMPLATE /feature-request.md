@@ -1,11 +1,11 @@
 ---
-name: "\U+1F680 Feature request"
-about: Suggest an idea for this project
+name: "⭐️ Feature request"
+about: Raise your feature request for this project
 
 ---
 
-### Description
+## Description
 
-### Use cases / Requirements
+## Use cases / Requirements
 
-### Acceptance Criteria
+## Acceptance Criteria
