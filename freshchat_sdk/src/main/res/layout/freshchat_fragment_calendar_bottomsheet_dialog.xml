@@ -11,7 +11,7 @@
         android:background="@color/freshchat_calendar_popup_titlebar_bg"
         android:gravity="center_vertical">
 
-        <android.support.v7.widget.AppCompatImageView
+        <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/freshchat_calendar_title_bar_icon"
             style="@style/Widget.Freshchat.CalendarTitleIcon"
             android:layout_alignParentStart="true"
@@ -30,13 +30,13 @@
             android:padding="8dp">
 
 
-            <android.support.v7.widget.AppCompatTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/freshchat_calendar_dialog_title_textview"
                 style="?attr/freshchatCalendarPopupTitleTextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
-            <android.support.v7.widget.AppCompatTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/freshchat_calendar_dialog_duration_textview"
                 style="?attr/freshchatCalendarPopupDurationTextStyle"
                 android:layout_width="wrap_content"
@@ -46,7 +46,7 @@
         </LinearLayout>
 
 
-        <android.support.v7.widget.AppCompatImageView
+        <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/freshchat_calendar_cancel_invite_imageview"
             style="@style/Widget.Freshchat.CalendarCancelInviteIcon"
             android:layout_alignParentEnd="true"

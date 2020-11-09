@@ -56,7 +56,7 @@
                 android:paddingBottom="5dp"
                 android:visibility="gone">
 
-                <android.support.v7.widget.AppCompatImageView
+                <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="3dp"
                     android:layout_height="match_parent"
                     android:src="@drawable/freshchat_original_message_bar" />
@@ -97,7 +97,7 @@
 
         </RelativeLayout>
 
-        <android.support.v7.widget.AppCompatImageView
+        <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/freshchat_show_original_content_btn"
             style="?attr/freshchatTranslationToggleIconStyle" />
     </LinearLayout>

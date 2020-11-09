@@ -4,11 +4,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/freshchat_calendar_find_slot_button"
         style="?attr/freshchatCalendarFindASlotButtonStyle" />
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/freshchat_calendar_not_interested_textview"
         style="?attr/freshchatCalendarNotInterestedButtonStyle" />
 

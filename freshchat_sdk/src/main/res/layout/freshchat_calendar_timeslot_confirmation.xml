@@ -6,7 +6,7 @@
     android:gravity="center_horizontal"
     android:orientation="vertical">
 
-    <android.support.v4.widget.NestedScrollView
+    <androidx.core.widget.NestedScrollView
         android:id="@+id/freshchat_calendar_timeslot_confirmation_scrollbar"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -38,28 +38,28 @@
 
             </FrameLayout>
 
-            <android.support.v7.widget.AppCompatTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 style="?attr/freshchatCalendarConfirmationMeetingDescTextStyle" />
 
-            <android.support.v7.widget.AppCompatTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/freshchat_calendar_timeslot_view"
                 style="?attr/freshchatCalendarConfirmationMeetingTimeSlotTextStyle"
                 tools:text="4:30 PM - 5:30 PM" />
 
-            <android.support.v7.widget.AppCompatTextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/freshchat_calendar_day_label"
                 style="?attr/freshchatCalendarConfirmationMeetingDateTextStyle"
                 tools:text="Monday, 24 Feb 2020" />
         </LinearLayout>
 
-    </android.support.v4.widget.NestedScrollView>
+    </androidx.core.widget.NestedScrollView>
 
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/freshchat_calendar_confirm_button"
         style="?attr/freshchatCalendarTimeSlotConfirmButtonStyle" />
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/freshchat_calendar_change_slot_button"
         style="?attr/freshchatCalendarChangeSlotButtonStyle" />
 </LinearLayout>

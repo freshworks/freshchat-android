@@ -7,11 +7,11 @@
     android:visibility="gone"
     tools:visibility="visible">
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/freschat_calendar_something_went_wrong_label"
         style="?attr/freshchatCalendarSomethingWentWrongTextStyle" />
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/freshchat_calendar_retry_button"
         style="?attr/freshchatCalendarOutlineButtonStyle"
         android:layout_alignParentBottom="true"

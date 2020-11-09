@@ -1,3 +1,7 @@
+## 4.1.0(2020-11-10)
+### Enhancement
+* Upgraded target SDK version to Android 29
+
 ## 4.0.0(2020-10-29)
 ### Enhancement
 * Support for live translation of messages
