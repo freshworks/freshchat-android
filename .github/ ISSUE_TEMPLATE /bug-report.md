@@ -11,6 +11,8 @@ about: Create a report to help us improve Freshchat
 
 ## Freshchat SDK version
 
+- React Native version (if applicable) : 
+
 ## Expected behavior
 
 ## Actual behavior
