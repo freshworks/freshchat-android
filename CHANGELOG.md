@@ -1,6 +1,10 @@
+## 4.1.1(2020-12-07)
+### Bug Fix
+* Fixed push registration token set issue during user restore
+
 ## 4.1.0(2020-11-10)
 ### Enhancement
-* Upgraded target SDK version to Android 29
+* Upgraded target SDK version of SDK to Android 29
 
 ## 4.0.0(2020-10-29)
 ### Enhancement
