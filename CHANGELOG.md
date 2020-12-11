@@ -1,3 +1,7 @@
+## 4.2.0(2020-12-11)
+### Enhancement
+* Updated the algorithm used for encrypting Shared Preferences
+
 ## 4.1.1(2020-12-07)
 ### Bug Fix
 * Fixed push registration token set issue during user restore
