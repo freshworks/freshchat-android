@@ -409,6 +409,8 @@
         <item name="android:background">@null</item>
         <item name="android:scrollbars">vertical</item>
         <item name="android:padding">8dp</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
     </style>
 
     <style name="Widget.Freshchat.FAQCategoryListItem">
@@ -722,23 +724,29 @@
         <item name="android:scrollbarStyle">outsideInset</item>
     </style>
 
-
-    <style name="Widget.Freshchat.CalendarOutlineButton">
+    <style name="Widget.Freshchat.OutlineButton">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:minWidth">120dp</item>
         <item name="android:padding">12dp</item>
-        <item name="android:layout_marginBottom">12dp</item>
-        <item name="android:layout_margin">8dp</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:textColor">@color/freshchat_calendar_button_outline_text</item>
         <item name="android:background">@drawable/freshchat_calendar_email_secondary_button_bg
         </item>
         <item name="android:textSize">14sp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
         <item name="android:foreground">?attr/freshchatActionSelectableItemBackground</item>
         <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:gravity">center</item>
     </style>
+
+    <style name="Widget.Freshchat.CalendarOutlineButton" parent="Widget.Freshchat.OutlineButton">
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="Widget.Freshchat.FAQRetryOutlineButton" parent="Widget.Freshchat.OutlineButton" />
 
     <style name="Widget.Freshchat.CalendarDayHeader">
         <item name="android:layout_width">match_parent</item>
@@ -990,5 +998,35 @@
         <item name="android:textColor">@color/freshchat_text_color</item>
     </style>
 
+    <style name="Widget.Freshchat.LoadMoreErrorText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingEnd">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:textDirection">firstStrong</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:text">@string/freshchat_pagination_error_with_retry</item>
+        <item name="android:textColor">@color/freshchat_faq_pagination_error_with_retry_text</item>
+    </style>
+
+    <style name="Widget.Freshchat.ErrorTitleText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/freshchat_faq_error_title_text</item>
+        <item name="android:textSize">@dimen/freshchat_faq_error_title_text_size</item>
+        <item name="android:textDirection">firstStrong</item>
+    </style>
+
+    <style name="Widget.Freshchat.ErrorSubtitleText" parent="Widget.Freshchat.ErrorTitleText">
+        <item name="android:textColor">@color/freshchat_faq_error_subtitle_text</item>
+        <item name="android:textSize">@dimen/freshchat_faq_error_subtitle_text_size</item>
+    </style>
 
 </resources>

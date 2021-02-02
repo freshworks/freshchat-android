@@ -55,7 +55,7 @@
         <activity
             android:name="com.freshchat.consumer.sdk.activity.InterstitialActivity"
             android:configChanges="orientation|screenSize"
-            android:theme="@style/Theme.AppCompat" />
+            android:theme="@style/Freshchat.Theme.Transparent" />
 
         <service android:name="com.freshchat.consumer.sdk.service.FreshchatService" />
 
@@ -79,6 +79,28 @@
             android:enabled="true"
             android:exported="false"
             android:multiprocess="true" />
+
+        <activity
+            android:name=".activity.FAQCategoriesActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/Theme.Freshchat.SelectedTheme" />
+
+        <activity
+            android:name=".activity.FAQListActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/Theme.Freshchat.SelectedTheme" />
+
+        <activity
+            android:name=".activity.FAQDetailsActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/Theme.Freshchat.SelectedTheme" />
+
+        <activity
+            android:name=".activity.FAQSearchActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/Theme.Freshchat.SelectedTheme" />
 
     </application>
 

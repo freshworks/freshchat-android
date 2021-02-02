@@ -1,3 +1,7 @@
+## 4.3.0(2021-02-02)
+### Enhancement
+* Omni Kbase support for bundled accounts
+
 ## 4.2.0(2020-12-11)
 ### Enhancement
 * Updated the algorithm used for encrypting Shared Preferences

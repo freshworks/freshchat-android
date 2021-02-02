@@ -31,8 +31,12 @@
     <attr name="freshchatChatBubbleRight" format="reference" />
 
     <!-- Images -->
+    <attr name="freshchatPictureMessagePlaceholderImage" format="reference" />
     <attr name="freshchatCarouselCardPlaceholderImage" format="reference" />
     <attr name="freshchatCarouselCardErrorImage" format="reference" />
+    <attr name="freshchatErrorImage" format="reference" />
+    <attr name="freshchatNoInternetImage" format="reference" />
+    <attr name="freshchatEmptyImage" format="reference" />
 
     <!-- Misc -->
     <attr name="freshchatAlertDialog" format="reference" />
@@ -44,6 +48,13 @@
 
     <!-- Text Appearance Customizations - Common -->
     <attr name="freshchatContactUsTextStyle" format="reference" />
+    <attr name="freshchatLoadingTextStyle" format="reference" />
+    <attr name="freshchatLoadMoreErrorTextStyle" format="reference" />
+    <attr name="freshchatErrorTitleTextStyle" format="reference" />
+    <attr name="freshchatErrorSubtitleTextStyle" format="reference" />
+
+    <!-- Buttons - Common -->
+    <attr name="freshchatRetryButtonStyle" format="reference" />
 
     <!-- FAQ Category List Item Customizations -->
     <!-- Style for the category list view -->

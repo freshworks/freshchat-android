@@ -53,6 +53,7 @@
 
     <!-- FAQ Article UI Dimens -->
     <dimen name="freshchat_voting_view_divider_height">1dp</dimen>
+    <dimen name="freshchat_faq_list_divider_height">1dp</dimen>
     <dimen name="freshchat_faq_content_padding_bottom">85px</dimen>
 
     <dimen name="freshchat_list_empty_text_size">14sp</dimen>
@@ -91,4 +92,11 @@
 
     <!-- Live Translate -->
     <dimen name="freshchat_translation_toggle_btn_dimension">25dp</dimen>
+
+    <!-- Omni KBASE -->
+    <dimen name="freshchat_faq_error_title_text_size">16sp</dimen>
+    <dimen name="freshchat_faq_error_subtitle_text_size">14sp</dimen>
+    <dimen name="freshchat_faq_retry_btn_text_size">14sp</dimen>
+    <dimen name="freshchat_error_image_height_landscape">100dp</dimen>
+    <dimen name="freshchat_error_image_width_landscape">100dp</dimen>
 </resources>

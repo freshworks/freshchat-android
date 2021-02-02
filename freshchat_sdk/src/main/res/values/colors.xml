@@ -137,4 +137,10 @@
     <color name="freshchat_original_message_bar">#8A091E42</color>
     <color name="freshchat_translation_toggle_button_bg">#D7D8DA</color>
 
+    <!--Omni KBASE-->
+    <color name="freshchat_faq_error_title_text">#283A5A</color>
+    <color name="freshchat_faq_error_subtitle_text">#495973</color>
+    <color name="freshchat_faq_progress_color">@color/freshchat_carousel_card_btn_text</color>
+    <color name="freshchat_faq_pagination_error_with_retry_text">@color/freshchat_grey_darkest</color>
+
 </resources>

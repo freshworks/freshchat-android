@@ -29,6 +29,13 @@
 	<string name="freshchat_yes">Yes</string>
 	<string name="freshchat_no">No</string>
 
+	<!--General-->
+	<string name="freshchat_loading">Loading</string>
+	<string name="freshchat_no_connection">No Connection</string>
+	<string name="freshchat_check_internet_connection">Please check your internet connection</string>
+	<string name="freshchat_retry">@string/freshchat_calendar_timeslots_retry</string>
+	<string name="freshchat_error_was_encountered">An error was encountered</string>
+
 	<!-- Hint for Input Fields -->
 
 
@@ -184,4 +191,14 @@
 	<string name="freshchat_calendar_invite_awaiting_confirmation">Awaiting time slot confirmation</string>
 	<string name="freshchat_calendar_meeting_banner_view_btn">@string/freshchat_view_text</string>
 
+	<!--Omni KBASE-->
+
+	<string name="freshchat_no_faq_categories">No FAQs to display</string>
+	<string name="freshchat_faq_name_placeholder">{{faq_name}}</string>
+	<string name="freshchat_no_faqs">No articles found for &lt;b&gt;\'%1$s\'&lt;/b&gt;</string>
+	<string name="freshchat_no_articles_found">No articles found</string>
+	<string name="freshchat_minimum_search_criteria">Enter 3 or more characters to search</string>
+	<string name="freshchat_pagination_error_with_retry">Failed to load. Tap to retry.</string>
+	<string name="freshchat_pagination_no_internet_with_retry">No internet connection. Tap to retry.</string>
+	
 </resources>

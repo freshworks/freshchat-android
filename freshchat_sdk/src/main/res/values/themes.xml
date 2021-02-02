@@ -40,13 +40,26 @@
         <item name="freshchatChatBubbleRight">@drawable/freshchat_chat_bubble_right</item>
 
         <!-- Images -->
+        <item name="freshchatPictureMessagePlaceholderImage">@drawable/freshchat_picture_message_placeholder_image</item>
         <item name="freshchatCarouselCardPlaceholderImage">@drawable/freshchat_carousel_card_placeholder_image</item>
         <item name="freshchatCarouselCardErrorImage">@drawable/freshchat_carousel_card_error_image</item>
+        <item name="freshchatErrorImage">@drawable/freshchat_error</item>
+        <item name="freshchatNoInternetImage">@drawable/freshchat_no_internet</item>
+        <item name="freshchatEmptyImage">@drawable/freshchat_empty</item>
 
         <!-- Misc Drawables -->
         <item name="freshchatVoiceVisualizer">@drawable/freshchat_voice_visualizer_drawable</item>
         <item name="freshchatVoiceMessageSeekbar">@drawable/freshchat_voice_message_seekbar</item>
         <item name="freshchatVoiceMessageSeekbarThumb">@drawable/freshchat_voice_message_seekbar_thumb</item>
+
+        <!-- Text Appearance Customizations - Common -->
+        <item name="freshchatLoadingTextStyle">@style/Widget.Freshchat.ErrorTitleText</item>
+        <item name="freshchatLoadMoreErrorTextStyle">@style/Widget.Freshchat.LoadMoreErrorText</item>
+        <item name="freshchatErrorTitleTextStyle">@style/Widget.Freshchat.ErrorTitleText</item>
+        <item name="freshchatErrorSubtitleTextStyle">@style/Widget.Freshchat.ErrorSubtitleText</item>
+
+        <!-- Buttons - Common -->
+        <item name="freshchatRetryButtonStyle">@style/Widget.Freshchat.FAQRetryOutlineButton</item>
 
         <!-- Message Widget Styles -->
         <item name="freshchatMessageListStyle">@style/Widget.Freshchat.MessageList</item>
@@ -209,13 +222,26 @@
         <item name="freshchatChatBubbleRight">@drawable/freshchat_chat_bubble_right</item>
 
         <!-- Images -->
+        <item name="freshchatPictureMessagePlaceholderImage">@drawable/freshchat_picture_message_placeholder_image</item>
         <item name="freshchatCarouselCardPlaceholderImage">@drawable/freshchat_carousel_card_placeholder_image</item>
         <item name="freshchatCarouselCardErrorImage">@drawable/freshchat_carousel_card_error_image</item>
+        <item name="freshchatErrorImage">@drawable/freshchat_error</item>
+        <item name="freshchatNoInternetImage">@drawable/freshchat_no_internet</item>
+        <item name="freshchatEmptyImage">@drawable/freshchat_empty</item>
 
         <!-- Misc Drawables -->
         <item name="freshchatVoiceVisualizer">@drawable/freshchat_voice_visualizer_drawable</item>
         <item name="freshchatVoiceMessageSeekbar">@drawable/freshchat_voice_message_seekbar</item>
         <item name="freshchatVoiceMessageSeekbarThumb">@drawable/freshchat_voice_message_seekbar_thumb</item>
+
+        <!-- Text Appearance Customizations - Common -->
+        <item name="freshchatLoadingTextStyle">@style/Widget.Freshchat.ErrorTitleText</item>
+        <item name="freshchatLoadMoreErrorTextStyle">@style/Widget.Freshchat.LoadMoreErrorText</item>
+        <item name="freshchatErrorTitleTextStyle">@style/Widget.Freshchat.ErrorTitleText</item>
+        <item name="freshchatErrorSubtitleTextStyle">@style/Widget.Freshchat.ErrorSubtitleText</item>
+
+        <!-- Buttons - Common -->
+        <item name="freshchatRetryButtonStyle">@style/Widget.Freshchat.FAQRetryOutlineButton</item>
 
         <!-- Message Widget Styles -->
         <item name="freshchatMessageListStyle">@style/Widget.Freshchat.MessageList</item>
@@ -342,5 +368,15 @@
         <!-- Misc Styles -->
         <item name="freshchatContactUsTextStyle">@style/Widget.Freshchat.ContactUs</item>
     </style>
+
+    <style name="Freshchat.Theme.Transparent" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
 
 </resources>
