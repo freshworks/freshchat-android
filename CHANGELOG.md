@@ -1,3 +1,11 @@
+## 4.3.1(2021-02-24)
+
+### Enhancement
+* Updated FAQ search empty state UI
+
+### Bug fix
+* Support for custom reply text in quick reply options
+
 ## 4.3.0(2021-02-02)
 ### Enhancement
 * Omni Kbase support for bundled accounts
