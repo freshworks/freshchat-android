@@ -1,3 +1,8 @@
+## 4.3.2(2021-03-01)
+
+### Enhancement
+* Updated cryptographic encryption pattern used for encrypting shared preferences
+
 ## 4.3.1(2021-02-24)
 
 ### Enhancement
