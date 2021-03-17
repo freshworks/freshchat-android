@@ -36,10 +36,15 @@
 -keep class sun.misc.Unsafe { *; }
 
 # Proguard for Picasso
--dontwarn com.squareup.okhttp.**
+-dontwarn okhttp3.**
+-dontwarn okio.**
+-dontwarn javax.annotation.**
+-dontwarn org.conscrypt.**
+# A resource is loaded with a relative path so the package of this class must be preserved.
+-keepnames class okhttp3.internal.publicsuffix.PublicSuffixDatabase
 
 # Keep Picasso class to verify the version of picasso used.
 -keepnames class com.squareup.picasso.Picasso
 -keepclassmembers class com.squareup.picasso.Picasso {
-    public com.squareup.picasso.Picasso with(android.content.Context);
+    public com.squareup.picasso.Picasso get();
 }

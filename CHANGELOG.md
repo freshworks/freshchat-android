@@ -1,3 +1,8 @@
+## 4.3.3(2021-03-18)
+
+### Enhancement
+* Upgraded picasso library version to 2.8
+
 ## 4.3.2(2021-03-01)
 
 ### Enhancement
