@@ -1,3 +1,9 @@
+## 4.3.4(2021-05-10)
+
+### Bug fix
+* Fixed FAQ notification click not redirecting to chat screen
+* Fixed message notifications are not getting dismissed on chat screen open
+
 ## 4.3.3(2021-03-18)
 
 ### Enhancement
