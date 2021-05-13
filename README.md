@@ -23,3 +23,7 @@ dependencies {
 
 ## Updating to newer versions of SDK
 ### [Changelog](https://github.com/freshdesk/freshchat-android/blob/master/CHANGELOG.md)
+
+
+## Contact us
+For any issues, queries or feature request, please reach out to us through support@freshchat.com
