@@ -83,7 +83,8 @@ public class DemoApp extends Application {
          * Please save this in your Freshchat account to test push notifications in Sample app.
          *
          * Server Key:
-         * AAAAWQmY32o:APA91bF_X9S3rrfBLT5kUVaZ2uftEIpqALXu3z05SoTZhAikINhGmUsd62jQE374vgHLZyILA3lhsAxLJSQlivsZcK_yY_DAjdAQTesUpabs1_5XiRsonrWDm5envw24nQSPTDG81g1w
+         * Refer Section 9.4 in integration documentation for FCM server key
+         * Documentation link: https://support.freshchat.com/support/solutions/articles/50000000207
          *
          * Note: This is the push notification server key for sample app. You need to use your own server key for testing in your application
          */
