@@ -1,3 +1,8 @@
+## 4.3.5(2021-06-18)
+
+### Bug fix
+* Fix for data encryption issue due to changes made in v4.3.2
+
 ## 4.3.4(2021-05-10)
 
 ### Bug fix
