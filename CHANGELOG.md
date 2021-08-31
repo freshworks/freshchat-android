@@ -1,3 +1,8 @@
+## 4.3.6(2021-08-31)
+
+### Bug fix
+* Fix to display custom category icons for FAQ categories
+
 ## 4.3.5(2021-06-18)
 
 ### Bug fix
