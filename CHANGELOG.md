@@ -1,3 +1,8 @@
+## 4.3.8(2021-09-07)
+
+### Bug fix
+* Freshchat account reactivation issue fix
+
 ## 4.3.6(2021-08-31)
 
 ### Bug fix
