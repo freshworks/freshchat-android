@@ -1,3 +1,8 @@
+## 4.3.9(2021-09-28)
+
+### Enhancement
+* Added instrumentation for SDK
+
 ## 4.3.8(2021-09-07)
 
 ### Bug fix
