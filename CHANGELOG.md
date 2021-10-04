@@ -1,4 +1,12 @@
-## 4.3.9(2021-09-28)
+## 4.4.0(2021-10-04)
+
+### Build Changes
+* Upgraded target version to 30
+
+### Bug fix
+* Fix for image capture crash on lower resolution devices
+
+## 4.3.9(2021-09-30)
 
 ### Enhancement
 * Added instrumentation for SDK

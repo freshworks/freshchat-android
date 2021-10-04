@@ -59,7 +59,8 @@
 
         <service android:name="com.freshchat.consumer.sdk.service.FreshchatService" />
 
-        <receiver android:name="com.freshchat.consumer.sdk.receiver.FreshchatReceiver">
+        <receiver android:name="com.freshchat.consumer.sdk.receiver.FreshchatReceiver"
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.intent.action.LOCALE_CHANGED" />
@@ -67,7 +68,8 @@
             </intent-filter>
         </receiver>
 
-        <receiver android:name="com.freshchat.consumer.sdk.receiver.FreshchatNetworkChangeReceiver">
+        <receiver android:name="com.freshchat.consumer.sdk.receiver.FreshchatNetworkChangeReceiver"
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
