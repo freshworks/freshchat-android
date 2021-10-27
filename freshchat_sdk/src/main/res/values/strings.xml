@@ -197,8 +197,13 @@
 	<string name="freshchat_faq_name_placeholder">{{faq_name}}</string>
 	<string name="freshchat_no_faqs">No articles found for &lt;b&gt;\'%1$s\'&lt;/b&gt;</string>
 	<string name="freshchat_no_articles_found">No articles found</string>
+	<string name="freshchat_no_faq_found">No FAQ found</string>
 	<string name="freshchat_minimum_search_criteria">Enter 3 or more characters to search</string>
 	<string name="freshchat_pagination_error_with_retry">Failed to load. Tap to retry.</string>
 	<string name="freshchat_pagination_no_internet_with_retry">No internet connection. Tap to retry.</string>
-	
+
+	<!--Bots-->
+	<string name="freshchat_bot_faq_feedback_title">Was this answer useful?</string>
+	<string name="freshchat_bot_faq_feedback_success">Thank you for your Feedback!</string>
+
 </resources>

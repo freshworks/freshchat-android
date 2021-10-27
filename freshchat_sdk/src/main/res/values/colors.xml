@@ -28,6 +28,7 @@
 
     <!-- Divider above the voting view in FAQ Detail -->
     <color name="freshchat_voting_view_divider">#BBB</color>
+    <color name="freshchat_bot_faq_list_divider">#CCCCCC</color>
 
     <!-- Divider between each message item in the message list -->
     <color name="freshchat_message_list_divider">@null</color>
@@ -43,10 +44,12 @@
     <color name="freshchat_black">#ff000000</color>
     <color name="freshchat_background_light">#F6F8FA</color>
     <color name="freshchat_text_color">#707070</color>
+    <color name="freshchat_primary_text_color">#12344D</color>
     <color name="freshchat_channel_alt_text_bg">#3F51B5</color>
     <color name="freshchat_category_alt_text_bg">#2196F3</color>
     <color name="freshchat_category_normal">@color/freshchat_white</color>
     <color name="freshchat_category_selected">#D8D8D8</color>
+    <color name="freshchat_bot_faq_label">@color/freshchat_primary_text_color</color>
 
     <color name="freshchat_seekbar_bg_start">#000000</color>
     <color name="freshchat_seekbar_bg_center">#000000</color>

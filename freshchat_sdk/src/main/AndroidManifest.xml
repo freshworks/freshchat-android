@@ -57,6 +57,10 @@
             android:configChanges="orientation|screenSize"
             android:theme="@style/Freshchat.Theme.Transparent" />
 
+        <activity
+            android:name="com.freshchat.consumer.sdk.activity.BotFaqDetailsActivity"
+            android:theme="@style/Theme.Freshchat.SelectedTheme" />
+
         <service android:name="com.freshchat.consumer.sdk.service.FreshchatService" />
 
         <receiver android:name="com.freshchat.consumer.sdk.receiver.FreshchatReceiver"

@@ -24,6 +24,7 @@
         <item name="freshchatCalendarEventFailedIcon">@drawable/freshchat_ic_calendar_cancel_invite</item>
         <item name="freshchatCalendarEventPendingIcon">@drawable/freshchat_ic_calendar_awaiting_confirmation</item>
         <item name="freshchatCalendarBannerMeetingIcon">@drawable/freshchat_ic_calendar_scheduled</item>
+        <item name="freshchatBotFAQIcon">@drawable/freshchat_ic_bot_faq</item>
 
 
         <!-- ActionBar Menu Icons -->
@@ -124,6 +125,7 @@
         <!-- FAQ List Widget Styles -->
         <item name="freshchatFAQListStyle">@style/Widget.Freshchat.FAQList</item>
         <item name="freshchatFAQListItemStyle">@style/Widget.Freshchat.FAQListItem</item>
+        <item name="freshchatBotFAQListItemTextStyle">@style/Widget.Freshchat.BotFAQListItemText</item>
 
         <!-- FAQ Detail Widget Styles -->
         <item name="freshchatFAQUpvoteButtonStyle">@style/Widget.Freshchat.FAQUpvoteButton</item>
@@ -207,6 +209,7 @@
         <item name="freshchatCalendarEventFailedIcon">@drawable/freshchat_ic_calendar_cancel_invite</item>
         <item name="freshchatCalendarEventPendingIcon">@drawable/freshchat_ic_calendar_awaiting_confirmation</item>
         <item name="freshchatCalendarBannerMeetingIcon">@drawable/freshchat_ic_calendar_scheduled</item>
+        <item name="freshchatBotFAQIcon">@drawable/freshchat_ic_bot_faq</item>
 
         <!-- Menu Icons -->
         <item name="freshchatSearchIcon">@drawable/freshchat_ic_action_search_dark</item>
@@ -306,6 +309,7 @@
         <!-- FAQ/Article List Widget Styles -->
         <item name="freshchatFAQListStyle">@style/Widget.Freshchat.FAQList</item>
         <item name="freshchatFAQListItemStyle">@style/Widget.Freshchat.FAQListItem</item>
+        <item name="freshchatBotFAQListItemTextStyle">@style/Widget.Freshchat.BotFAQListItemText</item>
 
         <!-- FAQ/Article Detail Widget Styles -->
         <item name="freshchatFAQUpvoteButtonStyle">@style/Widget.Freshchat.FAQUpvoteButton</item>

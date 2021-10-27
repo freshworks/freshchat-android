@@ -468,6 +468,17 @@
         <item name="android:textAlignment">viewStart</item>
     </style>
 
+    <style name="Widget.Freshchat.BotFAQListItemText">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">7</item>
+        <item name="android:textAppearance">@style/TextAppearance.Freshchat.Medium</item>
+        <item name="android:textColor">@color/freshchat_bot_faq_label</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textDirection">firstStrong</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
     <!-- FAQ Styling & Customizations -->
 
     <style name="Widget.Freshchat.FAQVotingPromptView">

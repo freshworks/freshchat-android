@@ -57,7 +57,7 @@
                 android:background="?attr/freshchatQuickReplyViewBgColor">
 
                 <com.freshchat.consumer.sdk.ui.FlowLayout
-                    android:id="@+id/freshchat_quick_reply_flowlayout"
+                    android:id="@+id/freshchat_chips_flowlayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"

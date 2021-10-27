@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/freschat_bot_faq_item_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/freshchatActionSelectableItemBackground"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="12dp"
+            android:src="?attr/freshchatBotFAQIcon" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/freshchat_label_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="12dp"
+            style="?attr/freshchatBotFAQListItemTextStyle"
+            tools:text="How to cancel an order?" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/freshchat_bot_list_view_divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/freshchat_bot_faq_list_divider_height"
+        android:background="@color/freshchat_bot_faq_list_divider" />
+
+</LinearLayout>

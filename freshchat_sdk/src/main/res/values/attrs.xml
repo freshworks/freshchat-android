@@ -16,6 +16,7 @@
     <attr name="freshchatCalendarEventFailedIcon" format="reference" />
     <attr name="freshchatCalendarEventPendingIcon" format="reference" />
     <attr name="freshchatCalendarBannerMeetingIcon" format="reference" />
+    <attr name="freshchatBotFAQIcon" format="reference" />
 
     <!-- Menu Icons -->
     <attr name="freshchatSearchIcon" format="reference" />
@@ -70,6 +71,7 @@
     <!-- Article List Customizations -->
     <attr name="freshchatFAQListStyle" format="reference" />
     <attr name="freshchatFAQListItemStyle" format="reference" />
+    <attr name="freshchatBotFAQListItemTextStyle" format="reference" />
 
     <!-- Article Detail Customizations -->
     <attr name="freshchatFAQVotingPromptViewStyle" format="reference" />

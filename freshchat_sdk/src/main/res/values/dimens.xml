@@ -54,6 +54,7 @@
     <!-- FAQ Article UI Dimens -->
     <dimen name="freshchat_voting_view_divider_height">1dp</dimen>
     <dimen name="freshchat_faq_list_divider_height">1dp</dimen>
+    <dimen name="freshchat_bot_faq_list_divider_height">1dp</dimen>
     <dimen name="freshchat_faq_content_padding_bottom">85px</dimen>
 
     <dimen name="freshchat_list_empty_text_size">14sp</dimen>
