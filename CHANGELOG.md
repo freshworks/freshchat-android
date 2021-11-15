@@ -1,3 +1,8 @@
+## 5.0.1(2021-11-15)
+
+### Enhancement
+* Display complete name for messages created using API
+
 ## 5.0.0(2021-10-27)
 
 ### Enhancement
