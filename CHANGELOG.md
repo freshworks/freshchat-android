@@ -1,3 +1,8 @@
+## 5.0.2(2021-12-03)
+
+### Bug fix
+* Fix for Topic name and image being empty
+
 ## 5.0.1(2021-11-15)
 
 ### Enhancement
