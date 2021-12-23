@@ -1,3 +1,8 @@
+## 5.0.3(2021-12-23)
+
+### Bug fix
+* Fix for displaying notifications in Android 12
+
 ## 5.0.2(2021-12-03)
 
 ### Bug fix
