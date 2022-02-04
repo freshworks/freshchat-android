@@ -1,3 +1,9 @@
+## 5.0.4(2022-02-04)
+
+### Bug fix
+* Fix for dismissing keyboard when moving from Chat screen to App screen.
+* Fix for handing empty CSAT
+
 ## 5.0.3(2021-12-23)
 
 ### Bug fix
