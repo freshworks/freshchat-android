@@ -38,6 +38,9 @@
     <color name="freshchat_chat_resolution_prompt_divider">#BBB</color>
 
     <color name="freshchat_grey_darkest">#707C92</color>
+    <color name="freshchat_grey">#CFD7DF</color>
+    <color name="freshchat_grey_light">#F5F7F9</color>
+    <color name="freshchat_quick_action_button_divider">#EBEFF3</color>
 
     <!-- Misc Colors -->
     <color name="freshchat_white">#ffffffff</color>
@@ -82,7 +85,8 @@
     <color name="freshchat_message_unknown_bg_solid">#B0FFFFFF</color>
 
     <!--Quick replies-->
-    <color name="freshchat_quick_reply_chip_bg">#1976D2</color>
+    <color name="freshchat_quick_reply_chip_bg">@color/freshchat_white</color>
+    <color name="freshchat_quick_reply_chip_outline">@color/freshchat_grey</color>
 
     <!--Drop Down-->
     <color name="freshchat_drop_down_hint_text_color">#3A4B67</color>
@@ -145,5 +149,13 @@
     <color name="freshchat_faq_error_subtitle_text">#495973</color>
     <color name="freshchat_faq_progress_color">@color/freshchat_carousel_card_btn_text</color>
     <color name="freshchat_faq_pagination_error_with_retry_text">@color/freshchat_grey_darkest</color>
+
+    <!-- Quick Actions-->
+    <color name="freshchat_quick_actions_menu_popup">@color/freshchat_white</color>
+    <color name="freshchat_quick_actions_slash_command_popup">@color/freshchat_white</color>
+    <color name="freshchat_quick_actions_button_background">@color/freshchat_grey_light</color>
+    <color name="freshchat_quick_actions_button_border">@color/freshchat_grey</color>
+    <color name="freshchat_quick_actions_button_touch">#EBEFF3</color>
+    <color name="freshchat_quick_actions_button_layout_background">@color/freshchat_white</color>
 
 </resources>

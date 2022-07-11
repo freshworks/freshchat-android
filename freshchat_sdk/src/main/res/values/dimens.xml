@@ -60,8 +60,8 @@
     <dimen name="freshchat_list_empty_text_size">14sp</dimen>
 
     <!--Quick replies-->
-    <dimen name="freshchat_quick_reply_view_row_padding">8dp</dimen>
-    <dimen name="freshchat_quick_reply_view_column_padding">8dp</dimen>
+    <dimen name="freshchat_quick_reply_view_row_padding">12dp</dimen>
+    <dimen name="freshchat_quick_reply_view_column_padding">16dp</dimen>
 
     <!--Drop Down Messages-->
     <dimen name="freshchat_drop_down_item_height">48dp</dimen>

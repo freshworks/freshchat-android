@@ -1,3 +1,17 @@
+## 5.1.0(2022-07-11)
+
+### Enhancement
+* Support for quick options in bot flow
+
+### Bug fix
+* Fix for ConnectivityManager leak
+
+## 5.0.5(2022-02-04)
+
+### Bug fix
+* Fix for "Notification not posted to system tray when app is in background"
+* JWT - Issue with decoding token containing '-' or '_' in reference
+
 ## 5.0.4(2022-02-04)
 
 ### Bug fix

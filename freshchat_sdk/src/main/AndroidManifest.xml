@@ -24,7 +24,7 @@
 
         <activity
             android:name="com.freshchat.consumer.sdk.activity.ConversationDetailActivity"
-            android:configChanges="orientation|screenSize"
+            android:configChanges="orientation|screenSize|screenLayout"
             android:theme="@style/Theme.Freshchat.SelectedTheme"
             android:windowSoftInputMode="stateHidden" />
 

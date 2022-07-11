@@ -98,6 +98,7 @@
 	<string name="freshchat_menu_item_search_faqs">Search</string>
 	<string name="freshchat_menu_item_contact_us">Message Us</string>
 	<string name="freshchat_menu_item_toggle_speaker">Toggle speakerphone</string>
+	<string name="freshchat_menu_item_quick_actions">Quick Actions</string>
 
 	<!-- Strings for Customer Satisfaction related UI Elements -->
 	<string name="freshchat_chat_resolution_survey_question"></string>

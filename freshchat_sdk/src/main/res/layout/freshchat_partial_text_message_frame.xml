@@ -16,11 +16,14 @@
         android:padding="@dimen/freshchat_message_attach_icon_padding"
         android:src="?attr/freshchatAttachIcon" />
 
-    <EditText
+    <com.freshchat.consumer.sdk.ui.QuickActionsAutoCompleteView
         android:id="@+id/freshchat_conv_detail_reply_text"
         style="?attr/freshchatMessageReplyInputViewStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:imeOptions="flagNoExtractUi"
+        android:dropDownAnchor="@id/freshchat_conv_detail_attach_image"
+        android:popupBackground = "@drawable/freshchat_quick_actions_slash_command_popup"
         android:layout_toLeftOf="@+id/freshchat_conv_detail_send_reply_button"
         android:layout_toStartOf="@+id/freshchat_conv_detail_send_reply_button"
         android:layout_toRightOf="@+id/freshchat_conv_detail_attach_image"

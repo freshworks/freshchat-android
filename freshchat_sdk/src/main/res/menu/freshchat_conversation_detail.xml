@@ -8,5 +8,13 @@
         android:visible="false"
         freshchatapp:showAsAction="always" />
 
+
+    <item
+        android:id="@+id/freshchat_quick_action_menu"
+        android:visible="false"
+        android:icon="@drawable/ic_freshchat_quick_actions_menu_button"
+        freshchatapp:showAsAction="always"
+        android:title="@string/freshchat_menu_item_quick_actions" />
+
 </menu>
 

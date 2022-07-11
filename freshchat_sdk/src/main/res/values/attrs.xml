@@ -57,6 +57,9 @@
     <!-- Buttons - Common -->
     <attr name="freshchatRetryButtonStyle" format="reference" />
 
+    <!-- Quick Actions-->
+    <attr name="freshchatQuickActionMenuStyle" format="reference" />
+
     <!-- FAQ Category List Item Customizations -->
     <!-- Style for the category list view -->
     <attr name="freshchatFAQCategoryListStyle" format="reference" />
@@ -109,6 +112,9 @@
     <attr name="freshchatUnsupportedTeamMemberMessageTextStyle" format="reference" />
     <attr name="freshchatUnsupportedUserMessageTextStyle" format="reference" />
     <attr name="freshchatUnsupportedMessageIconStyle" format="reference" />
+    <attr name="freshchatQuickActionsMenuTextStyle" format="reference" />
+    <attr name="freshchatQuickActionsSlashCommandTextStyle" format="reference" />
+    <attr name="freshchatQuickActionsButtonTextStyle" format="reference" />
 
     <!-- Style for the message reply view -->
     <attr name="freshchatMessageReplyViewStyle" format="reference" />
