@@ -1,3 +1,8 @@
+## 5.1.1(2022-08-11)
+
+###Bug fix
+*Fix for orientation change crash which was introduced in version 5.1.0
+
 ## 5.1.0(2022-07-11)
 
 ### Enhancement
