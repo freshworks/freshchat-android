@@ -23,7 +23,7 @@
         android:layout_marginBottom="13dp"
         android:layout_marginRight="17dp"
         android:layout_marginEnd="17dp"
-        style="@style/Widget.Freshchat.QuickActions.SlashCommandTextStyle"
+        style="?attr/freshchatQuickActionsSlashCommandTextStyle"
         android:layout_height="wrap_content" />
 
 </LinearLayout>

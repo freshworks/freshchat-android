@@ -59,6 +59,9 @@
         <item name="freshchatLoadMoreErrorTextStyle">@style/Widget.Freshchat.LoadMoreErrorText</item>
         <item name="freshchatErrorTitleTextStyle">@style/Widget.Freshchat.ErrorTitleText</item>
         <item name="freshchatErrorSubtitleTextStyle">@style/Widget.Freshchat.ErrorSubtitleText</item>
+        <item name="freshchatQuickActionsMenuTextStyle">@style/Widget.Freshchat.QuickActions.MenuTextStyle</item>
+        <item name="freshchatQuickActionsSlashCommandTextStyle">@style/Widget.Freshchat.QuickActions.SlashCommandTextStyle</item>
+        <item name="freshchatQuickActionsButtonTextStyle">@style/Widget.Freshchat.QuickActions.ButtonsTextStyle</item>
 
         <!-- Buttons - Common -->
         <item name="freshchatRetryButtonStyle">@style/Widget.Freshchat.FAQRetryOutlineButton</item>
@@ -79,9 +82,6 @@
         <item name="freshchatTeamMemberNameTextStyle">@style/Widget.Freshchat.TeamMemberName</item>
         <item name="freshchatUserMessageTextStyle">@style/Widget.Freshchat.UserMessage</item>
         <item name="freshchatTeamMemberMessageTextStyle">@style/Widget.Freshchat.TeamMemberMessage</item>
-        <item name="freshchatQuickActionsMenuTextStyle">@style/Widget.Freshchat.QuickActions.MenuTextStyle</item>
-        <item name="freshchatQuickActionsSlashCommandTextStyle">@style/Widget.Freshchat.QuickActions.SlashCommandTextStyle</item>
-        <item name="freshchatQuickActionsButtonTextStyle">@style/Widget.Freshchat.QuickActions.ButtonsTextStyle</item>
         <item name="freshchatUserMessageTimeTextStyle">@style/Widget.Freshchat.UserMessageTime</item>
         <item name="freshchatTeamMemberMessageTimeTextStyle">@style/Widget.Freshchat.TeamMemberMessageTime</item>
         <item name="freshchatVoiceMessageDurationTextStyle">@style/Widget.Freshchat.VoiceMessageDuration</item>
@@ -250,6 +250,9 @@
         <item name="freshchatLoadMoreErrorTextStyle">@style/Widget.Freshchat.LoadMoreErrorText</item>
         <item name="freshchatErrorTitleTextStyle">@style/Widget.Freshchat.ErrorTitleText</item>
         <item name="freshchatErrorSubtitleTextStyle">@style/Widget.Freshchat.ErrorSubtitleText</item>
+        <item name="freshchatQuickActionsMenuTextStyle">@style/Widget.Freshchat.QuickActions.MenuTextStyle</item>
+        <item name="freshchatQuickActionsSlashCommandTextStyle">@style/Widget.Freshchat.QuickActions.SlashCommandTextStyle</item>
+        <item name="freshchatQuickActionsButtonTextStyle">@style/Widget.Freshchat.QuickActions.ButtonsTextStyle</item>
 
         <!-- Buttons - Common -->
         <item name="freshchatRetryButtonStyle">@style/Widget.Freshchat.FAQRetryOutlineButton</item>
