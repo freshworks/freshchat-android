@@ -48,6 +48,13 @@
                 android:layout_height="0dp"
                 android:layout_weight="1" />
 
+            <include
+                android:id="@+id/freshchat_invalid_input_message"
+                layout="@layout/freshchat_invalid_input_alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
             <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

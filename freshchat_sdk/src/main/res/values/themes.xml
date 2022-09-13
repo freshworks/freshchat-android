@@ -59,6 +59,7 @@
         <item name="freshchatLoadMoreErrorTextStyle">@style/Widget.Freshchat.LoadMoreErrorText</item>
         <item name="freshchatErrorTitleTextStyle">@style/Widget.Freshchat.ErrorTitleText</item>
         <item name="freshchatErrorSubtitleTextStyle">@style/Widget.Freshchat.ErrorSubtitleText</item>
+        <item name="freshchatErrorInputTextStyle">@style/Widget.Freshchat.ErrorInputText</item>
         <item name="freshchatQuickActionsMenuTextStyle">@style/Widget.Freshchat.QuickActions.MenuTextStyle</item>
         <item name="freshchatQuickActionsSlashCommandTextStyle">@style/Widget.Freshchat.QuickActions.SlashCommandTextStyle</item>
         <item name="freshchatQuickActionsButtonTextStyle">@style/Widget.Freshchat.QuickActions.ButtonsTextStyle</item>
@@ -250,6 +251,7 @@
         <item name="freshchatLoadMoreErrorTextStyle">@style/Widget.Freshchat.LoadMoreErrorText</item>
         <item name="freshchatErrorTitleTextStyle">@style/Widget.Freshchat.ErrorTitleText</item>
         <item name="freshchatErrorSubtitleTextStyle">@style/Widget.Freshchat.ErrorSubtitleText</item>
+        <item name="freshchatErrorInputTextStyle">@style/Widget.Freshchat.ErrorInputText</item>
         <item name="freshchatQuickActionsMenuTextStyle">@style/Widget.Freshchat.QuickActions.MenuTextStyle</item>
         <item name="freshchatQuickActionsSlashCommandTextStyle">@style/Widget.Freshchat.QuickActions.SlashCommandTextStyle</item>
         <item name="freshchatQuickActionsButtonTextStyle">@style/Widget.Freshchat.QuickActions.ButtonsTextStyle</item>

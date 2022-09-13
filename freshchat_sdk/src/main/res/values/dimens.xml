@@ -100,4 +100,13 @@
     <dimen name="freshchat_faq_retry_btn_text_size">14sp</dimen>
     <dimen name="freshchat_error_image_height_landscape">100dp</dimen>
     <dimen name="freshchat_error_image_width_landscape">100dp</dimen>
+
+    <!-- Quick Actions -->
+    <dimen name="freshchat_min_space_for_quick_action_buttons">35dp</dimen>
+    <dimen name="freshchat_min_size_for_slash_command_item">48dp</dimen>
+
+    <!-- Placeholders -->
+    <dimen name="freshchat_text_view_placeholder_margin_left">16dp</dimen>
+    <dimen name="freshchat_text_view_default_margin_left">8dp</dimen>
+
 </resources>

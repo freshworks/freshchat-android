@@ -21,7 +21,7 @@
         style="?attr/freshchatMessageReplyInputViewStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:imeOptions="flagNoExtractUi"
+        android:imeOptions="flagNoExtractUi|actionDone"
         android:dropDownAnchor="@id/freshchat_conv_detail_attach_image"
         android:popupBackground = "@drawable/freshchat_quick_actions_slash_command_popup"
         android:layout_toLeftOf="@+id/freshchat_conv_detail_send_reply_button"

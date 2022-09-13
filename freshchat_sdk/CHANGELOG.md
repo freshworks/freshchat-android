@@ -1,4 +1,27 @@
-## 5.0.5(2022-03-10)
+## 5.2.0(2022-09-13)
+
+### Feature
+* Support for phone number, email and number input types in bot flow
+
+## 5.1.2(2022-08-23)
+
+### Bug fix
+* Fix for a crash on quick option buttons which was introduced in version 5.1.0
+
+## 5.1.1(2022-08-11)
+
+### Bug fix
+* Fix for orientation change crash which was introduced in version 5.1.0
+
+## 5.1.0(2022-07-11)
+
+### Enhancement
+* Support for quick options in bot flow
+
+### Bug fix
+* Fix for ConnectivityManager leak
+
+## 5.0.5(2022-02-04)
 
 ### Bug fix
 * Fix for "Notification not posted to system tray when app is in background"

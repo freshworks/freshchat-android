@@ -139,6 +139,9 @@
     <color name="freshchat_calendar_event_card_text">@color/freshchat_calendar_primary_text_color</color>
     <color name="freshchat_calendar_event_card_bg">@android:color/transparent</color>
     <color name="freshchat_calendar_meeting_banner_color">#243756</color>
+    <color name="freshchat_invalid_input_alert">#FEF1E1</color>
+    <color name="freshchat_invalid_input_alert_divider">#FAC386</color>
+    <color name="freshchat_invalid_input_alert_text">#C82124</color>
     
     <!-- Live Translation-->
     <color name="freshchat_original_message_bar">#8A091E42</color>

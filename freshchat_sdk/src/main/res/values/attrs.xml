@@ -53,6 +53,7 @@
     <attr name="freshchatLoadMoreErrorTextStyle" format="reference" />
     <attr name="freshchatErrorTitleTextStyle" format="reference" />
     <attr name="freshchatErrorSubtitleTextStyle" format="reference" />
+    <attr name="freshchatErrorInputTextStyle" format="reference" />
     <attr name="freshchatQuickActionsMenuTextStyle" format="reference" />
     <attr name="freshchatQuickActionsSlashCommandTextStyle" format="reference" />
     <attr name="freshchatQuickActionsButtonTextStyle" format="reference" />

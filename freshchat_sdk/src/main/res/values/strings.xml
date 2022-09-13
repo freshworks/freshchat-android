@@ -206,5 +206,11 @@
 	<!--Bots-->
 	<string name="freshchat_bot_faq_feedback_title">Was this answer useful?</string>
 	<string name="freshchat_bot_faq_feedback_success">Thank you for your Feedback!</string>
+	<string name="freshchat_input_invalid_email">Enter valid email</string>
+	<string name="freshchat_input_invalid_phone_number">Enter valid phone number</string>
+	<string name="freshchat_input_invalid_number">Enter valid number</string>
+	<string name="freshchat_input_email_hint">Enter email</string>
+	<string name="freshchat_input_phone_number_hint">Enter phone number</string>
+	<string name="freshchat_input_number_hint">Enter a number</string>
 
 </resources>

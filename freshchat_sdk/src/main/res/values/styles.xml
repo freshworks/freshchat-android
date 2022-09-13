@@ -57,13 +57,14 @@
         <item name="android:textDirection">firstStrong</item>
     </style>
 
+<!-- Margin left and margin start values are added in dimens.xml file since they are subject to change based on the input type (placeholders)-->
     <style name="Widget.Freshchat.MessageReplyEditText" parent="Widget.AppCompat.EditText">
         <item name="android:background">@null</item>
         <item name="android:hint">@string/freshchat_chat_message_composer_hint</item>
         <item name="android:inputType">textMultiLine|textCapSentences</item>
         <item name="android:layout_centerVertical">true</item>
-        <item name="android:layout_marginLeft">8dp</item>
-        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginLeft">@dimen/freshchat_text_view_default_margin_left</item>
+        <item name="android:layout_marginStart">@dimen/freshchat_text_view_default_margin_left</item>
         <item name="android:layout_marginRight">8dp</item>
         <item name="android:layout_marginEnd">8dp</item>
         <item name="android:maxLines">4</item>
@@ -81,6 +82,7 @@
         <item name="android:background">@color/freshchat_message_reply_view_bg</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:outlineProvider">none</item>
         <item name="android:elevation">5dp</item>
         <item name="android:minHeight">@dimen/freshchat_message_reply_frame_min_height</item>
     </style>
@@ -148,6 +150,18 @@
         <item name="android:lineSpacingExtra">5sp</item>
         <item name="android:ellipsize">end</item>
         <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- This style doesn't support anything except text appearance attributes -->
+    <style name="Widget.Freshchat.ErrorInputText">
+        <item name="android:textAppearance">@style/TextAppearance.Freshchat.Medium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textDirection" tools:targetApi="jelly_bean_mr1">locale</item>
+        <item name="android:textAlignment" tools:targetApi="jelly_bean_mr1">viewStart</item>
+        <item name="android:textColor">@color/freshchat_invalid_input_alert_text</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">12sp</item>
     </style>
 
     <!-- This style doesn't support anything except text appearance attributes -->
