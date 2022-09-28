@@ -3,6 +3,8 @@
 
     <dimen name="freshchat_action_bar_elevation">4dp</dimen>
 
+    <dimen name="freshchat_button_max_width">540dp</dimen>
+
     <dimen name="freshchat_calendar_banner_elevation">@dimen/freshchat_action_bar_elevation</dimen>
 
     <!-- Notification Icon Size -->
@@ -19,6 +21,11 @@
     <dimen name="freshchat_message_attach_icon_size">@dimen/freshchat_default_icon_size</dimen>
     <dimen name="freshchat_message_attach_icon_padding">@dimen/freshchat_default_icon_padding</dimen>
 
+    <dimen name="freshchat_message_reply_with_attachment_icon_width">16.6dp</dimen>
+    <dimen name="freshchat_message_reply_with_attachment_icon_height">18.84dp</dimen>
+    <dimen name="freshchat_message_reply_with_attachment_icon_padding">0dp</dimen>
+
+
     <dimen name="freshchat_message_upload_status_icon_size">20dp</dimen>
     <dimen name="freshchat_message_upload_status_icon_padding">4dp</dimen>
 
@@ -30,6 +37,8 @@
     <dimen name="freshchat_message_lisitem_divider_height">4dp</dimen>
 
     <dimen name="freshchat_chat_resolution_prompt_divider_height">1dp</dimen>
+
+    <dimen name="freshchat_message_reply_with_attachment_divider_height">1dp</dimen>
 
     <dimen name="freshchat_message_reply_frame_min_height">48dp</dimen>
     <dimen name="freshchat_message_item_padding">4dp</dimen>
@@ -100,6 +109,7 @@
     <dimen name="freshchat_faq_retry_btn_text_size">14sp</dimen>
     <dimen name="freshchat_error_image_height_landscape">100dp</dimen>
     <dimen name="freshchat_error_image_width_landscape">100dp</dimen>
+    <dimen name="freshchat_time_status_layout_right_margin">12dp</dimen>
 
     <!-- Quick Actions -->
     <dimen name="freshchat_min_space_for_quick_action_buttons">35dp</dimen>
@@ -108,5 +118,8 @@
     <!-- Placeholders -->
     <dimen name="freshchat_text_view_placeholder_margin_left">16dp</dimen>
     <dimen name="freshchat_text_view_default_margin_left">8dp</dimen>
+
+    <!-- Attachments -->
+    <dimen name="freshchat_partial_image_attachment_padding">16dp</dimen>
 
 </resources>

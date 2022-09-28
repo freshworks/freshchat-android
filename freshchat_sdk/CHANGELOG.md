@@ -1,3 +1,8 @@
+## 5.3.0(2022-09-27)
+
+### Feature
+* Support for upload file for bot flows and attachment option
+
 ## 5.2.0(2022-09-13)
 
 ### Feature

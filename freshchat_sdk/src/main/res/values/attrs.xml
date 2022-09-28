@@ -106,6 +106,7 @@
     <!-- Style for the each of the items in the message list -->
     <attr name="freshchatMessageListItemStyle" format="reference" />
     <attr name="freshchatMessageButtonStyle" format="reference" />
+    <attr name="freshchatMessageFileIconStyle" format="reference" />
     <attr name="freshchatTeamMemberAvatarStyle" format="reference" />
     <attr name="freshchatTeamMemberNameTextStyle" format="reference" />
     <attr name="freshchatUserMessageTextStyle" format="reference" />
@@ -119,9 +120,20 @@
 
     <!-- Style for the message reply view -->
     <attr name="freshchatMessageReplyViewStyle" format="reference" />
+    <attr name="freshchatMessageBotReplyViewStyle" format="reference" />
     <attr name="freshchatQuickReplyTextStyle" format="reference" />
     <attr name="freshchatQuickReplyViewBgColor" format="reference" />
     <attr name="freshchatMessageReplyInputViewStyle" format="reference" />
+
+
+    <!-- Style for the message reply with attachment view -->
+    <attr name="freshchatMessageReplyWithAttachmentViewStyle" format="reference" />
+    <attr name="freshchatMessageReplyWithAttachmentInputViewStyle" format="reference" />
+
+    <!--Attachmemts -->
+    <attr name="freshchatAttachmentFileNameStyle" format="reference" />
+    <attr name="freshchatAttachmentFileSizeStyle" format="reference" />
+    <attr name="freshchatAttachmentFileExtStyle" format="reference" />
 
     <!-- Chat Resolution Confirmation Prompt Styles -->
     <attr name="freshchatChatResolutionPromptViewStyle" format="reference" />
@@ -137,6 +149,9 @@
 
     <!-- Misc - Conversation Detail Screen -->
     <attr name="freshchatConversationBannerMessageStyle" format="reference" />
+    <attr name="freshchatConversationUploadAttachmentIcon" format="reference"/>
+    <attr name="freshchatSendAttachmentIcon" format="reference"/>
+    <attr name="freshchatSendAttachmentText" format="reference"/>
 
     <declare-styleable name="freshchatFlowLayout">
         <attr name="freshchatFlFlow" format="boolean"/>

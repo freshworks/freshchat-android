@@ -58,6 +58,15 @@
     </style>
 
 <!-- Margin left and margin start values are added in dimens.xml file since they are subject to change based on the input type (placeholders)-->
+    <style name="Widget.Freshchat.MessageFile">
+        <item name="android:layout_width">16dp</item>
+        <item name="android:layout_height">16dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:src">@drawable/freshchat_message_file_icon</item>
+    </style>
+
     <style name="Widget.Freshchat.MessageReplyEditText" parent="Widget.AppCompat.EditText">
         <item name="android:background">@null</item>
         <item name="android:hint">@string/freshchat_chat_message_composer_hint</item>
@@ -78,13 +87,104 @@
         <item name="android:textAlignment">viewStart</item>
     </style>
 
+    <style name="Widget.Freshchat.MessageReplyWithAttachmentTextView">
+        <item name="android:background">@null</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginStart">6dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:lineSpacingExtra">5sp</item>
+        <item name="android:lineHeight">24sp</item>
+        <item name="android:textColor">@color/freshchat_message_reply_with_attachment_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textDirection">firstStrong</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:text">@string/freshchat_bot_file_attachment</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Widget.Freshchat.SendText">
+        <item name="android:background">@null</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">7.68dp</item>
+        <item name="android:layout_marginStart">7.68dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:textColor">@color/freshchat_white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textDirection">firstStrong</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:text">@string/freshchat_attachment_send_button</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+
+    </style>
+
     <style name="Widget.Freshchat.MessageReplyView">
-        <item name="android:background">@color/freshchat_message_reply_view_bg</item>
+        <item name="android:background">@drawable/freshchattext_editor</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:outlineProvider">none</item>
+        <item name="android:layout_height">48dp</item>
         <item name="android:elevation">5dp</item>
         <item name="android:minHeight">@dimen/freshchat_message_reply_frame_min_height</item>
+    </style>
+
+    <style name="Widget.Freshchat.MessageReplyWithAttachmentView">
+        <item name="android:background">@drawable/freshchattext_editor</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:minHeight">@dimen/freshchat_message_reply_frame_min_height</item>
+    </style>
+
+    <style name="Widget.Freshchat.AttachmentFileName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:textColor">@color/freshchat_attachment_file_name</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Widget.Freshchat.PreviewActionBarFileName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:textColor">@color/freshchat_white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+
+    <style name="Widget.Freshchat.PreviewActionBarFileSize">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#DEFFFFFF</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Widget.Freshchat.Attachment_FileName">
+        <item name="android:textColor">@color/freshchat_primary_text_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Widget.Freshchat.Attachment_FileSize">
+        <item name="android:textColor">@color/freshchat_attachment_file_size</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:gravity">start|center_vertical</item>
+    </style>
+
+    <style name="Widget.Freshchat.Attachment_FileExt">
+        <item name="android:textColor">@color/freshchat_attachment_file_size</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:gravity">start|center_vertical</item>
     </style>
 
     <style name="Widget.Freshchat.QuickReplyText">
@@ -213,11 +313,21 @@
         <item name="android:src">@drawable/freshchat_message_unknown_icon</item>
     </style>
 
+    <style name="Widget.Freshchat.FileAttachmentIcon">
+        <item name="android:layout_width">16dp</item>
+        <item name="android:layout_height">16dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:src">@drawable/freshchat_message_file_icon</item>
+    </style>
+
     <!-- This style doesn't support anything except text appearance attributes -->
     <style name="Widget.Freshchat.UserMessageTime">
         <item name="android:textAppearance">@style/TextAppearance.Freshchat.Small</item>
         <item name="android:textColor">@color/freshchat_text_color</item>
         <item name="android:textSize">11sp</item>
+
     </style>
 
     <!-- This style doesn't support anything except text appearance attributes -->
@@ -374,6 +484,10 @@
         <!-- Dialog action button style -->
         <!--<item name="android:borderlessButtonStyle">@style/BorderlessButtonStyle</item>-->
 
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">#2C5CC5</item>
     </style>
 
     <style name="Widget.Freshchat.Dialog.Alert" parent="Theme.AppCompat.Dialog.Alert">
@@ -1102,6 +1216,13 @@
     <style name="Widget.Freshchat.ErrorSubtitleText" parent="Widget.Freshchat.ErrorTitleText">
         <item name="android:textColor">@color/freshchat_faq_error_subtitle_text</item>
         <item name="android:textSize">@dimen/freshchat_faq_error_subtitle_text_size</item>
+    </style>
+
+    <style name="Widget.Freshchat.ProgressDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">#2C5CC5</item>
+        <item name="android:windowBackground">@drawable/freshchat_progressbar_bg</item>
+        <item name="android:textColor">#12344D</item>
+        <item name="android:textSize">18sp</item>
     </style>
 
     <style name="Widget.Freshchat.QuickActions.Background" parent="Widget.AppCompat.ListPopupWindow">

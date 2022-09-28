@@ -161,4 +161,14 @@
     <color name="freshchat_quick_actions_button_touch">#EBEFF3</color>
     <color name="freshchat_quick_actions_button_layout_background">@color/freshchat_white</color>
 
+    <!-- Attachments-->
+    <color name="freshchat_message_reply_with_attachment_text">#2C5CC5</color>
+    <color name="freshchat_message_list_reply_with_attachment_divider_color">#D0D0D0</color>
+    <color name="freshchat_message_file_bg_solid">#B0FFFFFF</color>
+    <color name="freshchat_message_file_bg_stroke">#CFD7DF</color>
+    <color name="freshchat_attachment_file_name">#12344D</color>
+    <color name="freshchat_send_button_background_color">#12344D</color>
+    <color name="freshchat_attachment_file_size">#475867</color>
+    <color name="freshchat_alert_dialog_message">#12344D</color>
+
 </resources>

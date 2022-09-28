@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <ProgressBar
         android:id="@+id/freshchat_activity_conversation_detail_progressbar"
@@ -91,13 +92,29 @@
             layout="@layout/freshchat_partial_text_message_frame"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/freshchat_conv_detail_voice_reply_layout"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
             android:layout_alignWithParentIfMissing="true"
-            android:visibility="gone" />
+            android:layout_above="@+id/freshchat_conv_detail_upload_attachment_layout"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <include
+            layout="@layout/freshchat_partial_add_attachment_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_above="@+id/freshchat_conv_detail_voice_reply_layout"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"
+            tools:visibility="visible" />
+        />
+
 
         <include
             layout="@layout/freshchat_partial_voice_message_frame"

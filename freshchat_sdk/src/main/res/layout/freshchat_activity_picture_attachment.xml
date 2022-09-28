@@ -1,39 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal">
 
     <ImageView
         android:id="@+id/freshchat_picture_attachment_imageview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="fitCenter"
+        android:layout_above="@id/freshchat_file_attachment_preview_send_btn_background"
         android:layout_centerInParent="true"
-        android:layout_above="@+id/freshchat_picture_attachment_divider"/>
+        android:scaleType="fitCenter"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:layerType="software"
+        />
+
+    <LinearLayout
+        android:id="@+id/freshchat_file_attachment_preview_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@id/freshchat_file_attachment_preview_send_btn_background"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/freshchat_file_attachment_placeholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/freshchat_message_file_preview_placeholder" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/freshchat_file_attachment_preview_text"
+            style="@style/Widget.Freshchat.AttachmentFileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="invoice 27l234.pdf" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/freshchat_file_attachment_preview_send_btn_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:minWidth="64dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/freshchat_send_button_background"
+        android:gravity="center_horizontal"
+        android:alpha="0.6">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/freshchat_upload_attachment_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/freshchat_content_description_attach_picture"
+            app:srcCompat="?attr/freshchatSendAttachmentIcon"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/freshchat_file_attachment_send_btn"
+            style="?attr/freshchatSendAttachmentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal"/>
+
+    </LinearLayout>
 
     <ProgressBar
+        android:id="@+id/freshchat_picture_attachment_progress_bar"
+        style="?attr/freshchatProgressBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:id="@+id/freshchat_picture_attachment_progress_bar"
-        android:visibility="gone"
-        style="?attr/freshchatProgressBarStyle"/>
-
-    <View
-        android:id="@+id/freshchat_picture_attachment_divider"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_above="@+id/freshchat_conv_detail_text_reply_layout"
-        android:layout_alignWithParentIfMissing="true"
-        android:background="@color/freshchat_message_list_reply_view_divider" />
+        android:visibility="gone" />
 
     <include
         layout="@layout/freshchat_partial_text_message_frame"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"/>
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" />
 </RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/freshchat_conv_detail_upload_attachment_layout"
+    style="?attr/freshchatMessageReplyViewStyle"
+    android:gravity="center"
+    android:foreground="?attr/freshchatActionSelectableItemBackground"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/freshchat_upload_attachment_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/freshchat_content_description_attach_picture"
+        app:srcCompat="?attr/freshchatConversationUploadAttachmentIcon" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/freshchat_upload_attachment_tv"
+        style="?attr/freshchatMessageReplyWithAttachmentInputViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:text="Upload a file/image" />
+</LinearLayout>

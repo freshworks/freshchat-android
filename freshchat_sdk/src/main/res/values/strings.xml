@@ -10,7 +10,8 @@
 	<string name="freshchat_chat_deeplink_faq">View FAQ</string>
 	<string name="freshchat_chat_message_composer_hint">Type a message</string>
 	<string name="freshchat_chat_capture_from_camera">Take a picture</string>
-	<string name="freshchat_chat_select_from_gallery">Upload from gallery</string>
+	<string name="freshchat_chat_select_from_gallery">Upload image from gallery</string>
+	<string name="freshchat_chat_select_file">Select a file (&lt;20 MB)</string>
 
 	<string name="freshchat_channel_list_empty">Oops, no message channels here!</string>
 	<string name="freshchat_channel_disabled">Oops, this chat is no longer available</string>
@@ -42,6 +43,7 @@
 	<!-- Content descriptions for accessibility -->
 	<string name="freshchat_content_description_send_message">Send message</string>
 	<string name="freshchat_content_description_attach_picture">Attach a picture</string>
+	<string name="freshchat_content_description_attach_file_image">Attach a file or an image</string>
 	<string name="freshchat_content_description_send_voice_message">Record a voice message</string>
 	<string name="freshchat_content_description_upload_status">Message upload Status</string>
 	<string name="freshchat_content_description_show_original_content">Show Original</string>
@@ -212,5 +214,25 @@
 	<string name="freshchat_input_email_hint">Enter email</string>
 	<string name="freshchat_input_phone_number_hint">Enter phone number</string>
 	<string name="freshchat_input_number_hint">Enter a number</string>
+
+
+	<!--Attachments-->
+    <string name="freshchat_attachment_send_button">Send</string>
+	<string name="freshchat_attachment_okay_button">Okay</string>
+	<string name="freshchat_attachment_download_button">Download</string>
+	<string name="freshchat_attachment_cancel_button">Cancel</string>
+    <string name="freshchat_file_not_supported_message">Attachments format is not supported</string>
+	<string name="freshchat_unable_to_attach">Unable to attach</string>
+	<string name="freshchat_file_status_scan_pending_alert_msg">File is no yet scanned, it may harm your device. So download at your discretion</string>
+	<string name="freshchat_file_status_scan_malware_found_alert_msg">Malware found in this file. Downloading is blocked</string>
+	<string name="freshchat_error_file_pending_status">Pending malware scan</string>
+	<string name="freshchat_bot_file_attachment">Upload a file/image</string>
+	<string name="freshchat_bot_only_image_attachment">Upload an image</string>
+    <string name="freshchat_kb">KB</string>
+	<string name="freshchat_mb">MB</string>
+	<string name="freshchat_less_than_1" translatable="false">&lt;1</string>
+	<string name="freshchat_file_size_exceeded_message">Attachments should be smaller than 20 MB</string>
+	<string name="freshchat_spinner_text">Please wait...</string>
+
 
 </resources>

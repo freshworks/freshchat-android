@@ -15,6 +15,8 @@
         <item name="freshchatSendIcon">@drawable/freshchat_ic_send</item>
         <item name="freshchatCancelIcon">@drawable/freshchat_ic_cancel</item>
         <item name="freshchatAttachIcon">@drawable/freshchat_ic_attach</item>
+        <item name="freshchatConversationUploadAttachmentIcon">@drawable/freshchat_ic_upload_attachment</item>
+        <item name="freshchatSendAttachmentIcon">@drawable/freshchat_ic_send_button</item>
         <item name="freshchatRecordIcon">@drawable/freshchat_ic_record</item>
         <item name="freshchatActionSelectableItemBackground">?attr/selectableItemBackground</item>
         <item name="freshchatDropDownIcon">@drawable/freshchat_ic_drop_down_btn</item>
@@ -71,10 +73,14 @@
         <item name="freshchatMessageListStyle">@style/Widget.Freshchat.MessageList</item>
         <item name="freshchatMessageListItemStyle">@style/Widget.Freshchat.MessageListItem</item>
         <item name="freshchatMessageReplyViewStyle">@style/Widget.Freshchat.MessageReplyView</item>
+        <item name="freshchatMessageBotReplyViewStyle">@style/Widget.Freshchat.MessageReplyWithAttachmentView</item>
+
         <item name="freshchatQuickReplyTextStyle">@style/Widget.Freshchat.QuickReplyText</item>
+        <item name="freshchatMessageReplyWithAttachmentViewStyle">@style/Widget.Freshchat.MessageReplyWithAttachmentView</item>
         <item name="freshchatQuickReplyViewBgColor">@color/freshchat_white</item>
         <item name="freshchatMessageButtonStyle">@style/Widget.Freshchat.MessageButton</item>
         <item name="freshchatMessageReplyInputViewStyle">@style/Widget.Freshchat.MessageReplyEditText</item>
+        <item name="freshchatMessageReplyWithAttachmentInputViewStyle">@style/Widget.Freshchat.MessageReplyWithAttachmentTextView</item>
         <item name="freshchatConversationBannerMessageStyle">@style/Widget.Freshchat.ConversationBannerMessage</item>
         <item name="freshchatProgressBarStyle">@style/Widget.Freshchat.ProgressBar</item>
 
@@ -88,7 +94,8 @@
         <item name="freshchatVoiceMessageDurationTextStyle">@style/Widget.Freshchat.VoiceMessageDuration</item>
         <item name="freshchatUnsupportedTeamMemberMessageTextStyle">@style/Widget.Freshchat.UnsupportedTeamMemberMessageText</item>
         <item name="freshchatUnsupportedUserMessageTextStyle">@style/Widget.Freshchat.UnsupportedUserMessageText</item>
-        <item name="freshchatUnsupportedMessageIconStyle">@style/Widget.Freshchat.UnsupportedMessageIcon</item>
+        <item name="freshchatSendAttachmentText">@style/Widget.Freshchat.SendText</item>
+
 
         <!-- Chat Resolution Confirmation Prompt Styles -->
         <item name="freshchatChatResolutionPositiveButtonStyle">@style/Widget.Freshchat.ChatResolutionPositiveButton</item>
@@ -195,6 +202,7 @@
 
         <!-- Quick Action Menu -->
         <item name="freshchatQuickActionMenuStyle">@style/Widget.Freshchat.QuickActions.Background</item>
+        <item name="freshchatMessageFileIconStyle">@style/Widget.Freshchat.UnsupportedMessageIcon</item>
     </style>
 
     <style name="Theme.Freshchat.Light.DarkActionBar" parent="@style/Theme.AppCompat.Light.DarkActionBar">
@@ -208,6 +216,8 @@
         <item name="freshchatSendIcon">@drawable/freshchat_ic_send</item>
         <item name="freshchatCancelIcon">@drawable/freshchat_ic_cancel</item>
         <item name="freshchatAttachIcon">@drawable/freshchat_ic_attach</item>
+        <item name="freshchatConversationUploadAttachmentIcon">@drawable/freshchat_ic_upload_attachment</item>
+        <item name="freshchatSendAttachmentIcon">@drawable/freshchat_ic_send_button</item>
         <item name="freshchatRecordIcon">@drawable/freshchat_ic_record</item>
         <item name="freshchatActionSelectableItemBackground">?attr/selectableItemBackground</item>
         <item name="freshchatDropDownIcon">@drawable/freshchat_ic_drop_down_btn</item>
@@ -264,9 +274,11 @@
         <item name="freshchatMessageListItemStyle">@style/Widget.Freshchat.MessageListItem</item>
         <item name="freshchatMessageReplyViewStyle">@style/Widget.Freshchat.MessageReplyView</item>
         <item name="freshchatQuickReplyTextStyle">@style/Widget.Freshchat.QuickReplyText</item>
+        <item name="freshchatMessageReplyWithAttachmentViewStyle">@style/Widget.Freshchat.MessageReplyWithAttachmentView</item>
         <item name="freshchatQuickReplyViewBgColor">@color/freshchat_white</item>
         <item name="freshchatMessageButtonStyle">@style/Widget.Freshchat.MessageButton</item>
         <item name="freshchatMessageReplyInputViewStyle">@style/Widget.Freshchat.MessageReplyEditText</item>
+        <item name="freshchatMessageReplyWithAttachmentInputViewStyle">@style/Widget.Freshchat.MessageReplyWithAttachmentTextView</item>
         <item name="freshchatConversationBannerMessageStyle">@style/Widget.Freshchat.ConversationBannerMessage</item>
         <item name="freshchatProgressBarStyle">@style/Widget.Freshchat.ProgressBar</item>
 
@@ -280,7 +292,7 @@
         <item name="freshchatVoiceMessageDurationTextStyle">@style/Widget.Freshchat.VoiceMessageDuration</item>
         <item name="freshchatUnsupportedTeamMemberMessageTextStyle">@style/Widget.Freshchat.UnsupportedTeamMemberMessageText</item>
         <item name="freshchatUnsupportedUserMessageTextStyle">@style/Widget.Freshchat.UnsupportedUserMessageText</item>
-        <item name="freshchatUnsupportedMessageIconStyle">@style/Widget.Freshchat.UnsupportedMessageIcon</item>
+        <item name="freshchatSendAttachmentText">@style/Widget.Freshchat.SendText</item>
 
         <!-- Chat Resolution Confirmation Prompt Styles -->
         <item name="freshchatChatResolutionPositiveButtonStyle">@style/Widget.Freshchat.ChatResolutionPositiveButton</item>
@@ -340,6 +352,11 @@
         <item name="freshchatCarouselCardButtonStyle">@style/Widget.Freshchat.CarouselCardButton</item>
         <item name="freshchatCarouselCardSelectedTextStyle">@style/Widget.Freshchat.CarouselCardSelectedText</item>
 
+        <!--Attachmemts -->
+        <item name="freshchatAttachmentFileNameStyle">@style/Widget.Freshchat.Attachment_FileName</item>
+        <item name="freshchatAttachmentFileSizeStyle">@style/Widget.Freshchat.Attachment_FileSize</item>
+        <item name="freshchatAttachmentFileExtStyle">@style/Widget.Freshchat.Attachment_FileExt</item>
+
         <!-- Calendar -->
         <item name="freshchatCalendarFindASlotButtonStyle">@style/Widget.Freshchat.CalendarFindASlot</item>
         <item name="freshchatCalendarNotInterestedButtonStyle">@style/Widget.Freshchat.CalendarNotInterested</item>
@@ -387,6 +404,7 @@
 
         <item name="freshchatQuickActionMenuStyle">@style/Widget.Freshchat.QuickActions.Background</item>
 
+        <item name="freshchatMessageFileIconStyle">@style/Widget.Freshchat.UnsupportedMessageIcon</item>
     </style>
 
     <style name="Freshchat.Theme.Transparent" parent="@style/Theme.AppCompat.Light.NoActionBar">
@@ -397,6 +415,5 @@
         <item name="android:windowIsFloating">true</item>
         <item name="android:backgroundDimEnabled">false</item>
     </style>
-
 
 </resources>
