@@ -1,7 +1,27 @@
+## 5.3.1(2022-10-18)
+
+### Bug Fix
+* Fix for keyboard hiding last few messages
+
+## 5.3.0(2022-09-27)
+
+### Feature
+* Support for upload file for bot flows and attachment option
+
+## 5.2.0(2022-09-13)
+
+### Feature
+* Support for phone number, email and number input types in bot flow
+
+## 5.1.2(2022-08-23)
+
+### Bug fix
+* Fix for a crash on quick option buttons which was introduced in version 5.1.0
+
 ## 5.1.1(2022-08-11)
 
-###Bug fix
-*Fix for orientation change crash which was introduced in version 5.1.0
+### Bug fix
+* Fix for orientation change crash which was introduced in version 5.1.0
 
 ## 5.1.0(2022-07-11)
 
