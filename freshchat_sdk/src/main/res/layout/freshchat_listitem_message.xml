@@ -77,7 +77,7 @@
 
             <LinearLayout
                 android:id="@+id/freshchat_time_status_view"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="4dp"
@@ -86,15 +86,15 @@
                 <include
                     layout="@layout/freshchat_message_time"
                     android:layout_width="wrap_content"
+                    android:layout_gravity="center"
                     android:layout_height="wrap_content"
                     />
 
                 <include
                     layout="@layout/freshchat_message_upload_status"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                />
+                    android:layout_width="@dimen/freshchat_message_upload_status_icon_size"
+                    android:layout_height="@dimen/freshchat_message_upload_status_icon_size" />
             </LinearLayout>
         </LinearLayout>
 

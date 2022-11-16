@@ -1,3 +1,20 @@
+## 5.3.2(2022-11-16)
+
+### Enhancement
+* Updated targetSdkVersion to Android 12
+
+### Bug Fixes
+* Fix for the next bot flow to trigger on selecting carousel.
+* Fix for clearing error message for invalid input in bot flow.
+* Fix for handling empty messages.
+* Fix for handling quick actions menu overlapping in landscape mode.
+* Fix for custom attachment icons appearing too large in v5.3.0 and v5.3.1.
+
+## 5.3.1(2022-10-18)
+
+### Bug Fix
+* Fix for keyboard hiding last few messages
+
 ## 5.3.0(2022-09-27)
 
 ### Feature

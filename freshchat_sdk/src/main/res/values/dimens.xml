@@ -114,6 +114,7 @@
     <!-- Quick Actions -->
     <dimen name="freshchat_min_space_for_quick_action_buttons">35dp</dimen>
     <dimen name="freshchat_min_size_for_slash_command_item">48dp</dimen>
+    <dimen name="freshchat_quick_action_menu_vertical_offset">35dp</dimen>
 
     <!-- Placeholders -->
     <dimen name="freshchat_text_view_placeholder_margin_left">16dp</dimen>

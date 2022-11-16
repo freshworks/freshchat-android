@@ -223,7 +223,7 @@
 	<string name="freshchat_attachment_cancel_button">Cancel</string>
     <string name="freshchat_file_not_supported_message">Attachments format is not supported</string>
 	<string name="freshchat_unable_to_attach">Unable to attach</string>
-	<string name="freshchat_file_status_scan_pending_alert_msg">File is no yet scanned, it may harm your device. So download at your discretion</string>
+	<string name="freshchat_file_status_scan_pending_alert_msg">File is not yet scanned, it may harm your device. So download at your discretion</string>
 	<string name="freshchat_file_status_scan_malware_found_alert_msg">Malware found in this file. Downloading is blocked</string>
 	<string name="freshchat_error_file_pending_status">Pending malware scan</string>
 	<string name="freshchat_bot_file_attachment">Upload a file/image</string>

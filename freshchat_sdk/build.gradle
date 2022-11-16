@@ -17,7 +17,7 @@ def getScmBranch = {
 }
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 31
     buildToolsVersion "29.0.3"
 
     compileOptions {
@@ -27,9 +27,9 @@ android {
 
     defaultConfig {
         minSdkVersion 16
-        versionCode 531
-        versionName "5.3.1"
-        targetSdkVersion 30
+        versionCode 532
+        versionName "5.3.2"
+        targetSdkVersion 31
         consumerProguardFiles 'consumer-proguard-rules.pro'
         buildConfigField "long", 'BUILT_AT', System.currentTimeMillis() + 'L'
         buildConfigField "String", "SCM_REV", getScmRevision()
