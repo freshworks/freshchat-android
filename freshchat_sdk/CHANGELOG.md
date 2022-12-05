@@ -1,3 +1,8 @@
+## 5.3.3(2022-12-05)
+
+### Hot Fix
+* Fix for agent/bot message timestamp aligning to the right end of the message bubble
+
 ## 5.3.2(2022-11-16)
 
 ### Enhancement
