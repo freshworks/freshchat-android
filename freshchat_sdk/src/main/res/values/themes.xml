@@ -151,8 +151,11 @@
 
         <!-- Carousel Card -->
         <item name="freshchatCarouselCardTitleTextStyle">@style/Widget.Freshchat.CarouselCardTitle</item>
+        <item name="freshchatCarouselCardSubTitleTextStyle">@style/Widget.Freshchat.CarouselCardSubTitle</item>
         <item name="freshchatCarouselCardDescTextStyle">@style/Widget.Freshchat.CarouselCardDescription</item>
         <item name="freshchatCarouselCardButtonStyle">@style/Widget.Freshchat.CarouselCardButton</item>
+        <item name="freshchatCarouselCardViewButtonStyle">@style/Widget.Freshchat.CarouselCardViewButton</item>
+
         <item name="freshchatCarouselCardSelectedTextStyle">@style/Widget.Freshchat.CarouselCardSelectedText</item>
 
         <!-- Calendar -->
@@ -348,8 +351,10 @@
 
         <!-- Carousel Card -->
         <item name="freshchatCarouselCardTitleTextStyle">@style/Widget.Freshchat.CarouselCardTitle</item>
+        <item name="freshchatCarouselCardSubTitleTextStyle">@style/Widget.Freshchat.CarouselCardSubTitle</item>
         <item name="freshchatCarouselCardDescTextStyle">@style/Widget.Freshchat.CarouselCardDescription</item>
         <item name="freshchatCarouselCardButtonStyle">@style/Widget.Freshchat.CarouselCardButton</item>
+        <item name="freshchatCarouselCardViewButtonStyle">@style/Widget.Freshchat.CarouselCardViewButton</item>
         <item name="freshchatCarouselCardSelectedTextStyle">@style/Widget.Freshchat.CarouselCardSelectedText</item>
 
         <!--Attachmemts -->

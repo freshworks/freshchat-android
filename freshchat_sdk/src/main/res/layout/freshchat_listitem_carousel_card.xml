@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     style="?attr/freshchatMessageListItemStyle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -8,9 +9,26 @@
 
     <com.freshchat.consumer.sdk.ui.CarouselCardView
         android:id="@+id/freshchat_carousel_card"
-        android:layout_width="wrap_content"
+        android:layout_width="@dimen/freshchat_carousel_card_image_default_width"
         android:layout_height="wrap_content"
-        android:layout_margin="2dp" />
+        android:adjustViewBounds="true"
+        android:layout_gravity="right|end"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginRight="8dp" />
 
-    <include layout="@layout/freshchat_message_time" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|end"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp" >
+
+        <include layout="@layout/freshchat_message_time" />
+
+        <include layout="@layout/freshchat_carousel_card_message_upload_status" />
+    </LinearLayout>
 </LinearLayout>

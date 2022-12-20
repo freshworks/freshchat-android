@@ -1,66 +1,92 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="@dimen/freshchat_carousel_card_default_dimension"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:background="@color/freshchat_carousel_card_bg">
+    android:id="@+id/freshchat_carousel_card_view_id"
+    android:layout_width="@dimen/freshchat_carousel_card_image_default_width"
+    android:layout_height="@dimen/freshchat_carousel_card_height"
+    android:background="@drawable/freshchat_carousel_card_background"
+    android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/freshchat_carousel_card_hero_image"
-        tools:src="@drawable/freshchat_carousel_card_placeholder_image"
-        style="@style/Widget.Freshchat.CarouselCardHeroImage" />
+    <FrameLayout
+        android:id="@+id/freshchat_carousel_placeholder"
+        android:layout_width="@dimen/freshchat_carousel_card_image_default_width"
+        android:layout_height="wrap_content"
+        android:background="@color/freshchat_carousel_placeholder_background"
+        android:maxHeight="@dimen/freshchat_carousel_card_image_default_height">
+
+        <LinearLayout
+            android:id="@+id/freshchat_loading_background"
+            android:layout_width="@dimen/freshchat_carousel_card_image_default_width"
+            android:layout_height="@dimen/freshchat_carousel_card_image_default_height"
+            android:gravity="center"
+            android:background="@drawable/freshchat_default_background">
+
+            <ProgressBar
+                android:id="@+id/freshchat_carousel_progress_bar"
+                android:layout_width="@dimen/freshchat_carousel_card_progressbar_height"
+                android:layout_height="@dimen/freshchat_carousel_card_progressbar_height"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/freshchat_carousel_card_progressbar_margin"
+                android:foregroundGravity="center" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/freshchat_carousel_card_hero_image"
+            style="@style/Widget.Freshchat.CarouselCardHeroImage"
+            android:visibility="invisible"
+            tools:src="@drawable/freshchat_carousel_card_placeholder_image" />
+    </FrameLayout>
 
     <TextView
         android:id="@+id/freshchat_carousel_card_title"
-        tools:text="Title goes here"
-        style="?attr/freshchatCarouselCardTitleTextStyle" />
+        style="?attr/freshchatCarouselCardTitleTextStyle"
+        tools:text="Title goes here" />
+
+    <TextView
+        android:id="@+id/freshchat_carousel_card_sub_title"
+        style="?attr/freshchatCarouselCardSubTitleTextStyle"
+        tools:text="Subtitle goes here" />
 
     <TextView
         android:id="@+id/freshchat_carousel_card_description"
-        tools:text="Lorem Ipsum is simply dummy text of the printing and..."
-        style="?attr/freshchatCarouselCardDescTextStyle" />
+        style="?attr/freshchatCarouselCardDescTextStyle"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:text="Lorem Ip Ipsum is simply dummy text of Lorem Ipsum is simply dummy text of the orem Ipsum is simply dummy dummy dummydummydummydummy text of the printing a" />
 
     <LinearLayout
-        android:id="@+id/freshchat_carousel_card_button_container"
+        android:id="@+id/freshchat_carousel_btn_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:orientation="horizontal">
+        android:gravity="bottom"
+        android:paddingBottom="@dimen/freshchat_carousel_card_button_margin_bottom"
+        android:orientation="vertical">
 
-        <Button
-            android:id="@+id/freshchat_carousel_card_callback_btn"
-            android:text="@string/freshchat_carousel_card_default_callback_btn_text"
-            style="?attr/freshchatCarouselCardButtonStyle" />
+        <FrameLayout
+            android:id="@+id/freshchat_carousel_card_callback_btn_background"
+            android:layout_width="@dimen/freshchat_carousel_card_image_default_width"
+            android:layout_height="@dimen/freshchat_carousel_card_callback_btn_background_height"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:visibility="gone">
 
-        <Button
-            android:id="@+id/freshchat_carousel_card_view_btn"
-            android:text="@string/freshchat_carousel_card_default_view_btn_text"
-            style="?attr/freshchatCarouselCardButtonStyle" />
+            <Button
+                android:id="@+id/freshchat_carousel_card_callback_btn"
+                style="?attr/freshchatCarouselCardButtonStyle"
+                android:text="@string/freshchat_carousel_card_default_callback_btn_text" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/freshchat_carousel_card_view_btn_background"
+            android:layout_width="@dimen/freshchat_carousel_card_image_default_width"
+            android:layout_height="@dimen/freshchat_carousel_card_callback_btn_background_height"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:visibility="gone">
+            <Button
+                android:id="@+id/freshchat_carousel_card_view_btn"
+                style="?attr/freshchatCarouselCardViewButtonStyle"
+                android:text="@string/freshchat_carousel_card_default_view_btn_text" />
+        </FrameLayout>
     </LinearLayout>
-
-    <RelativeLayout
-        android:id="@+id/freshchat_carousel_card_selection_indication_container"
-        android:layout_width="match_parent"
-        android:layout_height="34dp"
-        android:orientation="horizontal"
-        android:visibility="gone">
-
-        <TextView
-            android:text="@string/freshchat_carousel_card_selected_text"
-            style="?attr/freshchatCarouselCardSelectedTextStyle" />
-
-        <ImageView
-            android:id="@+id/freshchat_carousel_card_message_upload_status"
-            android:layout_width="@dimen/freshchat_message_upload_status_icon_size"
-            android:layout_height="@dimen/freshchat_message_upload_status_icon_size"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:contentDescription="@string/freshchat_content_description_upload_status"
-            android:paddingStart="@dimen/freshchat_message_upload_status_icon_padding"
-            android:paddingLeft="@dimen/freshchat_message_upload_status_icon_padding"
-            android:paddingEnd="@dimen/freshchat_message_upload_status_icon_padding"
-            android:paddingRight="@dimen/freshchat_message_upload_status_icon_padding"
-            android:src="@drawable/freshchat_ic_message_status_pending" />
-    </RelativeLayout>
 </LinearLayout>
+

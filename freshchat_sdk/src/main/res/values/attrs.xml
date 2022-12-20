@@ -185,9 +185,11 @@
 
     <!-- Carousel Card -->
     <attr name="freshchatCarouselCardTitleTextStyle" format="reference" />
+    <attr name="freshchatCarouselCardSubTitleTextStyle" format="reference" />
     <attr name="freshchatCarouselCardDescTextStyle" format="reference" />
     <attr name="freshchatCarouselCardButtonStyle" format="reference" />
     <attr name="freshchatCarouselCardSelectedTextStyle" format="reference" />
+    <attr name="freshchatCarouselCardViewButtonStyle" format="reference"/>
 
     <!-- Calendar -->
     <attr name="freshchatCalendarFindASlotButtonStyle" format="reference" />

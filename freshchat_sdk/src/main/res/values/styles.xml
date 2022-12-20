@@ -22,14 +22,10 @@
         <item name="android:background">@drawable/freshchat_message_list_bg</item>
         <item name="stackFromEnd">true</item>
         <item name="android:clipToPadding">false</item>
-        <item name="android:paddingLeft">4dp</item>
-        <item name="android:paddingStart">4dp</item>
-        <item name="android:paddingRight">4dp</item>
-        <item name="android:paddingEnd">4dp</item>
         <item name="android:paddingTop">8dp</item>
         <item name="android:paddingBottom">8dp</item>
         <item name="android:scrollbars">vertical</item>
-        <item name="android:scrollbarStyle">outsideInset</item>
+        <item name="android:scrollbarStyle">insideOverlay</item>
     </style>
 
     <style name="Widget.Freshchat.MessageListItem">
@@ -738,53 +734,113 @@
 
     <!-- Carousel Card - Start -->
     <style name="Widget.Freshchat.CarouselCardHeroImage">
-        <item name="android:layout_width">@dimen/freshchat_carousel_card_default_dimension</item>
-        <item name="android:layout_height">@dimen/freshchat_carousel_card_default_dimension</item>
-        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitXY</item>
     </style>
 
     <style name="Widget.Freshchat.CarouselCardTitle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginStart">16dp</item>
-        <item name="android:layout_marginLeft">16dp</item>
-        <item name="android:layout_marginTop">16dp</item>
-        <item name="android:layout_marginEnd">16dp</item>
-        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginStart">@dimen/freshchat_carousel_card_title_margin</item>
+        <item name="android:layout_marginLeft">@dimen/freshchat_carousel_card_title_margin</item>
+        <item name="android:layout_marginTop">@dimen/freshchat_carousel_card_title_margin</item>
+        <item name="android:layout_marginBottom">@dimen/freshchat_carousel_card_title_margin_bottom</item>
+        <item name="android:layout_marginEnd">@dimen/freshchat_carousel_card_title_margin</item>
+        <item name="android:layout_marginRight">@dimen/freshchat_carousel_card_title_margin</item>
         <item name="android:ellipsize">end</item>
-        <item name="android:maxLines">1</item>
+        <item name="android:maxLines">2</item>
         <item name="android:textAlignment">viewStart</item>
         <item name="android:textColor">@color/freshchat_carousel_card_title_text</item>
         <item name="android:textDirection">firstStrong</item>
-        <item name="android:textSize">15sp</item>
-        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">@dimen/freshchat_carousel_card_title_size</item>
+    </style>
+
+    <style name="Widget.Freshchat.CarouselCardSubTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/freshchat_carousel_card_title_margin</item>
+        <item name="android:layout_marginLeft">@dimen/freshchat_carousel_card_title_margin</item>
+        <item name="android:layout_marginBottom">@dimen/freshchat_carousel_card_sub_title_margin_top</item>
+        <item name="android:layout_marginEnd">@dimen/freshchat_carousel_card_title_margin</item>
+        <item name="android:layout_marginRight">@dimen/freshchat_carousel_card_title_margin</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/freshchat_carousel_card_sub_title_text</item>
+        <item name="android:textDirection">firstStrong</item>
+        <item name="android:textSize">@dimen/freshchat_carousel_card_sub_title_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
     </style>
 
     <style name="Widget.Freshchat.CarouselCardDescription">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginStart">16dp</item>
-        <item name="android:layout_marginLeft">16dp</item>
-        <item name="android:layout_marginTop">8dp</item>
-        <item name="android:layout_marginEnd">8dp</item>
-        <item name="android:layout_marginRight">8dp</item>
-        <item name="android:ellipsize">end</item>
-        <item name="android:maxLines">2</item>
+        <item name="android:layout_marginStart">@dimen/freshchat_carousel_card_title_margin</item>
+        <item name="android:layout_marginLeft">@dimen/freshchat_carousel_card_title_margin</item>
+        <item name="android:layout_marginEnd">@dimen/freshchat_carousel_card_title_margin</item>
+        <item name="android:layout_marginRight">@dimen/freshchat_carousel_card_title_margin</item>
+        <item name="android:layout_marginBottom">@dimen/freshchat_carousel_card_sub_title_margin_top</item>
         <item name="android:textAlignment">viewStart</item>
         <item name="android:textColor">@color/freshchat_carousel_card_description_text</item>
         <item name="android:textDirection">firstStrong</item>
-        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/freshchat_carousel_card_button_text_size</item>
     </style>
 
-    <style name="Widget.Freshchat.CarouselCardButton" parent="Widget.AppCompat.Button.Borderless">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
+    <style name="Widget.Freshchat.CarouselCardButton">
+        <item name="android:layout_width">@dimen/freshchat_carousel_card_button_layout_width</item>
+        <item name="android:layout_height">@dimen/freshchat_carousel_card_button_layout_height</item>
         <item name="android:ellipsize">end</item>
-        <item name="android:gravity">left|start|center_vertical</item>
         <item name="android:maxLines">1</item>
-        <item name="android:textAlignment">viewStart</item>
-        <item name="android:textDirection">firstStrong</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginStart">@dimen/freshchat_carousel_card_button_margin</item>
+        <item name="android:layout_marginEnd">@dimen/freshchat_carousel_card_button_margin</item>
+        <item name="android:background">@drawable/freshchat_carousel_card_button_bg</item>
+        <item name="android:textSize">@dimen/freshchat_carousel_card_button_text_size</item>
         <item name="android:textColor">@color/freshchat_carousel_card_btn_text</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:fontFamily">sans-serif-medium"</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="Widget.Freshchat.CarouselCardViewButton">
+        <item name="android:layout_width">@dimen/freshchat_carousel_card_button_layout_width</item>
+        <item name="android:layout_height">@dimen/freshchat_carousel_card_button_layout_height</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginStart">@dimen/freshchat_carousel_card_button_margin</item>
+        <item name="android:layout_marginEnd">@dimen/freshchat_carousel_card_button_margin</item>
+        <item name="android:background">@drawable/freshchat_carousel_card_view_button_bg</item>
+        <item name="android:textSize">@dimen/freshchat_carousel_card_button_text_size</item>
+        <item name="android:textColor">@color/freshchat_carousel_card_view_btn_text_color</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:fontFamily">sans-serif-medium"</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:clickable">false</item>
+
     </style>
 
     <style name="Widget.Freshchat.CarouselCardSelectedText">

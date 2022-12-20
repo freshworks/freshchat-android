@@ -1,3 +1,8 @@
+## 5.4.0(2022-12-19)
+
+### Feature
+* Support read only and single select carousel in bot flow
+
 ## 5.3.3(2022-12-05)
 
 ### Hot Fix
