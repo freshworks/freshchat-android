@@ -1,3 +1,30 @@
+## 5.4.1(2023-01-11)
+
+### Bug Fix
+* Fix Android bot stability issues
+
+## 5.4.0(2022-12-19)
+
+### Feature
+* Support read only and single select carousel in bot flow
+
+## 5.3.3(2022-12-05)
+
+### Hot Fix
+* Fix for agent/bot message timestamp aligning to the right end of the message bubble
+
+## 5.3.2(2022-11-16)
+
+### Enhancement
+* Updated targetSdkVersion to Android 12
+
+### Bug Fixes
+* Fix for the next bot flow to trigger on selecting carousel.
+* Fix for clearing error message for invalid input in bot flow.
+* Fix for handling empty messages.
+* Fix for handling quick actions menu overlapping in landscape mode.
+* Fix for custom attachment icons appearing too large in v5.3.0 and v5.3.1.
+
 ## 5.3.1(2022-10-18)
 
 ### Bug Fix
