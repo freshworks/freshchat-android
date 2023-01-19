@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 28
-    buildToolsVersion "28.0.3"
+    compileSdkVersion 31
+    buildToolsVersion "29.0.3"
 
     defaultConfig {
         applicationId "com.example.demoapp"
         minSdkVersion 21
-        targetSdkVersion 28
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
     }
@@ -22,7 +22,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'com.github.freshdesk:freshchat-android:3.0.0'
+    implementation 'com.github.freshdesk:freshchat-android:5.4.1'
     implementation 'com.google.android.material:material:1.0.0-alpha1'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.0'
     implementation 'com.google.firebase:firebase-messaging:20.0.1'
