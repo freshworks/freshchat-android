@@ -1,3 +1,10 @@
+## 5.4.2(2023-03-06)
+
+### Bug Fixes
+* Fix for send button being enabled when only empty spaces are entered
+* Fix for extra space being displayed below multiline bot messages
+* Fix for a crash which occurs while attaching images
+
 ## 5.4.1(2023-01-11)
 
 ### Bug Fix
