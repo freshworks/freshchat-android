@@ -1,3 +1,15 @@
+## 5.5.0(2023-03-27)
+
+### Feature
+* Placeholder support for bot messages
+
+### Enhancement
+* Display links configured for bot articles
+
+### Bug Fixes
+* Fix for multiple selection of quick reply buttons
+* Fix for displaying blank topic name in topic list screen
+
 ## 5.4.2(2023-03-06)
 
 ### Bug Fixes

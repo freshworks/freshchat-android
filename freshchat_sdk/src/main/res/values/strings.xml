@@ -48,6 +48,7 @@
 	<string name="freshchat_content_description_upload_status">Message upload Status</string>
 	<string name="freshchat_content_description_show_original_content">Show Original</string>
 	<string name="freshchat_content_description_hide_original_content">Hide Original</string>
+	<string name="freshchat_content_description_upload_status_success">Message uploaded Successfully</string>
 
 	<!-- Error messages -->
 	<string name="freshchat_error_send_message_when_no_internet">Oops, no internet connection! Message will be sent when you reconnect.</string>
@@ -214,6 +215,7 @@
 	<string name="freshchat_input_email_hint">Enter email</string>
 	<string name="freshchat_input_phone_number_hint">Enter phone number</string>
 	<string name="freshchat_input_number_hint">Enter a number</string>
+	<string name="freshchat_bot_article_link_text">View full article</string>
 
 
 	<!--Attachments-->
