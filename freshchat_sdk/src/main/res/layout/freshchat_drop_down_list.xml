@@ -13,5 +13,6 @@
         android:layout_gravity="bottom"
         android:background="@color/freshchat_white"
         android:elevation="@dimen/freshchat_message_composer_elevation"
+        android:splitMotionEvents="false"
         tools:layout_height="200dp" />
 </FrameLayout>

@@ -1,3 +1,9 @@
+## 5.5.1(2023-04-13)
+
+### Bug Fixes
+* Fix for HTML tags not supported in carousel title and subtitle.
+* Fix for multiple selection of Dropdown options.
+
 ## 5.5.0(2023-03-27)
 
 ### Feature
