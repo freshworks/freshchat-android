@@ -1,3 +1,9 @@
+## 5.5.2(2023-05-04)
+
+### Bug Fixes
+* Fix for bot not being triggered when user responds to CSAT
+* Fix for locale change not being reflected in topics screen
+
 ## 5.5.1(2023-04-13)
 
 ### Bug Fixes
