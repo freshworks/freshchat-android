@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/channel"
+        android:icon="@drawable/ic_topics"
+        android:title="@string/bottom_nav_bar_channel"/>
+    <item android:id="@+id/faq"
+        android:icon="@drawable/ic_faq"
+        android:title="@string/bottom_nav_bar_faq" />
+    <item android:id="@+id/user"
+        android:icon="@drawable/ic_user"
+        android:title="@string/bottom_nav_bar_user" />
+</menu>
