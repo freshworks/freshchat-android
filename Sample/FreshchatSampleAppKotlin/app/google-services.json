@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "193040784260",
+    "project_id": "freshchatsampleappkotlin",
+    "storage_bucket": "freshchatsampleappkotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193040784260:android:f6ad15dcc3585827f6dbd1",
+        "android_client_info": {
+          "package_name": "com.example.freshchatsampleappkotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193040784260-56dh9ib42bdubpqeld65rsgcb6td6ma0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbdac_vwS6t0LZZx2yTyylwN3T2AzbIbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193040784260-56dh9ib42bdubpqeld65rsgcb6td6ma0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
