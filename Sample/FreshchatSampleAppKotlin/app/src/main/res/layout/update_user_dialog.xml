@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update_user_details_title"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/first_name_input"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/roboto_medium"
+        android:textAlignment="center"
+        android:textSize="@dimen/fc_font_size_body_one"
+        />
+
+    <EditText
+        android:id="@+id/first_name_input"
+        style="@style/InputBoxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter First Name"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/last_name_input"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <EditText
+        android:id="@+id/last_name_input"
+        style="@style/InputBoxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Last Name"
+        android:inputType="text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/first_name_input" />
+
+    <EditText
+        android:id="@+id/email_input"
+        style="@style/InputBoxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Email"
+        android:inputType="text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/last_name_input" />
+
+    <EditText
+        android:id="@+id/phone_country_code_input"
+        style="@style/InputBoxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Enter phone No country code"
+        android:inputType="phone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_input" />
+
+    <EditText
+        android:id="@+id/phone_no_input"
+        style="@style/InputBoxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Enter phone No"
+        android:inputType="phone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone_country_code_input" />
+
+    <Button
+        android:id="@+id/update_user_button"
+        style="@style/dialogButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="4dp"
+        android:text="@string/update_user"
+        app:layout_constraintEnd_toEndOf="@+id/phone_no_input"
+        app:layout_constraintTop_toBottomOf="@+id/phone_no_input" />
+
+    <Button
+        android:id="@+id/cancel_button_update_user_dialog"
+        style="@style/dialogButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        app:layout_constraintBottom_toBottomOf="@+id/update_user_button"
+        app:layout_constraintEnd_toStartOf="@+id/update_user_button"
+        app:layout_constraintHorizontal_bias="0.814"
+        app:layout_constraintStart_toStartOf="@+id/phone_no_input"
+        app:layout_constraintTop_toTopOf="@+id/update_user_button"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

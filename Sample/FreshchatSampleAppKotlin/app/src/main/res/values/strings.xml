@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">FreshchatSampleAppKotlin</string>
+    <string name="bottom_nav_bar_channel">Channel</string>
+    <string name="bottom_nav_bar_user">User</string>
+    <string name="bottom_nav_bar_faq">Faq</string>
+    <string name="button_show_all_channels">Show All Channels</string>
+    <string name="reset_user">Reset User</string>
+    <string name="update_user">Update User</string>
+    <string name="update_user_properties">Update User Properties</string>
+    <string name="restore_user">Restore User</string>
+    <string name="button_show_only_selected_channel">Show Filtered channels</string>
+    <string name="button_show_all_faq">Show All Faq</string>
+    <string name="button_show_selected_faq">Show Filtered Faq</string>
+    <string name="cancel">Cancel</string>
+    <string name="update_user_details_title">Update User Details: </string>
+    <string name="show_selected_channels_button_dialog">Show Selected Channels</string>
+    <string name="show_selected_channel_alert_dialog_title">Enter Conversation Tags separated by comma</string>
+    <string name="freshchat_file_provider_authority">com.example.freshchatsampleappkotlin.provider</string>
+    <string name="user_properties_dialog_title">Update User Properties in key value pair</string>
+    <string name="key">Key</string>
+    <string name="value">Value</string>
+    <string name="ok">Ok</string>
+    <string name="externalId">External Id</string>
+    <string name="restoreId">Restore Id</string>
+    <string name="key_hint">Enter key:</string>
+    <string name="value_hint">Enter Value:</string>
+    <string name="identify_restore_positive_btn">Identify/Restore</string>
+    <string name="external_restore_dialog_title">External Id &amp; Restore Id</string>
+    <string name="app_id_hint">Enter App Id:</string>
+    <string name="app_key_hint">Enter App Key:</string>
+    <string name="domain_hint">Domain</string>
+</resources>
