@@ -1,3 +1,8 @@
+## 5.5.3(2023-06-01)
+
+### Bug Fixes
+* Fix spaces in multiline bot messages with paragraph tag.
+
 ## 5.5.2(2023-05-04)
 
 ### Bug Fixes
