@@ -232,5 +232,11 @@
     <!-- Live Translate-->
     <attr name="freshchatTranslationToggleIconStyle" format="reference" />
     <attr name="freshchatOriginalMessageTitleTextStyle" format="reference" />
+    <attr name="freshchatBotFeedBackThanksMessageTextStyle" format="reference" />
+    <attr name="freshchatOpinionSelectButtonBackgroundStyle" format="reference" />
+    <attr name="freshchatOpinionBackgroundStyle" format="reference"/>
+    <attr name="freshchatOpinionSelectedTextStyle" format="reference"/>
+    <attr name="freshchatOpinionUnSelectedTextStyle" format="reference"/>
+
 
 </resources>

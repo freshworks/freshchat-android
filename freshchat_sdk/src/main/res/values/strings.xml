@@ -237,4 +237,11 @@
 	<string name="freshchat_spinner_text">Please wait...</string>
 
 
+	<!--	Feedback-->
+	<string name="freshchat_comment_feedback_hint">Add your feedback here</string>
+	<string name="freshchat_bot_feed_back_thanks_message">Thank you for the feedback</string>
+	<string name="freshchat_character_limit_message">%1$s / %2$s max character limit reached</string>
+	<string name="freshchat_feedback_failure_message">Unable to send feedback. Please try again later</string>
+	<string name="freshchat_opinion_poll_select">Submit</string>
+
 </resources>

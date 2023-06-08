@@ -1,11 +1,10 @@
-<resources xmlns:tools="http://schemas.android.com/tools"
-    tools:ignore="ResourceName" >
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ResourceName">
 
     <style name="Widget" />
 
     <style name="Widget.Freshchat" />
 
-    <style name="Widget.Freshchat.QuickActions"/>
+    <style name="Widget.Freshchat.QuickActions" />
 
     <style name="TextAppearance.Freshchat" parent="TextAppearance.AppCompat"></style>
 
@@ -53,7 +52,7 @@
         <item name="android:textDirection">firstStrong</item>
     </style>
 
-<!-- Margin left and margin start values are added in dimens.xml file since they are subject to change based on the input type (placeholders)-->
+    <!-- Margin left and margin start values are added in dimens.xml file since they are subject to change based on the input type (placeholders)-->
     <style name="Widget.Freshchat.MessageFile">
         <item name="android:layout_width">16dp</item>
         <item name="android:layout_height">16dp</item>
@@ -69,7 +68,8 @@
         <item name="android:inputType">textMultiLine|textCapSentences</item>
         <item name="android:layout_centerVertical">true</item>
         <item name="android:layout_marginLeft">@dimen/freshchat_text_view_default_margin_left</item>
-        <item name="android:layout_marginStart">@dimen/freshchat_text_view_default_margin_left</item>
+        <item name="android:layout_marginStart">@dimen/freshchat_text_view_default_margin_left
+        </item>
         <item name="android:layout_marginRight">8dp</item>
         <item name="android:layout_marginEnd">8dp</item>
         <item name="android:maxLines">4</item>
@@ -298,6 +298,7 @@
     </style>
 
     <style name="Widget.Freshchat.UnsupportedTeamMemberMessageText" parent="Widget.Freshchat.UnsupportedMessageText" />
+
     <style name="Widget.Freshchat.UnsupportedUserMessageText" parent="Widget.Freshchat.UnsupportedMessageText" />
 
     <style name="Widget.Freshchat.UnsupportedMessageIcon">
@@ -379,7 +380,8 @@
         <item name="android:layout_marginStart">8dp</item>
         <item name="android:layout_marginRight">24dp</item>
         <item name="android:layout_marginEnd">24dp</item>
-        <item name="android:text">@string/freshchat_chat_resolution_confirmation_prompt_positive</item>
+        <item name="android:text">@string/freshchat_chat_resolution_confirmation_prompt_positive
+        </item>
         <item name="android:textDirection">firstStrong</item>
     </style>
 
@@ -393,7 +395,8 @@
         <item name="android:layout_marginRight">8dp</item>
         <item name="android:layout_marginEnd">8dp</item>
         <item name="android:padding">0dp</item>
-        <item name="android:text">@string/freshchat_chat_resolution_confirmation_prompt_negative</item>
+        <item name="android:text">@string/freshchat_chat_resolution_confirmation_prompt_negative
+        </item>
         <item name="android:textDirection">firstStrong</item>
     </style>
 
@@ -624,6 +627,7 @@
     </style>
 
     <style name="Widget.Freshchat.ChannelListEmptyText" parent="Widget.Freshchat.ListEmptyText" />
+
     <style name="Widget.Freshchat.FAQListEmptyText" parent="Widget.Freshchat.ListEmptyText" />
 
     <!-- FAQ List Styling & Customizations -->
@@ -745,7 +749,9 @@
         <item name="android:layout_marginStart">@dimen/freshchat_carousel_card_title_margin</item>
         <item name="android:layout_marginLeft">@dimen/freshchat_carousel_card_title_margin</item>
         <item name="android:layout_marginTop">@dimen/freshchat_carousel_card_title_margin</item>
-        <item name="android:layout_marginBottom">@dimen/freshchat_carousel_card_title_margin_bottom</item>
+        <item name="android:layout_marginBottom">
+            @dimen/freshchat_carousel_card_title_margin_bottom
+        </item>
         <item name="android:layout_marginEnd">@dimen/freshchat_carousel_card_title_margin</item>
         <item name="android:layout_marginRight">@dimen/freshchat_carousel_card_title_margin</item>
         <item name="android:ellipsize">end</item>
@@ -762,7 +768,9 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginStart">@dimen/freshchat_carousel_card_title_margin</item>
         <item name="android:layout_marginLeft">@dimen/freshchat_carousel_card_title_margin</item>
-        <item name="android:layout_marginBottom">@dimen/freshchat_carousel_card_sub_title_margin_top</item>
+        <item name="android:layout_marginBottom">
+            @dimen/freshchat_carousel_card_sub_title_margin_top
+        </item>
         <item name="android:layout_marginEnd">@dimen/freshchat_carousel_card_title_margin</item>
         <item name="android:layout_marginRight">@dimen/freshchat_carousel_card_title_margin</item>
         <item name="android:ellipsize">end</item>
@@ -782,7 +790,9 @@
         <item name="android:layout_marginLeft">@dimen/freshchat_carousel_card_title_margin</item>
         <item name="android:layout_marginEnd">@dimen/freshchat_carousel_card_title_margin</item>
         <item name="android:layout_marginRight">@dimen/freshchat_carousel_card_title_margin</item>
-        <item name="android:layout_marginBottom">@dimen/freshchat_carousel_card_sub_title_margin_top</item>
+        <item name="android:layout_marginBottom">
+            @dimen/freshchat_carousel_card_sub_title_margin_top
+        </item>
         <item name="android:textAlignment">viewStart</item>
         <item name="android:textColor">@color/freshchat_carousel_card_description_text</item>
         <item name="android:textDirection">firstStrong</item>
@@ -792,7 +802,8 @@
 
     <style name="Widget.Freshchat.CarouselCardButton">
         <item name="android:layout_width">@dimen/freshchat_carousel_card_button_layout_width</item>
-        <item name="android:layout_height">@dimen/freshchat_carousel_card_button_layout_height</item>
+        <item name="android:layout_height">@dimen/freshchat_carousel_card_button_layout_height
+        </item>
         <item name="android:ellipsize">end</item>
         <item name="android:maxLines">1</item>
         <item name="android:gravity">center</item>
@@ -818,7 +829,8 @@
 
     <style name="Widget.Freshchat.CarouselCardViewButton">
         <item name="android:layout_width">@dimen/freshchat_carousel_card_button_layout_width</item>
-        <item name="android:layout_height">@dimen/freshchat_carousel_card_button_layout_height</item>
+        <item name="android:layout_height">@dimen/freshchat_carousel_card_button_layout_height
+        </item>
         <item name="android:ellipsize">end</item>
         <item name="android:maxLines">1</item>
         <item name="android:gravity">center</item>
@@ -1285,5 +1297,40 @@
         <item name="overlapAnchor">true</item>
         <item name="elevation">8dp</item>
     </style>
+
+    <style name="Widget.Freshchat.BotFeedBackThanksMessageStyle">
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/freshchat_bot_feedback_thanks_message_style</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:background">@color/freshchat_bot_feedback_thanks_message_background
+        </item>
+    </style>
+
+    <style name="Widget.Freshchat.OpinionUnSelected">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/freshchat_opinion_un_selected_text</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Widget.Freshchat.OpinionSelected">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/freshchat_opinion_selected_text</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Widget.Freshchat.OpinionFeedbackSelect" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/freshchat_send_button_background</item>
+        <item name="android:text">@string/freshchat_opinion_poll_select</item>
+        <item name="android:textColor">@color/freshchat_white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Widget.Freshchat.OpinionBackground">
+        <item name="android:background">@drawable/freshchat_opinion_feedback_bg</item>
+    </style>
+
 
 </resources>

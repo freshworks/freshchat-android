@@ -1,3 +1,9 @@
+## 5.6.0(2023-06-08)
+
+### Feature
+* This version will now let you receive feedback from your customers in the form of a text. Customers will be able to type their feedback if configured in the bot flow.
+* This version will now let you receive feedback from your customers in the form of a preset choices. Customers will be able to choose their feedback from a maximum 3 choices.
+
 ## 5.5.3(2023-06-01)
 
 ### Bug Fixes

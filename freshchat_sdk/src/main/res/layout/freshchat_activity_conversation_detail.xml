@@ -79,6 +79,33 @@
                     android:splitMotionEvents="false"
                     app:freshchatFlRowSpacing="@dimen/freshchat_quick_reply_view_column_padding" />
             </ScrollView>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/opinion_feedback"
+                android:visibility="gone">
+                <include
+                    layout="@layout/freshchat_opinion_feedback"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </ScrollView>
+
+
+            <include
+                android:id="@+id/botFeedBackThanksMessage"
+                layout="@layout/freshchat_thanks_feedback_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_above="@+id/freshchat_conv_detail_upload_attachment_layout"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
         </LinearLayout>
 
         <View
@@ -102,6 +129,7 @@
             android:visibility="gone"
             tools:visibility="visible" />
 
+
         <include
             layout="@layout/freshchat_partial_add_attachment_frame"
             android:layout_width="match_parent"
@@ -114,7 +142,6 @@
             android:layout_alignParentRight="true"
             android:visibility="gone"
             tools:visibility="visible" />
-        />
 
 
         <include

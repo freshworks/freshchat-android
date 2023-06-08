@@ -180,4 +180,10 @@
     <color name="freshchat_attachment_file_size">#475867</color>
     <color name="freshchat_alert_dialog_message">#12344D</color>
 
+    <!--    Feedback-->
+    <color name="freshchat_bot_feedback_thanks_message_style">#475867</color>
+    <color name="freshchat_bot_feedback_thanks_message_background">#ffffff</color>
+    <color name="freshchat_opinion_selected_background">#E5F2FD</color>
+    <color name="freshchat_opinion_un_selected_text">#12344d</color>
+    <color name="freshchat_opinion_selected_text">#2C5CC5</color>
 </resources>

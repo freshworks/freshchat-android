@@ -206,6 +206,19 @@
         <!-- Quick Action Menu -->
         <item name="freshchatQuickActionMenuStyle">@style/Widget.Freshchat.QuickActions.Background</item>
         <item name="freshchatMessageFileIconStyle">@style/Widget.Freshchat.UnsupportedMessageIcon</item>
+
+        <!-- Feed back-->
+        <item name="freshchatOpinionBackgroundStyle">@style/Widget.Freshchat.OpinionBackground
+        </item>
+        <item name="freshchatBotFeedBackThanksMessageTextStyle">
+            @style/Widget.Freshchat.BotFeedBackThanksMessageStyle
+        </item>
+        <item name="freshchatOpinionSelectButtonBackgroundStyle">
+            @style/Widget.Freshchat.OpinionFeedbackSelect
+        </item>
+        <item name="freshchatOpinionSelectedTextStyle">@style/Widget.Freshchat.OpinionFeedbackSelect</item>
+        <item name="freshchatOpinionUnSelectedTextStyle">@style/Widget.Freshchat.OpinionUnSelected</item>
+
     </style>
 
     <style name="Theme.Freshchat.Light.DarkActionBar" parent="@style/Theme.AppCompat.Light.DarkActionBar">
@@ -410,6 +423,18 @@
         <item name="freshchatQuickActionMenuStyle">@style/Widget.Freshchat.QuickActions.Background</item>
 
         <item name="freshchatMessageFileIconStyle">@style/Widget.Freshchat.UnsupportedMessageIcon</item>
+
+        <!--Feedback-->
+        <item name="freshchatBotFeedBackThanksMessageTextStyle">
+            @style/Widget.Freshchat.BotFeedBackThanksMessageStyle
+        </item>
+        <item name="freshchatOpinionSelectButtonBackgroundStyle">
+            @style/Widget.Freshchat.OpinionFeedbackSelect
+        </item>
+        <item name="freshchatOpinionBackgroundStyle">@style/Widget.Freshchat.OpinionBackground
+        </item>
+        <item name="freshchatOpinionSelectedTextStyle">@style/Widget.Freshchat.OpinionSelected</item>
+        <item name="freshchatOpinionUnSelectedTextStyle">@style/Widget.Freshchat.OpinionUnSelected</item>
     </style>
 
     <style name="Freshchat.Theme.Transparent" parent="@style/Theme.AppCompat.Light.NoActionBar">
