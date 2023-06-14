@@ -1,3 +1,8 @@
+## 5.7.0(2023-06-15)
+
+### Feature
+* You will now be able to pass custom user properties related to a user conversation from the mobile app to the bots via the SDK
+
 ## 5.6.0(2023-06-08)
 
 ### Feature
