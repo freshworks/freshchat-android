@@ -223,6 +223,7 @@
     <style name="Widget.Freshchat.UserMessage">
         <item name="android:textAppearance">@style/TextAppearance.Freshchat.Medium</item>
         <item name="android:textColor">@color/freshchat_black</item>
+        <item name="android:textColorLink">@color/freshchat_text_color_link</item>
         <item name="android:textSize">16sp</item>
     </style>
 
@@ -230,6 +231,7 @@
     <style name="Widget.Freshchat.TeamMemberMessage">
         <item name="android:textAppearance">@style/TextAppearance.Freshchat.Medium</item>
         <item name="android:textColor">@color/freshchat_black</item>
+        <item name="android:textColorLink">@color/freshchat_text_color_link</item>
         <item name="android:textSize">16sp</item>
     </style>
 
@@ -1296,6 +1298,79 @@
     <style name="Widget.Freshchat.QuickActions.Background" parent="Widget.AppCompat.ListPopupWindow">
         <item name="overlapAnchor">true</item>
         <item name="elevation">8dp</item>
+    </style>
+
+    <style name="Widget.Freshchat.BottomSheetStyle"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.Freshchat.BottomSheetStyleWrapper</item>
+        <item name="android:windowSoftInputMode">adjustResize|stateVisible</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="Widget.Freshchat.BottomSheetStyleWrapper" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/freshchat_bottomsheet_background</item>
+        <item name="layout_behavior">android.support.design.widget.BottomSheetBehavior</item>
+    </style>
+
+    <style name="Widget.Freshchat.SelectedCountryCode">
+        <item name="android:textColor">@color/freshchat_selected_country_code_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="Widget.Freshchat.SelectedCountryNameInBottomSheet">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/freshchat_country_code_text_color</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Widget.Freshchat.UnselectedCountryNameInBottomSheet">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/freshchat_country_code_text_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Widget.Freshchat.BottomsheetTitle">
+        <item name="android:textColor">@color/freshchat_bottomsheet_title_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Widget.Freshchat.BottomsheetSearchText">
+        <item name="android:textColorHint">@color/freshchat_bottomsheet_search_text_hint</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/freshchat_bottomsheet_search_text</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textDirection">firstStrong</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="Widget.Freshchat.BottomsheetNoSearchResultsText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+
+        <item name="android:textColor">@color/freshchat_no_search_results_text</item>
+    </style>
+
+    <style name="Widget.Freshchat.CountryCodeItemCountryCodeText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/freshchat_country_code_text_color</item>
+    </style>
+
+    <style name="Widget.Freshchat.ResendOTPEnabledText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/freshchat_resend_otp_text_color</item>
+    </style>
+
+    <style name="Widget.Freshchat.ResendOTPDisabledText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/freshchat_resend_otp_text_color</item>
     </style>
 
     <style name="Widget.Freshchat.BotFeedBackThanksMessageStyle">

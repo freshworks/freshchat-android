@@ -151,4 +151,7 @@
     <!-- Attachments -->
     <dimen name="freshchat_partial_image_attachment_padding">16dp</dimen>
 
+    <dimen name="freshchat_bottom_sheet_margin">70dp</dimen>
+    <dimen name="freshchat_bottom_sheet_corner_radius">10dp</dimen>
+
 </resources>

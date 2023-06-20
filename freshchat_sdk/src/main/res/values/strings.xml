@@ -215,8 +215,17 @@
 	<string name="freshchat_input_email_hint">Enter email</string>
 	<string name="freshchat_input_phone_number_hint">Enter phone number</string>
 	<string name="freshchat_input_number_hint">Enter a number</string>
+	<string name="freshchat_input_otp_hint">Enter OTP</string>
 	<string name="freshchat_bot_article_link_text">View full article</string>
+	<string name="freshchat_country_code_title">Select country</string>
+    <string name="freshchat_default_country_code">us</string>
+	<string name="freshchat_resend_otp_with_timer">{{Resend OTP}} in {{Resend OTP timer}}</string>
+	<string name="freshchat_resend_otp_timer_placeholder">{{Resend OTP timer}}</string>
+	<string name="freshchat_resend_otp_placeholder">{{Resend OTP}}</string>
 
+	<!-- Bottomsheet -->
+	<string name="freshchat_bottomsheet_search_hint">Search</string>
+	<string name="freshchat_bottomsheet_no_seach_results">No search results</string>
 
 	<!--Attachments-->
     <string name="freshchat_attachment_send_button">Send</string>

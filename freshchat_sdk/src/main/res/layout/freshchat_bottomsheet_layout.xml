@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/freshchat_bottomsheet_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/freshchat_bottomsheet_drag_to_close_line"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/freshchat_ic_drag_to_close_line"/>
+
+    <RelativeLayout
+        android:id="@+id/freshchat_bottomsheet_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/freshchat_bottomsheet_drag_to_close_line">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/freshchat_bottomsheet_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="9dp"
+            android:src="?attr/freshchatBottomSheetCloseIcon" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/freshchat_bottomsheet_title_textView"
+            style="?attr/freshchatBottomSheetTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="11dp"
+            tools:text="Select Country" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/freshchat_bottomsheet_search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="16dp"
+        android:background="?attr/freshchatBottomSheetSearchBackground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_below="@id/freshchat_bottomsheet_header">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="?attr/freshchatBottomSheetSearchIcon" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/freshchat_bottomsheet_search_edittext"
+            style="?attr/freshchatBottomSheetSearchText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:imeOptions="flagNoExtractUi"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            tools:hint="Search"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/freschat_bottomsheet_clear_search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="14dp"
+            android:paddingVertical="13dp"
+            android:src="?attr/freshchatBottomSheetClearSearchIcon"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/freshchat_bottomsheet_scroll_divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/freshchat_bottomsheet_search_layout"
+        android:background="@color/freshchat_message_list_reply_view_divider"
+        android:visibility="invisible" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/freshchat_bottomsheet_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:splitMotionEvents="false"
+        android:layout_below="@id/freshchat_bottomsheet_scroll_divider"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/no_search_result_text_view"
+        style="?attr/freshchatBottomSheetNoSearchResultsText"
+        android:layout_width="wrap_content"
+        android:text="@string/freshchat_bottomsheet_no_seach_results"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="16dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/freshchat_bottomsheet_recyclerview"
+        android:visibility="gone"
+        />
+</RelativeLayout>

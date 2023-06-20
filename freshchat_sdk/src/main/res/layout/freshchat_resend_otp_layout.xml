@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/freshchat_country_code_scroll_divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/freshchat_resend_otp_divider"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:duplicateParentState="true"
+        android:layout_height="wrap_content"
+        android:background="?attr/freshchatResendOtpButtonBackground"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/freshchat_resend_otp_text"
+            style="?attr/freshchatResendOtpDisabledTextStyle"
+            android:layout_width="wrap_content"
+            android:duplicateParentState="true"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginVertical="12dp"
+            android:gravity="center"
+            tools:text="Resend OTP" />
+    </RelativeLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

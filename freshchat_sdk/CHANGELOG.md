@@ -1,3 +1,9 @@
+## 5.8.0(2023-06-20)
+
+### Feature
+* We are adding support for Phone number and OTP as a new input type for your customers. Customers will now be able to enter their phone numbers with country code to generate an OTP which is then entered by user and is accepted by the SDK to process user information.
+
+
 ## 5.7.0(2023-06-15)
 
 ### Feature

@@ -239,4 +239,26 @@
     <attr name="freshchatOpinionUnSelectedTextStyle" format="reference"/>
 
 
+    <!-- Country code-->
+    <attr name="freshchatSelectedCountryCode" format="reference" />
+    <attr name="freshchatCountryCodeDropdownIcon" format="reference" />
+    <attr name="freshchatCountryCodeItemCountryCode" format="reference" />
+    <attr name="freshchatSelectedCountryCodeIndicator" format="reference" />
+    <attr name="freshchatSelectedCountryNameInBottomsheet" format="reference" />
+    <attr name="freshchatUnselectedCountryNameInBottomsheet" format="reference" />
+
+    <!-- Resend OTP-->
+    <attr name="freshchatResendOtpEnabledTextStyle" format="reference"/>
+    <attr name="freshchatResendOtpDisabledTextStyle" format="reference"/>
+    <attr name="freshchatResendOtpButtonBackground" format="reference" />
+    
+    <!-- Freshchat Bottomsheet -->
+    <attr name="freshchatBottomSheetCloseIcon" format="reference" />
+    <attr name="freshchatBottomSheetTitle" format="reference" />
+    <attr name="freshchatBottomSheetSearchBackground" format="reference" />
+    <attr name="freshchatBottomSheetSearchIcon" format="reference" />
+    <attr name="freshchatBottomSheetSearchText" format="reference" />
+    <attr name="freshchatBottomSheetClearSearchIcon" format="reference" />
+    <attr name="freshchatBottomSheetNoSearchResultsText" format="reference" />
+
 </resources>

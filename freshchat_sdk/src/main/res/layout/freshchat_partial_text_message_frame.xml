@@ -1,41 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/freshchat_conv_detail_text_reply_layout"
     style="?attr/freshchatMessageReplyViewStyle"
     android:focusableInTouchMode="true">
 
-    <ImageView
-        android:id="@+id/freshchat_conv_detail_attach_image"
-        android:layout_width="@dimen/freshchat_message_attach_icon_size"
-        android:layout_height="@dimen/freshchat_message_attach_icon_size"
-        android:layout_alignParentLeft="true"
+    <RelativeLayout
+        android:id="@+id/freshchat_attach_or_country_code_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_centerVertical="true"
-        android:background="?attr/freshchatActionSelectableItemBackground"
-        android:contentDescription="@string/freshchat_content_description_attach_picture"
-        android:padding="@dimen/freshchat_message_attach_icon_padding"
-        android:src="?attr/freshchatAttachIcon" />
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:id="@+id/freshchat_conv_detail_attach_image"
+            android:layout_width="@dimen/freshchat_message_attach_icon_size"
+            android:layout_height="@dimen/freshchat_message_attach_icon_size"
+            android:layout_centerVertical="true"
+            android:background="?attr/freshchatActionSelectableItemBackground"
+            android:contentDescription="@string/freshchat_content_description_attach_picture"
+            android:padding="@dimen/freshchat_message_attach_icon_padding"
+            android:src="?attr/freshchatAttachIcon" />
+
+        <LinearLayout
+            android:id="@+id/freshchat_phone_country_code_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toStartOf="@id/freshchat_conv_detail_reply_text"
+            android:layout_toLeftOf="@id/freshchat_conv_detail_reply_text"
+            android:minHeight="48dp"
+            android:orientation="horizontal"
+            android:paddingTop="4dp"
+            android:paddingBottom="6dp"
+            android:visibility="gone">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="20dp"
+                android:layout_height="13dp"
+                android:clipToOutline="true"
+                android:layout_gravity="center"
+                android:foreground="@drawable/freshchat_selected_country_flag_background"
+                app:cardCornerRadius="1dp"
+                android:layout_marginStart="16dp"
+                app:cardElevation="0dp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/freshchat_phone_country_flag"
+                    android:layout_width="20dp"
+                    android:layout_height="13dp"
+                    android:scaleType="fitXY"
+                    tools:src="@drawable/in" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/freshchat_phone_country_code"
+                style="?attr/freshchatSelectedCountryCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="4dp"
+                tools:text="+91" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="8dp"
+                android:src="?attr/freshchatCountryCodeDropdownIcon" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:background="@color/freshchat_country_code_input_divider" />
+        </LinearLayout>
+    </RelativeLayout>
 
     <com.freshchat.consumer.sdk.ui.QuickActionsAutoCompleteView
         android:id="@+id/freshchat_conv_detail_reply_text"
         style="?attr/freshchatMessageReplyInputViewStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:imeOptions="flagNoExtractUi|actionDone"
-        android:dropDownAnchor="@id/freshchat_conv_detail_attach_image"
-        android:popupBackground = "@drawable/freshchat_quick_actions_slash_command_popup"
-        android:layout_toLeftOf="@+id/freshchat_conv_detail_send_reply_button"
+        android:layout_marginLeft="12dp"
         android:layout_toStartOf="@+id/freshchat_conv_detail_send_reply_button"
-        android:layout_toRightOf="@+id/freshchat_conv_detail_attach_image"
-        android:layout_toEndOf="@+id/freshchat_conv_detail_attach_image"
-        android:layout_marginLeft="12dp" />
+        android:layout_toLeftOf="@+id/freshchat_conv_detail_send_reply_button"
+        android:layout_toEndOf="@+id/freshchat_attach_or_country_code_layout"
+        android:layout_toRightOf="@+id/freshchat_attach_or_country_code_layout"
+        android:dropDownAnchor="@id/freshchat_conv_detail_attach_image"
+        android:imeOptions="flagNoExtractUi|actionDone"
+        android:autofillHints="smsOTPCode"
+        android:importantForAutofill="yes"
+        android:popupBackground="@drawable/freshchat_quick_actions_slash_command_popup" />
 
     <ImageView
         android:id="@+id/freshchat_conv_detail_record_voice_reply_button"
         android:layout_width="@dimen/freshchat_message_send_icon_size"
         android:layout_height="@dimen/freshchat_message_send_icon_size"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:background="?attr/freshchatActionSelectableItemBackground"
         android:contentDescription="@string/freshchat_content_description_send_voice_message"
@@ -47,8 +114,8 @@
         android:id="@+id/freshchat_conv_detail_send_reply_button"
         android:layout_width="@dimen/freshchat_message_send_icon_size"
         android:layout_height="@dimen/freshchat_message_send_icon_size"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:alpha="0.6"
         android:background="?attr/freshchatActionSelectableItemBackground"

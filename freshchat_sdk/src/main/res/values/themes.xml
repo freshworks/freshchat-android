@@ -207,6 +207,25 @@
         <item name="freshchatQuickActionMenuStyle">@style/Widget.Freshchat.QuickActions.Background</item>
         <item name="freshchatMessageFileIconStyle">@style/Widget.Freshchat.UnsupportedMessageIcon</item>
 
+        <!-- Country Code -->
+        <item name="freshchatSelectedCountryCode">@style/Widget.Freshchat.SelectedCountryCode</item>
+        <item name="freshchatCountryCodeDropdownIcon">@drawable/freshchat_country_code_sheet_icon</item>
+        <item name="freshchatSelectedCountryNameInBottomsheet">@style/Widget.Freshchat.SelectedCountryNameInBottomSheet</item>
+        <item name="freshchatUnselectedCountryNameInBottomsheet">@style/Widget.Freshchat.UnselectedCountryNameInBottomSheet</item>
+        <item name="freshchatBottomSheetCloseIcon">@drawable/freshchat_bottomsheet_close_icon</item>
+        <item name="freshchatBottomSheetTitle">@style/Widget.Freshchat.BottomsheetTitle</item>
+        <item name="freshchatBottomSheetSearchBackground">@drawable/freshchat_bottomsheet_search_bg_inactive</item>
+        <item name="freshchatBottomSheetSearchIcon">@drawable/freshchat_bottomsheet_search_icon</item>
+        <item name="freshchatBottomSheetSearchText">@style/Widget.Freshchat.BottomsheetSearchText</item>
+        <item name="freshchatBottomSheetClearSearchIcon">@drawable/freshchat_ic_clear_search</item>
+        <item name="freshchatBottomSheetNoSearchResultsText">@style/Widget.Freshchat.BottomsheetNoSearchResultsText</item>
+        <item name="freshchatCountryCodeItemCountryCode">@style/Widget.Freshchat.CountryCodeItemCountryCodeText</item>
+        <item name="freshchatSelectedCountryCodeIndicator">@drawable/freshchat_ic_selected</item>
+
+        <!-- Resend OTP -->
+        <item name="freshchatResendOtpEnabledTextStyle">@style/Widget.Freshchat.ResendOTPEnabledText</item>
+        <item name="freshchatResendOtpDisabledTextStyle">@style/Widget.Freshchat.ResendOTPDisabledText</item>
+        <item name="freshchatResendOtpButtonBackground">@drawable/freshchat_resend_otp_background</item>
         <!-- Feed back-->
         <item name="freshchatOpinionBackgroundStyle">@style/Widget.Freshchat.OpinionBackground
         </item>
@@ -424,6 +443,25 @@
 
         <item name="freshchatMessageFileIconStyle">@style/Widget.Freshchat.UnsupportedMessageIcon</item>
 
+        <!-- Country Code -->
+        <item name="freshchatSelectedCountryCode">@style/Widget.Freshchat.SelectedCountryCode</item>
+        <item name="freshchatCountryCodeDropdownIcon">@drawable/freshchat_country_code_sheet_icon</item>
+        <item name="freshchatSelectedCountryNameInBottomsheet">@style/Widget.Freshchat.SelectedCountryNameInBottomSheet</item>
+        <item name="freshchatUnselectedCountryNameInBottomsheet">@style/Widget.Freshchat.UnselectedCountryNameInBottomSheet</item>
+        <item name="freshchatBottomSheetCloseIcon">@drawable/freshchat_bottomsheet_close_icon</item>
+        <item name="freshchatBottomSheetTitle">@style/Widget.Freshchat.BottomsheetTitle</item>
+        <item name="freshchatBottomSheetSearchBackground">@drawable/freshchat_bottomsheet_search_bg</item>
+        <item name="freshchatBottomSheetSearchIcon">@drawable/freshchat_bottomsheet_search_icon</item>
+        <item name="freshchatBottomSheetSearchText">@style/Widget.Freshchat.BottomsheetSearchText</item>
+        <item name="freshchatBottomSheetClearSearchIcon">@drawable/freshchat_ic_clear_search</item>
+        <item name="freshchatBottomSheetNoSearchResultsText">@style/Widget.Freshchat.BottomsheetNoSearchResultsText</item>
+        <item name="freshchatCountryCodeItemCountryCode">@style/Widget.Freshchat.CountryCodeItemCountryCodeText</item>
+        <item name="freshchatSelectedCountryCodeIndicator">@drawable/freshchat_ic_selected</item>
+
+        <!-- Resend OTP -->
+        <item name="freshchatResendOtpEnabledTextStyle">@style/Widget.Freshchat.ResendOTPEnabledText</item>
+        <item name="freshchatResendOtpDisabledTextStyle">@style/Widget.Freshchat.ResendOTPDisabledText</item>
+        <item name="freshchatResendOtpButtonBackground">@drawable/freshchat_resend_otp_background</item>
         <!--Feedback-->
         <item name="freshchatBotFeedBackThanksMessageTextStyle">
             @style/Widget.Freshchat.BotFeedBackThanksMessageStyle
