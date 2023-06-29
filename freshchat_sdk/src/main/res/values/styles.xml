@@ -710,32 +710,42 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:text">@string/freshchat_drop_down_hint_text</item>
-        <item name="android:textSize">15sp</item>
-        <item name="android:padding">15dp</item>
-        <item name="android:drawableEnd">?attr/freshchatDropDownIcon</item>
-        <item name="android:drawableRight">?attr/freshchatDropDownIcon</item>
-        <item name="android:drawablePadding">10dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:textColor">@color/freshchat_drop_down_hint_text_color</item>
         <item name="android:textDirection">firstStrong</item>
         <item name="android:textAlignment">viewStart</item>
     </style>
 
     <style name="Widget.Freshchat.DropDownItemText">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">@dimen/freshchat_drop_down_item_height</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:background">?attr/freshchatActionSelectableItemBackground</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:maxLines">2</item>
-        <item name="android:minLines">1</item>
+        <item name="android:maxLines">1</item>
         <item name="android:ellipsize">end</item>
-        <item name="android:paddingLeft">18dp</item>
-        <item name="android:paddingRight">15dp</item>
-        <item name="android:paddingStart">18dp</item>
-        <item name="android:paddingEnd">15dp</item>
-        <item name="android:textColor">@color/freshchat_black</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/freshchat_primary_text_color</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:textDirection">firstStrong</item>
         <item name="android:textAlignment">viewStart</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="Widget.Freshchat.DropDownSelectedItemText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">?attr/freshchatActionSelectableItemBackground</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/freshchat_drop_down_hint_text_color</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textDirection">firstStrong</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
     </style>
 
     <!-- Carousel Card - Start -->
@@ -1300,11 +1310,37 @@
         <item name="elevation">8dp</item>
     </style>
 
+    <style name="Widget.Freshchat.BotCalendarText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/freshchat_bot_calendar_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/freshchat_bot_calendar_date_select_message</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Widget.Freshchat.BotTimePickerText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/freshchat_bot_time_picker_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/freshchat_bot_time_select_message</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="FreshchatDatePickerDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/freshchat_date_picker_accent_color</item>
+    </style>
+
+    <style name="FreshchatTimePickerDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/freshchat_time_picker_accent_color</item>
+    </style>
     <style name="Widget.Freshchat.BottomSheetStyle"
         parent="Theme.Design.Light.BottomSheetDialog">
         <item name="bottomSheetStyle">@style/Widget.Freshchat.BottomSheetStyleWrapper</item>
         <item name="android:windowSoftInputMode">adjustResize|stateVisible</item>
-        <item name="android:windowIsFloating">false</item>
     </style>
 
     <style name="Widget.Freshchat.BottomSheetStyleWrapper" parent="Widget.Design.BottomSheet.Modal">
@@ -1352,8 +1388,37 @@
         <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:gravity">center</item>
-
         <item name="android:textColor">@color/freshchat_no_search_results_text</item>
+    </style>
+
+    <style name="Widget.Freshchat.BottomsheetSendButton">
+        <item name="android:textColor">@color/freshchat_send_button_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:background">?attr/freshchatActionSelectableItemBackground</item>
+        <item name="android:text">@string/freshchat_attachment_send_button</item>
+    </style>
+
+    <style name="Widget.Freshchat.BottomsheetSelectAllButton">
+        <item name="android:textColor">@color/freshchat_drop_down_hint_text_color</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textDirection">firstStrong</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:text">@string/freshchat_select_all</item>
+        <item name="android:background">?attr/freshchatActionSelectableItemBackground</item>
+    </style>
+    <style name="Widget.Freshchat.BottomsheetCounter">
+        <item name="android:textColor">@color/freshchat_bottomsheet_selected_text</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textDirection">firstStrong</item>
+        <item name="android:textAlignment">viewEnd</item>
+    </style>
+
+    <style name="Widget.Freshchat.CountryCodeItemCountryNameText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/freshchat_country_code_text_color</item>
     </style>
 
     <style name="Widget.Freshchat.CountryCodeItemCountryCodeText">
@@ -1362,6 +1427,17 @@
     </style>
 
     <style name="Widget.Freshchat.ResendOTPEnabledText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/freshchat_resend_otp_text_color</item>
+    </style>
+
+    <style name="Widget.Freshchat.checkbox">
+        <item name="colorControlNormal">@color/freshchat_white</item>
+        <item name="colorAccent">@color/freshchat_drop_down_hint_text_color</item>
+    </style>
+
+    <style name="Widget.Freshchat.ResendOTPText">
         <item name="android:textSize">16sp</item>
         <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:textColor">@color/freshchat_resend_otp_text_color</item>
@@ -1403,9 +1479,26 @@
         <item name="android:textAllCaps">false</item>
     </style>
 
+    <style name="Widget.Freshchat.RatingFeedbackSelect" parent="Widget.Freshchat.OpinionFeedbackSelect"/>
+
     <style name="Widget.Freshchat.OpinionBackground">
         <item name="android:background">@drawable/freshchat_opinion_feedback_bg</item>
     </style>
 
+    <style name="Widget.Freshchat.RateUsLabel">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/freshchat_rating_rate_us_label</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Widget.Freshchat.SelectedRatingLabel">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/freshchat_rating_selected_label</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Widget.Freshchat.RatingFeedbackRatingBar" parent="Widget.AppCompat.RatingBar">
+        <item name="android:progressTint">@color/freshchat_rating_bar_selected</item>
+    </style>
 
 </resources>

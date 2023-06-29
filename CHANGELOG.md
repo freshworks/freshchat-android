@@ -1,3 +1,10 @@
+## 5.9.0(2023-06-29)
+
+### Feature
+* This version will now let you receive star-based feedback from your customers. Customers will be able to provide feedback from a maximum of 5 star based choices.
+* We are adding support for Date and time as a new input type for your customers. Customers will now be able to pick a date and pick a time within the bot flow.
+* We are adding support for Multi-select as a new input type for your customers. Customers will now be able to pick and choose multiple choices that appears as a dropdown.
+
 ## 5.8.0(2023-06-20)
 
 ### Feature

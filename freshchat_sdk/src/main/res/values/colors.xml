@@ -90,7 +90,7 @@
     <color name="freshchat_quick_reply_chip_outline">@color/freshchat_grey</color>
 
     <!--Drop Down-->
-    <color name="freshchat_drop_down_hint_text_color">#3A4B67</color>
+    <color name="freshchat_drop_down_hint_text_color">#2C5CC5</color>
     <color name="freshchat_drop_down_border_color">#45A4EC</color>
 
     <color name="freshchat_bottom_sheet_bg_color">#55606060</color>
@@ -152,7 +152,16 @@
     <color name="freshchat_invalid_input_alert">#FEF1E1</color>
     <color name="freshchat_invalid_input_alert_divider">#FAC386</color>
     <color name="freshchat_invalid_input_alert_text">#C82124</color>
-    
+
+    <color name="freshchat_bot_calendar_text">#2C5CC5</color>
+    <color name="freshchat_bot_time_picker_text">#2C5CC5</color>
+    <color name="freshchat_bot_calendar_button_background">@color/freshchat_white</color>
+    <color name="freshchat_bot_calendar_button_divider">#CFD7DF</color>
+    <color name="freshchat_bot_time_picker_button_background">@color/freshchat_white</color>
+    <color name="freshchat_bot_time_picker_button_divider">#CFD7DF</color>
+    <color name="freshchat_date_picker_accent_color">#2C5CC5</color>
+    <color name="freshchat_time_picker_accent_color">#2C5CC5</color>
+
     <!-- Live Translation-->
     <color name="freshchat_original_message_bar">#8A091E42</color>
     <color name="freshchat_translation_toggle_button_bg">#D7D8DA</color>
@@ -197,6 +206,7 @@
     <color name="freshchat_bottomsheet_search_text_hint">#CFD7DF</color>
     <color name="freshchat_bottomsheet_search_text">#12344D</color>
     <color name="freshchat_bottomsheet_scroll_divider">#CFD7DF</color>
+    <color name="freshchat_bottomsheet_selected_text">#475867</color>
 
     <!-- Resend OTP -->
     <color name="freshchat_resend_otp_background">#EBEFF3</color>
@@ -211,4 +221,8 @@
     <color name="freshchat_opinion_selected_background">#E5F2FD</color>
     <color name="freshchat_opinion_un_selected_text">#12344d</color>
     <color name="freshchat_opinion_selected_text">#2C5CC5</color>
+    <color name="freshchat_rating_rate_us_label">#475867</color>
+    <color name="freshchat_rating_selected_label">#12344d</color>
+    <color name="freshchat_rating_bar_selected">#F48928</color>
+
 </resources>

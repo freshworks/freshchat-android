@@ -46,6 +46,7 @@
     <attr name="freshchatVoiceMessageSeekbar" format="reference" />
     <attr name="freshchatVoiceMessageSeekbarThumb" format="reference" />
     <attr name="freshchatActionSelectableItemBackground" format="reference" />
+    <attr name="freshchatActionSelectableItemBackgroundBorderless" format="reference" />
 
     <!-- Text Appearance Customizations - Common -->
     <attr name="freshchatContactUsTextStyle" format="reference" />
@@ -179,9 +180,11 @@
 
     <!--Drop Down Input -->
     <attr name="freshchatDropDownHintTextStyle" format="reference" />
+    <attr name="freshchatDropDownContainerBackground" format="reference"/>
 
     <!--Drop Down List -->
     <attr name="freshchatDropDownItemTextStyle" format="reference" />
+    <attr name="freshchatDropDownSelectedItemTextStyle" format="reference" />
 
     <!-- Carousel Card -->
     <attr name="freshchatCarouselCardTitleTextStyle" format="reference" />
@@ -229,6 +232,12 @@
     <attr name="freshchatCalendarBannerMeetingDateTextStyle" format="reference" />
     <attr name="freshchatCalendarBannerMeetingViewTextStyle" format="reference" />
 
+    <attr name="freshchatBotCalendarIcon" format="reference"/>
+    <attr name="freshchatBotCalendarMessage" format="reference"/>
+
+    <attr name="freshchatBotTimePickerIcon" format="reference"/>
+    <attr name="freshchatBotTimePickerMessage" format="reference"/>
+
     <!-- Live Translate-->
     <attr name="freshchatTranslationToggleIconStyle" format="reference" />
     <attr name="freshchatOriginalMessageTitleTextStyle" format="reference" />
@@ -237,7 +246,10 @@
     <attr name="freshchatOpinionBackgroundStyle" format="reference"/>
     <attr name="freshchatOpinionSelectedTextStyle" format="reference"/>
     <attr name="freshchatOpinionUnSelectedTextStyle" format="reference"/>
-
+    <attr name="freshchatRatingFeedbackSelectButtonStyle" format="reference" />
+    <attr name="freshchatRateUsTextStyle" format="reference"/>
+    <attr name="freshchatRatingTextStyle" format="reference"/>
+    <attr name="freshChatRatingBar" format="reference"/>
 
     <!-- Country code-->
     <attr name="freshchatSelectedCountryCode" format="reference" />
@@ -251,7 +263,7 @@
     <attr name="freshchatResendOtpEnabledTextStyle" format="reference"/>
     <attr name="freshchatResendOtpDisabledTextStyle" format="reference"/>
     <attr name="freshchatResendOtpButtonBackground" format="reference" />
-    
+
     <!-- Freshchat Bottomsheet -->
     <attr name="freshchatBottomSheetCloseIcon" format="reference" />
     <attr name="freshchatBottomSheetTitle" format="reference" />
@@ -260,5 +272,8 @@
     <attr name="freshchatBottomSheetSearchText" format="reference" />
     <attr name="freshchatBottomSheetClearSearchIcon" format="reference" />
     <attr name="freshchatBottomSheetNoSearchResultsText" format="reference" />
-
+    <attr name="freshchatBottomSheetSendButton" format="reference" />
+    <attr name="freshchatBottomSheetSelectionCounter" format="reference" />
+    <attr name="freshchatBottomSheetSelectAllButton" format="reference" />
+    <attr name="freshchatSelectionLayoutBackground" format="reference" />
 </resources>

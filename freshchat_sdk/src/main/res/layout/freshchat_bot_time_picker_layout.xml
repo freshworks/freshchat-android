@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/freshchat_bot_time_picker_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@color/freshchat_bot_time_picker_button_background">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/freshchat_bot_time_picker_button_divider" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="?attr/freshchatBotTimePickerMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginVertical="12dp"
+        android:drawableLeft="?attr/freshchatBotTimePickerIcon"
+        android:drawablePadding="6dp"
+        android:gravity="center"
+        tools:drawableLeft="@drawable/freshchat_ic_calendar_time"
+        tools:text="Select time" />
+</RelativeLayout>

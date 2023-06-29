@@ -19,7 +19,10 @@
         <item name="freshchatSendAttachmentIcon">@drawable/freshchat_ic_send_button</item>
         <item name="freshchatRecordIcon">@drawable/freshchat_ic_record</item>
         <item name="freshchatActionSelectableItemBackground">?attr/selectableItemBackground</item>
+        <item name="freshchatActionSelectableItemBackgroundBorderless">?attr/selectableItemBackgroundBorderless</item>
+
         <item name="freshchatDropDownIcon">@drawable/freshchat_ic_drop_down_btn</item>
+        <item name="freshchatDropDownContainerBackground">@drawable/freshchat_drop_down_box_bg</item>
         <item name="freshchatCalendarIcon">@drawable/freshchat_ic_calendar</item>
         <item name="freshchatCalendarCancelIcon">@drawable/freshchat_ic_calendar_close</item>
         <item name="freshchatCalendarCancelInviteIcon">@drawable/freshchat_ic_calendar_cancel_invite</item>
@@ -148,6 +151,7 @@
         <!--Drop Down Styles -->
         <item name="freshchatDropDownHintTextStyle">@style/Widget.Freshchat.DropDownHintText</item>
         <item name="freshchatDropDownItemTextStyle">@style/Widget.Freshchat.DropDownItemText</item>
+        <item name="freshchatDropDownSelectedItemTextStyle">@style/Widget.Freshchat.DropDownSelectedItemText</item>
 
         <!-- Carousel Card -->
         <item name="freshchatCarouselCardTitleTextStyle">@style/Widget.Freshchat.CarouselCardTitle</item>
@@ -196,6 +200,12 @@
         <item name="freshchatCalendarBannerMeetingDateTextStyle">@style/Widget.Freshchat.CalendarMeetingBannerDateText</item>
         <item name="freshchatCalendarBannerMeetingViewTextStyle">@style/Widget.Freshchat.CalendarMeetingBannerButtonText</item>
 
+        <item name="freshchatBotCalendarIcon">@drawable/freshchat_ic_bot_calendar</item>
+        <item name="freshchatBotCalendarMessage">@style/Widget.Freshchat.BotCalendarText</item>
+
+        <item name="freshchatBotTimePickerIcon">@drawable/freshchat_ic_calendar_time</item>
+        <item name="freshchatBotTimePickerMessage">@style/Widget.Freshchat.BotTimePickerText</item>
+
         <!-- Live Translate -->
         <item name="freshchatTranslationToggleIconStyle">@style/Widget.Freshchat.TranslationToggleBtnStyle</item>
         <item name="freshchatOriginalMessageTitleTextStyle">@style/Widget.Freshchat.OriginalMessageTitleText</item>
@@ -207,6 +217,12 @@
         <item name="freshchatQuickActionMenuStyle">@style/Widget.Freshchat.QuickActions.Background</item>
         <item name="freshchatMessageFileIconStyle">@style/Widget.Freshchat.UnsupportedMessageIcon</item>
 
+        <!-- Dropdown Bottomsheet -->
+        <item name="freshchatBottomSheetSendButton">@style/Widget.Freshchat.BottomsheetSendButton</item>
+        <item name="freshchatBottomSheetSelectionCounter">@style/Widget.Freshchat.BottomsheetCounter</item>
+        <item name="freshchatBottomSheetSelectAllButton">@style/Widget.Freshchat.BottomsheetSelectAllButton</item>
+        <item name="freshchatSelectionLayoutBackground">@color/freshchat_grey_light</item>
+
         <!-- Country Code -->
         <item name="freshchatSelectedCountryCode">@style/Widget.Freshchat.SelectedCountryCode</item>
         <item name="freshchatCountryCodeDropdownIcon">@drawable/freshchat_country_code_sheet_icon</item>
@@ -214,7 +230,7 @@
         <item name="freshchatUnselectedCountryNameInBottomsheet">@style/Widget.Freshchat.UnselectedCountryNameInBottomSheet</item>
         <item name="freshchatBottomSheetCloseIcon">@drawable/freshchat_bottomsheet_close_icon</item>
         <item name="freshchatBottomSheetTitle">@style/Widget.Freshchat.BottomsheetTitle</item>
-        <item name="freshchatBottomSheetSearchBackground">@drawable/freshchat_bottomsheet_search_bg_inactive</item>
+        <item name="freshchatBottomSheetSearchBackground">@drawable/freshchat_bottomsheet_search_bg</item>
         <item name="freshchatBottomSheetSearchIcon">@drawable/freshchat_bottomsheet_search_icon</item>
         <item name="freshchatBottomSheetSearchText">@style/Widget.Freshchat.BottomsheetSearchText</item>
         <item name="freshchatBottomSheetClearSearchIcon">@drawable/freshchat_ic_clear_search</item>
@@ -238,6 +254,10 @@
         <item name="freshchatOpinionSelectedTextStyle">@style/Widget.Freshchat.OpinionFeedbackSelect</item>
         <item name="freshchatOpinionUnSelectedTextStyle">@style/Widget.Freshchat.OpinionUnSelected</item>
 
+        <item name="freshchatRateUsTextStyle">@style/Widget.Freshchat.RateUsLabel</item>
+        <item name="freshchatRatingTextStyle">@style/Widget.Freshchat.SelectedRatingLabel</item>
+        <item name="freshChatRatingBar">@style/Widget.Freshchat.RatingFeedbackRatingBar</item>
+
     </style>
 
     <style name="Theme.Freshchat.Light.DarkActionBar" parent="@style/Theme.AppCompat.Light.DarkActionBar">
@@ -255,7 +275,10 @@
         <item name="freshchatSendAttachmentIcon">@drawable/freshchat_ic_send_button</item>
         <item name="freshchatRecordIcon">@drawable/freshchat_ic_record</item>
         <item name="freshchatActionSelectableItemBackground">?attr/selectableItemBackground</item>
+        <item name="freshchatActionSelectableItemBackgroundBorderless">?attr/selectableItemBackgroundBorderless</item>
+
         <item name="freshchatDropDownIcon">@drawable/freshchat_ic_drop_down_btn</item>
+        <item name="freshchatDropDownContainerBackground">@drawable/freshchat_drop_down_box_bg</item>
         <item name="freshchatCalendarIcon">@drawable/freshchat_ic_calendar</item>
         <item name="freshchatCalendarCancelIcon">@drawable/freshchat_ic_calendar_close</item>
         <item name="freshchatCalendarCancelInviteIcon">@drawable/freshchat_ic_calendar_cancel_invite</item>
@@ -380,6 +403,8 @@
         <!--Drop Down Styles -->
         <item name="freshchatDropDownHintTextStyle">@style/Widget.Freshchat.DropDownHintText</item>
         <item name="freshchatDropDownItemTextStyle">@style/Widget.Freshchat.DropDownItemText</item>
+        <item name="freshchatDropDownSelectedItemTextStyle">@style/Widget.Freshchat.DropDownSelectedItemText</item>
+
 
         <!-- Carousel Card -->
         <item name="freshchatCarouselCardTitleTextStyle">@style/Widget.Freshchat.CarouselCardTitle</item>
@@ -432,6 +457,12 @@
         <item name="freshchatCalendarBannerMeetingDateTextStyle">@style/Widget.Freshchat.CalendarMeetingBannerDateText</item>
         <item name="freshchatCalendarBannerMeetingViewTextStyle">@style/Widget.Freshchat.CalendarMeetingBannerButtonText</item>
 
+        <item name="freshchatBotCalendarIcon">@drawable/freshchat_ic_bot_calendar</item>
+        <item name="freshchatBotCalendarMessage">@style/Widget.Freshchat.BotCalendarText</item>
+
+        <item name="freshchatBotTimePickerIcon">@drawable/freshchat_ic_calendar_time</item>
+        <item name="freshchatBotTimePickerMessage">@style/Widget.Freshchat.BotTimePickerText</item>
+
         <!-- Live Translate -->
         <item name="freshchatTranslationToggleIconStyle">@style/Widget.Freshchat.TranslationToggleBtnStyle</item>
         <item name="freshchatOriginalMessageTitleTextStyle">@style/Widget.Freshchat.OriginalMessageTitleText</item>
@@ -442,6 +473,12 @@
         <item name="freshchatQuickActionMenuStyle">@style/Widget.Freshchat.QuickActions.Background</item>
 
         <item name="freshchatMessageFileIconStyle">@style/Widget.Freshchat.UnsupportedMessageIcon</item>
+
+        <!-- Dropdown Bottomsheet -->
+        <item name="freshchatBottomSheetSendButton">@style/Widget.Freshchat.BottomsheetSendButton</item>
+        <item name="freshchatBottomSheetSelectionCounter">@style/Widget.Freshchat.BottomsheetCounter</item>
+        <item name="freshchatBottomSheetSelectAllButton">@style/Widget.Freshchat.BottomsheetSelectAllButton</item>
+        <item name="freshchatSelectionLayoutBackground">@color/freshchat_grey_light</item>
 
         <!-- Country Code -->
         <item name="freshchatSelectedCountryCode">@style/Widget.Freshchat.SelectedCountryCode</item>
@@ -473,6 +510,11 @@
         </item>
         <item name="freshchatOpinionSelectedTextStyle">@style/Widget.Freshchat.OpinionSelected</item>
         <item name="freshchatOpinionUnSelectedTextStyle">@style/Widget.Freshchat.OpinionUnSelected</item>
+        <item name="freshchatRatingFeedbackSelectButtonStyle">@style/Widget.Freshchat.RatingFeedbackSelect</item>
+        <item name="freshchatRateUsTextStyle">@style/Widget.Freshchat.RateUsLabel</item>
+        <item name="freshchatRatingTextStyle">@style/Widget.Freshchat.SelectedRatingLabel</item>
+        <item name="freshChatRatingBar">@style/Widget.Freshchat.RatingFeedbackRatingBar</item>
+
     </style>
 
     <style name="Freshchat.Theme.Transparent" parent="@style/Theme.AppCompat.Light.NoActionBar">

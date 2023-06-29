@@ -28,8 +28,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_centerVertical="true"
-            android:paddingHorizontal="16dp"
-            android:paddingVertical="9dp"
+            android:background="@drawable/freshchat_bottomsheet_cross_btn_bg"
+            android:paddingHorizontal="14dp"
+            android:paddingVertical="14dp"
             android:src="?attr/freshchatBottomSheetCloseIcon" />
 
         <androidx.appcompat.widget.AppCompatTextView
@@ -41,7 +42,28 @@
             android:layout_marginTop="11dp"
             android:layout_marginBottom="11dp"
             tools:text="Select Country" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/freshchat_bottomsheet_send_button"
+            style="?attr/freshchatBottomSheetSendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="11dp"
+            android:layout_marginRight="11dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:enabled="false"
+            android:paddingStart="5dp"
+            android:paddingTop="11dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="11dp"
+            tools:text="@string/freshchat_attachment_send_button"
+            android:visibility="invisible" />
+
     </RelativeLayout>
+
 
     <LinearLayout
         android:id="@+id/freshchat_bottomsheet_search_layout"
@@ -83,13 +105,50 @@
             android:visibility="gone" />
 
     </LinearLayout>
+    <LinearLayout
+        android:id="@+id/freshchat_selection_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="?attr/freshchatSelectionLayoutBackground"
+        android:layout_below="@id/freshchat_bottomsheet_search_layout"
+        android:visibility="gone"
+        >
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/freshchat_bottomsheet_unselect_button"
+            style="?attr/freshchatBottomSheetSelectAllButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingLeft="16dp"
+            android:paddingStart="16dp"
+            tools:text="@string/freshchat_select_all"
+            />
 
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/freshchat_bottomsheet_counter"
+            style="?attr/freshchatBottomSheetSelectionCounter"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:paddingTop="17dp"
+            android:paddingBottom="17dp"
+            android:clickable="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            tools:text="@string/freshchat_selected_counter" />
+
+    </LinearLayout>
     <View
         android:id="@+id/freshchat_bottomsheet_scroll_divider"
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
         android:layout_marginTop="10dp"
-        android:layout_below="@id/freshchat_bottomsheet_search_layout"
+        android:layout_below="@id/freshchat_selection_layout"
         android:background="@color/freshchat_message_list_reply_view_divider"
         android:visibility="invisible" />
 

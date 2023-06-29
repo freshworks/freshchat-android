@@ -90,6 +90,16 @@
                     android:splitMotionEvents="false"
                     app:freshchatFlRowSpacing="@dimen/freshchat_quick_reply_view_column_padding" />
             </ScrollView>
+            <include
+                layout="@layout/freshchat_bot_calendar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+            <include
+                layout="@layout/freshchat_bot_time_picker_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
 
             <ScrollView
                 android:layout_width="match_parent"
@@ -100,6 +110,19 @@
                     layout="@layout/freshchat_opinion_feedback"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
+            </ScrollView>
+
+            <ScrollView
+                android:id="@+id/rating_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <include
+                    layout="@layout/freshchat_rating_feedback"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
             </ScrollView>
 
 

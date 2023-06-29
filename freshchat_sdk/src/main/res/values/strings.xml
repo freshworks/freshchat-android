@@ -152,7 +152,9 @@
 	<string name="freshchat_all_members_away_message">We are away now</string>
 
 	<!--Strings for Drop down messages-->
-	<string name="freshchat_drop_down_hint_text">Click here to select</string>
+	<string name="freshchat_drop_down_hint_text">Select an option</string>
+	<string name="freshchat_multi_select_drop_down_hint_text">Select all that apply</string>
+
 
 	<!--Strings for Carousel -->
 	<string name="freshchat_carousel_default_preview_text">Choose an option</string>
@@ -194,6 +196,8 @@
 	<string name="freshchat_calendar_meeting_state_pending">Awaiting Confirmation</string>
 	<string name="freshchat_calendar_invite_awaiting_confirmation">Awaiting time slot confirmation</string>
 	<string name="freshchat_calendar_meeting_banner_view_btn">@string/freshchat_view_text</string>
+	<string name="freshchat_bot_calendar_date_select_message">Select date</string>
+	<string name="freshchat_bot_time_select_message">Select time</string>
 
 	<!--Omni KBASE-->
 
@@ -245,6 +249,11 @@
 	<string name="freshchat_file_size_exceeded_message">Attachments should be smaller than 20 MB</string>
 	<string name="freshchat_spinner_text">Please wait...</string>
 
+	<!--Dropdown-->
+	<string name="freshchat_selected_counter">%1$d Selected</string>
+	<string name="freshchat_deselect_all">Deselect all</string>
+	<string name="freshchat_select_all">Select all</string>
+
 
 	<!--	Feedback-->
 	<string name="freshchat_comment_feedback_hint">Add your feedback here</string>
@@ -252,5 +261,6 @@
 	<string name="freshchat_character_limit_message">%1$s / %2$s max character limit reached</string>
 	<string name="freshchat_feedback_failure_message">Unable to send feedback. Please try again later</string>
 	<string name="freshchat_opinion_poll_select">Submit</string>
+	<string name="freshchat_rating_feedback_rate_us">Rate us</string>
 
 </resources>

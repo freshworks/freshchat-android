@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/freshchat_drop_down_input_frame"
-    style="?attr/freshchatDropDownHintTextStyle"
-    android:background="@drawable/freshchat_drop_down_box_bg"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:background="?attr/freshchatDropDownContainerBackground"
     android:clickable="true"
-    android:focusable="true"
-    android:foreground="?attr/freshchatActionSelectableItemBackground" />
+    android:elevation="6dp"
+    android:focusable="true">
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/freshchat_drop_down_input_frame_text"
+        style="?attr/freshchatDropDownHintTextStyle"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="14dp"
+        android:src="?attr/freshchatDropDownIcon" />
+</RelativeLayout>
