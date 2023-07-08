@@ -221,6 +221,12 @@
     <color name="freshchat_opinion_selected_background">#E5F2FD</color>
     <color name="freshchat_opinion_un_selected_text">#12344d</color>
     <color name="freshchat_opinion_selected_text">#2C5CC5</color>
+    <!-- Quick Reply Buttons -->
+    <color name="freshchat_chip_selected_outline">#BBDCFE</color>
+    <color name="freshchat_quick_reply_more_button">#CFD7DF</color>>
+    <color name="freshchat_chip_selected_background">#E5F2FD</color>
+    <color name="freshchat_quick_reply_count_tracker_bg">#EBEFF3</color>
+
     <color name="freshchat_rating_rate_us_label">#475867</color>
     <color name="freshchat_rating_selected_label">#12344d</color>
     <color name="freshchat_rating_bar_selected">#F48928</color>

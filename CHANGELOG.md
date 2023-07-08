@@ -1,3 +1,11 @@
+## 5.9.2(2023-07-08)
+
+### Feature :
+* We are adding support for multi-select as a new input type for your customers. Customers will now be able to pick and choose multiple choices that appears as buttons.
+
+### Enhancements :
+* Update UI for single select button.
+
 ## 5.9.1(2023-07-05)
 
 ### Bug Fix

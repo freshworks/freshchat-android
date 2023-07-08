@@ -70,9 +70,10 @@
     <dimen name="freshchat_faq_content_padding_bottom">85px</dimen>
 
     <dimen name="freshchat_list_empty_text_size">14sp</dimen>
+    <dimen name="freshchat_count_container_text_size">15sp</dimen>
 
     <!--Quick replies-->
-    <dimen name="freshchat_quick_reply_view_row_padding">12dp</dimen>
+    <dimen name="freshchat_quick_reply_view_row_padding">16dp</dimen>
     <dimen name="freshchat_quick_reply_view_column_padding">16dp</dimen>
 
     <!--Drop Down Messages-->

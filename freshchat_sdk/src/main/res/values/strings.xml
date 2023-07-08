@@ -154,7 +154,7 @@
 	<!--Strings for Drop down messages-->
 	<string name="freshchat_drop_down_hint_text">Select an option</string>
 	<string name="freshchat_multi_select_drop_down_hint_text">Select all that apply</string>
-
+	<string name="freshchat_multi_select_button_hint_text">Select response</string>
 
 	<!--Strings for Carousel -->
 	<string name="freshchat_carousel_default_preview_text">Choose an option</string>
@@ -249,6 +249,8 @@
 	<string name="freshchat_file_size_exceeded_message">Attachments should be smaller than 20 MB</string>
 	<string name="freshchat_spinner_text">Please wait...</string>
 
+    <!--MultiSelect Buttons-->
+    <string name="freshchat_count_tracker_count_text">%d Selected</string>
 	<!--Dropdown-->
 	<string name="freshchat_selected_counter">%1$d Selected</string>
 	<string name="freshchat_deselect_all">Deselect all</string>

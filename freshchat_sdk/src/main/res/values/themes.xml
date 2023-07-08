@@ -86,6 +86,13 @@
         <item name="freshchatMessageReplyWithAttachmentInputViewStyle">@style/Widget.Freshchat.MessageReplyWithAttachmentTextView</item>
         <item name="freshchatConversationBannerMessageStyle">@style/Widget.Freshchat.ConversationBannerMessage</item>
         <item name="freshchatProgressBarStyle">@style/Widget.Freshchat.ProgressBar</item>
+        <item name="freshchatQuickReplyLastButtonViewStyle">@drawable/freshchat_ic_more_button</item>
+        <item name="freshchatQuickReplyLastButtonBgViewStyle">@drawable/freshchat_last_btn_flow_layout</item>
+        <item name="freshchatCounterTextViewStyle">@style/Widget.Freshchat.QuickReplyCountTextStyle</item>
+        <item name="freshchatCountTrackerSubmitButtonStyle">@style/Widget.Freshchat.CountTrackerSubmitButtonStyle</item>
+        <item name="freshchatChipViewTextViewStyle">@style/Widget.Freshchat.ChipTextViewStyle</item>
+        <item name="freshchatSelectedChipViewTextViewStyle">@style/Widget.Freshchat.SelectedChipTextViewStyle</item>
+
 
         <!-- Message Text Styles -->
         <item name="freshchatTeamMemberAvatarStyle">@style/Widget.Freshchat.TeamMemberAvatarView</item>
@@ -254,6 +261,38 @@
         <item name="freshchatOpinionSelectedTextStyle">@style/Widget.Freshchat.OpinionFeedbackSelect</item>
         <item name="freshchatOpinionUnSelectedTextStyle">@style/Widget.Freshchat.OpinionUnSelected</item>
 
+        <!-- Bottom Sheet -->
+        <item name="freshchatBottomSheetCloseIcon">@drawable/freshchat_bottomsheet_close_icon</item>
+        <item name="freshchatBottomSheetTitle">@style/Widget.Freshchat.BottomsheetTitle</item>
+        <item name="freshchatBottomSheetSearchBackground">@drawable/freshchat_bottomsheet_search_bg_inactive</item>
+        <item name="freshchatBottomSheetSearchIcon">@drawable/freshchat_bottomsheet_search_icon</item>
+        <item name="freshchatBottomSheetSearchText">@style/Widget.Freshchat.BottomsheetSearchText</item>
+        <item name="freshchatBottomSheetClearSearchIcon">@drawable/freshchat_ic_clear_search</item>
+        <item name="freshchatBottomSheetNoSearchResultsText">@style/Widget.Freshchat.BottomsheetNoSearchResultsText</item>
+        <item name="freshchatBottomSheetSendButton">@style/Widget.Freshchat.BottomsheetSendButton</item>
+        <item name="freshchatBottomSheetSelectionCounter">@style/Widget.Freshchat.BottomsheetCounter</item>
+        <item name="freshchatBottomSheetSelectAllButton">@style/Widget.Freshchat.BottomsheetSelectAllButton</item>
+        <item name="freshchatSelectionLayoutBackground">@color/freshchat_grey_light</item>
+
+        <!-- Country Code -->
+        <item name="freshchatSelectedCountryCode">@style/Widget.Freshchat.SelectedCountryCode</item>
+        <item name="freshchatCountryCodeDropdownIcon">@drawable/freshchat_country_code_sheet_icon</item>
+        <item name="freshchatSelectedCountryNameInBottomsheet">@style/Widget.Freshchat.SelectedCountryNameInBottomSheet</item>
+        <item name="freshchatUnselectedCountryNameInBottomsheet">@style/Widget.Freshchat.UnselectedCountryNameInBottomSheet</item>
+        <item name="freshchatBottomSheetCloseIcon">@drawable/freshchat_bottomsheet_close_icon</item>
+        <item name="freshchatBottomSheetTitle">@style/Widget.Freshchat.BottomsheetTitle</item>
+        <item name="freshchatBottomSheetSearchBackground">@drawable/freshchat_bottomsheet_search_bg_inactive</item>
+        <item name="freshchatBottomSheetSearchIcon">@drawable/freshchat_bottomsheet_search_icon</item>
+        <item name="freshchatBottomSheetSearchText">@style/Widget.Freshchat.BottomsheetSearchText</item>
+        <item name="freshchatBottomSheetClearSearchIcon">@drawable/freshchat_ic_clear_search</item>
+        <item name="freshchatBottomSheetNoSearchResultsText">@style/Widget.Freshchat.BottomsheetNoSearchResultsText</item>
+        <item name="freshchatCountryCodeItemCountryCode">@style/Widget.Freshchat.CountryCodeItemCountryCodeText</item>
+        <item name="freshchatSelectedCountryCodeIndicator">@drawable/freshchat_ic_selected</item>
+
+        <!-- Resend OTP -->
+        <item name="freshchatResendOtpEnabledTextStyle">@style/Widget.Freshchat.ResendOTPEnabledText</item>
+        <item name="freshchatResendOtpDisabledTextStyle">@style/Widget.Freshchat.ResendOTPDisabledText</item>
+        <item name="freshchatResendOtpButtonBackground">@drawable/freshchat_resend_otp_background</item>
         <item name="freshchatRateUsTextStyle">@style/Widget.Freshchat.RateUsLabel</item>
         <item name="freshchatRatingTextStyle">@style/Widget.Freshchat.SelectedRatingLabel</item>
         <item name="freshChatRatingBar">@style/Widget.Freshchat.RatingFeedbackRatingBar</item>
@@ -339,6 +378,12 @@
         <item name="freshchatMessageReplyWithAttachmentInputViewStyle">@style/Widget.Freshchat.MessageReplyWithAttachmentTextView</item>
         <item name="freshchatConversationBannerMessageStyle">@style/Widget.Freshchat.ConversationBannerMessage</item>
         <item name="freshchatProgressBarStyle">@style/Widget.Freshchat.ProgressBar</item>
+        <item name="freshchatQuickReplyLastButtonViewStyle">@drawable/freshchat_ic_more_button</item>
+        <item name="freshchatQuickReplyLastButtonBgViewStyle">@drawable/freshchat_last_btn_flow_layout</item>
+        <item name="freshchatCounterTextViewStyle">@style/Widget.Freshchat.QuickReplyCountTextStyle</item>
+        <item name="freshchatCountTrackerSubmitButtonStyle">@style/Widget.Freshchat.CountTrackerSubmitButtonStyle</item>
+        <item name="freshchatChipViewTextViewStyle">@style/Widget.Freshchat.ChipTextViewStyle</item>
+        <item name="freshchatSelectedChipViewTextViewStyle">@style/Widget.Freshchat.SelectedChipTextViewStyle</item>
 
         <!-- Message Text Styles -->
         <item name="freshchatTeamMemberAvatarStyle">@style/Widget.Freshchat.TeamMemberAvatarView</item>
@@ -510,6 +555,37 @@
         </item>
         <item name="freshchatOpinionSelectedTextStyle">@style/Widget.Freshchat.OpinionSelected</item>
         <item name="freshchatOpinionUnSelectedTextStyle">@style/Widget.Freshchat.OpinionUnSelected</item>
+        <!-- Bottom Sheet -->
+        <item name="freshchatBottomSheetCloseIcon">@drawable/freshchat_bottomsheet_close_icon</item>
+        <item name="freshchatBottomSheetTitle">@style/Widget.Freshchat.BottomsheetTitle</item>
+        <item name="freshchatBottomSheetSearchBackground">@drawable/freshchat_bottomsheet_search_bg</item>
+        <item name="freshchatBottomSheetSearchIcon">@drawable/freshchat_bottomsheet_search_icon</item>
+        <item name="freshchatBottomSheetSearchText">@style/Widget.Freshchat.BottomsheetSearchText</item>
+        <item name="freshchatBottomSheetClearSearchIcon">@drawable/freshchat_ic_clear_search</item>
+        <item name="freshchatBottomSheetSendButton">@style/Widget.Freshchat.BottomsheetSendButton</item>
+        <item name="freshchatBottomSheetSelectionCounter">@style/Widget.Freshchat.BottomsheetCounter</item>
+        <item name="freshchatBottomSheetSelectAllButton">@style/Widget.Freshchat.BottomsheetSelectAllButton</item>
+        <item name="freshchatSelectionLayoutBackground">@color/freshchat_grey_light</item>
+
+        <!-- Country Code -->
+        <item name="freshchatSelectedCountryCode">@style/Widget.Freshchat.SelectedCountryCode</item>
+        <item name="freshchatCountryCodeDropdownIcon">@drawable/freshchat_country_code_sheet_icon</item>
+        <item name="freshchatSelectedCountryNameInBottomsheet">@style/Widget.Freshchat.SelectedCountryNameInBottomSheet</item>
+        <item name="freshchatUnselectedCountryNameInBottomsheet">@style/Widget.Freshchat.UnselectedCountryNameInBottomSheet</item>
+        <item name="freshchatBottomSheetCloseIcon">@drawable/freshchat_bottomsheet_close_icon</item>
+        <item name="freshchatBottomSheetTitle">@style/Widget.Freshchat.BottomsheetTitle</item>
+        <item name="freshchatBottomSheetSearchBackground">@drawable/freshchat_bottomsheet_search_bg</item>
+        <item name="freshchatBottomSheetSearchIcon">@drawable/freshchat_bottomsheet_search_icon</item>
+        <item name="freshchatBottomSheetSearchText">@style/Widget.Freshchat.BottomsheetSearchText</item>
+        <item name="freshchatBottomSheetClearSearchIcon">@drawable/freshchat_ic_clear_search</item>
+        <item name="freshchatBottomSheetNoSearchResultsText">@style/Widget.Freshchat.BottomsheetNoSearchResultsText</item>
+        <item name="freshchatCountryCodeItemCountryCode">@style/Widget.Freshchat.CountryCodeItemCountryCodeText</item>
+        <item name="freshchatSelectedCountryCodeIndicator">@drawable/freshchat_ic_selected</item>
+
+        <!-- Resend OTP -->
+        <item name="freshchatResendOtpEnabledTextStyle">@style/Widget.Freshchat.ResendOTPEnabledText</item>
+        <item name="freshchatResendOtpDisabledTextStyle">@style/Widget.Freshchat.ResendOTPDisabledText</item>
+        <item name="freshchatResendOtpButtonBackground">@drawable/freshchat_resend_otp_background</item>
         <item name="freshchatRatingFeedbackSelectButtonStyle">@style/Widget.Freshchat.RatingFeedbackSelect</item>
         <item name="freshchatRateUsTextStyle">@style/Widget.Freshchat.RateUsLabel</item>
         <item name="freshchatRatingTextStyle">@style/Widget.Freshchat.SelectedRatingLabel</item>

@@ -125,7 +125,16 @@
     <attr name="freshchatQuickReplyTextStyle" format="reference" />
     <attr name="freshchatQuickReplyViewBgColor" format="reference" />
     <attr name="freshchatMessageReplyInputViewStyle" format="reference" />
+    <attr name="freshchatQuickReplyLastButtonViewStyle" format="reference"/>
+    <attr name="freshchatQuickReplyLastButtonBgViewStyle" format="reference"/>
 
+    <!-- Count container -->
+    <attr name="freshchatCounterTextViewStyle" format="reference"/>
+    <attr name="freshchatCountTrackerSubmitButtonStyle" format="reference"/>
+
+    <!-- Chip view -->
+    <attr name="freshchatChipViewTextViewStyle" format="reference"/>
+    <attr name="freshchatSelectedChipViewTextViewStyle" format="reference"/>
 
     <!-- Style for the message reply with attachment view -->
     <attr name="freshchatMessageReplyWithAttachmentViewStyle" format="reference" />
@@ -259,11 +268,12 @@
     <attr name="freshchatSelectedCountryNameInBottomsheet" format="reference" />
     <attr name="freshchatUnselectedCountryNameInBottomsheet" format="reference" />
 
+
     <!-- Resend OTP-->
     <attr name="freshchatResendOtpEnabledTextStyle" format="reference"/>
     <attr name="freshchatResendOtpDisabledTextStyle" format="reference"/>
     <attr name="freshchatResendOtpButtonBackground" format="reference" />
-
+    
     <!-- Freshchat Bottomsheet -->
     <attr name="freshchatBottomSheetCloseIcon" format="reference" />
     <attr name="freshchatBottomSheetTitle" format="reference" />
