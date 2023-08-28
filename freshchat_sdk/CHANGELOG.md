@@ -1,3 +1,8 @@
+## 5.9.3(2023-08-28)
+
+### Enhancement :
+* Handle disabling of reply editor when bot response is pending.
+
 ## 5.9.2(2023-07-08)
 
 ### Feature :
