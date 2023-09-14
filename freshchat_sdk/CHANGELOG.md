@@ -1,3 +1,8 @@
+## 5.9.4(2023-09-14)
+
+### Bug fix :
+* Fix for a crash which occurs during certain chat flows.
+
 ## 5.9.3(2023-08-28)
 
 ### Enhancement :
