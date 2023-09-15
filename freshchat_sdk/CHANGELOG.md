@@ -1,4 +1,4 @@
-## 5.9.4(2023-09-14)
+## 5.9.5(2023-09-15)
 
 ### Bug fix :
 * Fix for a crash which occurs during certain chat flows.
