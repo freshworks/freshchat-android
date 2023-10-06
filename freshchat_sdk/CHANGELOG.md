@@ -1,3 +1,8 @@
+## 5.9.6(2023-10-06)
+
+### Bug fix :
+* Fix for bot variables not being set for resolved conversations.
+
 ## 5.9.5(2023-09-15)
 
 ### Bug fix :
