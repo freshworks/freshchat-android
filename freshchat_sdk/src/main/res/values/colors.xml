@@ -84,6 +84,7 @@
 
     <color name="freshchat_message_unknown_bg_stoke">#26091E42</color>
     <color name="freshchat_message_unknown_bg_solid">#B0FFFFFF</color>
+    <color name="freshchat_button_stroke">#E1E2E6</color>
 
     <!--Quick replies-->
     <color name="freshchat_quick_reply_chip_bg">@color/freshchat_white</color>
@@ -149,6 +150,8 @@
     <color name="freshchat_calendar_event_card_text">@color/freshchat_calendar_primary_text_color</color>
     <color name="freshchat_calendar_event_card_bg">@android:color/transparent</color>
     <color name="freshchat_calendar_meeting_banner_color">#243756</color>
+    <color name="freshchat_calendar_button_stroke">@color/freshchat_button_stroke</color>
+    <color name="freshchat_calendar_timeslot_selected_state_button_solid">#091E42</color>
     <color name="freshchat_invalid_input_alert">#FEF1E1</color>
     <color name="freshchat_invalid_input_alert_divider">#FAC386</color>
     <color name="freshchat_invalid_input_alert_text">#C82124</color>
@@ -172,6 +175,11 @@
     <color name="freshchat_faq_progress_color">@color/freshchat_carousel_card_btn_text</color>
     <color name="freshchat_faq_pagination_error_with_retry_text">@color/freshchat_grey_darkest</color>
 
+    <!-- Conversation Pagination -->
+    <color name="freshchat_load_messages_banner_color">@color/freshchat_white</color>
+    <color name="freshchat_new_messages_count_text">#293B5B</color>
+    <color name="freshchat_new_messages_button_stroke">@color/freshchat_button_stroke</color>
+    <color name="freshchat_load_messages_indicator_text_color">#3C3C43</color>
     <!-- Quick Actions-->
     <color name="freshchat_quick_actions_menu_popup">@color/freshchat_white</color>
     <color name="freshchat_quick_actions_slash_command_popup">@color/freshchat_white</color>
@@ -189,6 +197,7 @@
     <color name="freshchat_send_button_background_color">#12344D</color>
     <color name="freshchat_attachment_file_size">#475867</color>
     <color name="freshchat_alert_dialog_message">#12344D</color>
+    <color name="freshchat_new_messages_divider">@color/freshchat_grey_darkest</color>
 
     <!-- Phone country code-->
     <color name="freshchat_no_search_results_text">#475867</color>

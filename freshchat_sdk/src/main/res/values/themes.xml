@@ -76,6 +76,7 @@
         <item name="freshchatMessageListStyle">@style/Widget.Freshchat.MessageList</item>
         <item name="freshchatMessageListItemStyle">@style/Widget.Freshchat.MessageListItem</item>
         <item name="freshchatMessageReplyViewStyle">@style/Widget.Freshchat.MessageReplyView</item>
+        <item name="freshchatNewMessageBubbleStyle">@style/Widget.Freshchat.NewMessagesCountButton</item>
         <item name="freshchatMessageBotReplyViewStyle">@style/Widget.Freshchat.MessageReplyWithAttachmentView</item>
 
         <item name="freshchatQuickReplyTextStyle">@style/Widget.Freshchat.QuickReplyText</item>
@@ -219,6 +220,7 @@
 
         <!-- Misc Styles -->
         <item name="freshchatContactUsTextStyle">@style/Widget.Freshchat.ContactUs</item>
+        <item name="freshchatConversationsLoadingMessageTextStyle">@style/Widget.Freshchat.ConversationsLoadMoreMessageText</item>
 
         <!-- Quick Action Menu -->
         <item name="freshchatQuickActionMenuStyle">@style/Widget.Freshchat.QuickActions.Background</item>
@@ -377,6 +379,7 @@
         <item name="freshchatMessageReplyInputViewStyle">@style/Widget.Freshchat.MessageReplyEditText</item>
         <item name="freshchatMessageReplyWithAttachmentInputViewStyle">@style/Widget.Freshchat.MessageReplyWithAttachmentTextView</item>
         <item name="freshchatConversationBannerMessageStyle">@style/Widget.Freshchat.ConversationBannerMessage</item>
+        <item name="freshchatNewMessageBubbleStyle">@style/Widget.Freshchat.NewMessagesCountButton</item>
         <item name="freshchatProgressBarStyle">@style/Widget.Freshchat.ProgressBar</item>
         <item name="freshchatQuickReplyLastButtonViewStyle">@drawable/freshchat_ic_more_button</item>
         <item name="freshchatQuickReplyLastButtonBgViewStyle">@drawable/freshchat_last_btn_flow_layout</item>
@@ -514,6 +517,7 @@
 
         <!-- Misc Styles -->
         <item name="freshchatContactUsTextStyle">@style/Widget.Freshchat.ContactUs</item>
+        <item name="freshchatConversationsLoadingMessageTextStyle">@style/Widget.Freshchat.ConversationsLoadMoreMessageText</item>
 
         <item name="freshchatQuickActionMenuStyle">@style/Widget.Freshchat.QuickActions.Background</item>
 

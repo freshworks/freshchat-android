@@ -1,3 +1,8 @@
+## 6.0.0(2023-10-09)
+
+### Enhancement :
+* Performance improvement on loading messages
+
 ## 5.9.6(2023-10-06)
 
 ### Bug fix :

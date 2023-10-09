@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/freshchat_new_messages_divider_left_right_margin"
+    android:paddingTop="@dimen/freshchat_new_messages_divider_top_margin"
+    android:paddingRight="@dimen/freshchat_new_messages_divider_left_right_margin"
+    android:paddingBottom="@dimen/freshchat_new_messages_divider_bottom_margin">
+
+    <View style="@style/Widget.Freshchat.DividerDottedLineView" />
+
+    <androidx.appcompat.widget.AppCompatTextView style="@style/Widget.Freshchat.NewMessagesDividerTextView" />
+
+    <View style="@style/Widget.Freshchat.DividerDottedLineView" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

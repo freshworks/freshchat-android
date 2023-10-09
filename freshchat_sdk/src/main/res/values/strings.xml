@@ -208,8 +208,15 @@
 	<string name="freshchat_no_faq_found">No FAQ found</string>
 	<string name="freshchat_minimum_search_criteria">Enter 3 or more characters to search</string>
 	<string name="freshchat_pagination_error_with_retry">Failed to load. Tap to retry.</string>
-	<string name="freshchat_pagination_no_internet_with_retry">No internet connection. Tap to retry.</string>
 
+	<!-- Conversation Pagination -->
+	<string name="freshchat_new_messages">New Messages</string>
+	<string name="freshchat_loading_more_messages">Loading more...</string>
+	<string name="freshchat_loading_more_messages_failed">Failed to load</string>
+	<plurals name="freshchat_new_messages_count">
+		<item quantity="one">New Message</item>
+		<item quantity="other">@string/freshchat_new_messages</item>
+	</plurals>
 	<!--Bots-->
 	<string name="freshchat_bot_faq_feedback_title">Was this answer useful?</string>
 	<string name="freshchat_bot_faq_feedback_success">Thank you for your Feedback!</string>

@@ -8,7 +8,7 @@
     <!-- We can optimise if customer reaches out-->
 
     <include
-        layout="@layout/freshchat_listitem_message"
+        layout="@layout/freshchat_list_item_with_new_message_divider"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

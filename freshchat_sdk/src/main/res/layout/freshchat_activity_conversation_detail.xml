@@ -41,13 +41,25 @@
                 android:layout_height="wrap_content"
                 android:visibility="gone" />
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/freshchat_conv_detail_list"
-                style="?attr/freshchatMessageListStyle"
+            <RelativeLayout
+                android:id="@+id/freshchat_conv_detail_root_layout"
                 android:layout_width="match_parent"
-                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                 android:layout_height="0dp"
-                android:layout_weight="1" />
+                android:layout_weight="1">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/freshchat_conv_detail_list"
+                    style="?attr/freshchatMessageListStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+                <Button
+                    android:id="@+id/freshchat_new_messages_count_btn"
+                    style="?attr/freshchatNewMessageBubbleStyle"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
 
             <include
                 android:id="@+id/freshchat_invalid_input_message"
@@ -78,7 +90,33 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:visibility="gone" />
-                
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="70dp"
+                android:layout_below = "@id/freshchat_conv_detail_root_layout"
+                android:elevation="@dimen/freshchat_message_composer_elevation"
+                android:visibility="gone"
+                android:id="@+id/freshchat_quick_reply_container"
+                android:background="?attr/freshchatQuickReplyViewBgColor">
+
+                <com.freshchat.consumer.sdk.ui.FlowLayout
+                    android:id="@+id/freshchat_chips_flowlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:paddingEnd="12dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingStart="12dp"
+                    app:freshchatFlChildSpacing="@dimen/freshchat_quick_reply_view_row_padding"
+                    app:freshchatFlChildSpacingForLastRow="align"
+                    android:splitMotionEvents="false"
+                    app:freshchatFlRowSpacing="@dimen/freshchat_quick_reply_view_column_padding" />
+            </ScrollView>
             <include
                 layout="@layout/freshchat_bot_calendar_layout"
                 android:layout_width="match_parent"

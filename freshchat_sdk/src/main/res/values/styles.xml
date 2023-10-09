@@ -29,6 +29,11 @@
 
     <style name="Widget.Freshchat.MessageListItem">
         <item name="android:background">@color/freshchat_message_list_item_bg</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
     </style>
 
     <style name="Widget.Freshchat.MessageButton" parent="Widget.AppCompat.Button">
@@ -1235,6 +1240,48 @@
 
     <!-- Calendar styles - End -->
 
+    <!-- Conversation Pagination -->
+
+    <style name="Widget.Freshchat.NewMessagesCountButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">120dp</item>
+        <item name="android:minHeight">30dp</item>
+        <item name="android:outlineProvider">none</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/freshchat_new_messages_count_text</item>
+        <item name="android:background">@drawable/freshchat_new_messages_button_bg</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textDirection">firstStrong</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="Widget.Freshchat.DividerDottedLineView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">3dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/freshchat_dotted_line</item>
+        <item name="android:layerType">software</item>
+    </style>
+
+    <style name="Widget.Freshchat.NewMessagesDividerTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:text">@string/freshchat_new_messages</item>
+        <item name="android:textColor">@color/freshchat_new_messages_divider</item>
+    </style>
+
+    <!-- Conversation Pagination - End -->
+
+
     <!-- Common -->
     <style name="Widget.Freshchat.ContactUs">
         <item name="android:textAppearance">@style/TextAppearance.Freshchat.Medium</item>
@@ -1318,6 +1365,16 @@
     <style name="Widget.Freshchat.QuickActions.Background" parent="Widget.AppCompat.ListPopupWindow">
         <item name="overlapAnchor">true</item>
         <item name="elevation">8dp</item>
+    </style>
+
+    <style name="Widget.Freshchat.ConversationsLoadMoreMessageText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/freshchat_load_messages_indicator_text_color</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
     </style>
 
     <style name="Widget.Freshchat.CountTrackerSubmitButtonStyle">

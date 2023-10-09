@@ -260,6 +260,10 @@
     <attr name="freshchatRatingTextStyle" format="reference"/>
     <attr name="freshChatRatingBar" format="reference"/>
 
+    <!--Conversations Pagination-->
+    <attr name="freshchatConversationsLoadingMessageTextStyle" format="reference"/>
+    <attr name="freshchatNewMessageBubbleStyle" format="reference"/>
+
     <!-- Country code-->
     <attr name="freshchatSelectedCountryCode" format="reference" />
     <attr name="freshchatCountryCodeDropdownIcon" format="reference" />

@@ -7,11 +7,11 @@
     android:orientation="vertical">
 
     <include
-        layout="@layout/freshchat_listitem_message"
+        layout="@layout/freshchat_list_item_with_new_message_divider"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-        <com.freshchat.consumer.sdk.ui.FlowLayout
+    <com.freshchat.consumer.sdk.ui.FlowLayout
             android:id="@+id/freshchat_chips_flowlayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
