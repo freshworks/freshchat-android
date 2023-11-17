@@ -164,6 +164,10 @@
 	<string name="freshchat_carousel_card_default_view_btn_text">@string/freshchat_view_text</string>
 	<string name="freshchat_carousel_card_selected_text">Selected</string>
 
+	<!--Strings for MultiSelect Carousel-->
+	<string name="freshchat_submit_btn_text">Submit</string>
+
+
 	<!-- Strings used for Calendar integration -->
 	<string name="freshchat_calendar_find_slot">Find a slot</string>
 	<string name="freshchat_calendar_not_interested">Not interested</string>

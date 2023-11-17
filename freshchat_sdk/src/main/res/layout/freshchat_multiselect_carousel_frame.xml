@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/freshchat_multiselect_carousel_frame"
+    android:layout_width="match_parent"
+    android:layout_height="96dp"
+    android:background="?attr/freshchatMultiSelectCarouselBottomContainerBgColor"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/freshchat_count_tracket_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/freshchat_quick_action_button_divider"
+        android:elevation="4dp"
+        android:outlineSpotShadowColor="@color/freshchat_quick_action_button_divider"
+        />
+    <TextView
+        android:id="@+id/freshchat_carousel_counter_text"
+        style="?attr/freshchatMultiSelectCarouselSelectionCounterTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        tools:text="0 Selected" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/freshchat_carousel_card_button_layout_height"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/freshchat_select_all_button"
+            style="?attr/freshchatMultiSelectCarouselSelectAllButtonStyle"
+            android:layout_width="@dimen/freshchat_carousel_card_button_layout_width"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_weight="1"
+            android:outlineProvider="none"
+            tools:text="@string/freshchat_select_all" />
+
+        <Button
+            android:id="@+id/freshchat_carousel_submit_button"
+            style="?attr/freshchatMultiSelectCarouselSubmitButtonStyle"
+            android:layout_width="@dimen/freshchat_carousel_card_button_layout_width"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:alpha="0.38"
+            android:enabled="false"
+            android:outlineProvider="none"
+            tools:text="@string/freshchat_submit_btn_text" />
+        />
+
+    </LinearLayout>
+
+
+</LinearLayout>

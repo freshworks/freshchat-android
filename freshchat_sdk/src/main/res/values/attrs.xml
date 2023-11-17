@@ -202,6 +202,14 @@
     <attr name="freshchatCarouselCardButtonStyle" format="reference" />
     <attr name="freshchatCarouselCardSelectedTextStyle" format="reference" />
     <attr name="freshchatCarouselCardViewButtonStyle" format="reference"/>
+    <attr name="freshchatMultiSelectCarouselBottomContainerBgColor" format="reference"/>
+    <attr name="freshchatMultiSelectCarouselSelectionCounterTextStyle" format="reference"/>
+    <attr name="freshchatMultiSelectCarouselSubmitButtonStyle" format="reference"/>
+    <attr name="freshchatMultiSelectCarouselSelectAllButtonStyle" format="reference"/>
+    <attr name="freshchatMultiSelectCarouselCardViewButtonStyle" format="reference" />
+    <attr name="freshchatMultiSelectCarouselCardButtonStyle" format="reference" />
+    <attr name="freshchatMultiSelectCarouselCardPrimaryButtonTextStyle" format="reference" />
+
 
     <!-- Calendar -->
     <attr name="freshchatCalendarFindASlotButtonStyle" format="reference" />
