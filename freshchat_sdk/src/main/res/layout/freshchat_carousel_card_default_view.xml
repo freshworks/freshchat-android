@@ -16,7 +16,7 @@
         <LinearLayout
             android:id="@+id/freshchat_loading_background"
             android:layout_width="@dimen/freshchat_carousel_card_image_default_width"
-            android:layout_height="@dimen/freshchat_carousel_card_image_default_height"
+            android:layout_height="@dimen/freshchat_carousel_card_image_default_width"
             android:gravity="center"
             android:background="@drawable/freshchat_default_background">
 
@@ -74,6 +74,33 @@
                 style="?attr/freshchatCarouselCardButtonStyle"
                 android:text="@string/freshchat_carousel_card_default_callback_btn_text" />
         </FrameLayout>
+        <FrameLayout
+            android:id="@+id/freshchat_multi_select_carousel_card_callback_btn_background"
+            android:layout_width="@dimen/freshchat_carousel_card_image_default_width"
+            android:layout_height="@dimen/freshchat_carousel_card_callback_btn_background_height"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:visibility="gone">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/freshchat_multiselect_carousel_card_callback_btn"
+                style="?attr/freshchatMultiSelectCarouselCardButtonStyle"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:id= "@+id/freshchat_carousel_checkbox_id"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginEnd="@dimen/freshchat_carousel_card_check_box_right_margin"
+                    android:button="@drawable/freshchat_checkbox_bg"
+                    android:background="@null"
+                    android:layout_marginRight="@dimen/freshchat_carousel_card_check_box_right_margin" />
+                <TextView
+                    android:id="@+id/freshchat_carousel_primary_text"
+                    style="?attr/freshchatMultiSelectCarouselCardPrimaryButtonTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </FrameLayout>
 
         <FrameLayout
             android:id="@+id/freshchat_carousel_card_view_btn_background"
@@ -85,6 +112,18 @@
             <Button
                 android:id="@+id/freshchat_carousel_card_view_btn"
                 style="?attr/freshchatCarouselCardViewButtonStyle"
+                android:text="@string/freshchat_carousel_card_default_view_btn_text" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/freshchat_multi_select_carousel_card_view_btn_background"
+            android:layout_width="@dimen/freshchat_carousel_card_image_default_width"
+            android:layout_height="@dimen/freshchat_carousel_card_callback_btn_background_height"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:visibility="gone">
+            <Button
+                android:id="@+id/freshchat_multi_selectcarousel_card_view_btn"
+                style="?attr/freshchatMultiSelectCarouselCardViewButtonStyle"
                 android:text="@string/freshchat_carousel_card_default_view_btn_text" />
         </FrameLayout>
     </LinearLayout>

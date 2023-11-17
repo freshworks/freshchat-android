@@ -91,14 +91,12 @@
     <dimen name="freshchat_carousel_card_button_margin_top">14dp</dimen>
     <dimen name="freshchat_carousel_card_button_text_size">14sp</dimen>
     <dimen name="freshchat_carousel_card_title_margin">16dp</dimen>
-    <dimen name="freshchat_carousel_card_title_margin_bottom">8dp</dimen>
+    <dimen name="freshchat_carousel_card_title_margin_bottom">6dp</dimen>
     <dimen name="freshchat_carousel_card_title_height">40dp</dimen>
-    <dimen name="freshchat_carousel_card_description_margin_top">8dp</dimen>
     <dimen name="freshchat_carousel_card_radius">12dp</dimen>
     <dimen name="freshchat_carousel_button_radius">8dp</dimen>
     <dimen name="freshchat_carousel_button_stroke_width">1dp</dimen>
     <dimen name="freshchat_carousel_card_sub_title_size">14sp</dimen>
-    <dimen name="freshchat_carousel_card_sub_title_margin_top">8dp</dimen>
     <dimen name="freshchat_selected_card_padding_bottom">16dp</dimen>
     <dimen name="freshchat_carousel_card_button_margin_bottom">8dp</dimen>
     <dimen name="freshchat_carousel_card_desc_margin_bottom">10dp</dimen>
@@ -107,6 +105,9 @@
     <dimen name="freshchat_carousel_card_top_margin">16dp</dimen>
     <dimen name="freshchat_carousel_card_progressbar_height">26.6dp</dimen>
     <dimen name="freshchat_carousel_card_progressbar_margin">70dp</dimen>
+    <dimen name="freshchat_carousel_card_vertical_spacing">4dp</dimen>
+    <dimen name="freshchat_carousel_card_stroke_width">1dp</dimen>
+    <dimen name="freshchat_carousel_card_check_box_right_margin">4dp</dimen>
 
 
 

@@ -1,3 +1,13 @@
+## 6.1.0(2023-11-17)
+
+### Feature :
+* We are adding support for multi-select Carousel as a new input type for your customers. Customers will now be able to pick and choose multiple choices that appears as a series of options with a horizontal scroll (carousel) on the screen.
+
+### Bug Fix :
+* Fix for hyper links not scrolling to the desired index in FAQ webview in omni account
+* Fix for HTML code is being displayed in carousels primary & secondary buttons
+* Fix for conversation is not loading for Android Gradle Plugin 8.0 consumers
+
 ## 6.0.0(2023-10-09)
 
 ### Enhancement :

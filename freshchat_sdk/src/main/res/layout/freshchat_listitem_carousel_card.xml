@@ -5,13 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:gravity="right|end"
-    android:orientation="vertical">
-
-    <com.freshchat.consumer.sdk.ui.CarouselCardView
-        android:id="@+id/freshchat_carousel_card"
-        android:layout_width="@dimen/freshchat_carousel_card_image_default_width"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+    >
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/freshchat_message_carousel_selected_recycler_view"
+        style="?attr/freshchatMessageListItemStyle"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
+        android:clipToPadding="false"
+        android:orientation="vertical"
         android:layout_gravity="right|end"
         android:layout_marginTop="17dp"
         android:layout_marginEnd="8dp"
