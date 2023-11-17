@@ -167,8 +167,14 @@
         <item name="freshchatCarouselCardDescTextStyle">@style/Widget.Freshchat.CarouselCardDescription</item>
         <item name="freshchatCarouselCardButtonStyle">@style/Widget.Freshchat.CarouselCardButton</item>
         <item name="freshchatCarouselCardViewButtonStyle">@style/Widget.Freshchat.CarouselCardViewButton</item>
-
         <item name="freshchatCarouselCardSelectedTextStyle">@style/Widget.Freshchat.CarouselCardSelectedText</item>
+        <item name="freshchatMultiSelectCarouselBottomContainerBgColor">@color/freshchat_white</item>
+        <item name="freshchatMultiSelectCarouselSelectionCounterTextStyle">@style/Widget.Freshchat.MultiSelectSelectionCounterText</item>
+        <item name="freshchatMultiSelectCarouselSubmitButtonStyle">@style/Widget.Freshchat.MultiSelectCarouselSubmitButton</item>
+        <item name="freshchatMultiSelectCarouselSelectAllButtonStyle">@style/Widget.Freshchat.MultiSelectCarouselSelectAllButton</item>
+        <item name="freshchatMultiSelectCarouselCardViewButtonStyle">@style/Widget.Freshchat.MultiSelectCarouselCardViewButton</item>
+        <item name="freshchatMultiSelectCarouselCardButtonStyle">@style/Widget.Freshchat.MultiSelectCarouselCardButton</item>
+        <item name="freshchatMultiSelectCarouselCardPrimaryButtonTextStyle">@style/Widget.Freshchat.MultiSelectCarouselCardPrimaryButtonText</item>
 
         <!-- Calendar -->
         <item name="freshchatCalendarFindASlotButtonStyle">@style/Widget.Freshchat.CalendarFindASlot</item>
@@ -461,6 +467,13 @@
         <item name="freshchatCarouselCardButtonStyle">@style/Widget.Freshchat.CarouselCardButton</item>
         <item name="freshchatCarouselCardViewButtonStyle">@style/Widget.Freshchat.CarouselCardViewButton</item>
         <item name="freshchatCarouselCardSelectedTextStyle">@style/Widget.Freshchat.CarouselCardSelectedText</item>
+        <item name="freshchatMultiSelectCarouselBottomContainerBgColor">@color/freshchat_white</item>
+        <item name="freshchatMultiSelectCarouselSelectionCounterTextStyle">@style/Widget.Freshchat.MultiSelectSelectionCounterText</item>
+        <item name="freshchatMultiSelectCarouselSubmitButtonStyle">@style/Widget.Freshchat.MultiSelectCarouselSubmitButton</item>
+        <item name="freshchatMultiSelectCarouselSelectAllButtonStyle">@style/Widget.Freshchat.MultiSelectCarouselSelectAllButton</item>
+        <item name="freshchatMultiSelectCarouselCardViewButtonStyle">@style/Widget.Freshchat.MultiSelectCarouselCardViewButton</item>
+        <item name="freshchatMultiSelectCarouselCardButtonStyle">@style/Widget.Freshchat.MultiSelectCarouselCardButton</item>
+        <item name="freshchatMultiSelectCarouselCardPrimaryButtonTextStyle">@style/Widget.Freshchat.MultiSelectCarouselCardPrimaryButtonText</item>
 
         <!--Attachmemts -->
         <item name="freshchatAttachmentFileNameStyle">@style/Widget.Freshchat.Attachment_FileName</item>
