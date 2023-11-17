@@ -54,6 +54,8 @@
     <color name="freshchat_category_normal">@color/freshchat_white</color>
     <color name="freshchat_category_selected">#D8D8D8</color>
     <color name="freshchat_bot_faq_label">@color/freshchat_primary_text_color</color>
+    <color name="freshchat_primary_text_color_six_percent_opacity">#0F12344D</color>
+
 
     <color name="freshchat_seekbar_bg_start">#000000</color>
     <color name="freshchat_seekbar_bg_center">#000000</color>
