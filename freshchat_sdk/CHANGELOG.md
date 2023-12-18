@@ -1,3 +1,9 @@
+## 6.1.1(2023-12-18)
+
+### Bug fix :
+* Fix for an ANR issue.
+
+
 ## 6.1.0(2023-11-17)
 
 ### Feature :
