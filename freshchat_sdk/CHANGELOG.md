@@ -1,3 +1,8 @@
+## 6.1.1(2024-1-5)
+
+### Bug fix :
+* Fix to enable text input editor when using Freshchat Public APIs to send messages on behalf of an agent/bot.
+
 ## 6.1.0(2023-11-17)
 
 ### Feature :
