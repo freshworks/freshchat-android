@@ -1,3 +1,8 @@
+## 6.1.1(2024-1-5)
+
+### Bug fix :
+* Enable text input editor if the messages sent using the Freshchat Public APIS, have the text input field enabled.
+
 ## 6.1.0(2023-11-17)
 
 ### Feature :
