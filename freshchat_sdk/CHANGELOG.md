@@ -1,4 +1,12 @@
-## 6.1.1(2024-1-5)
+## 6.1.2(2024-01-11)
+
+### Bug fix :
+* Fix for potential ANR during app update.
+* Fix for bot not retriggering after resolving bot conversations.
+* Fix for a crash happening while loading conversations.
+* Fix for agent name is not updated when any bot conversations are assigned to any agent.
+ 
+## 6.1.1(2024-1-5) 
 
 ### Bug fix :
 * Fix to enable text input editor when using Freshchat Public APIs to send messages on behalf of an agent/bot.
