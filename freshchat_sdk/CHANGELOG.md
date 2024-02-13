@@ -1,4 +1,4 @@
-## 6.1.4(2024-02-13)
+## 6.1.5(2024-02-13)
 * Fix for Agent first name display issue when bot conversations are assigned to an agent.
 
 ## 6.1.2(2024-01-11)
