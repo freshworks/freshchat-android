@@ -1,10 +1,15 @@
+## 6.2.0(2024-03-14)
+
+### Feature :
+* Added support for Parallel conversations.
+
 ## 6.1.5(2024-02-13)
 * Fix for Agent first name display issue when bot conversations are assigned to an agent.
 
 ## 6.1.2(2024-01-11)
 
 ### Bug fix :
-* Fix for potential ANR during app update.
+* Fix for potential ANR during app update.[CHANGELOG.md](..%2Fdist%2FCHANGELOG.md)
 * Fix for bot not retriggering after resolving bot conversations.
 * Fix for a crash happening while loading conversations.
 * Fix for agent name is not updated when any bot conversations are assigned to any agent.
