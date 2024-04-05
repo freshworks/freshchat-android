@@ -27,8 +27,8 @@ android {
 
     defaultConfig {
         minSdkVersion 16
-        versionCode 620
-        versionName "6.2.0"
+        versionCode 9999999
+        versionName "999.99.99"
         targetSdkVersion 31
         consumerProguardFiles 'consumer-proguard-rules.pro'
         buildConfigField "long", 'BUILT_AT', System.currentTimeMillis() + 'L'
