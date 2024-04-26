@@ -1,3 +1,10 @@
+## 6.2.1(2024-04-26)
+
+### Bug fix :
+* Fix for the unable to load topic list page due Canvas: trying to draw too large bitmap issue
+* Fix for the issue in navigating to sections in FAQs page.
+* Fix for the click on search from virtual keyboard and virtual keyboard is not closing in the FAQs page.
+
 ## 6.2.0(2024-03-14)
 
 ### Feature :
