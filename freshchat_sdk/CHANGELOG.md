@@ -1,3 +1,8 @@
+## 6.2.2(2024-05-13)
+
+### Bug fix :
+* Fix for the faq search based on the tag filter by category or article
+
 ## 6.2.1(2024-04-26)
 
 ### Bug fix :
