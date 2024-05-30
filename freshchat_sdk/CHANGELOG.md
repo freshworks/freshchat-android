@@ -1,3 +1,8 @@
+## 6.2.3(2024-05-30)
+
+### Bug fix :
+* Fix for the Crash on updating to SDK v6.2.0(or above) from v5.9.6 (or below)
+
 ## 6.2.2(2024-05-13)
 
 ### Bug fix :
