@@ -1,3 +1,16 @@
+## 6.2.4(2024-06-03)
+
+### Bug fix : 
+* Fix for Search results not filtered by tags.
+* Fix for links in Description are not redirected to the respected page.
+* Fix for HTML tags not allowing the hyperlinks to redirect to a web-page displayed on carousels.
+* Fix for OTP SMS not received for given mobile number while initiating the OTP from the Android SDK.
+* Fix for Faq not opening with correct filter tags on initialisation time.
+* Fix for Issues with bullet points displaying in Mobile SDK.
+
+### Build Changes
+* Upgraded min SDK to 21
+
 ## 6.2.3(2024-05-30)
 
 ### Bug fix :
