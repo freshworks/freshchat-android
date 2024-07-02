@@ -1,3 +1,13 @@
+## 6.2.6(2024-07-02)
+
+### Bug fix :
+* Fix for the SDK text input field type being set up for OTP autofilling by default.
+* Fix for hyperlinks in HTML tags not redirecting to a web page displayed on carousels.
+* Fix for the possibility of HTML injection through the SDK's chat input field.
+* Fix for the alignment issue in the categories listing screen.
+* Fix for the chat reply window starting with a lowercase letter.
+* Fix for the agent response expectation time taking a few seconds to update after a locale change.
+
 ## 6.2.5(2024-06-11)
 
 ### Bug fix :
