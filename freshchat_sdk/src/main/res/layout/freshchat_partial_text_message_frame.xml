@@ -93,8 +93,6 @@
         android:layout_toRightOf="@+id/freshchat_attach_or_country_code_layout"
         android:dropDownAnchor="@id/freshchat_conv_detail_attach_image"
         android:imeOptions="flagNoExtractUi|actionDone"
-        android:autofillHints="smsOTPCode"
-        android:importantForAutofill="yes"
         android:popupBackground="@drawable/freshchat_quick_actions_slash_command_popup" />
 
     <ImageView
