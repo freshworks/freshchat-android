@@ -1,3 +1,9 @@
+## 6.2.7(2024-07-12)
+
+### Bug fix :
+* Fix for incorrect Preview messages being shown in Channels list
+* Fix for failing read receipts in conversations.
+
 ## 6.2.6(2024-07-02)
 
 ### Bug fix :
