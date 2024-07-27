@@ -1,3 +1,12 @@
+## 6.2.8(2024-07-27)
+
+### Bug Fixes:
+* Fix for Window Manager Bad Token Exception when attaching pictures.
+* Fix for issue with custom link handler not working in conversation.
+
+### Enhancements:
+* Updated SDK to comply with Google Play Store policies.
+
 ## 6.2.7(2024-07-12)
 
 ### Bug fix :

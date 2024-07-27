@@ -17,7 +17,7 @@ def getScmBranch = {
 }
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 34
     buildToolsVersion "29.0.3"
 
     compileOptions {
@@ -25,11 +25,15 @@ android {
         targetCompatibility JavaVersion.VERSION_1_7
     }
 
+    buildFeatures {
+        buildConfig = true
+    }
+
     defaultConfig {
         minSdkVersion 21
-        versionCode 627
-        versionName "6.2.7"
-        targetSdkVersion 31
+        versionCode 628
+        versionName "6.2.8"
+        targetSdkVersion 34
         consumerProguardFiles 'consumer-proguard-rules.pro'
         buildConfigField "long", 'BUILT_AT', System.currentTimeMillis() + 'L'
         buildConfigField "String", "SCM_REV", getScmRevision()
@@ -47,7 +51,7 @@ ext {
     gsonVersion             = '2.8.0'
     picassoVersion          = '2.8'
     circleImageViewVersion  = '3.1.0'
-    appcompatVersion        = '1.0.0'
+    appcompatVersion        = '1.6.0'
     recyclerviewVersion     = '1.0.0'
     materialVersion         = '1.0.0'
     cardviewVersion         = '1.0.0'
