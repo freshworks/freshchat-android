@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'maven-publish'
 group='com.github.freshdesk'
 
 def static getEscapedString(value) {
@@ -19,6 +19,7 @@ def getScmBranch = {
 android {
     compileSdkVersion 34
     buildToolsVersion "29.0.3"
+    namespace = "com.freshchat.consumer.sdk"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_7
