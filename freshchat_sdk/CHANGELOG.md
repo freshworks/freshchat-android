@@ -1,3 +1,9 @@
+## 6.2.9(2024-08-23)
+
+### Bug Fixes:
+* Fix for Customer chat history not getting restored above a few messages.
+* Fix for FAQ article message is not taking up the screen space and looks squished/Compressed.
+
 ## 6.2.8(2024-07-27)
 
 ### Bug Fixes:
