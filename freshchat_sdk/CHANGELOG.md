@@ -1,3 +1,15 @@
+## 6.3.0 (2024-10-01)
+* Fixed an issue where links without descriptions were not working in the Bot Article flow.
+* Fixed an issue where quick actions were not hidden immediately after a conversation was resolved.
+* Fixed an issue where anonymous implementations of `FreshchatWebListener` were getting garbage collected after a locale change.
+* Fixed an issue where the country code was not retained in the view.
+* Fixed an issue where images captured with the camera were rotated 90 degrees to the left on some devices.
+* Fixed an issue where the file name and size were not displayed for images taken via the camera.
+* Fixed an issue with hyperlink breakage.
+
+### Enhancements:
+* Removed the character count limitation for setting user properties.
+
 ## 6.2.9(2024-08-23)
 
 ### Bug Fixes:
