@@ -1,4 +1,4 @@
-## 6.3.0 (2024-10-01)
+### 6.3.0 (2024-10-01)
 * Fixed an issue where links without descriptions were not working in the Bot Article flow.
 * Fixed an issue where quick actions were not hidden immediately after a conversation was resolved.
 * Fixed an issue where anonymous implementations of `FreshchatWebListener` were getting garbage collected after a locale change.

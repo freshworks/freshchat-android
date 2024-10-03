@@ -247,6 +247,7 @@
 	<string name="freshchat_attachment_okay_button">Okay</string>
 	<string name="freshchat_attachment_download_button">Download</string>
 	<string name="freshchat_attachment_cancel_button">Cancel</string>
+	<string name="freshchat_attachment_preview_title">Preview</string>
     <string name="freshchat_file_not_supported_message">Attachments format is not supported</string>
 	<string name="freshchat_unable_to_attach">Unable to attach</string>
 	<string name="freshchat_file_status_scan_pending_alert_msg">File is not yet scanned, it may harm your device. So download at your discretion</string>
