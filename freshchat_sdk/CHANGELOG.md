@@ -1,3 +1,7 @@
+### 6.3.1 (2024-10-21)
+* Fixed an issue where an extra space appeared in the carousel card of user messages.
+* Fixed an issue with carousel card selection in specific scenarios.
+
 ### 6.3.0 (2024-10-01)
 * Fixed an issue where links without descriptions were not working in the Bot Article flow.
 * Fixed an issue where quick actions were not hidden immediately after a conversation was resolved.
