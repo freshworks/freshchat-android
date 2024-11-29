@@ -1,3 +1,13 @@
+### 6.3.2 (2024-12-03)
+
+### Feature:
+* Exposed an `FCEventAgentProfileClick` event to retrieve agent details upon clicking the agent profile.
+* Added a public API to set and get the agent profile click redirection URI.
+
+### Bug Fixes:
+* Fixed an issue where the chat failed to scroll to the latest message after multiple carousel items were selected.
+* Fixed an issue where the image caption was not removed after sending an image message.
+
 ### 6.3.1 (2024-10-21)
 * Fixed an issue where an extra space appeared in the carousel card of user messages.
 * Fixed an issue with carousel card selection in specific scenarios.
