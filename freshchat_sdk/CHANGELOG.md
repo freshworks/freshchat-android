@@ -1,3 +1,8 @@
+### 6.3.3 (2024-12-19)
+
+### Bug Fixes:
+* Fixed an issue where chat screen is not scrolling if carousel is present in the screen.
+
 ### 6.3.2 (2024-12-03)
 
 ### Feature:
