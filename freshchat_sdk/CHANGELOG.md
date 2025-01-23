@@ -1,3 +1,8 @@
+### 6.3.4 (2025-01-23)
+
+### Bug Fixes:
+* Fixed an issue where FAQ detail screen not showing the vote button for non-scrollable pages.
+
 ### 6.3.3 (2024-12-19)
 
 ### Bug Fixes:
