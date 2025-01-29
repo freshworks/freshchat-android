@@ -1,3 +1,8 @@
+### 6.3.5 (2025-01-29)
+
+### Bug Fixes:
+* Fixed an issue in Android 15 where the UI did not respect system insets.
+
 ### 6.3.4 (2025-01-23)
 
 ### Bug Fixes:
