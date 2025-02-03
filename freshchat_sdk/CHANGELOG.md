@@ -1,3 +1,8 @@
+### 6.3.6 (2025-02-03)
+
+### Bug Fixes:
+* Fixed an issue where the infinite loader appeared when the bot feedback button was accidentally clicked multiple times on the Conversation Detail Screen.
+
 ### 6.3.5 (2025-01-29)
 
 ### Bug Fixes:
