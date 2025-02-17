@@ -1,3 +1,8 @@
+### 6.3.7 (2025-02-17)
+
+### Bug Fixes:
+* Fixed an crash during scrolling on the Conversation Detail Screen.
+
 ### 6.3.6 (2025-02-03)
 
 ### Bug Fixes:
