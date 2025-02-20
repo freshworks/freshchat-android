@@ -1,3 +1,11 @@
+### 6.3.8 (2025-02-20)
+
+### Bug Fixes:
+* Fixed an issue where the chat auto-scrolled when carousels were visible.
+
+### Build Changes
+* Upgraded targetSDKVersion to 35.
+
 ### 6.3.7 (2025-02-17)
 
 ### Bug Fixes:
