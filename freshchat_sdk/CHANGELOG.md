@@ -1,3 +1,9 @@
+### 6.3.9 (2025-03-06)
+
+### Bug Fixes:
+* Fixed a memory leak in ConversationDetailActivity
+* Fixed an issue with edge-to-edge displays on Android 15 devices.
+
 ### 6.3.8 (2025-02-20)
 
 ### Bug Fixes:
