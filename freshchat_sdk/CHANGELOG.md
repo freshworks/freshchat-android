@@ -1,3 +1,9 @@
+### 6.4.0 (2025-03-24)
+
+### Bug Fixes:
+* Fixed a CursorIndexOutOfBoundsException observed in logs.
+* Fixed a crash occurring during SDK initialization.
+
 ### 6.3.9 (2025-03-06)
 
 ### Bug Fixes:
