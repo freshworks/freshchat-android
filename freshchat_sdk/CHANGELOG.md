@@ -1,3 +1,8 @@
+### 6.4.1 (2025-04-16)
+
+### Bug Fixes:
+* Fixed an issue where article vote buttons were swapped when opened via bot.
+
 ### 6.4.0 (2025-03-24)
 
 ### Bug Fixes:
