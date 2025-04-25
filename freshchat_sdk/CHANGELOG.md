@@ -1,3 +1,8 @@
+### 6.4.2 (2025-04-25)
+
+### Bug Fixes:
+* Fixed an issue where HTML tags appeared as plain text in chats.
+
 ### 6.4.1 (2025-04-16)
 
 ### Bug Fixes:
