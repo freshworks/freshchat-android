@@ -1,3 +1,14 @@
+buildscript {
+    repositories {
+        maven {
+            url = uri("https://oss.sonatype.org/content/repositories/comfreshworks-1105")
+        }
+        maven {
+            url = uri("https://oss.sonatype.org/content/repositories/comfreshworks-1104")
+        }
+    }
+}
+
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.freshdesk'
