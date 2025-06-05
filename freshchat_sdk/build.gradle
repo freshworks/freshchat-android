@@ -1,10 +1,10 @@
 buildscript {
     repositories {
         maven {
-            url = uri("https://oss.sonatype.org/content/repositories/comfreshworks-1105")
+            url = uri("https://oss.sonatype.org/content/repositories/comfreshworks-1104")
         }
         maven {
-            url = uri("https://oss.sonatype.org/content/repositories/comfreshworks-1104")
+            url = uri("https://oss.sonatype.org/content/repositories/comfreshworks-1105")
         }
     }
 }
