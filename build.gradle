@@ -21,10 +21,10 @@ allprojects {
         // Needed for fetching Freshchat SDK from jitpack
         maven { url "https://jitpack.io" }
         maven {
-            url = uri("https://oss.sonatype.org/content/repositories/comfreshworks-1112")
+            url = uri("https://oss.sonatype.org/content/repositories/comfreshworks-1115")
         }
         maven {
-            url = uri("https://oss.sonatype.org/content/repositories/comfreshworks-1113")
+            url = uri("https://oss.sonatype.org/content/repositories/comfreshworks-1114")
         }
         google()
     }
