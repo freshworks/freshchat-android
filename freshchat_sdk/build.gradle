@@ -1,15 +1,15 @@
 buildscript {
     repositories {
         maven {
-            url = uri("https://oss.sonatype.org/content/repositories/comfreshworks-1123")
+            url = uri("https://oss.sonatype.org/content/repositories/comfreshworks-1127")
         }
         maven {
-            url = uri("https://oss.sonatype.org/content/repositories/comfreshworks-1122")
+            url = uri("https://oss.sonatype.org/content/repositories/comfreshworks-1126")
         }
     }
 }
 
-apply plugin: 'com.android.library'
+apply plugin: 'com.android.library'1
 apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.freshdesk'
 
@@ -77,5 +77,5 @@ dependencies {
     implementation "com.google.android.material:material:$materialVersion"
     implementation "androidx.cardview:cardview:$cardviewVersion"
     implementation "de.hdodenhof:circleimageview:$circleImageViewVersion"
-    implementation 'com.freshworks.sdk:logging:0.0.21-alpha'
+    implementation 'com.freshworks.sdk:logging:0.0.23-alpha'
 }
