@@ -1,3 +1,8 @@
+### 6.4.3 (2025-06-19)
+
+### Bug Fixes:
+* Fixed an issue where a bot could fail to trigger in a conversation.
+
 ### 6.4.2 (2025-04-25)
 
 ### Bug Fixes:
