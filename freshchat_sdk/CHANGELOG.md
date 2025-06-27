@@ -1,3 +1,6 @@
+### 6.4.4 (2025-06-27)
+* Fixed an ANR issue while inserting a message.
+
 ### 6.4.3 (2025-06-19)
 
 ### Bug Fixes:
