@@ -1,3 +1,6 @@
+### 6.4.5 (2025-08-12)
+* Handled statusbar color in Android 15 gracefully.
+
 ### 6.4.4 (2025-06-27)
 * Fixed an ANR issue while inserting a message.
 

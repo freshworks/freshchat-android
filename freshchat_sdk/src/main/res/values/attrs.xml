@@ -298,4 +298,5 @@
     <attr name="freshchatBottomSheetSelectionCounter" format="reference" />
     <attr name="freshchatBottomSheetSelectAllButton" format="reference" />
     <attr name="freshchatSelectionLayoutBackground" format="reference" />
+    <attr name="freshchatLightStatusBar" format="boolean" />
 </resources>
