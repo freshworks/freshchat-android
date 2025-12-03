@@ -1,3 +1,6 @@
+### 6.4.6 (2026-12-03)
+* Fixed an issue related to account switching.
+
 ### 6.4.5 (2025-08-12)
 * Handled statusbar color in Android 15 gracefully.
 
