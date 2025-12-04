@@ -1,798 +1,538 @@
-### 6.4.6 (2026-12-03)
-* Fixed an issue related to account switching.
+# Change Log
 
-### 6.4.5 (2025-08-12)
-* Handled statusbar color in Android 15 gracefully.
 
-### 6.4.4 (2025-06-27)
-* Fixed an ANR issue while inserting a message.
+## [1.2.1](https://github.com/freshdesk/hotline_android_dev/tree/1.2.1) (2017-02-04)
+[Full Changelog](https://github.com/freshdesk/hotline_android_dev/compare/1.2.0...1.2.1)
 
-### 6.4.3 (2025-06-19)
+**Closed issues:**
 
-### Bug Fixes:
-* Fixed an issue where a bot could fail to trigger in a conversation.
+- Voice Message Issues [\#377](https://github.com/freshdesk/hotline_android_dev/issues/377)
+- FAQ List page does not reload when there are new updates  [\#312](https://github.com/freshdesk/hotline_android_dev/issues/312)
+- Mark users as uninstalled when clearUserData is invoked [\#311](https://github.com/freshdesk/hotline_android_dev/issues/311)
 
-### 6.4.2 (2025-04-25)
+**Merged pull requests:**
 
-### Bug Fixes:
-* Fixed an issue where HTML tags appeared as plain text in chats.
+- Msg retry fixes [\#381](https://github.com/freshdesk/hotline_android_dev/pull/381) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Msg retry fixes 2 [\#380](https://github.com/freshdesk/hotline_android_dev/pull/380) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Message retry fixes [\#379](https://github.com/freshdesk/hotline_android_dev/pull/379) ([tryprasannan](https://github.com/tryprasannan))
+- Voice msg enhancements and fixes [\#378](https://github.com/freshdesk/hotline_android_dev/pull/378) ([tryprasannan](https://github.com/tryprasannan))
+- Optimise HTTP connection timeouts & message retry [\#375](https://github.com/freshdesk/hotline_android_dev/pull/375) ([tryprasannan](https://github.com/tryprasannan))
+- Setup textwatcher on launch to allow toggling voice vs send button [\#374](https://github.com/freshdesk/hotline_android_dev/pull/374) ([tryprasannan](https://github.com/tryprasannan))
+- Fix voice message not being setup on launch when permisssion is already granted [\#373](https://github.com/freshdesk/hotline_android_dev/pull/373) ([tryprasannan](https://github.com/tryprasannan))
+- Fix empty check for phone country [\#372](https://github.com/freshdesk/hotline_android_dev/pull/372) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Fixed Fire OS Null pointer Exception [\#371](https://github.com/freshdesk/hotline_android_dev/pull/371) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- User registration updates [\#370](https://github.com/freshdesk/hotline_android_dev/pull/370) ([tryprasannan](https://github.com/tryprasannan))
+- For apps targeting 7.0+ check and alert if file provider is missing [\#369](https://github.com/freshdesk/hotline_android_dev/pull/369) ([tryprasannan](https://github.com/tryprasannan))
+- Showing AutoStart Prompt only if the AutoStart activity is present [\#368](https://github.com/freshdesk/hotline_android_dev/pull/368) ([MuthuFD](https://github.com/MuthuFD))
+- Backlog updates [\#367](https://github.com/freshdesk/hotline_android_dev/pull/367) ([tryprasannan](https://github.com/tryprasannan))
+- Flag to enable and disable Xiaomi Autostart prompt [\#366](https://github.com/freshdesk/hotline_android_dev/pull/366) ([MuthuFD](https://github.com/MuthuFD))
+- Handled IllegalStateException from Support library [\#365](https://github.com/freshdesk/hotline_android_dev/pull/365) ([MuthuFD](https://github.com/MuthuFD))
+- Add support for using FileProvider to prevent exposing file:// to camera app [\#363](https://github.com/freshdesk/hotline_android_dev/pull/363) ([tryprasannan](https://github.com/tryprasannan))
+- Request permissions dynamically for voice messages [\#362](https://github.com/freshdesk/hotline_android_dev/pull/362) ([tryprasannan](https://github.com/tryprasannan))
+- API request frequency optimisations [\#361](https://github.com/freshdesk/hotline_android_dev/pull/361) ([tryprasannan](https://github.com/tryprasannan))
+- Proguard fixes [\#359](https://github.com/freshdesk/hotline_android_dev/pull/359) ([MuthuFD](https://github.com/MuthuFD))
+- Added fetching unread message count in channels with specified tags functionality [\#358](https://github.com/freshdesk/hotline_android_dev/pull/358) ([MuthuFD](https://github.com/MuthuFD))
+- Better UI transition for single channel flow [\#357](https://github.com/freshdesk/hotline_android_dev/pull/357) ([tryprasannan](https://github.com/tryprasannan))
+- Message Conversation Audio message fix [\#355](https://github.com/freshdesk/hotline_android_dev/pull/355) ([MuthuFD](https://github.com/MuthuFD))
+- Xiaomi Autostart Alert [\#354](https://github.com/freshdesk/hotline_android_dev/pull/354) ([MuthuFD](https://github.com/MuthuFD))
+- User details validations [\#348](https://github.com/freshdesk/hotline_android_dev/pull/348) ([MuthuFD](https://github.com/MuthuFD))
+- Reattempt registration if registration was not successful earlier [\#332](https://github.com/freshdesk/hotline_android_dev/pull/332) ([hrishikesh-p](https://github.com/hrishikesh-p))
 
-### 6.4.1 (2025-04-16)
+## [1.2.0](https://github.com/freshdesk/hotline_android_dev/tree/1.2.0) (2017-01-09)
+[Full Changelog](https://github.com/freshdesk/hotline_android_dev/compare/1.1.1...1.2.0)
 
-### Bug Fixes:
-* Fixed an issue where article vote buttons were swapped when opened via bot.
+**Fixed bugs:**
 
-### 6.4.0 (2025-03-24)
+- More of Closable Resource Not Closed - Crash in Strict Mode [\#346](https://github.com/freshdesk/hotline_android_dev/issues/346)
 
-### Bug Fixes:
-* Fixed a CursorIndexOutOfBoundsException observed in logs.
-* Fixed a crash occurring during SDK initialization.
-* Fixed an issue where the FAQ category list screen remained stuck in an infinite loading state.
+**Closed issues:**
 
-### 6.3.9 (2025-03-06)
+- Deep link message updation [\#328](https://github.com/freshdesk/hotline_android_dev/issues/328)
 
-### Bug Fixes:
-* Fixed a memory leak in ConversationDetailActivity
-* Fixed an issue with edge-to-edge displays on Android 15 devices.
+**Merged pull requests:**
 
-### 6.3.8 (2025-02-20)
+- Setting max display width of image as 1080 px [\#353](https://github.com/freshdesk/hotline_android_dev/pull/353) ([MuthuFD](https://github.com/MuthuFD))
+- Exception fixes in component presence check during init [\#352](https://github.com/freshdesk/hotline_android_dev/pull/352) ([rsquare2014](https://github.com/rsquare2014))
+- Add support for theming category list and channel list [\#351](https://github.com/freshdesk/hotline_android_dev/pull/351) ([tryprasannan](https://github.com/tryprasannan))
+- changes to fetch unsent data [\#350](https://github.com/freshdesk/hotline_android_dev/pull/350) ([rsquare2014](https://github.com/rsquare2014))
+- Image size optimisation [\#349](https://github.com/freshdesk/hotline_android_dev/pull/349) ([MuthuFD](https://github.com/MuthuFD))
+- Resource leaks [\#347](https://github.com/freshdesk/hotline_android_dev/pull/347) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Mark User as Uninstalled [\#343](https://github.com/freshdesk/hotline_android_dev/pull/343) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Category tags [\#330](https://github.com/freshdesk/hotline_android_dev/pull/330) ([rsquare2014](https://github.com/rsquare2014))
 
-### Bug Fixes:
-* Fixed an issue where the chat auto-scrolled when carousels were visible.
+## [1.1.1](https://github.com/freshdesk/hotline_android_dev/tree/1.1.1) (2016-12-21)
+[Full Changelog](https://github.com/freshdesk/hotline_android_dev/compare/1.1.0...1.1.1)
 
-### Build Changes
-* Upgraded targetSDKVersion to 35.
+**Fixed bugs:**
 
-### 6.3.7 (2025-02-17)
+- Remove GCM permission check during init in SDK [\#339](https://github.com/freshdesk/hotline_android_dev/issues/339)
 
-### Bug Fixes:
-* Fixed an crash during scrolling on the Conversation Detail Screen.
+**Closed issues:**
 
-### 6.3.6 (2025-02-03)
+- Mark User as uninstalled when clearData is called.  [\#341](https://github.com/freshdesk/hotline_android_dev/issues/341)
+- Resource Leak Error [\#337](https://github.com/freshdesk/hotline_android_dev/issues/337)
 
-### Bug Fixes:
-* Fixed an issue where the infinite loader appeared when the bot feedback button was accidentally clicked multiple times on the Conversation Detail Screen.
+**Merged pull requests:**
 
-### 6.3.5 (2025-01-29)
+- Csat updates [\#345](https://github.com/freshdesk/hotline_android_dev/pull/345) ([tryprasannan](https://github.com/tryprasannan))
+- Minor Refactor [\#344](https://github.com/freshdesk/hotline_android_dev/pull/344) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Fix Resource Leak [\#342](https://github.com/freshdesk/hotline_android_dev/pull/342) ([hrishikesh-p](https://github.com/hrishikesh-p))
 
-### Bug Fixes:
-* Fixed an issue in Android 15 where the UI did not respect system insets.
+## [1.1.0](https://github.com/freshdesk/hotline_android_dev/tree/1.1.0) (2016-12-02)
+[Full Changelog](https://github.com/freshdesk/hotline_android_dev/compare/1.0.15...1.1.0)
 
-### 6.3.4 (2025-01-23)
+**Implemented enhancements:**
 
-### Bug Fixes:
-* Fixed an issue where FAQ detail screen not showing the vote button for non-scrollable pages.
+- Push Token update optimization [\#334](https://github.com/freshdesk/hotline_android_dev/pull/334) ([hrishikesh-p](https://github.com/hrishikesh-p))
 
-### 6.3.3 (2024-12-19)
+**Closed issues:**
 
-### Bug Fixes:
-* Fixed an issue where chat screen is not scrolling if carousel is present in the screen.
+- Better notifications - default notification icons [\#338](https://github.com/freshdesk/hotline_android_dev/issues/338)
+- Optimize NetworkConnectivity Change Receiver [\#317](https://github.com/freshdesk/hotline_android_dev/issues/317)
+- Start Alarm / Retry Broadcast only when there are pending message in Backlog [\#316](https://github.com/freshdesk/hotline_android_dev/issues/316)
+- Support Image Orientation from EXIF data  [\#309](https://github.com/freshdesk/hotline_android_dev/issues/309)
+- scroll to bottom failling on 1-way? [\#249](https://github.com/freshdesk/hotline_android_dev/issues/249)
+- Alarms & nw monitoring based on presence of backlog and backlog cleanup [\#156](https://github.com/freshdesk/hotline_android_dev/issues/156)
 
-### 6.3.2 (2024-12-03)
+**Merged pull requests:**
 
-### Feature:
-* Exposed an `FCEventAgentProfileClick` event to retrieve agent details upon clicking the agent profile.
-* Added a public API to set and get the agent profile click redirection URI.
+- Http response status code check [\#336](https://github.com/freshdesk/hotline_android_dev/pull/336) ([rsquare2014](https://github.com/rsquare2014))
+- Customer satisfaction surveys [\#335](https://github.com/freshdesk/hotline_android_dev/pull/335) ([tryprasannan](https://github.com/tryprasannan))
+- Channel tags [\#333](https://github.com/freshdesk/hotline_android_dev/pull/333) ([rsquare2014](https://github.com/rsquare2014))
+- User Agent / SDK version as headers [\#331](https://github.com/freshdesk/hotline_android_dev/pull/331) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Events [\#281](https://github.com/freshdesk/hotline_android_dev/pull/281) ([hrishikesh-p](https://github.com/hrishikesh-p))
 
-### Bug Fixes:
-* Fixed an issue where the chat failed to scroll to the latest message after multiple carousel items were selected.
-* Fixed an issue where the image caption was not removed after sending an image message.
+## [1.0.15](https://github.com/freshdesk/hotline_android_dev/tree/1.0.15) (2016-10-11)
+[Full Changelog](https://github.com/freshdesk/hotline_android_dev/compare/1.0.14...1.0.15)
 
-### 6.3.1 (2024-10-21)
-* Fixed an issue where an extra space appeared in the carousel card of user messages.
-* Fixed an issue with carousel card selection in specific scenarios.
+**Fixed bugs:**
 
-### 6.3.0 (2024-10-01)
-* Fixed an issue where links without descriptions were not working in the Bot Article flow.
-* Fixed an issue where quick actions were not hidden immediately after a conversation was resolved.
-* Fixed an issue where anonymous implementations of `FreshchatWebListener` were getting garbage collected after a locale change.
-* Fixed an issue where the country code was not retained in the view.
-* Fixed an issue where images captured with the camera were rotated 90 degrees to the left on some devices.
-* Fixed an issue where the file name and size were not displayed for images taken via the camera.
-* Fixed an issue with hyperlink breakage.
+- Restored messages have invalid state.  [\#266](https://github.com/freshdesk/hotline_android_dev/issues/266)
+- Fix user data [\#324](https://github.com/freshdesk/hotline_android_dev/pull/324) ([tryprasannan](https://github.com/tryprasannan))
+- Restored messages state fix [\#318](https://github.com/freshdesk/hotline_android_dev/pull/318) ([rsquare2014](https://github.com/rsquare2014))
 
-### Enhancements:
-* Removed the character count limitation for setting user properties.
+**Closed issues:**
 
-## 6.2.9(2024-08-23)
+- Crash when clearData is called before Init has ever been called  [\#321](https://github.com/freshdesk/hotline_android_dev/issues/321)
+- Send SDK version update only when there is a change.  [\#313](https://github.com/freshdesk/hotline_android_dev/issues/313)
+- Add Sanity check for User Properties  [\#297](https://github.com/freshdesk/hotline_android_dev/issues/297)
+- \[N\] Android N Compat of current SDK [\#294](https://github.com/freshdesk/hotline_android_dev/issues/294)
 
-### Bug Fixes:
-* Fix for Customer chat history not getting restored above a few messages.
-* Fix for FAQ article message is not taking up the screen space and looks squished/Compressed.
+**Merged pull requests:**
 
-## 6.2.8(2024-07-27)
+- Samsung image rotation fix [\#327](https://github.com/freshdesk/hotline_android_dev/pull/327) ([rsquare2014](https://github.com/rsquare2014))
+- More efficient auto retries of API calls  [\#325](https://github.com/freshdesk/hotline_android_dev/pull/325) ([tryprasannan](https://github.com/tryprasannan))
+- re rotating images on phones which auto rotate photos [\#323](https://github.com/freshdesk/hotline_android_dev/pull/323) ([rsquare2014](https://github.com/rsquare2014))
+- Fix crash on clearData [\#322](https://github.com/freshdesk/hotline_android_dev/pull/322) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- adding backlog for updateVersionHandler [\#320](https://github.com/freshdesk/hotline_android_dev/pull/320) ([rsquare2014](https://github.com/rsquare2014))
+- reusing a version check to send version update request only on versio… [\#319](https://github.com/freshdesk/hotline_android_dev/pull/319) ([rsquare2014](https://github.com/rsquare2014))
 
-### Bug Fixes:
-* Fix for Window Manager Bad Token Exception when attaching pictures.
-* Fix for issue with custom link handler not working in conversation.
+## [1.0.14](https://github.com/freshdesk/hotline_android_dev/tree/1.0.14) (2016-08-31)
+[Full Changelog](https://github.com/freshdesk/hotline_android_dev/compare/1.0.13...1.0.14)
 
-### Enhancements:
-* Updated SDK to target Android 14 to comply with Google Play Store policies.
+**Implemented enhancements:**
 
-## 6.2.7(2024-07-12)
+- Poll for messages even when push is enabled when users are on the chat screen [\#285](https://github.com/freshdesk/hotline_android_dev/issues/285)
+- Firebase Push Notification Support and Samples  [\#280](https://github.com/freshdesk/hotline_android_dev/issues/280)
+- Theme update [\#308](https://github.com/freshdesk/hotline_android_dev/pull/308) ([tryprasannan](https://github.com/tryprasannan))
 
-### Bug fix :
-* Fix for incorrect Preview messages being shown in Channels list
-* Fix for failing read receipts in conversations.
+**Fixed bugs:**
 
-## 6.2.6(2024-07-02)
+- Make hotlineSpeakerIcon and hotlineEarpieceIcon as optional theme attributes [\#288](https://github.com/freshdesk/hotline_android_dev/issues/288)
+- Clicks are not being tracked for notification only campaigns without deep links [\#286](https://github.com/freshdesk/hotline_android_dev/issues/286)
+- Send read receipts as and when each messages arrives [\#284](https://github.com/freshdesk/hotline_android_dev/issues/284)
 
-### Bug fix :
-* Fix for the SDK text input field type being set up for OTP autofilling by default.
-* Fix for hyperlinks in HTML tags not redirecting to a web page displayed on carousels.
-* Fix for the possibility of HTML injection through the SDK's chat input field.
-* Fix for the alignment issue in the categories listing screen.
-* Fix for the chat reply window starting with a lowercase letter.
-* Fix for the agent response expectation time taking a few seconds to update after a locale change.
+**Closed issues:**
 
-## 6.2.5(2024-06-11)
+- When filtering by tags, Order by category pos and article pos . [\#298](https://github.com/freshdesk/hotline_android_dev/issues/298)
 
-### Bug fix :
-* Fix for bugs related to changing manual time from device
+**Merged pull requests:**
 
-## 6.2.4(2024-06-03)
+- Rewrite of sanity checks on User Properties [\#304](https://github.com/freshdesk/hotline_android_dev/pull/304) ([rsquare2014](https://github.com/rsquare2014))
+- Randomize the start of background retries [\#303](https://github.com/freshdesk/hotline_android_dev/pull/303) ([tryprasannan](https://github.com/tryprasannan))
+- Add FCM Support for Push Notification [\#302](https://github.com/freshdesk/hotline_android_dev/pull/302) ([tryprasannan](https://github.com/tryprasannan))
+- Order Articles By Category Pos and Article Pos [\#301](https://github.com/freshdesk/hotline_android_dev/pull/301) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Sanity checks on user property key value pairs [\#299](https://github.com/freshdesk/hotline_android_dev/pull/299) ([rsquare2014](https://github.com/rsquare2014))
+- lastupdatedtime fix [\#296](https://github.com/freshdesk/hotline_android_dev/pull/296) ([rsquare2014](https://github.com/rsquare2014))
+- Adding compat for N [\#295](https://github.com/freshdesk/hotline_android_dev/pull/295) ([rsquare2014](https://github.com/rsquare2014))
 
-### Bug fix : 
-* Fix for Search results not filtered by tags.
-* Fix for links in Description are not redirected to the respected page.
-* Fix for HTML tags not allowing the hyperlinks to redirect to a web-page displayed on carousels.
-* Fix for OTP SMS not received for given mobile number while initiating the OTP from the Android SDK.
-* Fix for Faq not opening with correct filter tags on initialisation time.
-* Fix for Issues with bullet points displaying in Mobile SDK.
+## [1.0.13](https://github.com/freshdesk/hotline_android_dev/tree/1.0.13) (2016-08-19)
+[Full Changelog](https://github.com/freshdesk/hotline_android_dev/compare/1.0.12...1.0.13)
 
-### Build Changes
-* Upgraded min SDK to 21
+**Fixed bugs:**
 
-## 6.2.3(2024-05-30)
+- Android-\> Notifications for disabled channels are received in the device. When the user taps on the notification, the disabled channel will be opened in the device and user can send/receive messages. [\#141](https://github.com/freshdesk/hotline_android_dev/issues/141)
+- Stop logging error messages for optional theme attributes [\#291](https://github.com/freshdesk/hotline_android_dev/pull/291) ([tryprasannan](https://github.com/tryprasannan))
+- Send clicked metric for notification only campaigns without deep link [\#289](https://github.com/freshdesk/hotline_android_dev/pull/289) ([tryprasannan](https://github.com/tryprasannan))
 
-### Bug fix :
-* Fix for the Crash on updating to SDK v6.2.0(or above) from v5.9.6 (or below)
+**Closed issues:**
 
-## 6.2.2(2024-05-13)
+- Add License file to the SDK  [\#277](https://github.com/freshdesk/hotline_android_dev/issues/277)
+- Closable Resource Not Closed - Crash in Strict Mode [\#246](https://github.com/freshdesk/hotline_android_dev/issues/246)
+- Reduce height of input toolbar [\#234](https://github.com/freshdesk/hotline_android_dev/issues/234)
 
-### Bug fix :
-* Fix for the faq search based on the tag filter by category or article
+**Merged pull requests:**
 
-## 6.2.1(2024-04-26)
+- Fix proguard issues with calligraphy [\#292](https://github.com/freshdesk/hotline_android_dev/pull/292) ([tryprasannan](https://github.com/tryprasannan))
+- Fixes Read Receipts status [\#287](https://github.com/freshdesk/hotline_android_dev/pull/287) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Log based on BuildConfig.DEBUG [\#283](https://github.com/freshdesk/hotline_android_dev/pull/283) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Poll Always on Detail screen [\#282](https://github.com/freshdesk/hotline_android_dev/pull/282) ([hrishikesh-p](https://github.com/hrishikesh-p))
 
-### Bug fix :
-* Fix for the unable to load topic list page due Canvas: trying to draw too large bitmap issue
-* Fix for the issue in navigating to sections in FAQs page.
-* Fix for the click on search from virtual keyboard and virtual keyboard is not closing in the FAQs page.
+## [1.0.12](https://github.com/freshdesk/hotline_android_dev/tree/1.0.12) (2016-07-26)
+[Full Changelog](https://github.com/freshdesk/hotline_android_dev/compare/1.0.11...1.0.12)
 
-## 6.2.0(2024-03-14)
+**Fixed bugs:**
 
-### Feature :
-* Added support for Parallel conversations.
+- Fix custom font not being respected by message text & message time views in message list [\#273](https://github.com/freshdesk/hotline_android_dev/issues/273)
+- Android-\> When an audio clip is playing, user is able to record another simultaneously. [\#133](https://github.com/freshdesk/hotline_android_dev/issues/133)
+- Custom font fix for message text and time view [\#274](https://github.com/freshdesk/hotline_android_dev/pull/274) ([tryprasannan](https://github.com/tryprasannan))
 
-## 6.1.5(2024-02-13)
-* Fix for Agent first name display issue when bot conversations are assigned to an agent.
+**Closed issues:**
 
-## 6.1.2(2024-01-11)
+- Memory Leaks in SDK  [\#271](https://github.com/freshdesk/hotline_android_dev/issues/271)
+- FAQ Category Grid / List doesn't reload when there are updates to it .  [\#247](https://github.com/freshdesk/hotline_android_dev/issues/247)
+- Audio messages - release to send message, not cancel [\#233](https://github.com/freshdesk/hotline_android_dev/issues/233)
 
-### Bug fix :
-* Fix for potential ANR during app update.[CHANGELOG.md](..%2Fdist%2FCHANGELOG.md)
-* Fix for bot not retriggering after resolving bot conversations.
-* Fix for a crash happening while loading conversations.
-* Fix for agent name is not updated when any bot conversations are assigned to any agent.
- 
-## 6.1.1(2024-1-5) 
+**Merged pull requests:**
 
-### Bug fix :
-* Fix to enable text input editor when using Freshchat Public APIs to send messages on behalf of an agent/bot.
+- Stop looking for calligraphy custom attributes when calligraphy is not present [\#279](https://github.com/freshdesk/hotline_android_dev/pull/279) ([tryprasannan](https://github.com/tryprasannan))
+- Add License to SDK [\#278](https://github.com/freshdesk/hotline_android_dev/pull/278) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Theme updates [\#276](https://github.com/freshdesk/hotline_android_dev/pull/276) ([tryprasannan](https://github.com/tryprasannan))
+- Fix Leak Canary Issue [\#275](https://github.com/freshdesk/hotline_android_dev/pull/275) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Code Review Changes [\#272](https://github.com/freshdesk/hotline_android_dev/pull/272) ([rsquare2014](https://github.com/rsquare2014))
+- Theming updates [\#270](https://github.com/freshdesk/hotline_android_dev/pull/270) ([tryprasannan](https://github.com/tryprasannan))
+- Image attachment fixes [\#269](https://github.com/freshdesk/hotline_android_dev/pull/269) ([rsquare2014](https://github.com/rsquare2014))
 
-## 6.1.0(2023-11-17)
+## [1.0.11](https://github.com/freshdesk/hotline_android_dev/tree/1.0.11) (2016-07-13)
+[Full Changelog](https://github.com/freshdesk/hotline_android_dev/compare/1.0.10...1.0.11)
 
-### Feature :
-* We are adding support for multi-select Carousel as a new input type for your customers. Customers will now be able to pick and choose multiple choices that appears as a series of options with a horizontal scroll (carousel) on the screen.
+**Merged pull requests:**
 
-### Bug Fix :
-* Fix for hyper links not scrolling to the desired index in FAQ webview in omni account
-* Fix for HTML code is being displayed in carousels primary & secondary buttons
-* Fix for conversation is not loading for Android Gradle Plugin 8.0 consumers
+- Add support for handling click events in UI elements added by customer  [\#268](https://github.com/freshdesk/hotline_android_dev/pull/268) ([tryprasannan](https://github.com/tryprasannan))
 
-## 6.0.0(2023-10-09)
+## [1.0.10](https://github.com/freshdesk/hotline_android_dev/tree/1.0.10) (2016-06-10)
+[Full Changelog](https://github.com/freshdesk/hotline_android_dev/compare/1.0.9...1.0.10)
 
-### Enhancement :
-* Performance improvement on loading messages
+**Fixed bugs:**
 
-## 5.9.6(2023-10-06)
+- Cursor Not Closed - Crash in Strict Mode [\#245](https://github.com/freshdesk/hotline_android_dev/issues/245)
+- Hotline App Android-\> While sending multimedia message, an error is thrown and cant be sent. [\#98](https://github.com/freshdesk/hotline_android_dev/issues/98)
 
-### Bug fix :
-* Fix for bot variables not being set for resolved conversations.
+**Closed issues:**
 
-## 5.9.5(2023-09-15)
+- Voice messaging fails on single channel mode [\#257](https://github.com/freshdesk/hotline_android_dev/issues/257)
 
-### Bug fix :
-* Fix for a crash which occurs during certain chat flows.
+**Merged pull requests:**
 
-## 5.9.3(2023-08-28)
+- Better use of FAQOptions  [\#264](https://github.com/freshdesk/hotline_android_dev/pull/264) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Notification Fixes & Remove GCM gradle dependency from SDK [\#263](https://github.com/freshdesk/hotline_android_dev/pull/263) ([tryprasannan](https://github.com/tryprasannan))
+- Fix issue with voice messaging when only one channel is present [\#262](https://github.com/freshdesk/hotline_android_dev/pull/262) ([tryprasannan](https://github.com/tryprasannan))
+- Cleanup [\#260](https://github.com/freshdesk/hotline_android_dev/pull/260) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Async Message Fetch [\#259](https://github.com/freshdesk/hotline_android_dev/pull/259) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- FAQ tags based filtering and FAQ UI Options [\#258](https://github.com/freshdesk/hotline_android_dev/pull/258) ([tryprasannan](https://github.com/tryprasannan))
+- Hotline callback status modified [\#255](https://github.com/freshdesk/hotline_android_dev/pull/255) ([rsquare2014](https://github.com/rsquare2014))
 
-### Enhancement :
-* Handle disabling of reply editor when bot response is pending.
+## [1.0.9](https://github.com/freshdesk/hotline_android_dev/tree/1.0.9) (2016-05-17)
+[Full Changelog](https://github.com/freshdesk/hotline_android_dev/compare/1.0.8...1.0.9)
 
-## 5.9.2(2023-07-08)
+**Closed issues:**
 
-### Feature :
-* We are adding support for multi-select as a new input type for your customers. Customers will now be able to pick and choose multiple choices that appears as buttons.
+- remove sdk not inited message [\#248](https://github.com/freshdesk/hotline_android_dev/issues/248)
 
-### Enhancements :
-* Update UI for single select button.
+**Merged pull requests:**
 
-## 5.9.1(2023-07-05)
+- Add Support for Send Message API [\#253](https://github.com/freshdesk/hotline_android_dev/pull/253) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Fixes init Warning [\#252](https://github.com/freshdesk/hotline_android_dev/pull/252) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Deeplink to another FAQ from within a FAQ [\#251](https://github.com/freshdesk/hotline_android_dev/pull/251) ([tryprasannan](https://github.com/tryprasannan))
+- Fix issue in M when camera app is launched without permission prompt [\#250](https://github.com/freshdesk/hotline_android_dev/pull/250) ([tryprasannan](https://github.com/tryprasannan))
+- Voice Messaging Revamp [\#239](https://github.com/freshdesk/hotline_android_dev/pull/239) ([tryprasannan](https://github.com/tryprasannan))
 
-### Bug Fix
-* Fix for Otp timer not shown
+## [1.0.8](https://github.com/freshdesk/hotline_android_dev/tree/1.0.8) (2016-04-29)
+[Full Changelog](https://github.com/freshdesk/hotline_android_dev/compare/1.0.7...1.0.8)
 
-## 5.9.0(2023-06-29)
+## [1.0.7](https://github.com/freshdesk/hotline_android_dev/tree/1.0.7) (2016-04-22)
+[Full Changelog](https://github.com/freshdesk/hotline_android_dev/compare/1.0.6...1.0.7)
 
-### Feature
-* This version will now let you receive star-based feedback from your customers. Customers will be able to provide feedback from a maximum of 5 star based choices.
-* We are adding support for Date and time as a new input type for your customers. Customers will now be able to pick a date and pick a time within the bot flow.
-* We are adding support for Multi-select as a new input type for your customers. Customers will now be able to pick and choose multiple choices that appears as a dropdown.
+**Closed issues:**
 
-## 5.8.0(2023-06-20)
+- Crash for Secure Preferences  [\#242](https://github.com/freshdesk/hotline_android_dev/issues/242)
 
-### Feature
-* We are adding support for Phone number and OTP as a new input type for your customers. Customers will now be able to enter their phone numbers with country code to generate an OTP which is then entered by user and is accepted by the SDK to process user information.
+**Merged pull requests:**
 
+- Fix crash [\#243](https://github.com/freshdesk/hotline_android_dev/pull/243) ([hrishikesh-p](https://github.com/hrishikesh-p))
 
-## 5.7.0(2023-06-15)
+## [1.0.6](https://github.com/freshdesk/hotline_android_dev/tree/1.0.6) (2016-04-21)
+[Full Changelog](https://github.com/freshdesk/hotline_android_dev/compare/1.0.5...1.0.6)
 
-### Feature
-* You will now be able to pass custom user properties related to a user conversation from the mobile app to the bots via the SDK
+**Closed issues:**
 
-## 5.6.0(2023-06-08)
+- Image, video content in FAQ resized out of aspect ratio  [\#240](https://github.com/freshdesk/hotline_android_dev/issues/240)
+- Fatal Exception: java.util.NoSuchElementException - Planhound  [\#236](https://github.com/freshdesk/hotline_android_dev/issues/236)
+- Fatal Exception: java.lang.OutOfMemoryError - Planhound [\#235](https://github.com/freshdesk/hotline_android_dev/issues/235)
 
-### Feature
-* This version will now let you receive feedback from your customers in the form of a text. Customers will be able to type their feedback if configured in the bot flow.
-* This version will now let you receive feedback from your customers in the form of a preset choices. Customers will be able to choose their feedback from a maximum 3 choices.
+**Merged pull requests:**
 
-## 5.5.3(2023-06-01)
+- Fix image/video height in FAQ [\#241](https://github.com/freshdesk/hotline_android_dev/pull/241) ([tryprasannan](https://github.com/tryprasannan))
+- Planhound crashes [\#238](https://github.com/freshdesk/hotline_android_dev/pull/238) ([hrishikesh-p](https://github.com/hrishikesh-p))
 
-### Bug Fixes
-* Fix spaces in multiline bot messages with paragraph tag.
+## [1.0.5](https://github.com/freshdesk/hotline_android_dev/tree/1.0.5) (2016-04-04)
+[Full Changelog](https://github.com/freshdesk/hotline_android_dev/compare/1.0.4...1.0.5)
 
-## 5.5.2(2023-05-04)
+**Closed issues:**
 
-### Bug Fixes
-* Fix for bot not being triggered when user responds to CSAT
-* Fix for locale change not being reflected in topics screen
+- hotlineAvatarIcon missing warning [\#221](https://github.com/freshdesk/hotline_android_dev/issues/221)
+- Make padding configurable on the Channels List page  [\#217](https://github.com/freshdesk/hotline_android_dev/issues/217)
+- Fix GCM Permissions [\#216](https://github.com/freshdesk/hotline_android_dev/issues/216)
+- If channels is empty on Channel page .. Reload immediatly  [\#215](https://github.com/freshdesk/hotline_android_dev/issues/215)
+- Show a badge Count instead of Icon + count  [\#213](https://github.com/freshdesk/hotline_android_dev/issues/213)
+- Match Channel List Layout to design  [\#211](https://github.com/freshdesk/hotline_android_dev/issues/211)
+- Handle Image fetcher Failures gracefully  [\#207](https://github.com/freshdesk/hotline_android_dev/issues/207)
+- FAQ updates are causing articles to disappear .  [\#193](https://github.com/freshdesk/hotline_android_dev/issues/193)
 
-## 5.5.1(2023-04-13)
+**Merged pull requests:**
 
-### Bug Fixes
-* Fix for HTML tags not supported in carousel title and subtitle.
-* Fix for multiple selection of Dropdown options.
+- Fix camera app failing to access app's storage [\#232](https://github.com/freshdesk/hotline_android_dev/pull/232) ([tryprasannan](https://github.com/tryprasannan))
+- Fix category name not being displayed in FAQ Detail [\#230](https://github.com/freshdesk/hotline_android_dev/pull/230) ([tryprasannan](https://github.com/tryprasannan))
+- Permission fixes [\#229](https://github.com/freshdesk/hotline_android_dev/pull/229) ([tryprasannan](https://github.com/tryprasannan))
 
-## 5.5.0(2023-03-27)
+## [1.0.4](https://github.com/freshdesk/hotline_android_dev/tree/1.0.4) (2016-03-24)
+[Full Changelog](https://github.com/freshdesk/hotline_android_dev/compare/1.0.3...1.0.4)
 
-### Feature
-* Placeholder support for bot messages
+**Closed issues:**
 
-### Enhancement
-* Display links configured for bot articles
+- Ability to hide the channel List image  [\#218](https://github.com/freshdesk/hotline_android_dev/issues/218)
+- Remove Unnecessary Logging [\#214](https://github.com/freshdesk/hotline_android_dev/issues/214)
+- Default notification Large Icon is small  [\#208](https://github.com/freshdesk/hotline_android_dev/issues/208)
+- Image Fetcher Crashes when it reads a invalid image.  [\#206](https://github.com/freshdesk/hotline_android_dev/issues/206)
+- Call Init automatically after clearUserData [\#201](https://github.com/freshdesk/hotline_android_dev/issues/201)
+- Init after a clearUserData doesn't work  [\#196](https://github.com/freshdesk/hotline_android_dev/issues/196)
+- Remove unnecessary Logs  [\#190](https://github.com/freshdesk/hotline_android_dev/issues/190)
+- Disable connectivity state change receiver when there is no backlog [\#61](https://github.com/freshdesk/hotline_android_dev/issues/61)
 
-### Bug Fixes
-* Fix for multiple selection of quick reply buttons
-* Fix for displaying blank topic name in topic list screen
+**Merged pull requests:**
 
-## 5.4.2(2023-03-06)
+- Remove Get Accounts Permission [\#228](https://github.com/freshdesk/hotline_android_dev/pull/228) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Simplify hide footer config [\#227](https://github.com/freshdesk/hotline_android_dev/pull/227) ([tryprasannan](https://github.com/tryprasannan))
+- Review changes and bug fix [\#226](https://github.com/freshdesk/hotline_android_dev/pull/226) ([rsquare2014](https://github.com/rsquare2014))
+- Stop logging warning msg for optional theme attributes which are missing [\#225](https://github.com/freshdesk/hotline_android_dev/pull/225) ([tryprasannan](https://github.com/tryprasannan))
+- Notification icon changes [\#224](https://github.com/freshdesk/hotline_android_dev/pull/224) ([tryprasannan](https://github.com/tryprasannan))
+- animated transitions when hiding a view and showing another [\#223](https://github.com/freshdesk/hotline_android_dev/pull/223) ([rsquare2014](https://github.com/rsquare2014))
+- Logging cleanup [\#222](https://github.com/freshdesk/hotline_android_dev/pull/222) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Channel list UI updates [\#220](https://github.com/freshdesk/hotline_android_dev/pull/220) ([tryprasannan](https://github.com/tryprasannan))
+- Fixes fetching in channel list [\#219](https://github.com/freshdesk/hotline_android_dev/pull/219) ([rsquare2014](https://github.com/rsquare2014))
+- Fix crash on image load on channel List [\#210](https://github.com/freshdesk/hotline_android_dev/pull/210) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Fix clear data [\#209](https://github.com/freshdesk/hotline_android_dev/pull/209) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Fix timing issue [\#198](https://github.com/freshdesk/hotline_android_dev/pull/198) ([hrishikesh-p](https://github.com/hrishikesh-p))
 
-### Bug Fixes
-* Fix for send button being enabled when only empty spaces are entered
-* Fix for extra space being displayed below multiline bot messages
-* Fix for a crash which occurs while attaching images
+## [1.0.3](https://github.com/freshdesk/hotline_android_dev/tree/1.0.3) (2016-03-11)
+[Full Changelog](https://github.com/freshdesk/hotline_android_dev/compare/1.0.2...1.0.3)
 
-## 5.4.1(2023-01-11)
+**Closed issues:**
 
-### Bug Fix
-* Fix Android bot stability issues
+- Channels Welcomes are not shown for a user after Clear Data [\#197](https://github.com/freshdesk/hotline_android_dev/issues/197)
 
-## 5.4.0(2022-12-19)
+## [1.0.2](https://github.com/freshdesk/hotline_android_dev/tree/1.0.2) (2016-03-10)
+[Full Changelog](https://github.com/freshdesk/hotline_android_dev/compare/1.0.1...1.0.2)
 
-### Feature
-* Support read only and single select carousel in bot flow
+**Closed issues:**
 
-## 5.3.3(2022-12-05)
-
-### Hot Fix
-* Fix for agent/bot message timestamp aligning to the right end of the message bubble
-
-## 5.3.2(2022-11-16)
-
-### Enhancement
-* Updated targetSdkVersion to Android 12
-
-### Bug Fixes
-* Fix for the next bot flow to trigger on selecting carousel.
-* Fix for clearing error message for invalid input in bot flow.
-* Fix for handling empty messages.
-* Fix for handling quick actions menu overlapping in landscape mode.
-* Fix for custom attachment icons appearing too large in v5.3.0 and v5.3.1.
-
-## 5.3.1(2022-10-18)
-
-### Bug Fix
-* Fix for keyboard hiding last few messages
-
-## 5.3.0(2022-09-27)
-
-### Feature
-* Support for upload file for bot flows and attachment option
-
-## 5.2.0(2022-09-13)
-
-### Feature
-* Support for phone number, email and number input types in bot flow
-
-## 5.1.2(2022-08-23)
-
-### Bug fix
-* Fix for a crash on quick option buttons which was introduced in version 5.1.0
-
-## 5.1.1(2022-08-11)
-
-### Bug fix
-* Fix for orientation change crash which was introduced in version 5.1.0
-
-## 5.1.0(2022-07-11)
-
-### Enhancement
-* Support for quick options in bot flow
-
-### Bug fix
-* Fix for ConnectivityManager leak
-
-## 5.0.5(2022-02-04)
-
-### Bug fix
-* Fix for "Notification not posted to system tray when app is in background"
-* JWT - Issue with decoding token containing '-' or '_' in reference
-
-## 5.0.4(2022-02-04)
-
-### Bug fix
-* Fix for dismissing keyboard when moving from Chat screen to App screen.
-* Fix for handing empty CSAT
-
-## 5.0.3(2021-12-23)
-
-### Bug fix
-* Fix for displaying notifications in Android 12
-
-## 5.0.2(2021-12-03)
-
-### Bug fix
-* Fix for Topic name and image being empty
-
-## 5.0.1(2021-11-15)
-
-### Enhancement
-* Display complete name for messages created using API
-
-## 5.0.0(2021-10-27)
-
-### Enhancement
-* Support for Bots created using bots builder
-
-## 4.4.0(2021-10-04)
-
-### Build Changes
-* Upgraded target version to 30
-
-### Bug fix
-* Fix for image capture crash on lower resolution devices
-
-## 4.3.9(2021-09-30)
-
-### Enhancement
-* Added instrumentation for SDK
-
-## 4.3.8(2021-09-07)
-
-### Bug fix
-* Freshchat account reactivation issue fix
-
-## 4.3.6(2021-08-31)
-
-### Bug fix
-* Fix to display custom category icons for FAQ categories
-
-## 4.3.5(2021-06-18)
-
-### Bug fix
-* Fix for data encryption issue due to changes made in v4.3.2
-
-## 4.3.4(2021-05-10)
-
-### Bug fix
-* Fixed FAQ notification click not redirecting to chat screen
-* Fixed message notifications are not getting dismissed on chat screen open
-
-## 4.3.3(2021-03-18)
-
-### Enhancement
-* Upgraded picasso library version to 2.8
-
-## 4.3.2(2021-03-01)
-
-### Enhancement
-* Updated cryptographic encryption pattern used for encrypting shared preferences
-
-## 4.3.1(2021-02-24)
-
-### Enhancement
-* Updated FAQ search empty state UI
-
-### Bug fix
-* Support for custom reply text in quick reply options
-
-## 4.3.0(2021-02-02)
-### Enhancement
-* Omni Kbase support for bundled accounts
-
-## 4.2.0(2020-12-11)
-### Enhancement
-* Updated the algorithm used for encrypting Shared Preferences
-
-## 4.1.1(2020-12-07)
-### Bug Fix
-* Fixed push registration token set issue during user restore
-
-## 4.1.0(2020-11-10)
-### Enhancement
-* Upgraded target SDK version of SDK to Android 29
-
-## 4.0.0(2020-10-29)
-### Enhancement
-* Support for live translation of messages
-
-## 3.6.8(2020-10-15)
-### Enhancement
-* Support for custom line spacing of messages in chat screen
-
-## 3.6.7(2020-10-1)
-
-### Enhancement
-* Alert to notify when domain is invalid
-
-## 3.6.6(2020-09-22)
-
-### Bug Fix
-* Allowed "-" in user property key
-
-## 3.6.5(2020-09-08)
-
-### Bug Fix
-* Removed search icon when FAQ search is open
-* Added "Still looking for help? Talk to us" string for FAQ downvote.
-
-## 3.6.4(2020-08-03)
-
-### Bug Fix
-* Fix to honor showContactUsOnFaqNotHelpful config
-
-## 3.6.3(2020-07-22)
-
-### Enhancement
-* Performance improvements in restoring a user
-
-### Bug Fix
-* Remove cache file from external storage 
-
-## 3.6.2(2020-07-3)
-
-### Enhancement
-* Performance improvements in messages rendering time
-
-## 3.6.1(2020-06-23)
-
-### Bug Fix
-* Fix to load messages quicker
-
-## 3.6.0(2020-06-12)
-
-### Enhancement
-* Support to book meetings
-
-### Bug Fix
-* Show agent first name alone instead of full name
-* Fixed image resize issue
-
-## 3.5.1(2020-05-12)
-
-### Bug Fix
-* Fix to display agent message in Carousel message
-
-## 3.5.0(2020-05-07)
-
-### Enhancement
-* Support for messages with Carousel options
-
-## 3.4.0(2020-04-30)
-
-### Enhancement
-* Support for dropdown options message
-
-## 3.3.0(2020-03-30)
-
-### Enhancement
-* Optimised SDK initialisation when app is in background
-
-## 3.2.2(2020-03-04)
-
-### Bug Fix
-* Fixed display order of articles
-
-## 3.2.1(2020-02-03)
-
-### Bug Fix
-* Fixed locale resetting issue on orientation change
-* Fixed a redirection issue in FAQs search
-
-## 3.2.0(2020-01-30)
-
-### Enhancement
-* Introducing changes in MUV calculation to take care of cases where customer's SDK implementation is not optimised. This would bring down the unique visitors count.
-
-## 3.1.0(2020-01-23)
-
-### Feature
-* Add user events from your app to Freshchat timeline to give your agents context on user's journey
-
-## 3.0.0(2019-11-12)
-
-### Enhancement
-* Ability to search through FAQs filtered by tags
-* Increased CSAT message view maximum height to 4 lines
-* Ability to handle channels deeplinks
-
-### Build Changes
-* Upgraded target version to 28
-* Updated android gradle plugin to 3.2.1 and Gradle to 4.7
-
-## 2.9.0 (2019-9-25)
-
-### Enhancement
-* Support for showing proactive reply suggestions
-
-## 2.8.0 (2019-9-18)
-
-### Enhancement
-* Support for locale change at run time
-
-## 2.7.1 (2019-9-3)
-
-### Bug Fix
-* Fix JSONException in FAQs flow (introduced in 2.7.0 version).
-
-## 2.7.0 (2019-8-13)
-
-### Enhancement
-* Added more Freshchat SDK events
-* Broadcast SDK properties along with events
-
-### Breaking Change
-* In order to support rich events, we have added Freshchat.getEventFromBundle() API and removed FreshchatEvent.fromAction(action) API.
-
-## 2.6.1 (2019-5-31)
-
-### Enhancement
-* Once the article is updated, users will again see the voting option.
-* Also users will be able to message you from the downvoted article screen, even if they leave and come back again.
-
-## 2.6.0 (2019-5-30)
-
-### Enhancement
-* Support to set importance of Freshchat Notification Channels using FreshchatNotificationConfig.setImportance API.
-
-## 2.5.2 (2019-5-22)
-
-### Bug Fix
-* Stopped message list from auto scrolling to bottom
-* Improvements in JWT timer timeout logic
-
-## 2.5.1 (2019-5-20)
-
-### Bug Fix
-* Removed unused log
-
-## 2.5.0 (2019-5-10)
-
-### Bug Fix
-* Open SDK screens in same task irrespective of the context passed
-
-## 2.4.1 (2019-3-7)
-
-### Enhancements
-* Improvements in logic to load new messages for conversations
-
-## 2.4.0 (2019-2-15)
-
-### Enhancements
-* Broadcast screen transition event from all Freshchat screens
-
-## 2.3.0 (2019-2-4)
-
-### Enhancements
-* Graceful handling of unsupported messages
-
-### Bug Fixes
-* Trigger message received event only when a new message is received
-
-## 2.2.0 (2019-1-7)
-
-### Enhancements
-* Ability to configure custom response expectations and away message for channels
-
-### Bug Fixes
-* Show loading when image is being loaded in Picture preview screen
-
-### Breaking Change
-* If you have modified strings.xml to hide response expectation messages, it will continue to work in all cases except when away. You can set `responseExpectationEnabled` flag in FreshchatConfig as `false` to completely hide response expectations.
-
-## 2.1.0 (2018-12-28)
-
-### Enhancements
-* Ability to mask sensitive data present in user message
-
-## 2.0.0 (2018-12-26)
-
-### Enhancements
-* Ability to intercept all external links
-* Securely identify and restore users using Id Tokens (JWT)
-* Ability to intercept Freshchat notification
-* Ability to listen to Freshchat events like message sent, message received, etc.
-
-### Breaking Change
-* Freshchat.handleGcmMessage API has been removed.
-* Change in method signature for Freshchat.handleFcmMessage API, now requires context as a param.
-
-## 1.5.3 (2018-10-12)
-
-### Enhancements
-* Allow reuse of deeplink scheme from message in FAQs
-
-### Bug Fixes
-* Add proguard rules to detect presence of Picasso
-
-## 1.5.2 (2018-09-21)
-
-### Enhancements
-* Support for using alternate image loader libraries - via [Freshchat.setImageLoader()](https://support.freshchat.com/support/solutions/articles/229319-freshchat-android-sdk-integration-steps#custom-image-loader) - SDK defaults to including Picasso 2.5.2
-* In Android N+, support for auto retry messages on chat screen based on connectivity changes 
-
-### Bug Fixes
-* Fix crash while transforming downloaded image into circular shape
-* Maintain order of the messages when retrying failed messages
-
-## 1.5.1 (2018-08-29)
-
-### Bug Fixes
-* Fix date format for messages sent in previous years
-
-## 1.5.0 (2018-07-26)
-
-### Enhancements
-
-* Support for auto expiring customer satisfaction surveys
-* Make back navigation launch app by default when chat screen is opened from notification
-
-### Changes
-* Agent avatar behaviour change - specific order of fallback (agent avatar, then custom static icon, then app icon)
-
-### Bug Fixes
-* Play default notification tone if no notification tone is set
-* Fix representation of message being copied to clipboard
-* Disallow attachment of non image file types (Prefers document provider where possible)
-* Fix rendering of newlines in message text
-* Fixes issue [#9](https://github.com/freshdesk/freshchat-android/issues/9)
-
-### Deprecated
-* Freshchat.FRESHCHAT_ACTION_MESSAGE_COUNT_CHANGED has been deprecated in favour of Freshchat.FRESHCHAT_UNREAD_MESSAGE_COUNT_CHANGED
-
-## 1.4.2 (2018-06-13)
-
-### Enhancements
-* Add support for overriding csat survey question
-
-## 1.4.1 (2018-06-04)
-
-### Bug Fixes
-* Fixes issue with read receipt not being acked and retried
-
-## 1.4.0 (2018-05-24)
-
-### Enhancements
-* Graceful handling of deleted users and accounts
-
-### Bug Fixes
-* Fixes proguard rules after VerifyError fix
-
-## 1.3.5 (2018-05-24)
-
-### Bug Fixes
-* Fix VerifyError while running Junit tests with Robolectric
-
-## 1.3.4 (2018-04-13)
-
-### Bug Fixes
-* Fix linkify breaking links in message text
-
-## 1.3.3 (2018-03-20)
-
-### Enhancements
-* Support for historical response time if current response time is not available
-
-### Bug Fixes
-* Dismissing previous user's unread notifications when user is reset
-
-## 1.3.2 (2018-03-19)
-
-### Enhancements
-* Optimize background restarts based on backlogs
-
-## 1.3.1 (2018-02-02)
-
-### Enhancements
-* Support for notification channels in Oreo
-* Support for customising notification tones
-* RTL Improvements
-    * Prefer app locale over device locale
-    * Display unread count in user locale
-
-### Bug Fixes
-* Fix notification token not being set for a restored user
-* Fix gallery disable flag not being respected when camera capture is enabled
-* Fix some user updates post identifyUser() triggering user restore inadvertently
-
-## 1.3.0 (2018-01-04)
-
-### Enhancements
-Rendering support for RTL content
-
-### Bug Fixes
-Fix intermittent DB cursor leak
-
-## 1.2.2 (2018-12-15)
-
-### Bug Fixes
-* Fix phone number & country code incorrectly being returned in getUser()
-* Fix FAQ content being hidden by voting view in some cases
-
-## 1.2.1 (2017-11-17)
-
-### Changes
-* Change in content refresh intervals
-
-### Bug Fixes
-* Fix tag case sensitivity when filtering FAQs/Channels
-
-## 1.2.0 (2017-11-16)
-
-### Enhancements
-* Ability to restore user and conversations across devices/sessions/platforms
-
-## 1.1.1 (2017-11-03)
-
-### Changes
-* Update default proguard rules for external dependencies
-
-### Bug Fixes
-* Fixes notifications not being displayed for in-app campaigns
-* Fixes issue with on demand/just in time SDK initialization
-
-## 1.1.0 (2017-10-20)
-
-### Enhancements
-* Support for theming various UI elements
-* Ability to display team member name and avatar
-
-### Bug Fixes
-* Fixes custom font breakage in specific views
-
-## 1.0.0 (2017-09-18)
-* Freshchat Android SDK first version
-
-
+- Alway do a deep refresh of categories when version changes  [\#194](https://github.com/freshdesk/hotline_android_dev/issues/194)
+- Deltas are not correctly handled on Category updates.  [\#192](https://github.com/freshdesk/hotline_android_dev/issues/192)
+- Ship Consumer Proguard Config with SDK [\#189](https://github.com/freshdesk/hotline_android_dev/issues/189)
+- Switch to standard Versioning syntax for Maven :  [\#183](https://github.com/freshdesk/hotline_android_dev/issues/183)
+
+**Merged pull requests:**
+
+- Fix Solution Delta Updates [\#195](https://github.com/freshdesk/hotline_android_dev/pull/195) ([hrishikesh-p](https://github.com/hrishikesh-p))
+
+## [1.0.1](https://github.com/freshdesk/hotline_android_dev/tree/1.0.1) (2016-03-07)
+[Full Changelog](https://github.com/freshdesk/hotline_android_dev/compare/v1.0.0...1.0.1)
+
+**Fixed bugs:**
+
+- domain - inconsistency in setting domain on ios and android \#221 [\#161](https://github.com/freshdesk/hotline_android_dev/issues/161)
+- Android-\>User opens any channel list, and device screen is locked. A message is received in the channel that is opened. Notification for the same is received, and when the user unlocks the screen, the message received will not be updated in channel. [\#144](https://github.com/freshdesk/hotline_android_dev/issues/144)
+- Android-\> Pictures cannot be viewed in landscape mode in Android Device [\#143](https://github.com/freshdesk/hotline_android_dev/issues/143)
+- Android-\> When the recording is launched and screen orientation is changed, the recording gets dismissed automatically [\#139](https://github.com/freshdesk/hotline_android_dev/issues/139)
+- Android-\> There is a huge lag in the app for any changes that was made in web to get reflected in the device. [\#137](https://github.com/freshdesk/hotline_android_dev/issues/137)
+- Android-\> Whenever there is a screen orientation change, a message is flashed. [\#135](https://github.com/freshdesk/hotline_android_dev/issues/135)
+- Android-\> In Android device, when there is no internet connectivity, the unavailability message could be more user friendly [\#127](https://github.com/freshdesk/hotline_android_dev/issues/127)
+- Android-\> When there is no network, and you open the app and minimise, an error message is seen to be displayed persistently. [\#126](https://github.com/freshdesk/hotline_android_dev/issues/126)
+- Hotline App Android-\> Reordering of message channels is not reflected in the device [\#113](https://github.com/freshdesk/hotline_android_dev/issues/113)
+- Hotline App Android-\> Screen rotation does not take place when the conversation channel is selected in the device. [\#102](https://github.com/freshdesk/hotline_android_dev/issues/102)
+
+**Closed issues:**
+
+- Deeplink should launch  target by default .  [\#188](https://github.com/freshdesk/hotline_android_dev/issues/188)
+- Support Config for Overlay Text  [\#184](https://github.com/freshdesk/hotline_android_dev/issues/184)
+- Verify Category List & Grid Behaviour in Recycler View r23.2.0  [\#180](https://github.com/freshdesk/hotline_android_dev/issues/180)
+- Record audio permission missing warning  [\#175](https://github.com/freshdesk/hotline_android_dev/issues/175)
+- We have two support agent name strings  [\#174](https://github.com/freshdesk/hotline_android_dev/issues/174)
+- List items not vertically centred : unequal padding on top and bottom  [\#173](https://github.com/freshdesk/hotline_android_dev/issues/173)
+- Theme : Fix Missing items and conflicts [\#169](https://github.com/freshdesk/hotline_android_dev/issues/169)
+- Validate Maven upgrades.  [\#167](https://github.com/freshdesk/hotline_android_dev/issues/167)
+- Resort to polling when push notification is not enabled .  [\#152](https://github.com/freshdesk/hotline_android_dev/issues/152)
+- Add Search on the Show Solutions Grid View [\#19](https://github.com/freshdesk/hotline_android_dev/issues/19)
+
+**Merged pull requests:**
+
+- Fix for alignment in channel list items [\#187](https://github.com/freshdesk/hotline_android_dev/pull/187) ([rsquare2014](https://github.com/rsquare2014))
+- Status overlay [\#186](https://github.com/freshdesk/hotline_android_dev/pull/186) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Theming Updates [\#185](https://github.com/freshdesk/hotline_android_dev/pull/185) ([tryprasannan](https://github.com/tryprasannan))
+- Unifies agnet name string [\#182](https://github.com/freshdesk/hotline_android_dev/pull/182) ([rsquare2014](https://github.com/rsquare2014))
+- 	Doesn't throw exception for record\_audio when voice messaging is disa [\#181](https://github.com/freshdesk/hotline_android_dev/pull/181) ([rsquare2014](https://github.com/rsquare2014))
+- Fetch on landing into conversations view [\#179](https://github.com/freshdesk/hotline_android_dev/pull/179) ([rsquare2014](https://github.com/rsquare2014))
+- Notification Updates [\#178](https://github.com/freshdesk/hotline_android_dev/pull/178) ([tryprasannan](https://github.com/tryprasannan))
+- Vertically align channel list item [\#177](https://github.com/freshdesk/hotline_android_dev/pull/177) ([rsquare2014](https://github.com/rsquare2014))
+- Display error message in FAQs with media if there is no network. [\#176](https://github.com/freshdesk/hotline_android_dev/pull/176) ([rsquare2014](https://github.com/rsquare2014))
+- set empty activity title for better transition [\#171](https://github.com/freshdesk/hotline_android_dev/pull/171) ([rsquare2014](https://github.com/rsquare2014))
+- Polling in conversations & setting domain [\#170](https://github.com/freshdesk/hotline_android_dev/pull/170) ([rsquare2014](https://github.com/rsquare2014))
+- Checks for the presence of "http://" or "https://" when domain is set… [\#165](https://github.com/freshdesk/hotline_android_dev/pull/165) ([rsquare2014](https://github.com/rsquare2014))
+
+## [v1.0.0](https://github.com/freshdesk/hotline_android_dev/tree/v1.0.0) (2016-02-25)
+**Fixed bugs:**
+
+- Hotline App Android-\> When the network connectivity is switched off and on, an error message is flashed. [\#163](https://github.com/freshdesk/hotline_android_dev/issues/163)
+- Android-\> When a solution that is not enabled for mobile user is sent to a user from web, a page with loading symbol is displayed when the user tap open the article [\#160](https://github.com/freshdesk/hotline_android_dev/issues/160)
+- Android\> The time gap for an article to get updates comes to an average of 16mts [\#153](https://github.com/freshdesk/hotline_android_dev/issues/153)
+- Android-\> Changes made in Categories from Web are not getting reflected in the device app. [\#145](https://github.com/freshdesk/hotline_android_dev/issues/145)
+- Android-\> When there are multiple Solution Categories displayed in the device, there is no separator lines to separate the categories displayed  [\#128](https://github.com/freshdesk/hotline_android_dev/issues/128)
+- Hotline App Android-\> Discrepancy in display when a user does an invalid search in the device [\#121](https://github.com/freshdesk/hotline_android_dev/issues/121)
+- Hotline App Android-\> Push notifications are triggered even when the app is active. [\#120](https://github.com/freshdesk/hotline_android_dev/issues/120)
+- Hotline App Android-\> When a notification is received by the app, and user tap open the app from icon, and opens the latest message for which the notification was received, the notification does not gets dismissed. [\#119](https://github.com/freshdesk/hotline_android_dev/issues/119)
+- Hotline App Android-\> Conversations that are archived from web is still shown in device and user can still send and receive messages. [\#115](https://github.com/freshdesk/hotline_android_dev/issues/115)
+- Hotline App Android-\> When there is only single conversation channel, user while tapping on the conversation in App, the chat page opens instead of channel list page. [\#112](https://github.com/freshdesk/hotline_android_dev/issues/112)
+- Hotline App Android-\> Tap and hold option on messages to copy the content is not available in android devices. [\#111](https://github.com/freshdesk/hotline_android_dev/issues/111)
+- Hotline App Android-\> When channels are disabled and enabled web, in Android 5x versions, the enabling of channels is not reflected.  [\#110](https://github.com/freshdesk/hotline_android_dev/issues/110)
+- Hotline App Android-\> In Android, when the permission for storage is disabled for the app, user is still able to access gallery for sending pictures [\#108](https://github.com/freshdesk/hotline_android_dev/issues/108)
+- Hotline App Android-\> When a channel is disabled from web settings, the same is still available in the mobile app. [\#107](https://github.com/freshdesk/hotline_android_dev/issues/107)
+- Hotline App Android-\> Article that is hidden via web settings is still available in the device [\#106](https://github.com/freshdesk/hotline_android_dev/issues/106)
+- Hotline Android App-\> Hidden category in web is visible in device [\#105](https://github.com/freshdesk/hotline_android_dev/issues/105)
+- Hotline App Android-\> Ticket resolved status is not seen by the user [\#104](https://github.com/freshdesk/hotline_android_dev/issues/104)
+- Hotline App Android\> When the user clicks "Contact Us" link in FAQ page, the active conversation page is opened instead of the channels. [\#103](https://github.com/freshdesk/hotline_android_dev/issues/103)
+- Hotline App Android-\> Automated messages and business hours related set messages are not coming every time. [\#101](https://github.com/freshdesk/hotline_android_dev/issues/101)
+- Hotline App Android-\> Issue with automated responses in hotline [\#100](https://github.com/freshdesk/hotline_android_dev/issues/100)
+- Testing Github to Freshdesk sync - please ignore this ticket [\#88](https://github.com/freshdesk/hotline_android_dev/issues/88)
+
+**Closed issues:**
+
+- Send marketing message status updates immediately [\#147](https://github.com/freshdesk/hotline_android_dev/issues/147)
+- Testing Github to Freshdesk sync OAuth - please ignore this ticket [\#89](https://github.com/freshdesk/hotline_android_dev/issues/89)
+- Send seen time to server for regular messages once user sees the message  [\#79](https://github.com/freshdesk/hotline_android_dev/issues/79)
+- Update user instead of Create User when restoring user [\#73](https://github.com/freshdesk/hotline_android_dev/issues/73)
+- \[LATER\] Eagerly send app version updates to server [\#72](https://github.com/freshdesk/hotline_android_dev/issues/72)
+- Channel: Position needs to change based on last message time similar to whatsapp [\#63](https://github.com/freshdesk/hotline_android_dev/issues/63)
+- Handle Dangerous permission for SDK to be built with M [\#58](https://github.com/freshdesk/hotline_android_dev/issues/58)
+- Handle Missing channel when a push notification for a new channel arrives [\#56](https://github.com/freshdesk/hotline_android_dev/issues/56)
+- Handle notification for message from a newly created channel [\#55](https://github.com/freshdesk/hotline_android_dev/issues/55)
+- When user is restored change messages downloaded status to read and sent  [\#52](https://github.com/freshdesk/hotline_android_dev/issues/52)
+- poll for new messages on brand new app session [\#36](https://github.com/freshdesk/hotline_android_dev/issues/36)
+- Welcome message shows up in unread message count [\#33](https://github.com/freshdesk/hotline_android_dev/issues/33)
+- MultiChannel Issue - Upgrade SDK Causes missing Channel ID error [\#32](https://github.com/freshdesk/hotline_android_dev/issues/32)
+- Migration from Konotor to Hotline  [\#29](https://github.com/freshdesk/hotline_android_dev/issues/29)
+- Explore - receive push even after force close [\#26](https://github.com/freshdesk/hotline_android_dev/issues/26)
+- Session count is off by a huge number - Bug [\#23](https://github.com/freshdesk/hotline_android_dev/issues/23)
+- If there is only channel available dont show the list view [\#21](https://github.com/freshdesk/hotline_android_dev/issues/21)
+- App Crashes when device is offline [\#20](https://github.com/freshdesk/hotline_android_dev/issues/20)
+- Up  should reflect the same behaviour as the Back button [\#18](https://github.com/freshdesk/hotline_android_dev/issues/18)
+- Disabling a category causes the app to crash [\#17](https://github.com/freshdesk/hotline_android_dev/issues/17)
+- Fix how session counting happens on Android [\#14](https://github.com/freshdesk/hotline_android_dev/issues/14)
+- Newly added Articles are not syncing until the app is relaunched [\#13](https://github.com/freshdesk/hotline_android_dev/issues/13)
+- The Category icons are not loaded immediately when launching the app. [\#12](https://github.com/freshdesk/hotline_android_dev/issues/12)
+- Updates to Articles is not Syncing to the App [\#11](https://github.com/freshdesk/hotline_android_dev/issues/11)
+- Articles is not Honouring the Enabled Field on Android [\#10](https://github.com/freshdesk/hotline_android_dev/issues/10)
+- Categories is not Honouring the Position Field. [\#9](https://github.com/freshdesk/hotline_android_dev/issues/9)
+- SDK Dev Facing API updates for HOTLINE [\#3](https://github.com/freshdesk/hotline_android_dev/issues/3)
+- Move all network calls to background threads. [\#1](https://github.com/freshdesk/hotline_android_dev/issues/1)
+
+**Merged pull requests:**
+
+- Misc updates [\#164](https://github.com/freshdesk/hotline_android_dev/pull/164) ([tryprasannan](https://github.com/tryprasannan))
+- Checks for the presence of "http://" or "https://" when domain is set… [\#162](https://github.com/freshdesk/hotline_android_dev/pull/162) ([rsquare2014](https://github.com/rsquare2014))
+- Documentation [\#159](https://github.com/freshdesk/hotline_android_dev/pull/159) ([rsquare2014](https://github.com/rsquare2014))
+- Misc updates [\#158](https://github.com/freshdesk/hotline_android_dev/pull/158) ([tryprasannan](https://github.com/tryprasannan))
+- Added method documentation for SOME methods in Hotline.java [\#157](https://github.com/freshdesk/hotline_android_dev/pull/157) ([rsquare2014](https://github.com/rsquare2014))
+- Eagerly send app version updates to server automatically [\#155](https://github.com/freshdesk/hotline_android_dev/pull/155) ([tryprasannan](https://github.com/tryprasannan))
+- Remove konotor refs [\#154](https://github.com/freshdesk/hotline_android_dev/pull/154) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- No network toast message fix [\#151](https://github.com/freshdesk/hotline_android_dev/pull/151) ([rsquare2014](https://github.com/rsquare2014))
+- Persist user meta [\#150](https://github.com/freshdesk/hotline_android_dev/pull/150) ([rsquare2014](https://github.com/rsquare2014))
+- Add support for notification category [\#149](https://github.com/freshdesk/hotline_android_dev/pull/149) ([tryprasannan](https://github.com/tryprasannan))
+- Send marketing status updates immediately [\#148](https://github.com/freshdesk/hotline_android_dev/pull/148) ([tryprasannan](https://github.com/tryprasannan))
+- Review Changes [\#146](https://github.com/freshdesk/hotline_android_dev/pull/146) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- API refactor [\#142](https://github.com/freshdesk/hotline_android_dev/pull/142) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Configure Proguard for Release Version of SDK [\#132](https://github.com/freshdesk/hotline_android_dev/pull/132) ([tryprasannan](https://github.com/tryprasannan))
+- Misc UI Updates [\#131](https://github.com/freshdesk/hotline_android_dev/pull/131) ([tryprasannan](https://github.com/tryprasannan))
+- Hotline footer text change [\#130](https://github.com/freshdesk/hotline_android_dev/pull/130) ([rsquare2014](https://github.com/rsquare2014))
+- Fix FAQ search issues [\#129](https://github.com/freshdesk/hotline_android_dev/pull/129) ([tryprasannan](https://github.com/tryprasannan))
+- Konotor migrate [\#125](https://github.com/freshdesk/hotline_android_dev/pull/125) ([rsquare2014](https://github.com/rsquare2014))
+- Add support for sending conversation read status updates [\#124](https://github.com/freshdesk/hotline_android_dev/pull/124) ([tryprasannan](https://github.com/tryprasannan))
+- Solutions platforms fix [\#123](https://github.com/freshdesk/hotline_android_dev/pull/123) ([rsquare2014](https://github.com/rsquare2014))
+- Message related updates [\#122](https://github.com/freshdesk/hotline_android_dev/pull/122) ([tryprasannan](https://github.com/tryprasannan))
+- Notification Fixes Review comments [\#118](https://github.com/freshdesk/hotline_android_dev/pull/118) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Adding Advertising Id to the User object while user creation [\#117](https://github.com/freshdesk/hotline_android_dev/pull/117) ([rsquare2014](https://github.com/rsquare2014))
+- Fix do not persist messages being displayed in message list [\#116](https://github.com/freshdesk/hotline_android_dev/pull/116) ([tryprasannan](https://github.com/tryprasannan))
+- Hotline footer [\#114](https://github.com/freshdesk/hotline_android_dev/pull/114) ([rsquare2014](https://github.com/rsquare2014))
+- Support for phone number [\#109](https://github.com/freshdesk/hotline_android_dev/pull/109) ([rsquare2014](https://github.com/rsquare2014))
+- Fetch channel from notification for messages from new/unfetched channel [\#97](https://github.com/freshdesk/hotline_android_dev/pull/97) ([tryprasannan](https://github.com/tryprasannan))
+- UI touchups [\#96](https://github.com/freshdesk/hotline_android_dev/pull/96) ([rsquare2014](https://github.com/rsquare2014))
+- User creation updation updated [\#95](https://github.com/freshdesk/hotline_android_dev/pull/95) ([rsquare2014](https://github.com/rsquare2014))
+- Add support for notification large icon [\#94](https://github.com/freshdesk/hotline_android_dev/pull/94) ([tryprasannan](https://github.com/tryprasannan))
+- Contact us button moved [\#92](https://github.com/freshdesk/hotline_android_dev/pull/92) ([rsquare2014](https://github.com/rsquare2014))
+- Fixes timing issues with API requests [\#91](https://github.com/freshdesk/hotline_android_dev/pull/91) ([rsquare2014](https://github.com/rsquare2014))
+- Nomenclature Change [\#90](https://github.com/freshdesk/hotline_android_dev/pull/90) ([rsquare2014](https://github.com/rsquare2014))
+- API updates [\#86](https://github.com/freshdesk/hotline_android_dev/pull/86) ([tryprasannan](https://github.com/tryprasannan))
+- Review Changes / Comments [\#85](https://github.com/freshdesk/hotline_android_dev/pull/85) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Demo App Updates [\#84](https://github.com/freshdesk/hotline_android_dev/pull/84) ([tryprasannan](https://github.com/tryprasannan))
+- Make logging and performance tracking easy [\#81](https://github.com/freshdesk/hotline_android_dev/pull/81) ([tryprasannan](https://github.com/tryprasannan))
+- Add Support for Theming SDK Components [\#80](https://github.com/freshdesk/hotline_android_dev/pull/80) ([tryprasannan](https://github.com/tryprasannan))
+- Cleardata on config change [\#78](https://github.com/freshdesk/hotline_android_dev/pull/78) ([rsquare2014](https://github.com/rsquare2014))
+- Permissions fixes [\#77](https://github.com/freshdesk/hotline_android_dev/pull/77) ([rsquare2014](https://github.com/rsquare2014))
+- Voting fixes [\#76](https://github.com/freshdesk/hotline_android_dev/pull/76) ([rsquare2014](https://github.com/rsquare2014))
+- Permission fixes for m [\#75](https://github.com/freshdesk/hotline_android_dev/pull/75) ([rsquare2014](https://github.com/rsquare2014))
+- Fix delay in loading and displaying messages in conversation detail [\#74](https://github.com/freshdesk/hotline_android_dev/pull/74) ([tryprasannan](https://github.com/tryprasannan))
+- Fix session count [\#71](https://github.com/freshdesk/hotline_android_dev/pull/71) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Fix UI issue in voice message recording UI [\#70](https://github.com/freshdesk/hotline_android_dev/pull/70) ([tryprasannan](https://github.com/tryprasannan))
+- Welcome message fixes [\#69](https://github.com/freshdesk/hotline_android_dev/pull/69) ([rsquare2014](https://github.com/rsquare2014))
+- Fix issues with single visible channel and othe misc fixes [\#68](https://github.com/freshdesk/hotline_android_dev/pull/68) ([tryprasannan](https://github.com/tryprasannan))
+- Audio Messages UI Revamp [\#67](https://github.com/freshdesk/hotline_android_dev/pull/67) ([tryprasannan](https://github.com/tryprasannan))
+- Sort channels by last updated if messages are present for the channel, use position for rest [\#66](https://github.com/freshdesk/hotline_android_dev/pull/66) ([tryprasannan](https://github.com/tryprasannan))
+- Removed Channel Loader callback [\#65](https://github.com/freshdesk/hotline_android_dev/pull/65) ([rsquare2014](https://github.com/rsquare2014))
+- Unify Services  [\#64](https://github.com/freshdesk/hotline_android_dev/pull/64) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Better user type detection in Messages [\#62](https://github.com/freshdesk/hotline_android_dev/pull/62) ([tryprasannan](https://github.com/tryprasannan))
+- Misc fixes - WIP [\#60](https://github.com/freshdesk/hotline_android_dev/pull/60) ([tryprasannan](https://github.com/tryprasannan))
+- One way conversation [\#57](https://github.com/freshdesk/hotline_android_dev/pull/57) ([rsquare2014](https://github.com/rsquare2014))
+- Fixes issue \#52 [\#54](https://github.com/freshdesk/hotline_android_dev/pull/54) ([rsquare2014](https://github.com/rsquare2014))
+- Fixes issue \#18 [\#53](https://github.com/freshdesk/hotline_android_dev/pull/53) ([rsquare2014](https://github.com/rsquare2014))
+- Adding background color to solution article title and change in font … [\#51](https://github.com/freshdesk/hotline_android_dev/pull/51) ([rsquare2014](https://github.com/rsquare2014))
+- Changes to API endpoints and voting fixes [\#49](https://github.com/freshdesk/hotline_android_dev/pull/49) ([rsquare2014](https://github.com/rsquare2014))
+- Handle article deeplinks in messages [\#48](https://github.com/freshdesk/hotline_android_dev/pull/48) ([tryprasannan](https://github.com/tryprasannan))
+- Localisation cosmetic changes [\#47](https://github.com/freshdesk/hotline_android_dev/pull/47) ([rsquare2014](https://github.com/rsquare2014))
+- Added support to clear user related information form the app [\#46](https://github.com/freshdesk/hotline_android_dev/pull/46) ([rsquare2014](https://github.com/rsquare2014))
+- Feedback Client Refactor [\#45](https://github.com/freshdesk/hotline_android_dev/pull/45) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Fix User update [\#44](https://github.com/freshdesk/hotline_android_dev/pull/44) ([tryprasannan](https://github.com/tryprasannan))
+- MergeProjs [\#43](https://github.com/freshdesk/hotline_android_dev/pull/43) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Notification Refactor [\#42](https://github.com/freshdesk/hotline_android_dev/pull/42) ([tryprasannan](https://github.com/tryprasannan))
+- Description & image url is made optional while processing the JSON re… [\#41](https://github.com/freshdesk/hotline_android_dev/pull/41) ([rsquare2014](https://github.com/rsquare2014))
+- Capture user ID [\#40](https://github.com/freshdesk/hotline_android_dev/pull/40) ([rsquare2014](https://github.com/rsquare2014))
+- Multi service queue framework - WIP  [\#39](https://github.com/freshdesk/hotline_android_dev/pull/39) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Display last message and timestamp in channel list & misc fixes [\#38](https://github.com/freshdesk/hotline_android_dev/pull/38) ([tryprasannan](https://github.com/tryprasannan))
+- Ad [\#37](https://github.com/freshdesk/hotline_android_dev/pull/37) ([rsquare2014](https://github.com/rsquare2014))
+- Messages cleanup [\#35](https://github.com/freshdesk/hotline_android_dev/pull/35) ([tryprasannan](https://github.com/tryprasannan))
+- Tags fixes [\#31](https://github.com/freshdesk/hotline_android_dev/pull/31) ([rsquare2014](https://github.com/rsquare2014))
+- Channels based conversation support [\#30](https://github.com/freshdesk/hotline_android_dev/pull/30) ([tryprasannan](https://github.com/tryprasannan))
+- Tags [\#28](https://github.com/freshdesk/hotline_android_dev/pull/28) ([rsquare2014](https://github.com/rsquare2014))
+- Changed Processing to Service Queue\[WIP\] [\#27](https://github.com/freshdesk/hotline_android_dev/pull/27) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Service queue [\#25](https://github.com/freshdesk/hotline_android_dev/pull/25) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- FAQ bug fixes [\#24](https://github.com/freshdesk/hotline_android_dev/pull/24) ([rsquare2014](https://github.com/rsquare2014))
+- DB Framework [\#22](https://github.com/freshdesk/hotline_android_dev/pull/22) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Hotline API & Secure SharedPrefs [\#16](https://github.com/freshdesk/hotline_android_dev/pull/16) ([tryprasannan](https://github.com/tryprasannan))
+- FAQs UI [\#8](https://github.com/freshdesk/hotline_android_dev/pull/8) ([rsquare2014](https://github.com/rsquare2014))
+- Databsae migration changes [\#7](https://github.com/freshdesk/hotline_android_dev/pull/7) ([tryprasannan](https://github.com/tryprasannan))
+- FAQ databases with categories UI [\#6](https://github.com/freshdesk/hotline_android_dev/pull/6) ([rsquare2014](https://github.com/rsquare2014))
+- Solution Categories UI [\#5](https://github.com/freshdesk/hotline_android_dev/pull/5) ([tryprasannan](https://github.com/tryprasannan))
+- Chk N/W for Backlog Svc & Incremental Migration [\#4](https://github.com/freshdesk/hotline_android_dev/pull/4) ([hrishikesh-p](https://github.com/hrishikesh-p))
+- Fixes \#1 [\#2](https://github.com/freshdesk/hotline_android_dev/pull/2) ([rsquare2014](https://github.com/rsquare2014))
+
+
+
+\* *This Change Log was automatically generated by [github_changelog_generator](https://github.com/skywinder/Github-Changelog-Generator)*
